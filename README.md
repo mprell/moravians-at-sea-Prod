@@ -1,2 +1,2 @@
 # Moravians at Sea
-Prototype of new Version of https://www.moravians-at-sea.uni-jena.de/
+Prototype of new version of https://www.moravians-at-sea.uni-jena.de/
