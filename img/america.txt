@@ -1,0 +1,25 @@
+Author	Sotzmann, Daniel Friedrich
+Date	1797
+Short Title	New Jersey
+Publisher	Carl Ernst Bohn
+Publisher Location	Hamburg
+Type	Separate Map
+Obj Height cm	65
+Obj Width cm	47
+Scale 1	500,000
+Note	Color map of the State of New Jersey. Shows administrative divisions, major cities, roads and rivers. Relief shown by hachures. Place names in English and German. Relief shown by hachures. Prime meridians: Greenwich and Washington. In upper right margin: No. VIII. In lower right margin: "Zu Ebelings Erdbeschreibung von Amerika."
+State/Province	New Jersey
+Full Title	New Jersey : Entworfen von D.F. Sotzmann. Hamburg bey Carl Ernest Bohm 1797.
+List No	13124.000
+Publication Author	Sotzmann, Daniel Friedrich
+Pub Date	1797
+Pub Title	New Jersey : Entworfen von D.F. Sotzmann. Hamburg bey Carl Ernest Bohm 1797.
+Pub Note	From the Ebeling-Sotzmann Atlas Von Nordamerika. The Atlas was to accompany Ebeling's seven volume Erdbeschreibung und Geschichte von Amerika, die vereinten Staaten Von Amerika. Sotzmann completed only 10 maps of an intended 18 - Vermont, New Hampshire, Connecticut and Massachusetts in 1796; Rhode Island, New Jersey, Pennsylvania, and Maryland & Delaware (1 sheet) in 1797; Maine in 1798; and New York in 1799. Sotzmann made use of the American maps of the period by Carey, Blodget, Belknap, Howell, Carleton, De Witt, Griffith, and others. Sotzmann's maps are highly detailed with symbols for churches, roads, court houses, distilleries, iron works, mills, academies, county lines, town lines, and more. They are also very rare - only a few institutions have all ten maps that were published.
+Pub List No	13124.000
+Pub Type	Separate Map
+Pub Height cm	65
+Pub Width cm	47
+Image No	13124000.jp2
+Download 1	<a href=http://www.davidrumsey.com/rumsey/download.pl?image=/179/13124000.jp2 target=_blank>Full Image Download in JP2 Format</a>
+Download 2	<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>
+Authors	Sotzmann, Daniel Friedrich

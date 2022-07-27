@@ -1,0 +1,28 @@
+Author	Faden, William (1749-1836)
+Date	1816
+Short Title	Map of the Central States of Europe Situate between France and Russia
+Publisher	W. Faden
+Publisher Location	London
+Type	Separate Map
+Obj Height cm	63
+Obj Width cm	136
+Scale 1	1,200,000
+Note	Upper section of the large engraved map in 4 sheets, joined to make two folding horizontal sections, each 63x135.5. Original hand-colored in outline. Shows Europe as it emerged from years of war with France, describing their new limits and administrative divisions. The Treaty of Paris was signed on the 20th of November 1815 following the decisive defeat of Napoleon Bonaparte at the Battle of Waterloo, and his subsequent and second abdication, In February of 1815, Napoleon had escaped from his exile on Elba, and by 20th March had re-entered Paris, beginning the Hundred Days of his restored rule. Relief shown by hachures. Prime meridian is Greenwich.
+World Area	Europe
+Region	Europe, Central
+Full Title	Map of the Central States of Europe Situate between France and Russia, describing their New Limits conformably with the Definitive Treaty of Peace, signed at Paris, November 20th 1815. London, published by W. Faden, Charing-Cross, Geographer to his Majesty, and to his Royal Highness the Prince of Regent; April 12th. 1816.
+List No	8092.001
+Series No	1
+Publication Author	Faden, William (1749-1836)
+Pub Date	1816
+Pub Title	Map of the Central States of Europe Situate between France and Russia, describing their New Limits conformably with the Definitive Treaty of Peace, signed at Paris, November 20th 1815. London, published by W. Faden, Charing-Cross, Geographer to his Majesty, and to his Royal Highness the Prince of Regent; April 12th. 1816.
+Pub Note	See note field above.
+Pub List No	8092.000
+Pub Type	Separate Map
+Pub Maps	2
+Pub Height cm	125
+Pub Width cm	136
+Image No	8092001.jp2
+Download 1	<a href=http://www.davidrumsey.com/rumsey/download.pl?image=/136/8092001.jp2 target=_blank>Full Image Download in JP2 Format</a>
+Download 2	<a href="https://www.extensis.com/support/geoviewer-9" target="_blank">GeoViewer for JP2 and SID files</a>
+Authors	Faden, William (1749-1836)
