@@ -324,10 +324,8 @@ div#border svg#img {
 	background-color: #e3d2b4;
 	color: #000000;
 	border: 10px solid #e3d2b4;
-	margin-top: 1%;
+	margin: 1% 8% 1% 8%;
 }
-
-
 
 .passengers li {
 	list-style-type: "\2693 ";
