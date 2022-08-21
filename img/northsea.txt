@@ -1,0 +1,32 @@
+Author	Mount, John
+Author	Page, Thomas, 1704-1762
+Date	1756
+Short Title	A chart of the North Sea
+Publisher	W. and J. Mount and T. Page
+Publisher Location	London
+Type	Chart Map
+Obj Height cm	45
+Obj Width cm	55
+Scale 1	3,000,000
+Note	Engraved nautical chart, with inset: Land of Stad. Depth shown by soundings and rhumb lines. Includes coats of arms and compass rose, oriented with north at right.
+Region	North Sea
+Region	North Atlantic Ocean
+Subject	Nautical Charts
+Full Title	A chart of the North Sea. Printed for & sold by Page & Mount. London. (to accompany) The English pilot ... northern navigation ... London: Printed for W. and J. Mount, T. Page and Son. M,DCC,LVI. (1756).
+List No	13301.008
+Page No	(3)
+Series No	8
+Publication Author	Mount, John
+Publication Author	Page, Thomas, 1704-1762
+Pub Date	1756
+Pub Title	The English pilot : Describing the sea-coasts, capes, headlands, soundings, sands, shoals, rocks and dangers : the bays, roads, harbours, rivers and ports in the whole northern navigation : shewing the courses and distances from one place to another, the setting of the tides and currents, the ebbing and flowing of the sea : with many other things belonging to the art of navigation … describing the north coast of England and Scotland, with the Islands of Orkney, Shetland, Lewis, Farro, Ireland, &c : the sea-coast of Flanders, Zealand, Holland, Germany, Denmark, Norway, Finland, Lapland, Russia, the islands of Waigats, and Nova Zembla as far as the Tartarian Sea : also Greenland, Trinity-Island, Cherry-Island, Hope-Island, &c : the sea-coast of Sweden, East-Findland, Lyfland, Prussia, Pomeraina, &c, with all the islands belonging to the said countries in the Baltic-Sea. London: Printed for W. and J. Mount, T. Page and Son. M,DCC,LVI. (1756).
+Pub Note	The second part of the English Pilot atlas, for the northern navigation. This edition published by John Mount and Thomas Page in London, 1756. Bound in brown leather covers. The "English Pilot" was a sea-chart atlas published in several editions from 1671 to 1803. This edition consists of 78 pages of descriptive text, extensive sailing directions and coastal profiles, with 31 unnumbered double page and folding detailed navigation charts. Some charts engraved by Francis Lamb and Herman Moll. Showing grid lines, sandbanks, anchorages, bays, harbors, roads, buoys, settlements along the coasts, beacons and place names. Charts are embellished with compass roses, rhumb lines, title cartouche and coats of arms. Covering the Northern Europe, British Isles north to Scandinavia, the Arctic Ocean and Baltic Sea. Depth shown by soundings. Prime meridian is London.
+Pub List No	13301.000
+Pub Type	Chart Atlas
+Pub Maps	31
+Pub Height cm	48
+Pub Width cm	32
+Image No	13301008.jp2
+Download 1	<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13301008.jp2 target=_blank>Full Image Download in JP2 Format</a>
+Download 2	<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>
+Authors	Mount, John ; Page, Thomas, 1704-1762

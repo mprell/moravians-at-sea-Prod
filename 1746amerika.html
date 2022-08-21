@@ -1,0 +1,674 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+
+    <link rel="icon" href="favicon.ico">
+
+        <title>Seereise 1746/47</title>
+
+        
+		
+		
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  
+    <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	
+	
+	
+	<script type="text/javascript" src="js/dragscroll.js"></script>
+	
+	</head>
+	
+	<body>
+	
+	
+	
+	<!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div style="margin: 0 1% 0 1%;">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  
+		  <div>
+			<a class="navbar-brand" href="index.html" style="color: #e3d2b4;">Moravians at Sea</a>
+			<span class="betacontainer">
+				<span class="beta">BETA</span>
+			</span>
+		  </div>
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="einleitung.html" style="color: #e3d2b4;">Über</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #e3d2b4;">Reisen <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="1746.html">Reise 1746/47</a></li>
+				<li><a href="1752.html">Reise 1752</a></li>
+                <li><a href="1761.html">Reise 1761</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<div class="jumbotron3">
+		<div class="container">
+			<h1 style="color: #fff; font-size: 350%;">Reise nach Amerika in den Jahren 1746/1747</h1>
+		</div>
+	</div>
+	
+        <div class="section2" id="introduction">
+					
+		<div id="overlay" onclick="off()"></div>
+		<div id="overlay2" onclick="off()"></div>
+		
+
+		<a class="btn1 btn btn-primary btn-lg" role="button" href="1746atlantik.html">&#129044; Teil 2</a>
+		<a class="btn1 btn btn-primary btn-lg" role="button" style="float:right;" href="1746.html">Übersicht &#129046;</a>
+
+
+		<div style="padding-left: 1%; padding-top: 1%;" id="america">
+				<h3 style="color: #e3d2b4;">Teil 3: Nach Bethlehem, Pennsylvania</h3>
+		</div>
+		
+
+		<div style="padding-left: 1%;">
+				<a class="btn btn-primary btn-lg" role="button" onclick="myShowHTUFunction3()">How to Use</a>
+				<a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph3()">Route ausblenden</a>
+			<a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph3()">Route einblenden</a>
+				
+			</div>
+			
+		
+		<div class="HTUPopuptext" id="HTUPopup3">
+		
+		<div style="text-align: center;">
+		<button class="close3" onclick="myHideHTUFunction3()">x</button>
+		</div>
+				<h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
+				<ul>
+					<li>Klicken Sie auf die Nadeln, um sich die jeweiligen Tagebucheinträge anzeigen zu lassen. Eine Nadel mappt den jeweiligen Übernachtungsort. Mouseover auf eine Nadel blendet das Datum ein.</li>
+					<li>Mit Klick auf <img class="quill" src="img/quill_white.png"> innerhalb eines Eintrages gelangen Sie zum Digitalisat des Tagebuchs. Das Icon markiert sowohl einen Digitalisatwechsel als auch einen neuen Tagebucheintrag.</li>
+				</ul>
+		</div>
+		
+		
+		<!--Schreibfeder-Icon "quill" von <a href="https://pixabay.com/de/users/OpenClipart-Vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1299326">OpenClipart-Vectors</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1299326">Pixabay</a>-->
+
+		<div class="map">
+		
+			<div class="dragscroll" id="main3">
+		
+				<div class="navbarMap">
+					<button type="button" onclick="zoomin3()"> + </button>
+					<button type="button" onclick="zoomout3()"> - </button>
+				</div>
+		
+				<svg id="img3" viewBox="0 0 2862 3973" style="background-image: url('img/america.jpg'); background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
+					
+					<svg id="graph3">
+					
+					 <g stroke="red" stroke-width="5" stroke-linecap="round" fill="none">				
+					    <polyline points="1048,3679 854,3592 784,3432 565,3225 421,2941 435,2841 396,2481 684,2324 926,2168 909,2049 807,1772 753,1615 715,1402"/> 
+					</g>
+				
+					<g class="popup" stroke="black" stroke-width="5" fill="red">
+				
+						<path class="popup" d="m 1048 3679 l 17 -42 m -10 -29 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" onclick="ShowDiaryFunctionAm1()"><title>28.12.1746</title></path>
+						
+						<path class="popup" d="m 1048 3679 l -21 -63 m -26 -30 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" onclick="ShowDiaryFunctionAm2()"><title>29.12.1746</title></path>
+						
+						<circle cx="854" cy="3592" r="20" onclick="ShowDiaryFunctionAm3()"><title>30.12.1746</title></circle>
+						
+						<circle cx="784" cy="3432" r="20" onclick="ShowDiaryFunctionAm4()"><title>31.12.1746</title></circle>
+						
+						<circle cx="565" cy="3225" r="20" onclick="ShowDiaryFunctionAm5()"><title>1.1.1747</title></circle>
+						
+						<circle cx="421" cy="2941" r="20" onclick="ShowDiaryFunctionAm6()"><title>2.1.1747</title></circle>
+						
+						<circle cx="435" cy="2841" r="20" onclick="ShowDiaryFunctionAm7()"><title>3.1.1747</title></circle>
+						
+						<circle cx="396" cy="2481" r="20" onclick="ShowDiaryFunctionAm8()"><title>4.1.1747</title></circle>
+						
+						<circle cx="684" cy="2324" r="20" onclick="ShowDiaryFunctionAm9()"><title>5.1.1747</title></circle>
+						
+						<path class="popup" d="m 926 2168 l 29 36 m -5 6 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" onclick="ShowDiaryFunctionAm10()"><title>6.1.1747</title></path>
+						
+						<path class="popup" d="m 926 2168 l 62 0 m 2 -10 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" onclick="ShowDiaryFunctionAm11()"><title>7.1.1747</title></path>
+						
+						<path class="popup" d="m 926 2168 l 17 -42 m -10 -29 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" onclick="ShowDiaryFunctionAm12()"><title>8.1.1747</title></path>
+						
+						<circle cx="909" cy="2049" r="20" onclick="ShowDiaryFunctionAm13()"><title>9.1.1747</title></circle>
+						
+						<circle cx="807" cy="1772" r="20" onclick="ShowDiaryFunctionAm14()"><title>10.1.1747</title></circle>
+						
+						<circle cx="753" cy="1615" r="20" onclick="ShowDiaryFunctionAm15()"><title>11.1.1747</title></circle>
+						
+						<circle cx="715" cy="1402" r="20" onclick="ShowDiaryFunctionAm16()"><title>12.1.1747</title></circle>
+						
+					</g>
+					
+					</svg>
+
+				</svg>
+			</div>	
+
+			<div class="DiaryTexts">
+
+				<div class="diaryPopuptext" id="PopupAm1">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm1()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=72&cHash=a1b7689d754817f0e8329e4103a534b7" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x263F; Den 28ten December.</h3>
+				<p>Heute sahen wir uns genöthiget [von] unserm Schiffgen, auf dem [wir] ohne einen Fuß an Land zu [se]zen 13 Wochen und 1 Tag gewohnet [hatten] Abschied zu nehmen und [den] übrigen Rest unsrer Pilgerschafft zu Lande zu prosequiren. Unser Lämmlein hatte uns nun biß an den Mund der Delaware gebracht, und uns bey Sturm und Wind und allerhand mißlich scheinenden Umständen 2 Tage lang vor Anker liegen laßen; nun aber war der River zugefroren die Kälte nahm extraordinair zu, wir hatten beständig Nord Wind, die Provision im Schiffe ging auch ziemlich zu Ende und der Capitain war besorgt sein Anker möchte loßreißen und er würde in See getrieben werden und alsdenn nach Carolina gehen müßen; die übrigen Passagier gingen auch vom Schiffe an Land und also resolvirten wir uns auch im Nahmen des Lämmleins und mit einem kindlichen Herzen zu ihm es zu ### und die bey jeziger Jahres Zeit und Umständen unmöglich scheinende Reise zu Lande nach Philadelphia zu thun.<br/>
+				<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=73&cHash=57a5a955109acd47a9b79f064425ec5a" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+				Unserm Capitain that es wehe daß Er uns nicht biß an unsern gehörigen Ort bringen konnte weil Er uns sehr lieb gewonnen; und a[uch] unsre Schiffs Leute waren recht betrübt darüber daß wir vom Schiffe gingen und es war als wenn sie halb den Muth verlöhren. Wir sahens in der That daß alles auf dem Schiffe ein heimlich Gefühl daran gehabt wer wir gewesen, und wir können auch nicht anders sagen als daß alle unsre Schiffs Leute sich sehr freundlich dienstwillig und mehr als ordinair artig gegen uns bewiesen haben, so wie es uns unser allerliebstes Papachen bey unserm Abschied in London voraus gesagt.<br/>
+Unsre Loosung zu unserm ersten Eintritt auf dem festen Lande von Pensylvanien hieß:<br/>
+Ich will Freude geben an diesem Ort, spricht der Herr der Herrschaaren<br/>
+du Friede Fürst Herr Jesu Christ<br/>
+wahr Mensch und wahrer Gott.<br/>
+Und das machte uns Muth bey allem Wiederstande den wir würcklich von dem Fürsten des Landes, ders uns recht schwer zu machen gesucht, fühlen mußten die See war ziemlich unruhig und der Wind von Norden her etwas stürmisch daher eilten wir so viel möglich an Lande zu kommen. Ich ging zu erst mit allen Schwestern an Land, die See tobte sehr am Ufer; wir kamen aber alle glücklich hinüber und stiegen an einem zieml. wüste aussehenden Plaz an Land. Wir wollten sogleich nach Lewis Town welches etwa 1 Meile davon war vorausgehn; allein die Creek die ein paar 100 Schritt breit noch zu passiren war, war in der letzten Nacht ganz zugefroren, wir gingen also etwa 1/2 Meile weit an den See hinunter biß gegen Pilot Town und riefen den Leuten zu daß sie uns über die Creek helfen sollten und etwa vor ihre kleine Canoes einen Weg durch das Eiß herüber hauen. Es war ihnen aber wegen der excessiven Kälte zu incommode, daher gingen wir unsern Weg wieder zurück, und unterdeßen war das Boot zum 2ten Mahl on Shore gekommen, und alle unsre Brüder nebst dem Capitain und übrigen Passagieren waren nun auch glücklich am Lande, ob sie gleich im Boote von der immer<br/>
+				<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=74&cHash=9d8aa7f346a6ffa2c7f6f8cb646da239" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+				mehr stürmenden See ziemlich naß worden waren. Unser Capitain war willens biß Lewistwon mit uns zu gehen, und weil er da bekant, uns desto beßer fort zu helffen. Wir machten uns also zusammen auf und gingen biß an die Creek um zu versuchen ob wir nicht über das Eiß gehen könnten. Es war aber nicht mögl. zu wagen und wir mußten uns resolviren immer an der Creek nacheinander hinauf zu gehen biß wir eine Passage darüber oder oben herum finden könnten. Das war nun bey dem tiefen Schnee, rauhen Lufft und unwegsamen Gegend vor unsre Schwestern und vor uns alle die wir das Sizzen auf dem Schiff so lange gewohnet waren eine ziemliche Pilger Probe. Wir gingen etwa 1 1/3 Meile durch Schnee und Eiß und Büsche und kamen zu einem armseeligen ganz nach Pensylvanischer Art eingerichteten Hause, und versuchten uns einen Weg über die Creek zu machen, es war aber zu gefährlich daher nahmen wir den Mann zum Wegweiser und unser Völkgen ging zieml. ermüdet fort. Der Schnee war sehr tief und wir hatten einen sehr schlimmen Morast ein paar Englische Meilen breit zu passiren  dergleichen es in Pensylvanien sehr viele giebt wie unsern Herzeln die da gewesen sehr wohl bekannt seyn wird. Und an manchen Orten trafen wir auch Brücken nach Pensylvanischer Art an. Wir kamen doch endlich alle mit müden und nassen Füßen glücklich hinüber, konnten nach einem so langen Umweg auch die Creek passiren und kamen zu einem Hause wo wir ein wenig aßen und ruheten. Die Leute nahmen uns sehr freundlich auf und erwiesen uns alle mögliche Liebe; die meisten von uns aber waren so ermüdet, und dazu so schlecht an Beinen gestiefelt daß wir es nur pur aufs Lämmlein mußten ankommen laßen ob wir Lewistown erreichen würden. Wir machten uns aber doch wieder auf den Weg, der Schnee war noch viel tiefer als Vormittags, wir mußten über 6 biß 7 hohe Fencen mit großer Beschwerlichkeit steigen, viele Moräste durchwaden, und so kam endlich die Nacht über uns. Wir dachten auf dem Wege sehr offte an unsre Herzel in Marienborn und Herrnhaag und hätten ihnen gerne gewünschet unsern heutigen March in der Nähe zuzusehen. Besonders aber erinnerten wir uns offt unsers allerliebsten Bieneleins und wie seelig sie ihren heutigen Geburtstag feyren würde, ach wie gerne wäre mancher von uns auch dabey gewesen! Endlich kamen wir nachdem wir einen Umweg von 16 biß 18 starcken Englischen Meilen gemacht, Abends um 7 Uhr nach Lewis Town, und weil wir nicht alle in einem Hause Plaz hatten so logirten wir in 2 gegen einander übererstehenden Häusern, hielten Abends noch ein Liebesmahl zu unsers lieben Bieneleins Geburtstage, und nach einem sehr vergnügten Singe Stündgen gingen wir sehr ermüdet aber recht vergnügt und seelig schlafen.<br/>
+Und so war unser erster Schritt<br/>
+auf Pensylvaniens Gebiet<br/>
+von außen wohl so ziemlich schwer<br/>
+doch ging das Lämmlein vor Uns her.<br/>
+Wir fühlten unsre Schwächlichkeit<br/>
+als noch so junge Pilger Leut<br/>
+manch Herzel konnte kaum mehr fort<br/>
+doch half das Lamm von Ort zu Ort<br/>
+So gings auf unsers Lamms Geheiß<br/>
+durch Fencen, Büsche Schnee und Eiß<br/>
+und waren doch vergnügt und wohl<br/>
+in unsers Lammes Seiten Hohl<br/>
+ach ohne Creuz Lufft Vögelein<br/>
+läst sichs nicht frölich Pilger seyn<br/>
+blizt aber nur der Wunden Strahl<br/>
+ins Herz so geht es überall.<br/>
+Und so soll Philadelphia<br/>
+uns auch noch sehn und Gloria<br/>
+der Seite! bleibt bey aller Müh<br/>
+doch unser Hymnus dort und hie.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm2">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm2()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=75&cHash=40da984a66a3f21a9e7fa5a4244baf02" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x2643; Den 29ten Decembr.</h3>
+				<p>Heute ruheten wir wiederum etwas aus von unsrer gestrigen mühsamen und vor manche unsrer Herzel ziemlich sauren Pilgerschafft. Wir waren aber alle recht vergnügt und wohl und nach dem heutigen Lammes Text war unser Lämmlein uns<br/>
+Alles<br/>
+und wir seine Staublein, seine Punctlein und Nichts.<br/>
+Es war so excessiv kalt als es nach aller Menschen Zeugniß im hiesigen Lande seit dem harten Winter nicht gewesen war, und in der letzten Nacht war es über 1 Englische Meile weit in die See hineingefroren, dazu auch unser Boot welches am Lande lag eingefroren so daß wir just zur rechten Stunde vom Schiff ans Land gekommen weil hernach unser Boot durchs Waßer gehoben und vom Eiß in<br/>
+				<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=76&cHash=8637f340c3bc5d575dae3aca2d2838c3" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+				Stücken gebrochen worden, so daß weder der Capitain mit seinen Leuten die er am Lande hatte zurück ins Schiff, noch jemand vom Schiff ans Land kommen können.<br/>
+Wir waren indeßen darauf bedacht wie wir sobald als möglich von Lewis Town hinweg nach Philadelphia zu reisen könnten. Es sahe aber Anfangs an allen Orten und Eken fast unmöglich aus; bey dem tiefen Schnee und Eiß wars vor die Schwestern ganz unmöglich zu Fuße zu gehn, kein Wagen war im ganzen Town anzutreffen, Niemand wollte uns Pferde vermiethen, und unser Geld war auch so wenig daß wir bey jeziger Zeit, da alle Sachen hier im Lande 2, 3 mal so theuer sind als sonsten uns nicht damit auf den Weg machen konnten. Aber unser liebes Lämmlein das uns durch so manches hindurchgebracht, und auf deßen Ordre wir doch an Land gegangen waren, schaffte endlich noch heute zu allem Rath. Wir suchten im ganzen Town herum und fanden endlich einen einigen Schlitten in dem 5 Personen und zur Noth 6 Plaz hatten; der Mann dem Er gehörte war Anfangs sehr schwer dazu zu bringen ihn zu verkaufen endlich aber ließ er sich doch bewegen und überließ ihn an uns, ob wir wohl 2 mal so viel davor zahlen mußten als er werth war; dazu kaufften wir uns hernach auch ein Pferd, und weil unser Capitain der ohnedem hier bekant war declarirte was vor gute und liebe Passagier er an Uns gehabt so bekamen wir auch so viel Geld als wir nur verlangten, von einem Mann der uns sagte daß Er großen Credit vor die Leute habe die nach Bethlehem und Nazareth gehörten. So machten wir also alle nur mögliche Anstalt zu unsrer Reise und hielten Abends noch bey unseren Camin im Wirthshause ein recht seeliges und fröliches Singestündgen. Die Leute waren alle sehr attent auf uns, und es kamen einige uns zu sehn, und wir glaubten gewiß unser Lämmlein hat uns nicht ohne Ursach nach Lewistown kommen laßen.</p>
+				</div>
+				
+				
+				<div class="diaryPopuptext" id="PopupAm3">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm3()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=76&cHash=8637f340c3bc5d575dae3aca2d2838c3" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x2640; Den 30ten December.</h3>
+				<p>Frühe brachten wir noch vollends alles in Ordnung was zu unserm Fuhrwerk nöthig war. Es sahe aber alles so armseelig aus daß ich wenn ich recht vernünfftig hätte raisonniren wollen mich nicht eine deutsche Meile damit zu fahren getrauet hätte. Wir mußtens aber schon damit wagen weils unmöglich war was beßers zu bekommen. Und da wars<br/>
+				<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=77&cHash=2b687c5c2e6545fdf2b65efaeb05c543" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+				doch gut daß ich einmal in meiner Jugend ein Bauer gewesen und mit Pferden und Wagen umzugehen gelernt hatte, weil wir sonst keinen Fuhrmann gehabt hätten. Ein paar Stunden vorher ehe wir abreiseten fings wieder an sehr starck zu schneyen und jederman rieth und bat uns wir sollten uns nicht auf die Reise machen, weil keine Bahn und die Leute auch zu commode waren mit Uns zu gehn und uns den Weg zu weisen. Allein unsers Bleibens war nicht in Lewis Town sondern wir brachen Vormittags um 10 Uhr auf mit der Loosg:<br/>
+Der Herr wird predigen laßen<br/>
+in allerley Sprachen<br/>
+Und wir erwarten noch<br/>
+des süßen Lammes wegen<br/>
+denn sein Blick ist Krafft<br/>
+große Völckerschafft<br/>
+zu Ihm hingerafft.<br/>
+Wir krigten zur Noth einen Boten zu Pferde der ein paar Englische Meilen mit uns ritte; ich und Westman waren nechst unserm Lämmlein, wechselsweise Fuhrleute die neben den Schlitten her im Schnee wadeten und so passirten wir durch lauter Wald ohne Bahn und Steg nur daß an etlichen Orten etliche Marquen in die Bäume gehauen waren danach wir uns richten mußten. Der Weg war sehr schlimm und beschwerlich zu passiren, daher da wir Mittags zu einem Hause kamen wo wir etwas einkehrten so kaufften wir noch ein Pferd zu unserm Schlitten und eileten hernach fort so viel wir konnten um zu dem Hause zu kommen das man uns in Lewis Town zum ersten Nacht Quartier recommendirt hatte und 16 starke Englische Meilen weit vom Town war. Allein die Bahn war ganz verschneyet, der Schnee lag aller Orten Knie hoch, die Nacht überfiel uns und es schneyete so starck daß wir nicht eine Hand vor Augen sehen konnten. Wir mußten aber doch bey alledem fortfahren, kamen an ein Waßer wo wir unsre Schwestern zu Pferde hinüber brachten und hernach den Schlitten durchführeten und so gings immer im finstern Walde Berg auf Berg ab über Stock und Stein ohne allen Schaden fort wir fuhren mit größter Gefahr über einen schmalen Mühlen Damm und Brücke, kamen glückl. hinüber und zu einem Hause nach 2 Meilen von unserm angewiesenen Quartier, darinen Irishe Leute wohnten. Sie sahen uns<br/>
+				<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=78&cHash=c4e2ccc4145940c829ba1e2d109840f5" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+				anfangs vor Franzosen an, baten uns aber gar sehr bey ihnen zu bleiben und die Nacht zu logiren, und weil es schon ziemlich spät und gar zu schlimmes Wetter war so resolvirten wir uns auch dazu. Sie erwiesen uns alle mögliche Liebe, sahen uns an und freueten sich über uns ob sie scho nicht wußten was sie aus uns machen sollten. Wir hielten eine Englische Singestunde und sie höreten sehr attent zu. Wir waren alle sehr seelig und gutes Muths und ruheten hernach sehr Pilgermäßig so gut sichs nur wollte thun laßen, und waren nur frölich darüber daß wir bey allen Schwierigkeiten doch heute 14 Engl. Meilen weit avancirt waren.</p>
+				</div>
+				
+				
+				<div class="diaryPopuptext" id="PopupAm4">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm4()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=78&cHash=c4e2ccc4145940c829ba1e2d109840f5" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">
+&#x2643; Den 31ten December.</h3>
+				<p>Heute hieß unsre Rede des Heilandes<br/>
+Ich bin bey Euch alle Tage<br/>
+und die Loosung<br/>
+Der Herr that täglich hin zu die da seelig wurden zu der Gemeine biß die Summe voll.<br/>
+Wir vergnügten uns damit und fuhren frühe wiederum mit unserm Schlitten fort und die Brüder folgten zu Fuße munter und frölich nach. Wir hatten gar keine Bahn und sehr tiefen Schnee, kamen zu dem Hause wo wir die vorige Nacht hatten logiren sollen und fanden sehr schlechte Leute vor daher wir dem Lämmlein für unser gehabtes Quartier dankten. Wir sungen manch Pilger Versel und merkten unsers Lämmleins Nahe Seyn sehr empfindlich, obswohl von außen ein bißel schwer ging. Wir hatten etliche Waßer zu passiren darunter sonderlich eines die Tree Runs genannt sehr schlimm und reißend zu seyn pfleget. Es war aber jezo sehr klein und wir kamen nach vieler Mühe endlich alle glücklich hinüber und hatten manche Proben im Kleinen von der Aufsicht des Lämmleins auf Uns die vielleicht nicht so wichtig scheinen möchten wenn wir sie erzehlen wollten als sie Uns bey den Umständen waren. Nachmittags um 3 Uhr kamen wir zu einem Hause und weils der letzte Sabbath in diesem Jahr war so resolvirten wir Uns da zu bleiben und uns wenigstens noch etwas Sabbathisch zu divertiren zu mahlen wir alle von dem tiefen Schnee ziemlich ermüdet waren. Unsre Herzen waren wohl meistens in Marienborn und Herrnhaag bey der Neu Jahres Nachtwache und wir gedachten mit einem tiefen Sehnen dahin, und wären gerne da<br/>
+				<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=79&cHash=02c7454973159289401bddbd03443ae9" target="_blank"><img class="quill" src="img/quill.png"></a><br/>	
+gewesen. Wir mußten nun aber schon dismahl das neue Jahr in einer armseeligen Tabern 27 Meilen von Lewis Town und 20 meilen von Dover anfangen. Wir dankten unserm Lämmlein kindlich für alles was Er in dem Jahre an Uns gethan, gaben uns ihm mit Geist und Leib und Seele aufs neue hin, und sungen von ganzen Herzen in Harmonie mit unserm seeligen Pilger Volke und allen Gmeinen in Europa<br/>
+Tausend Geliebte Ihr<br/>
+Vater und Mutter und lieber Mann<br/>
+da habt ihr Euren Plan<br/>
+soll Uns wohl seyn sprengt Blut<br/>
+Solln wir was thun so thut<br/>
+und damit gingen wir über ins Jahr<br/>
+<big>1747</big><br/>
+und freueten uns im Geist der Loosung des ersten Tages<br/>
+Ich wohne unter meinem Volcke<br/>
+wer sind sie? Herzelein<br/>
+in Jesu Blut so rein<br/>
+schwimmende Würmelein<br/>
+sind Creuz Lufft Vögelein<br/>
+kränkelnde Täubelein<br/>
+nach Jesu Seitenschrein.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm5">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm5()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=79&cHash=02c7454973159289401bddbd03443ae9" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">Januarius 1747</h3>
+				<h3 style="text-align: center;">&#x2609; Den 1sten.</h3>
+				<p>Heute machten wir uns sehr frühe auf, es war aber extraordinair kalt und scharfer Wind. Wir waren sehr seelig und sungen zum neuen Jahre manch Gloria der Seite! Wir hatten wiederum keinen Wegweiser und verirrten uns vom Wege, wurden es aber lange nicht gewahr, endlich merckten wir wohl etwas an der Himmels Gegend weil wir nach Süden zugingen da unsre Direction Nord seyn müßte und da kamen wir zu einem Hause wo wir im Felde einen Mann antrafen der uns sagte daß wir auf der Straße nach Maryland und über 5 Meilen aus unserm Wege waren. Er erbot sich uns durch einen nahen obwohl sehr ungebahnten Weg wieder auf die Straße nach Dover zu bringen und ging auch 3 Meilen vor uns her und wir folgten ihm mit unserm Schlitten nach auf einem Wege wo wir über Büsche und Sträuche und Waßer und Anhöhen passiren mußten ohne allen Weg und Steg daß wie wir durch waren wir alle stehen und erstaunen mußten<br/>
+				<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=80&cHash=200d8f7e28fa40829374917510ac6156" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+				wie es nur möglich gewesen war daß der Heiland uns durchbringen können, und doch hatte Niemand den geringsten Schaden genommen. Wir hatten hernach noch ein sehr schlimmes Waßer zu passiren kamen aber Mittags zu einem Hause wo die Leute uns recht mit vielen Freuden aufnahmen und viele Liebe erzeigten. Sie erzehlten uns daß auf der rechten Passage nach Dover wir wegen des Waßers würden haben schwerlich durchkommen können daß es also wohl nicht ohne Ursach geschehen daß wir uns verirret. Mittags um 1 Uhr machten wir uns wieder auf und kamen bald zu einem sonst sehr gefährlichen Waßer es war aber bey der strengen Kälte ganz zugefroren und wir kamen alle auf dem Eise glücklich hinüber wir trafen hernach noch etliche Waßer an und darunter eines das außer dem Frost mehr als Mannes tief ist aber unser Lämmlein half uns zu unsrer Freude und Beschämung recht wohl und leichte durch und brachte uns Abends um 7 Uhr glücklich nach Dover einem aus etlichen 20 Häusern bestehenden Town 46 starke Englische Meilen von Lewis Town gelegen.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm6">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm6()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=80&cHash=200d8f7e28fa40829374917510ac6156" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x263D; Den 2ten Januarii.</h3>
+				<p>Heute machten wir uns sehr frühe wieder auf und eileten von Dover fort mit der seeligen Loosung:<br/>
+Der Herr mein Gott wird mit dir seyn und wird die Hand nicht abziehen biß du alle Werke zum Amt im Hause des Herrn vollendest<br/>
+quae si tu feceris<br/>
+so wollen wir gewiß<br/>
+die mit Thränen loben<br/>
+Et pedum osculis<br/>
+für alle Liebes Proben<br/>
+et cum liberis<br/>
+thun quaecumque vis.<br/>
+Wir hatten einen Boten mit uns einen erweckten Mann der aus Liebe zu Uns 8 Meilen mit uns ging. Er erzehlete uns manches von Whitfield der etwa 6 Wochen zuvor in dieser Gegend gewesen und die Leute erschrecklich mit der Hölle und Verdammniß und Beten und andern Sachen geplaget und, es sey nun aus Büßerstand oder in der That sich selbst vor Christum ausgegeben, und daher die Leute gar sehr wieder sich aufgebracht; zumahl Ers in allem mit den Presbyterianern hält die ihn in der Noth mit Gelde ausgeholffen. Es sind in dieser ganzen Gegend überhaupt sehr viele unruhige und gerührte Leute die nicht recht wißen wohin sie sich wenden sollen und der Mann der mit Uns ging sagte uns daß es ihnen sehr lieb seyn würde wenn unsre<br/>
+<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=81&cHash=12b87906993e4d99ef33c9ad538e8fdd" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+Geschwister in diese Gegend kommen und sie besuchen wollten. Der vornehmste Justice in Dover hat uns wollen zu sich invitiren und bey sich behalten wenn wir ihm nicht zu früh fortgeeilet wären und so glauben und sehn wir gewiß daß unser Lämmlein mit allem Fleiß es so gemacht daß wir diese Reise von Lewis Town aus nach Philadelphia haben zu Lande thun müßen um den Leuten in dieser Gegend einmal ein ganzes Häuflein von unsern Geschwistern zu zeigen und wer weiß was noch aufs künfftige heraus kommen wird. Wir gingen Vormittags 14 Meilen und kamen Mittags zu einem Plaz Nahmens Duke Creek wo wir bey recht hübschen Leuten logirten. Sie erzehlten uns daß jederman in Philadelphia glaube daß unser Schiff entweder genommen oder in der See verlohren gegangen sey, und man fast alle Hoffnung aufgegeben daß wir noch ankommen würden, daher wir uns auch leicht vorstellen konnten daß unsre Geschwister manche sorgliche Gedancken unserthalben würden gehabt haben. Mittags fing es wieder sehr an zu schneyen so daß in ein paar Stunden die wenige Bahn die wir noch gehabt völlig verschneyet war; wir machten uns aber doch wieder auf und avancirten ohne Weg und Steg Nachmittags noch 5 Meilen biß zu einem Hause an Black Birds Creek wo wir sehr artige Leute fanden und weil wir alle sehr ermüdet waren, unser Nacht Quartier nahmen. Wir hielten Abends eine sehr seelige Singestunde und freueten uns daß unser Lämmlein uns nun den halben Weg nach Philadelphia glückl. und wohl geleitet hatte.</p>
+				</div>
+				
+				
+				<div class="diaryPopuptext" id="PopupAm7">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm7()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=81&cHash=12b87906993e4d99ef33c9ad538e8fdd" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x2642; Den 3ten Januarii</h3>
+				<p>Hieß unsre Loosung:<br/>
+Der Ehjeh hat mich zu Euch gesandt<br/>
+Kirchen und Seelen und Amt sind Sachen<br/>
+die Er und nicht wir selbst gemacht<br/>
+und biß daher gebracht.<br/>
+Diese ganze Nacht hatte es geglatteiset, und der Schnee war zu Frühe allenthalben mit einer Rinde eines halben Fingers Dicke überzogen und nirgends einige Bahn gebrochen. Und dis Wetter continuirte auch heute den ganzen Tag wir machten uns aber doch auf den Weg, obschon das Eiß unsre Schuhe entzwey schnitte und wir Gefahr stunden unsre Füße zu verwunden. Der Weg war sehr bergicht und beschwerlich unsre Kleider wurden ganz mit Eiß überzogen und wir sahen halb ge-<br/>
+<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=82&cHash=24b250c5586e155e935976b5accbdb4a" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+harnischt aus, mußten dazu manche Waßer passiren die unsre Pferde ermüdeten daher wir wegen des gar zu schlimmen Wetters uns resolviren mußten in Cantwells Bridge dahin wir zu Mittage kamen den ganzen Nachmittag und die Nacht liegen zu bleiben. Wir ruheten also etwas aus und vergnügten uns mit einander an unserm Lämmlein und seinen Wunden und an alle dem was Er bißher aus Gnaden an Uns gethan, und obgleich bey dem biß in die Nacht anhaltenden schlimmen Wetter wenig Hoffnung zu unserm Fortkommen übrig blieb so wars uns doch so, daß der uns bißhieher gebracht uns auch gewiß weiter helffen würde.</p>
+				</div>
+				
+				
+				<div class="diaryPopuptext" id="PopupAm8">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm8()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=82&cHash=24b250c5586e155e935976b5accbdb4a" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x263F; Den 4ten Januarii</h3>
+				<p>Diese Nacht hatte es sehr scharf gefroren und das Eiß auf dem Schnee war noch viel dicker und härter worden, so daß Niemand uns fortzuhelffen begehrte aus Furcht daß die Pferde die Füße verliehren möchten. Wir konnten aber nicht länger verziehen sondern wagten es im Nahmen des Heilandes ganz allein und prosequirten unsre Reise durch tiefen Schnee und Eiß und ungebahnte Wege und unser Lämmlein halff uns wieder alles Vermuthen recht wunderbarl. fort. Es gab wohl müde Beine und wir erfuhren ein wenig daß die Wanderschafft in dieser Zeit manche rauhe Wege hat, aber die Creuz Lufft Vögleins Methode bey alledem im Seiten Hölchen ruhig zu liegen brachte uns doch leichter und vergnügter durch als wirs uns vermuthet hätten. Wir kamen Mittags zu einem Plaz S. George genannt wo wir recht freundliche und hübsche Leute fanden, und Gelegenheit krigten etliche unsrer Geschwister mit einem Schlitten 5 Meilen weit biß zum Red Lion voraus zu schicken. Wir andern folgten ihnen etwas langsamer nach, und weil wegen des Waßers und Eises die Fähre bey Newcastle jeziger Zeit nicht zu passiren war so mußten wir uns linker Hand durch einen sehr ungebahnten Weg nach der Christiana Bridge zuwenden, und kamen also endlich Abends nach einem sehr beschwerlichen March von 17 Meilen ins Quartier und so weit daß wir noch etwa 41 Meilen bis Philadelphia hatten. Unser Lämmlein war unter uns und wir sungen unsre Wunden Versel mit einem zätzlichen und seeligen Herzen.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm9">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm9()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=83&cHash=c38985e831aa75dcb08682a3d094642d" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x2643; Den 5ten Januarii.</h3>
+				<p>Wir eileten sehr frühe fort, mußten aber an den meisten Orten wo wir passirten wiederum die Bahn durch Schnee und Eiß brechen. Die Gegend war sehr bergicht, und wir mußten in den Thälern viele Waßer passiren, und sahen daß unser Lämmlein den starcken Frost unserthalben mit kommen laßen weil es sonst schlechterdings unmöglich gewesen wäre fortzukommen. Nach vieler Mühe kamen wir Mittags biß Willingstown. Roseen hatte unterwegs Gelegenheit manche von seinen Schweden zu sprechen die in hiesiger Gegend wohnen und weil heute Christmas war zur Kirche gingen. Er ging auch selbst hin und hörte den Schwedischen Pfarrer Tranberg predigen, der in Willingstown wohnet und seine Kirche Christina genannt, nahe am Wege hat; er konnte sich aber nicht so lange aufhalten ihn selber zu sprechen. Wir nahmen in Willingstown etliche Pferde zu Hillfe um desto geschwinder fortzukommen, passirten die Christina Bridge und Abends die Brandewyn; der Weg ging aber beständig Berg auf Berg ab und weil man weder Höhe noch Tiefe sehen konnte wegen des großen Schnees so war unser Schlitten manches mal in großer Gefahr umgeworfen zu werden; aber die lieben Engelein waren unsre frohe Dienerlein und bewahrten uns alle daß wir Abends spät nach Chester kamen und heute doch 25 Meilen absolvirt hatten. Wer den Weg und die Gegend und die Jahres Zeit kennet und unsre ganze Anstalt zum Fahren gesehn hätte der würde sich doch wohl etwas verwundern daß wir als Fremde mit ganzen Beinen und Armen davon gekommen. Aber<br/>
+Er unsers Lebens Licht<br/>
+ließ doch auf allen Tritten<br/>
+seiner Wunden Schein<br/>
+unsre Leuchte seyn.</p>
+				</div>
+				
+				
+				<div class="diaryPopuptext" id="PopupAm10">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm10()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=83&cHash=c38985e831aa75dcb08682a3d094642d" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x2640; Den 6 Januarii.</h3>
+				<p>Heute da unsre Herzel in Europa ihr Heiden Fest wohl recht seelig werden gefeyret haben eilten wir vollends hin zu unserm Philadelphia. Wir machten uns frühe bey sehr strenger Kälte recht vergnügt und munter auf, passirten Derby und kamen gegen Mittag biß an die Schulkill wo wir etliche Stunden warten mußten ehe wir über die Fähre kommen konnten. Wir kamen aber glücklich hinüber<br/>
+<a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=84&cHash=bab95671b6c9ed98fe2a370c78b02362" target="_blank"><img class="quill" src="img/quill.png"></a><br/>
+und wurden Mittags zwischen 1-2 Uhr Philadelphia ansichtig mit der Loosung:<br/>
+Bitte was ich dir geben soll?<br/>
+Autorität zu Schluß und Sperr.<br/>
+nachdem wir von London aus 14 Wochen und 4 Tage unterwegens gewesen waren. Wir waren die ersten die die Nachricht von der Ankunfft unsers Schiffs in die Stadt brachten weil noch Niemand von den andern Passagierern denen wir Briefe mitgegeben hatten, angekommen war. Wir gingen alle zum <a href="https://moravian.bucknell.edu/map/#places/year_range/1600;2015/firstname/charles/surname/brokdon">Bruder Brockdon</a> der sich über unsre unvermuthete Ankunfft verwunderte und freuete. Unsre andre Geschwister Harrells, <a href="https://moravian.bucknell.edu/map/#places/year_range/1600;2015/firstname/matthaeus/surname/reuz">Mattheus Reuz</a>, Evans p kamen auch zu Uns und wir freueten uns mit ihnen daß wir da waren. Sie hatten zum Theil noch immer auf uns gehoffet, zum Theil aber die Hoffnung ziemlich aufgegeben gehabt. Wir logirten denn Theils im Gemein Hause, theils bey Br. Evans und Brokdon, ich schrieb einen Brief an <a href="https://moravian.bucknell.edu/map/#places/year_range/1600;2015/firstname/august%20gottlieb/surname/spangenberg">Br. Spangenberg</a> und meldete ihm unsre glückliche Ankunfft und Br. Reuz ritte noch heute Nacht fort hinauf nach Bethlehem um die Nachricht von unsrer Ankunfft zu überbringen und wir resolvirten uns biß zu seiner Retour hier in Philadelphia zu bleiben und ein klein wenig von unsrer Pilgerschafft wieder auszuruhen biß wir vollends unser liebes Bethlehem zu sehen kriegen.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm11">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm11()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=84&cHash=bab95671b6c9ed98fe2a370c78b02362" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">Sabbaths den 7ten Januar.</h3>
+				<p>Heute divertirten wir uns mit unsern Philadelphischen Geschwistern die uns und wir sie besuchten. Unsre Loosung hieß:<br/>
+Siehe ich habe auch in diesem Stück dich angesehen.<br/>
+Und bewahrt mir meinen stillen Himmel.<br/>
+Daß Wetter fing heute an aufzuthauen und wir dankten unserm Läümmlein daß er uns vorher sicher und wohl biß nach Philaldephia gebracht. Wir höreten auch daß den 26ten huj. der Synodus in Bethlehem seyn würde und sahen mit Freuden daß wir dazu recht wie gerufen kamen. Nur hätten wir das einige gewünschet daß unsre Geschwister in Europa auch sogleich wißen möchten daß wir alle so wohl und vergnügt hier angekommen; es lag auch ein Schiff fertig nach England abzugehen, weil aber der River zu gefroren so konnte es nicht fort und das machte uns etwas bekümmert weil wir ihnen die Sorge unserthalben gerne ersparet hätten die ihnen das lange Außenbleiben unsrer Briefe machen wird.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm12">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm12()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=85&cHash=4fef7ceaf32d8f79a376a348efdf23a5" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">Sonntags den 8ten Januarii.</h3>
+				<p>War unsre Loosung:<br/>
+Ich will vor dem Herrn spielen der mich erwehlet hat.<br/>
+Ehre dem Seiten Maal!<br/>
+Wir waren noch in Philadelphia seelig und ruheten aus von unsrer Reise Es besuchten uns verschiedene Geschwister und Abends kam Br. Adolph Meyer von Friedrichstown der aber unsre Ankunfft erst in Philadelphia erfahren und sich mit uns freuete.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm13">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm13()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=85&cHash=4fef7ceaf32d8f79a376a348efdf23a5" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x263D; Den 9ten Januarii.</h3>
+				<p>Heute Vormittags kam Br. Pyrläus von Bethlehem und brachte uns eine herzliche Invitation von unsern theuren Geschwistern Joseph und Maria vollends zu ihnen hinauf zu eilen. Sie schickten uns auch noch ein paar Brüder mit etlichen Pferden entgegen. Wir machten uns also gegen Abend theils zu Pferde theils zu Fuß auf und kamen biß Germantown wo wir die Nacht blieben und zum Theil bey dem alten Vater Bennezet logirten, und uns über manche Nachricht die wir von Bethlehem und sonst aus America höreten, erfreueten.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm14">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm14()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=85&cHash=4fef7ceaf32d8f79a376a348efdf23a5" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x2642; Den 10ten Januarii.</h3>
+				<p>Machten wir uns recht frühe wieder auf und hatten eine ziemlich beschwerliche Reise sonderlich je höher wir hinauf kamen weil wir wenig gebahnten Weg fanden. Doch halff uns unser Lämmlein durch alle Schwierigkeiten durch und wir kamen Bethlehem biß auf 18 Meilen nahe. Wir erinnerten uns in der Stille des großen Festes der Drey Einigkeit das unsre Gemeine in Europa heute gefeyret und sehnten uns nun vollends zu unserm Pläzchen zu kommen.</p>
+				</div>
+				
+				<div class="diaryPopuptext" id="PopupAm15">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm15()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=85&cHash=4fef7ceaf32d8f79a376a348efdf23a5" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x263F; Den 11ten Januarii.</h3>
+				<p>Hieß unsre Loosung:<br/>
+Jacob zog seinen Weg und es begegneten ihm Engelein<br/>
+was den Kirchen Sprengel<br/>
+liebet außerordentlich.<br/>
+Diese Nacht hatten wir sehr starken Wind und Thau Wetter bekommen und wegen des Waßers und aufgehenden Schnees einen sehr beschwerlichen Weg. Wir zogen fort so gut wir konnten, Mittags aber wurde die Esther krank und weil sie nicht im Stande war fortzukommen so blieb ich und meine Frau bey ihr 10 Meilen von Bethlehem und schikten unsre übrige Gesellschaft mit Br. Pyrlaeo voraus die auch nachdem sie noch manche schlimme Waßer passiret gegen Abend alle wohl und glücklich in Bethlehem ankamen, und mit Freuden empfangen wurden, und sich bey der Neu Jahrs Wache die sie nach altem Styl jezo hielten, mit divertirten.</p>
+				</div>
+				
+				
+				<div class="diaryPopuptext" id="PopupAm16">
+				    <div style="text-align: center;">
+				        <button class="close1" onclick="HideDiaryFunctionAm16()">x</button>
+				    </div>
+				<span type="facsimile"><a href="http://dfg-viewer.de/show?tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fwww.moravianchurcharchives.findbuch.net%2Fphp%2Fview.php%3Flink%3D547261764a6f75726e616c73x26&tx_dlf%5Bpage%5D=86&cHash=5f881057f71fde01debadc51168fe57e" target="_blank"><img class="quill" src="img/quill.png"></a></span>
+				<h3 style="text-align: center;">&#x2643; Den 12ten Januarii 1747.</h3>
+				<p>Ich und meine übrige Gesellschaft machten uns endlich auch heute auf und zogen nach Bethlehem zu mit der Loosung:<br/>
+Zeuch mit mir hinauf in meinem Looß so will ich wieder mit dir ziehen in deinem Looß<br/>
+So weit die liebe Sonne leucht<br/>
+und an aller Welt Ende reicht.<br/>
+<a href="https://moravian.bucknell.edu/map/#places/year_range/1600;2015/firstname/christian/surname/fr%C3%B6lich">Br. Christian Frölich</a> der uns entgegen geschickt war war unser Führer, wir passirten den großen Berg vor Bethlehem recht gücklich und unsre Herzen fühlten doch was ganz besonders da wir Bethlehem zu sehn krigten nachdem wir von London aus 15 Wochen 3 Tage unterwegens gewesen. Br. Joseph, Seidel und viele andre Brüder kamen uns biß an die Lecha entgegen und holten uns mit Freuden ein, führten uns zu der kranken und schwächlichen Maria die sich in ihrem Betlchen über unsre Ankunfft freuete, und so waren wir alle seelig und frölich, daß wir nach so langem Warten endlich einmal unser Ruhe Pläzchen gefunden, und das Lammes Volck in Bethlehem zu sehn gekrigt.<br/>
+Nun Lamm wir fallen dir um den Halß<br/>
+du bist und bleibst uns doch alles<br/>
+und deiner blutgen Pleura Schein<br/>
+halff uns nach Bethlehem hinein.<br/>
+Wir sahen manche Schwierigkeit.</p>
+<h3 style="text-align: center;">[Ende des überlieferten Reisetagebuchs]</h3>
+				</div>
+				
+			</div>
+		</div>
+		
+        </div>
+
+<footer class="footer">
+      <div class="container text-center">
+        <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena</p>
+
+        <!-- Dieser Backlink darf NICHT entfernt werden. DO NOT REMOVE-->
+        https://www.moravians-at-sea.uni-jena.de | Designed by <a href="http://freietemplates.de/">freietemplates.de</a>, adapted by <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte/martin+prell_+m_a_">Martin Prell</a>
+      </div>
+    </footer>
+	
+	<div class="impressum_datenschutz">
+		<a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+	</div>
+	
+<script type="text/javascript">
+function myShowHTUFunction3() {
+ document.getElementById("HTUPopup3").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+</script>
+
+<script type="text/javascript">
+
+function myHideHTUFunction3() {
+    document.getElementById('HTUPopup3').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+</script>
+
+<script type="text/javascript">
+function hidegraph3() {
+ document.getElementById("graph3").style.visibility = 'hidden';
+ document.getElementById("routeOn").style.display = 'block';
+ document.getElementById("routeOff").style.display = 'none';
+}
+</script>
+
+<script type="text/javascript">
+function showgraph3() {
+ document.getElementById("graph3").style.visibility = 'visible';
+ document.getElementById("routeOff").style.display = 'block';
+ document.getElementById("routeOn").style.display = 'none';
+}
+</script>
+
+
+
+<script type="text/javascript">
+function ShowDiaryFunctionAm1() {
+ document.getElementById("PopupAm1").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm2() {
+ document.getElementById("PopupAm2").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm3() {
+ document.getElementById("PopupAm3").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm4() {
+ document.getElementById("PopupAm4").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm5() {
+ document.getElementById("PopupAm5").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm6() {
+ document.getElementById("PopupAm6").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm7() {
+ document.getElementById("PopupAm7").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm8() {
+ document.getElementById("PopupAm8").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm9() {
+ document.getElementById("PopupAm9").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm10() {
+ document.getElementById("PopupAm10").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm11() {
+ document.getElementById("PopupAm11").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm12() {
+ document.getElementById("PopupAm12").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm13() {
+ document.getElementById("PopupAm13").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm14() {
+ document.getElementById("PopupAm14").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm15() {
+ document.getElementById("PopupAm15").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+function ShowDiaryFunctionAm16() {
+ document.getElementById("PopupAm16").style.visibility = 'visible';
+ document.getElementById("overlay").style.display = "block";
+}
+</script>
+
+<script type="text/javascript">
+function HideDiaryFunctionAm1() {
+    document.getElementById('PopupAm1').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm2() {
+    document.getElementById('PopupAm2').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm3() {
+    document.getElementById('PopupAm3').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm4() {
+    document.getElementById('PopupAm4').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm5() {
+    document.getElementById('PopupAm5').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm6() {
+    document.getElementById('PopupAm6').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm7() {
+    document.getElementById('PopupAm7').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm8() {
+    document.getElementById('PopupAm8').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm9() {
+    document.getElementById('PopupAm9').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm10() {
+    document.getElementById('PopupAm10').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm11() {
+    document.getElementById('PopupAm11').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm12() {
+    document.getElementById('PopupAm12').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm13() {
+    document.getElementById('PopupAm13').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm14() {
+    document.getElementById('PopupAm14').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm15() {
+    document.getElementById('PopupAm15').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+function HideDiaryFunctionAm16() {
+    document.getElementById('PopupAm16').style.visibility = 'hidden';
+	document.getElementById('overlay').style.display = 'none';
+}
+</script>
+
+
+     
+
+	
+	<script type="text/javascript">
+        function zoomin3() {
+  var myImg = document.getElementById("img3");
+  var currWidth = myImg.clientWidth;
+  if (currWidth == 2500) return false;
+  else {
+    myImg.style.width = (currWidth + 1000) + "px";
+  }
+}
+
+function zoomout3() {
+  var myImg = document.getElementById("img3");
+  var currWidth = myImg.clientWidth;
+  if (currWidth == 100) return false;
+  else {
+    myImg.style.width = (currWidth - 1000) + "px";
+  }
+}
+    </script>
+	
+	
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+		
+		
+		</body>
