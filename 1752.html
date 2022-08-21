@@ -430,7 +430,7 @@
 
 <div id="map" style="display:none;">
 		
-		<div style="padding-left: 1%;">
+		<div style="padding-left: 8%; padding-right: 7%;">
 				
 			<a class="btn btn-primary btn-lg" role="button" onclick="myShowHTUFunction1()">How to Use</a>
 			<a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph1()">Route ausblenden</a>
@@ -1762,6 +1762,53 @@ function myHideHTUFunction4() {
 	document.getElementById('overlay').style.display = 'none';
 }
 </script>
+
+
+<script type="text/javascript">
+	   var scale = 1,
+        panning = false,
+        pointX = 0,
+        pointY = 0,
+        start = { x: 0, y: 0 },
+        zoom = document.getElementById("img1");
+
+      function setTransform() {
+        zoom.style.transform = "translate(" + pointX + "px, " + pointY + "px) scale(" + scale + ")";
+      }
+
+      zoom.onmousedown = function (e) {
+        e.preventDefault();
+        start = { x: e.clientX - pointX, y: e.clientY - pointY };
+        panning = true;
+      }
+
+      zoom.onmouseup = function (e) {
+        panning = false;
+      }
+
+      zoom.onmousemove = function (e) {
+        e.preventDefault();
+        if (!panning) {
+          return;
+        }
+        pointX = (e.clientX - start.x);
+        pointY = (e.clientY - start.y);
+        setTransform();
+      }
+
+      zoom.onwheel = function (e) {
+        e.preventDefault();
+        var xs = (e.clientX - pointX) / scale,
+          ys = (e.clientY - pointY) / scale,
+          delta = (e.wheelDelta ? e.wheelDelta : -e.deltaY);
+        (delta > 0) ? (scale *= 1.2) : (scale /= 1.2);
+        pointX = e.clientX - xs * scale;
+        pointY = e.clientY - ys * scale;
+
+        setTransform();
+      }
+</script>
+
 
 <script type="text/javascript">
         function zoomin1() {

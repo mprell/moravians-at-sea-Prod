@@ -78,7 +78,7 @@
 	
 	<div class="jumbotron3">
 		<div class="container">
-			<h1 style="color: #fff; font-size: 350%;">Reise nach Amerika in den Jahren 1746/1747</h1>
+			<h1 style="color: #fff; font-size: 350%; display:flex; justify-content: center;">Reise nach Amerika in den Jahren 1746/1747</h1>
 		</div>
 	</div>
 	
@@ -92,12 +92,12 @@
 		<a class="btn1 btn btn-primary btn-lg" role="button" style="float:right;" href="1746.html">Übersicht &#129046;</a>
 
 
-		<div style="padding-left: 1%; padding-top: 1%;" id="america">
+		<div style="display:flex; justify-content: center;" id="america">
 				<h3 style="color: #e3d2b4;">Teil 3: Nach Bethlehem, Pennsylvania</h3>
 		</div>
 		
 
-		<div style="padding-left: 1%;">
+		<div style="padding-left: 8%; padding-right: 7%;">
 				<a class="btn btn-primary btn-lg" role="button" onclick="myShowHTUFunction3()">How to Use</a>
 				<a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph3()">Route ausblenden</a>
 			<a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph3()">Route einblenden</a>
@@ -635,7 +635,50 @@ function HideDiaryFunctionAm16() {
 </script>
 
 
-     
+<script type="text/javascript">
+	   var scale = 1,
+        panning = false,
+        pointX = 0,
+        pointY = 0,
+        start = { x: 0, y: 0 },
+        zoom = document.getElementById("img3");
+
+      function setTransform() {
+        zoom.style.transform = "translate(" + pointX + "px, " + pointY + "px) scale(" + scale + ")";
+      }
+
+      zoom.onmousedown = function (e) {
+        e.preventDefault();
+        start = { x: e.clientX - pointX, y: e.clientY - pointY };
+        panning = true;
+      }
+
+      zoom.onmouseup = function (e) {
+        panning = false;
+      }
+
+      zoom.onmousemove = function (e) {
+        e.preventDefault();
+        if (!panning) {
+          return;
+        }
+        pointX = (e.clientX - start.x);
+        pointY = (e.clientY - start.y);
+        setTransform();
+      }
+
+      zoom.onwheel = function (e) {
+        e.preventDefault();
+        var xs = (e.clientX - pointX) / scale,
+          ys = (e.clientY - pointY) / scale,
+          delta = (e.wheelDelta ? e.wheelDelta : -e.deltaY);
+        (delta > 0) ? (scale *= 1.2) : (scale /= 1.2);
+        pointX = e.clientX - xs * scale;
+        pointY = e.clientY - ys * scale;
+
+        setTransform();
+      }
+</script> 
 
 	
 	<script type="text/javascript">
