@@ -97,6 +97,7 @@
 
 		<div style="padding-left: 8%; padding-right: 7%;">
 				<a class="btn btn-primary btn-lg" role="button" onclick="myShowHTUFunction2()">How to Use</a>
+				<a class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" href="javascript:location.reload()">Reset Zoom</a>
 				<a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph2()">Route ausblenden</a>
 			<a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph2()">Route einblenden</a>
 				
@@ -478,7 +479,7 @@ function myHidePositionFunction8() {
         var xs = (e.clientX - pointX) / scale,
           ys = (e.clientY - pointY) / scale,
           delta = (e.wheelDelta ? e.wheelDelta : -e.deltaY);
-        (delta > 0) ? (scale *= 1.2) : (scale /= 1.2);
+        (delta > 0) ? (scale *= 1.1) : (scale /= 1.1);
         pointX = e.clientX - xs * scale;
         pointY = e.clientY - ys * scale;
 

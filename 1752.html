@@ -94,12 +94,12 @@
 		
 		
 		
-		<div id="calendar" style="border: 10px solid #e3d2b4; margin: 0 1% 0 1%;">
+		<div id="calendar" style="border: 10px solid #e3d2b4; margin: 0 1% 0 1%; display:none;">
 		
 		
 		<div style="background-color:#e3d2b4;">			
 		
-		<a id="buttonMap" class="btn btn-primary btn-lg" role="button" style="float: right;" onclick="showMap()">Karte</a>
+		<a id="buttonMap" class="btn btn-primary btn-lg" role="button" style="float: right;" onclick="showMap()">Kartenansicht</a>
 
 		<a id="buttonSeptember" class="btn btn-primary btn-lg" style="background-color:#093e56;" role="button" onclick="showSep()">September</a>
 		
@@ -428,11 +428,12 @@
 
 
 
-<div id="map" style="display:none;">
+<div id="map">
 		
 		<div style="padding-left: 8%; padding-right: 7%;">
 				
 			<a class="btn btn-primary btn-lg" role="button" onclick="myShowHTUFunction1()">How to Use</a>
+			<a class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" href="javascript:location.reload()">Reset Zoom</a>
 			<a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph1()">Route ausblenden</a>
 			<a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph1()">Route einblenden</a>
 				
@@ -451,7 +452,7 @@
 		
 		<div class="map">
 		
-		<a id="buttonCalendar" class="btn btn-primary btn-lg" role="button" style="float: right; display:none;" onclick="showCalendar()">Kalender</a>
+		<a id="buttonCalendar" class="btn btn-primary btn-lg" role="button" style="float: right;" onclick="showCalendar()">Kalenderansicht</a>
 		
 		
 			<div class="dragscroll" id="main2">
@@ -1801,7 +1802,7 @@ function myHideHTUFunction4() {
         var xs = (e.clientX - pointX) / scale,
           ys = (e.clientY - pointY) / scale,
           delta = (e.wheelDelta ? e.wheelDelta : -e.deltaY);
-        (delta > 0) ? (scale *= 1.2) : (scale /= 1.2);
+        (delta > 0) ? (scale *= 1.1) : (scale /= 1.1);
         pointX = e.clientX - xs * scale;
         pointY = e.clientY - ys * scale;
 
