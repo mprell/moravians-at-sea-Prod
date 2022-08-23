@@ -1,12 +1,16 @@
 
 #twitter {
-	background: radial-gradient(#87CEFA, #1E90FF, #4169E1);
+	background-color: #1E90FF;
 	padding: 10px;
 	border-radius: 100px;
 	transform:rotate(-30deg);
 	position: absolute;
 	left: 1%;
 	top: 4%;
+}
+h1, h2, h3, h4 {
+	font-weight:lighter;
+	
 }
 
 .navbar-default {
@@ -54,6 +58,7 @@
 	color: #fff;
 	font-size: 14px;
 	padding: 10px 10px;
+	font-weight:lighter;
 }
 
 .footer {
@@ -61,6 +66,7 @@
 	color: #fff;
 	font-size: 13px;
 	padding: 20px 10px;
+	font-weight:lighter;
 }
 	
 .popup {
