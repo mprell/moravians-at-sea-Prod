@@ -1,3 +1,4 @@
+body {font-weight:lighter;}
 
 #twitter {
 	background-color: #1E90FF;
@@ -8,9 +9,9 @@
 	left: 1%;
 	top: 4%;
 }
+
 h1, h2, h3, h4 {
 	font-weight:lighter;
-	
 }
 
 .navbar-default {
@@ -58,7 +59,6 @@ h1, h2, h3, h4 {
 	color: #fff;
 	font-size: 14px;
 	padding: 10px 10px;
-	font-weight:lighter;
 }
 
 .footer {
@@ -66,7 +66,6 @@ h1, h2, h3, h4 {
 	color: #fff;
 	font-size: 13px;
 	padding: 20px 10px;
-	font-weight:lighter;
 }
 	
 .popup {
