@@ -31,7 +31,7 @@ h3, h4 {
 	font-size:3vw;
 }
 
-p {font-size:2vw;}
+p, figcaption, li {font-size:2vw;}
 
 .navbar-default {
 	margin: 0;
