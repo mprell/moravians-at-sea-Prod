@@ -1668,7 +1668,7 @@ viel über 1/3 der Reise geschafft-->
     <script>
       function search() {
           var searchQuery = document.getElementById("searchInput").value;
-          var baseUrl = "http://127.0.0.1:5500";
+          var baseUrl = window.location.origin;
           var searchUrl = baseUrl + "/search.html?q=" + encodeURIComponent(searchQuery);
           window.location.href = searchUrl;
       }
