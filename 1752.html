@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Seereise 1752</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link href="css/bootstrap.min.css" rel="stylesheet" />
+      <link href="css/custom.css" rel="stylesheet" />
+      <link rel="stylesheet" href="ss/ssSearch.css" id="ssCss" />
+      <link rel="icon" href="favicon.ico" /><script type="text/javascript" src="js/dragscroll.js"></script><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
+   <body>
+      <nav class="navbar navbar-default navbar-static-top">
+         
+         <div style="margin: 0 1% 0 1%;">
+            
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+               
+               <div>
+                  <a class="navbar-brand" href="index.html" style="color: #e3d2b4;">Moravians at Sea</a>
+                  <span class="betacontainer">
+                     <span class="beta">BETA</span>
+                     </span>
+                  </div>
+               </div>
+            
+            <div id="navbar" class="navbar-collapse collapse">
+               
+               <ul class="nav navbar-nav navbar-right">
+                  
+                  <li><a href="einleitung.html" style="color: #e3d2b4;">Über</a></li>
+                  
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #e3d2b4;">Reisen <span class="caret"></span></a>
+                     
+                     <ul class="dropdown-menu">
+                        
+                        <li><a href="1746.html">Reise 1746/47</a></li>
+                        
+                        <li><a href="1752.html">Reise 1752</a></li>
+                        
+                        <li><a href="1761.html">Reise 1761</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      <div class="jumbotron3">
+         <div class="container">
+            <h1 style="color: #fff; font-size: 350%; display:flex; justify-content: center;">Reise nach Amerika im Jahr 1752</h1>
+         </div>
+      </div>
+      <div class="section2" id="introduction">
+         <div id="overlay" onclick="off()"></div>
+         <div id="overlay2" onclick="off()"></div>
+         <div style="padding-left: 1%; padding-top: 1%;">
+            <h3 style="color: #e3d2b4;">London - New York - Bethlehem</h3>
+         </div>
+         <div>
+            <div style="padding-left: 8%; padding-right: 7%;"><a class="btn btn-primary btn-lg" role="button" onclick="ShowHTUFunction()">How to Use</a><a class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" href="javascript:location.reload()">Reset Zoom</a><a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph()">Route einblenden</a></div>
+            <div class="HTUPopuptext" id="HTUPopup1">
+               <div style="text-align: center;"><button class="close3" onclick="myHideHTUFunction1()">x</button></div>
+               <h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
+               <p>Die Nadeln auf der Route geben schematisch die Tagespositionen des Schiffs zwischen
+                  im Tagebuch erwähnten Landmarken (erkennbar an den Richtungswechseln der Route) wieder.
+                  Klicken Sie auf die Nadeln, um sich die jeweiligen Tagebucheinträge anzeigen zu lassen.
+                  Mouseover auf eine Nadel blendet das Datum ein.</p>
+            </div>
+            <div class="map"><a id="buttonCalendar" class="btn btn-primary btn-lg" role="button" style="float: right;" onclick="showCalendar()">Kalenderansicht</a><div class="dragscroll" id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 5216 3546" style="background-image: url('img/atlantic.jpg'); background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;"><svg xmlns="" id="graph">
+                        
+                        <g stroke="red" stroke-width="10" stroke-linecap="round" fill="none">
+                           
+                           <polyline points="4907,97 4972,97 4961,145 4838,199 4621,244 3320,1006 2148,696 953,992 865,962"></polyline>
+                           </g>
+                        
+                        
+                        <g class="popup" stroke="black" stroke-width="5" fill="red">
+                           
+                           
+                           <circle cx="4907" cy="97" r="20" id="graphPopup1">
+                              <title>28.9.1752</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4972" cy="97" r="20" id="graphPopup2">
+                              <title>29.9.1752</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4961" cy="145" r="20" id="graphPopup3">
+                              <title>30.9.1752</title>
+                           </circle>
+                           
+                           <circle cx="4838" cy="199" r="20" id="graphPopup4">
+                              <title>1.10.1752</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4766" cy="214" r="20" id="graphPopup5">
+                              <title>2.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4693" cy="229" r="20" id="graphPopup6">
+                              <title>3.10.1752</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4621" cy="244" r="20" id="graphPopup7">
+                              <title>4.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4544" cy="289" r="20" id="graphPopup8">
+                              <title>5.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4467" cy="333" r="20" id="graphPopup9">
+                              <title>6.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4391" cy="378" r="20" id="graphPopup10">
+                              <title>7.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4314" cy="423" r="20" id="graphPopup11">
+                              <title>8.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4238" cy="468" r="20" id="graphPopup12">
+                              <title>9.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4161" cy="513" r="20" id="graphPopup13">
+                              <title>10.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4085" cy="557" r="20" id="graphPopup14">
+                              <title>11.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="4008" cy="602" r="20" id="graphPopup15">
+                              <title>12.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3932" cy="647" r="20" id="graphPopup16">
+                              <title>13.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3855" cy="692" r="20" id="graphPopup17">
+                              <title>14.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3779" cy="737" r="20" id="graphPopup18">
+                              <title>15.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3702" cy="781" r="20" id="graphPopup19">
+                              <title>16.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3626" cy="826" r="20" id="graphPopup20">
+                              <title>17.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3550" cy="871" r="20" id="graphPopup21">
+                              <title>18.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3473" cy="916" r="20" id="graphPopup22">
+                              <title>19.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3396" cy="961" r="20" id="graphPopup23">
+                              <title>20.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3320" cy="1006" r="20" id="graphPopup24">
+                              <title>21.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3190" cy="971" r="20" id="graphPopup25">
+                              <title>22.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="3059" cy="937" r="20" id="graphPopup26">
+                              <title>23.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="2929" cy="902" r="20" id="graphPopup27">
+                              <title>24.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="2799" cy="868" r="20" id="graphPopup28">
+                              <title>25.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="2669" cy="833" r="20" id="graphPopup29">
+                              <title>26.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="2539" cy="799" r="20" id="graphPopup30">
+                              <title>27.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="2408" cy="765" r="20" id="graphPopup31">
+                              <title>28.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="2278" cy="730" r="20" id="graphPopup32">
+                              <title>29.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="2148" cy="696" r="20" id="graphPopup33">
+                              <title>30.10.1752</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2091" cy="710" r="20" id="graphPopup34">
+                              <title>31.10.1752</title>
+                           </circle>
+                           
+                           <circle cx="2034" cy="724" r="20" id="graphPopup35">
+                              <title>1.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1977" cy="738" r="20" id="graphPopup36">
+                              <title>2.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1920" cy="752" r="20" id="graphPopup37">
+                              <title>3.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1863" cy="766" r="20" id="graphPopup38">
+                              <title>4.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1807" cy="781" r="20" id="graphPopup39">
+                              <title>5.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1750" cy="795" r="20" id="graphPopup40">
+                              <title>6.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1693" cy="809" r="20" id="graphPopup41">
+                              <title>7.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1636" cy="823" r="20" id="graphPopup42">
+                              <title>8.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1579" cy="837" r="20" id="graphPopup43">
+                              <title>9.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1522" cy="851" r="20" id="graphPopup44">
+                              <title>10.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1465" cy="865" r="20" id="graphPopup45">
+                              <title>11.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1408" cy="879" r="20" id="graphPopup46">
+                              <title>12.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1351" cy="893" r="20" id="graphPopup47">
+                              <title>13.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1294" cy="907" r="20" id="graphPopup48">
+                              <title>14.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1238" cy="922" r="20" id="graphPopup49">
+                              <title>15.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1181" cy="936" r="20" id="graphPopup50">
+                              <title>16.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1124" cy="950" r="20" id="graphPopup51">
+                              <title>17.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1067" cy="964" r="20" id="graphPopup52">
+                              <title>18.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="1010" cy="978" r="20" id="graphPopup53">
+                              <title>19.11.1752</title>
+                           </circle>
+                           
+                           
+                           <circle cx="953" cy="992" r="20" id="graphPopup54">
+                              <title>20.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="909" cy="977" r="20" id="graphPopup55">
+                              <title>21.11.1752</title>
+                           </circle>
+                           
+                           <circle cx="865" cy="962" r="20" id="graphPopup56">
+                              <title>22. bis 25.11.1752</title>
+                           </circle>
+                           
+                           </g>
+                        
+                        
+                        
+                        
+                        </svg></svg></div>
+            </div>
+         </div>
+         <div class="diaryPopuptext" id="diaryPopup1"><span class="rightArrow">❯</span>
+            
+            <h3 style="text-align: center;">Anno 1752
+               <br />Donnerstag den 28ten September</h3>
+            
+            <p>Donnerstag d[en] 28ten Sep[t]emb[e]r Mittags nach der Liturgie giengen die 17 Schw.[estern] und die Witwe Schulzin nach einem zärtlichen Abschied aus deß allerliebsten Papagens hauße, aus <br /> Wesstm.[inster] weg, Worinen etliche wenige die gnade gehabt, über Jahr und Tag sich vor herz und
+               Seele gütlich zu thun, die meisten aber nur bey Nah 3 Wochen darinnen zu seyn, doch
+               auch dieße werden ihre Lebens Zeit ein andencken davon behalten, und daß glück daß
+               sie betroffen, die wohl kurze aber so unaußsprechliche seelige Zeit in dem seeligen
+               hauße zuzubringen, vor daß gröste und Wichtigste halten, daß ihnen in ihrem Leben
+               wiederfahren ist. Es sezte beym Abschied häuffige Thränen, besonders da sie von ihrem
+               allerliebsten Mamagen musten adieu nehmen, die doch nach dem Lämlein ihr liebstes und theuerstes Stück
+               ist, waß sie haben, sie giengen in vier Collonnen auf Boaten biß Blakwall Alwo die Irene vor Ancker lag und sie erwartete, die Anna Antes wurde ihnen mitgegeben, um biß gravesent bey ihnen zu seyn, und Br[uder] Teltschig der ihr begleiter biß america seyn wird, begleitete sie auch bis Blackwall, gieng aber da er sie alle wohl und glücklich am Bord gesehen, noch den Abend zurück
+               nach Westmü[n]ster, daß Schiff bliebe dieße Nacht vor Ancker, und die geschw.[ister] haten alle hände voll zu thun, sich ein Wenig einzurichten, Weil noch alles in der
+               grösten un Ordnung war, da sie an Bord kammen, wurden aber doch aus dem gröbsten fertig,
+               biß gegen Mitternacht, und legten sich dann seelig zur ruhe.</p>
+            </div>
+         <div class="diaryPopuptext" id="diaryPopup2"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            
+            <h3 style="text-align: center;">Freytag den 29ten September</h3>
+            
+            <p>Freytag d[en] 29ten Sept[e]m.[ber] Früh wurden die Ancker gelichtet, und es gieng
+               mit der Tide Munter nach gravesend, Alwo sie Abends um 6 Uhr vor Ancker kammen, und bey der einfahrt durch neglet deß
+               Pilots an eine Brigentine anzulauffen, dadurch jenem auch unser Schiff ein Wenig schaden
+               Kriegte, den Schwestern ihr geschäffte war sich völlig einzurichten, und es gab immer noch zu thun, dabey
+               war alles ganz vergnügt, Munter und Wohl, Br[uder] Wannert kam auch mit allen seinen Sachen in gravesend an Bord.</p>
+            </div>
+         <div class="diaryPopuptext" id="diaryPopup3"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            
+            <h3 style="text-align: center;">Sabbaths den 30ten September</h3>
+            
+            <p>Sabbaths d[en] 30ten Sept[e]m.[ber] ruheten sie und erwarteten Papagen und Müterl.[ein] und die übrigen von der Reiße gesellschafft, die denn auch nach mitags um 3 Uhr ankammen,
+               Nemblich Br[uder] Teltschig die Schwester Millern, und ich, es War große betrübtnüß, daß sie die 2 liebsten Personen, die sie erwartet haten
+               nicht in unserer gesellschafft sahen, und ich hate genug zu trösten an allen, besonders aber an dem Capitain, der bey Nah un tröstlich war, doch freuten sie sich Br[uder] Syndicus Nitschman zu sehen, der uns mit seiner gesellschafft biß Dover erfreuen wolte, Br[uder] Hutton Benzin und Wollin kammen mit uns an Bord, ersterer aber gieng gleich wieder zurück, und die leztern
+               blieben bey unserm Sabbathsl[iebes]m.[ahl] welches so gleich nach unserer Ankunfft
+               vom Br[uder] Nitschman gehalten wurde, Anna Antes vergnügte die gesellschafft mit ihrem schönen spielen auf der Citter, es wurde auch
+               vieles Discourirt, von den See Reißen, die unsere geschw.[ister] haben vor dießem mit so großer beschwerlichkeit thun müßen, und wir hingegen sehen
+               uns auf einem gemein Schiff, haben mit lauter geschw.[istern] zu thun, und sollen die gnade haben ein See gemeinlein zu formiren. Br[uder] Nitschman recomandirte es sehr daß man daß doch ja recht erkennen solte, denn es sey eine solche
+               erstaunliche große Sache, es war uns auch allen von ganzem herzen so, danckbar, froh,
+               und erkenntlich zu seyn, gegens Lämmlein, und die geschw.[ister] die uns so wohl versorgt haben. Um 5 Uhr wurden die Ancker gelichtet, und die gute
+               Anna Antes (von dir man sehr danckbar war, daß sie biß dahin bey den Schwestern geweßen ist,) Nahm abschied von uns, und gieng mit den Brr. [Brüdern] an Shorre, sie fuhren mit ihrem Boat ab, da wir auch schon im Völligen seeglen Waren,
+               und Werden wohl unsere zärtlichen grüße ausgerichtet habe[n] die wir ihnen mitgegeben,
+               wir haten den noch übrigen Abend noch allerley zu thun, uns Völlig in unsere Neue
+               Wohnung einzurichten, und bald nach dem Abendeßen hielt uns unser l[ieber] Nitschman eine allerliebste singstunde und Abendseegen, und denn begab sich alles gleich zur
+               ruhe, wir giengen mit der Tide u[nd] S[outh] E[ast] Wind sanffte fort biß 11 Uhr denn
+               ließen sie wieder die Ancker fallen.</p>
+            </div>
+         <div class="diaryPopuptext" id="diaryPopup4"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            		      
+            <h3 style="text-align: center;">October.<br /><br />Den 1sten</h3>
+            		      
+            <p>Sontags d[en] 1sten früh um 5 Uhr wurden die Ancker wieder gelichtet, und wir giengen
+               mit der Tide und dem schönen S.[outh] E[ast] Wind und (der uns aber von jezt Contrair
+               war) recht hüpsch fort, biß 11 Uhr, da ließ man den Wieder die Ancker fallen, weil
+               wir nicht Waßer genug haten, die Sandbäncke vor denen wir just lagen, zu paßieren,
+               die bewegung war erstaunlich starck, auch da wir vor Ancker lagen, und es war alles
+               rechtschaffen See Kranck, doch waren viele deß Nachm.[ittags] auf der decke, Welche
+               dem Br[uder] Nitschmann zuhörten, wie er von seiner ostIndischen Reiße erzehlte, Abends da die Fluth war,
+               hätten wir Weiter gesolt, es war aber unserm Capitain nicht so, also blieben [wir] die Nacht vor Ancker, und unser lieber Nitschman hielt uns um 9 Uhr wieder eine sehr schöne Singstunde und Abendseegen.</p>
+            		    </div>
+         <div class="diaryPopuptext" id="diaryPopup5"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            
+            <h3 style="text-align: center;">Montags den 2ten October</h3>
+            
+            <p>Montags d[en] 2ten octo.[ber] mit tages Anbruch wurden wieder die Ancker gelichtet,
+               und wir fuhren sehr glücklich und hurtig über die Sand bäncke hinweg, haten einen
+               gar Charmanten N.[orth] <br />N.[orth] E.[east] Wind, der uns gleich sehr favorable war, da wir margetroat paßirt waren, zwischen 9 u[nd] 10 Uhr paßirten wir Deal vorbey und um halb 12 Waren wir vor Dover, und da nahm unser lieber Nitschman zärtlich abschied von uns, und gieng im Währenten seeglen mit nicolaus garrison Junior und dem Pilot am Shorre, es that uns ganz weh, ihn gehen zu sehen, und es hätte mich und uns alle sehr erfreut, Wenn wir ihn dürfften behalten, doch da daß nicht sein
+               konte, so waren wir auch zufrieden, und danckbar vor daß, daß er uns biß hierher begleitet
+               hat, und es wird ihm als ein großes Freundschaffts Stück im andencken behalten werden,
+               wir lavirten eine Stunde vor Dover rum, weil wir daß Boat wieder zurück erwarteten, mit Briefen oder Nachricht vom papagen und Mütterlein, aber zu meinem großen schmerz kam daß Boat endl.[ich] und Brachte nichts, Worauf
+               ihr Anna Johanngen eigentlich gepaßt hate, es brachte uns noch ein Wenig erfrischung vom Lande, und
+               wir fuhren alsdenn gleich fort, haten admirablen Wind, und fuhren alsdenn schönes Wetter, und daß Continnuirte so den ganzen tag um 8 Uhr Abends haten wir
+               unsere singstunde und Abendseegen. Die bewegung deß Schiffs war zimmlich empfindlich,
+               weil der Wind starck war, dem ungeachtet waren die Meisten Schwestern hüpsch Munter u[nd] in der singst.[unde].</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup6"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				    
+            <h3 style="text-align: center;">Dienstags den 3. October</h3>
+            				    
+            <p>Dienstags d[en] 3ten octo.[ber] giengs immer noch Brav fort, als wie gestern, vormitags
+               sahen wir die Istes of Wigt von fernen liegen, und Nachmitag Tor Bay gegen über, man sahe sehr wenig oder nichts vom Lande, die Schwestern waren deß Tages über alle zimmlich Kranck, doch gegen Abend kam meist alles auf die
+               decke, da haten wir eine kleine freude, nemblich die Proposses die in zimmlicher Menge um unser Schiffgen rum spielten, anzusehen, welches allen
+               waß Neues war, da es schon ganz dunckel war, war uns ein Schiff so nahe, sie sprachen
+               uns an, und der Capitain redte auch mit ihnen, es waren Holländer, sie haten den Cours den wir haten, es währete aber Kaum 3 Minuten, so Waren wir
+               ihm so weit vorausgeseegelt, wir haten freude und Wunder genug, über unsere liebe Irrene,
+               daß sie so geschwind seegelte denn wir waren allen Schiffen die uns noch im Canal begeegnet sind weit zuvor geseegelt, unsere Singstunde haten wir um 8 Uhr (Welches
+               wohl die ordinaire Zeit sein wird, wenn wir sie haben.) recht sehr allerliebst, und
+               die gesellschafft war noch stärcker, als gestern, unser Wetter und Wind Blieb hüpsch
+               und favorable.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup7"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				    
+            <h3 style="text-align: center;">Mitwochs den 4ten October</h3>
+            				    
+            <p>Mitwochs d[en] 4ten octo.[ber] vormitag sahen wir daß lezte land, (the Lizard) 8 Legas Northwärths, nahmen also adieu von Engelland, und fuhren in die Offenbahre See hinein, mit admirablen winde, und Charmantem Wetter,
+               unter dem Schuz unßers aller liebsten theuren Marter-Mannes, deßen verwundten herzen
+               wir uns Kindlichst empfohlen, es soll uns in seinen Wunden allzeit wohl gehen, bey
+               allem toben deß Windes und der Wellen. Es war heute alles wieder sehr See Kranck,
+               und waß uns am Meisten betrübte, unser guter Teltschig mußte sich auch zu bette begeben, er war auf einmahl sehr Kranck geworden, durch
+               eine Starcke Colique da war ich recht danckbar, daß Wannert bey uns war, der Pflegte ihn, und gegen den Abend wurde er auch zu unserer Freude
+               wieder ein wenig beßer, doch nicht so daß wir häten singst.[unde] haben können, es
+               gieng also alles zeitig zur ruhe, wir haten dießen Abend Calm waren vorm.[ittags]
+               alle Stunden 6 miles nachm.[ittags] 4 und endlich 3 und Abends Kaum eine meile geseegelt,
+               und waren nachm.[ittags] den Scilles gegen über geweßen.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup8"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				    
+            <h3 style="text-align: center;">Donnerstags den 5ten October</h3>
+            				    
+            <p>Donnerstags d[en] 5ten octo.[ber] wir haten die ganze Nacht Calm gehabt, und auch
+               noch dießen vorm.[ittag] die See war spiegelglat, kein Lüfftgen rührte sich, gegen
+               mitag fieng es wieder an, ein klein Wenig zu gehen, es wolte aber nichts sagen, es
+               war alles gesund und wohl, und fleißig auf der decke, Br[uder] Teltschig aber konte nicht auf seyn, unser lieber Capitain unterhielt uns also den ganzen Abend vor seinem bete, mit erzehlen von seiner Spanischen
+               gefangenschafft, gar aller liebst, es hörte alles zu, was nur plaz hate, er erzehlete
+               es mit einem ganz sonderbahrn gefühl, wie gnädig ihm der Heil[an]d durchgeholffen,
+               und in waß vor einer genauen Connexion er schon damahls mit ihm gestanden, es Nahm
+               alles großen Theil daran, und danckte mit ihm dem Lämmlein vor alles. Br[uder] Teltschig sang ihm ein paar Verßel,: In wie viel Noth hat nicht der gnädige gott, über dir
+               Flügel gebreitet, Er ist dein Licht. Nicolaus vergiß es ja nicht. pp. Singst.[unde] Konten wir wieder nicht haben, ich gieng also naus zu meinen Schw.[estern] und hielt eine Kleine singst.[unde] und Abendseegen mit ihnen, nach welchem alles
+               vergnügt und seelig zur ruhe gieng, unser Schiffgen gieng sehr Langsam, wir Konten
+               fast nicht von der Stelle.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup9"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Freytags den 6ten October</h3>
+            				   
+            <p>Freytags d[en] 6ten octo.[ber] haten wir Regen und einen sehr trüben Morgen der Wind
+               Contrair, und zimmlich starck, da war alles wieder Brav Kranck, Nachm.[ittags] aber
+               wurde der Wind wieder schwächer, in der dunckley kam ein Französisches Schiff zu uns,
+               daß er kundigte sich, wie weit es noch vom Lande sey, es war gesteckt voll Menschen,
+               und sah entsezlich Liederlich auß, man konte sie auch nicht viel verstehen, um halb
+               8 Uhr haten wir eine allerliebste Singst.[unde] die uns unser lieber Br[uder] Teltschig hielte, der zu unserer Freude heute wieder auf sein konte.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup10"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sabbaths den 7ten October</h3>
+            				   
+            <p>Sabbaths d[en] 7ten octo.[ber] häten wir gern unsern Morgenseegen angefangen allein
+               der erste Morgen zeigete uns gleich das es nicht gehen würde, weil früh alles so Kranck
+               ist, und biß gegen Mitag wenige ihre Coyen verlaßen Können, wir haten den ganzen Tag
+               Südwesst Sturm und es war fast niemand auf, Nachm.[ittags] wurde der Wind Schwächer,
+               und fast ganz Calm die See aber so Wüttend und raßend daß alles im Schiff zu sammen
+               fuhr, von der erschröcklichen bewegung, es rießen Stühle und Coffers sich Loß, so
+               daß wenn man nicht schaden nehmen wolte, man in seiner Coye bleiben muste. Wir konten
+               auch dießen Abend keine singst.[unde] haben, Empfohlen uns also dem Lämmlein, und
+               giengen jedes mit ihm zur ruhe.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup11"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sonntags den 8ten October</h3>
+            				   
+            <p>Sonntags d.[en] 8ten octo.[ber] War ein schöner Morgen, aber der Wind immer Contrair,
+               doch Schwach, nachmittag aber wurde wieder ein ent setzlich Wetter, es regnete sehr
+               und war ein recht sehr harter S[outh] West Sturm, ich dachte gar viel an Westmünster, und Wünschte daß papagen in ihrem Sontag eine Ahntung von unserer Noth haben möchten, die Würcklich groß war,
+               wir giengen wieder zu bete, ohne daß wir singst.[unde] haben konten, ich machte auch
+               wachen bey unsern Schw.[estern] aus, und es Blieben 2 dieße Nacht aus, vor das Licht zu sorgen.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup12"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Montag den 9ten October</h3>
+            				   
+            <p>Montag d[en] 9ten octo.[ber] War ein zimmlich tollerabler tag, daß Wetter war Hüpsch,
+               aber der Wind immer Contrair, aber doch nicht stürmisch, abends konten wir wieder
+               Singst.[unde] haben, die wohl sehr kurz aber niedlich gehalten Wurde, die bewegung
+               vom Schiff war sehr Starck, daß Wetter Leuchtete auch von allen seiten, mit der Schw.[estern] ihren Wachen Wolte es nicht gehen, die 2 Waren sehr Kranck worden, und eben alles
+               in Völliger See Kranckheit, deß Wegen mußten wir andern measners nehmen, daß das Licht
+               doch gut verwahrt würde.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup13"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            					   
+            <h3 style="text-align: center;">Dienstag den 10ten October</h3>
+            				   
+            <p>Dienstag d[en] 10ten octo.[ber] war vormitag wohl trübes aber sehr stilles moderates
+               Wetter, und regnete immer dazwischen, so bald aber 12 Uhr vorbey war, erhub sich ein
+               ganz entsezl.[icher] Südwest Sturm daß war ein Wetter dergleichen wir und heut nicht
+               ver Muthet haten, es wurde alles zu und fest gemacht, alle seegel eingenomen, und
+               daß Schiff beygelegt, ich schlug eine Looßung auf, unter dem grösten stürmen, die hies: Er macht im Waßer Bahn Meer Wege und in Starcken Waßer Bahn: Wer weiß wer auf den Wogen, zuweillen kommt
+               gezogen. Uber dieße Looßung freute ich mich, wie ein Kind, und alle mit mir, der Capitain war die ganze Zeit oben, und nahm sein Amt treulich in Acht, ich gieng auch gegen Abend auf die decke, um mir daß Wüttente Meer anzusehen, die Wellen
+               schienen immer das Schiffgen zu verschlingen, es muste sich recht schwer durcharbeiten,
+               wir lagen den ganzen Abend, und die ganze Nacht bey, und wurden von einer seite zur
+               Andern geschmißen, daß man dachte, es würde alles in stücken gehen, wir Waren aber
+               alle erstaunlich vergnügt, die Schw.[estern] sangen fleißig Versel, wie sie die ganze Zeit unter allem Stürmen gethan haten, und
+               ich diverdirte mich ordentlich mit ihnen.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup14"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Mitwochs den 11ten October</h3>
+            				   
+            <p>Mitwochs d[en] 11ten octo.[ber] seegelten wir deß tages über wieder, aber wieder Stürmisch
+               und Contrair, daß wir beylegen mußten, der Wind und die See saußten und Braußten,
+               daß man einander fast nichts verstehen konnte, dem ungeachet, war alles recht vergnügt
+               und seelig.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup15"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Donnerstags den 12ten October</h3>
+            				   
+            <p>Donnerstags den 12ten octo[ber] haten wir einen schönen Morgen, der Wind war W.[est]
+               N.[orth] W.[est] die Seegel wurden wieder aufgezogen, und wir avancirten ein kleines
+               Bißel, es blieb auch den Tag über recht schön, Mitags kam ein Schiff zu uns, daß von
+               Carolina kam, und nach London seegelte, es erkundigte sich wie weit es noch vom Lande sey, ich hätte gern einen Brieff mitgegeben, die See war aber so Wüttend und raßend, daß gar
+               nicht dran zu dencken war, Nachmitags waren wir fleißig auf der decke, und danckten
+               dem Heil[an]d gar sehr, daß wir einmahl gut Wetter haten, wir konten uns doch ein
+               bißel erhohlen, der Wind war freylich immer Contrair, und es gieng nicht sehr Weit.
+               Abends haten wir auch singst.[unde] Worinen uns unser L[ieber] B.[ruder] Teltschig auch einmahl waß über die Texte sagte, von unserer Lieben Mutter dem Heil.[igen]
+               geist, der uns so fleißig unser herz aber auch unsers Blutigen treuen Freundes <u xmlns="">seines</u> zu er Kennen und zu fühlen gibt, pp. es war fast alles von Brr. [Brüdern] und Schw.[estern] da, und wir danckten dem Lämlein gemeinschafftlich, vor seine Treue, an uns Armen
+               sünderlein, und auch noch apart vor den heutigen schönen Tag der uns ein rechter Balsam
+               War.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup16"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Freytags den 13ten October</h3>
+            				   
+            <p>Freytags d[en] 13ten octo.[ber] wieder ein sehr schöner vormitag, und alles fleißig
+               auf der decke, der wind war ein bißel Starck, aber immer Contrair, wir Waren heut
+               und gestern Kaum so weit gekommen, als uns der 4 tägichte Sturm zurück getrieben hate,
+               und immer noch Irrland gegen über, nachm.[ittags] wehete es wieder sehr hart, doch abends wars meist Calm
+               die See aber erstaunlich unruhig, in der singstunde Konten die Schw.[estern] nicht
+               auf den Bäncken sizen, lagerten sich also auf die Thille, es gieng denn recht gut,
+               und wir haten eine allerliebste schöne singstunde, nach derselben Blieben die Schwestern
+               noch sizen, und weil ich noch spielte, auf meiner Citter, so gabs noch eine admirable nach singstunde, daß
+               Lied O Haupt voll Blut und Wunden pp. wurde mit einem unaußsprechlich seeligen gefühl
+               von uns gesungen, und noch mehrere Wunden Verßel.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup17"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sabbaths den 14ten October</h3>
+            				   
+            <p>Sabbaths d[en] 14ten octo.[ber] Früh um 4 Uhr fieng ein schöner uns sehr Willkommener
+               N[orth] E[ast] Wind anzublaßen, Worüber wir beym auf-stehen in daß gröste vergnügen
+               gesezt wurden, daß man sich nur vorstellen kan, und wir danckten dem Lämmlein gar
+               sehr darvor, um 10 Uhr bekammen wir ein Schiff ins ge-sicht, daß den Cours nach Engelland hate, ich sezte mich also gleich, und schrieb einen Brief an mein gutes Engels mamage[n] machte die addresse und alles fertig, biß es zu uns kam, zu meiner großen betrübtnüß
+               aber waren wir so weit voneinande[r] daß gar keine Möglichkeit war, waß auf das Schiff
+               zu Bringen, es war ein schönes Englisch Wesst Indien Fahrzeug, erkundigte sich wie
+               weit es noch vom Lande sey, wir waren bald vor sie vorbey weil wir vor dem Wind Waren,
+               der recht niedlich fort Wehete, aber nachm.[ittags] wurde er wieder Schwächer, und
+               auch Südlich, um halb 3 Uhr haten wir Sabbath Liebesmahl, alle unsere Schwestern waren auf, und dabey, und es war ein recht niedlich und seeliges gefühl dabey, daß
+               dienen gieng auch recht hüpsch, und Ordentlich, welches Br[uder] Wannert, und die Schwester gariso[n] und Anna Mann verrichteten, ein Keßel Waßer Kollerte ein mahl rum, doch ohne Schaden eines einigen
+               Menschen, Br[uder] Teltschich verlaß uns was auß der 33sten Woche des Diarri[ums] und ich Lößete ihn bald ab, es war alles sehr attent zum hören, gegen 4 Uhr beschloßen wir
+               mit singen etlich[er] Verßeln. Die Brr. [Brüder] musten alsdenn wieder zu ihrer Wache, den Abend Kriegten wir wieder ganz Calm haten
+               zur gewöhnlichen Zeit noch eine schöne singstunde und Abendseegen.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup18"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sontag den 15ten October</h3>
+            				   
+            <p>Sontag d[en] 15ten octo.[ber] wieder ein Charmanter Tag, aber zu unserm grösten Leyd
+               Weßen ganz Calm die See war spiegel glat, und fast gar keine bewegung, zwischen 9
+               u[nd] 10 Uhr haten wir Litaney mit einem gewiß zärtlichen gefühl, von allen gemeinen
+               allenthalben, und besonders dem Lieben Wesstmunster, um 11 Uhr war Predigt auf der decke, die Br[uder] Teltschig Englisch hielt, über die heutigen Texte, wir waren auch alle droben, es war eine
+               ungemein seelige und geseegnete versammlung, daß Schiffs Volck war so attent und ordentlich, daß es einem eine rechte Freude anzusehen war, der
+               gute Teltschig konte sich recht sehr gut expliciren, und zeigete erstaunlich ganz und freymüthig
+               von dem Verdienst des Lämlei[n]s wir Schw.[estern] Blieben hernach noch auf der decke, sangen daß Lied noch mit einem recht innigen
+               gefühl in Englisch. O Haupt voll Blut und Wunden, Nachm.[ittags] um 4 Uhr kammen wir
+               wieder in der Cabbine zusammen, zum verleßen, ich vertrat die Stelle eines Lectoren, weil mirs Br[uder] Teltschig auftrug, ich las die 33te Woche zu Ende, und die helffte von der 34ten dazu, es war schon ganz
+               dunckel, da wir auseinander giengen, die Dämmerung Brachte uns wieder ein angenehmes
+               S.[outh] E.[ast] Lüfftgen, daß wir doch 3 biß 4 Miles in einer Stunde giengen, ohne
+               daß mans sehr gewahr wurde, nach 8 Uhr haten wir singst.[unde] Worinen Br[uder] Teltschig über die Looßung seit donnerstag etwas redete, und mit dem Abendseegen dießen seeligen
+               und vergnügten Tag beschloß.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup19"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Montags den 16ten October</h3>
+            				   
+            <p>Montags d[en] 16ten octo.[ber] hate alles sanffte und gut geruht, denn die bewegung
+               vom Schiff war so geweßen, daß man Kaum was davon fühlte, daß Wetter war wieder excelent,
+               nebst einem angenehmen S.[outh] E.[ast] Wind, es gieng den ganzen Tag gar sehr niedlich
+               sehr sanffte, und doch auch hurtig, wir seegelten doch alle Stunden 5 biß 6 Meilen,
+               wir waren alle sehr danckbar und froh vor daß schöne Wetter, und Wind, und die geschw.[ister] befanden sich auch alle recht sehr wohl, zur singstunde kammen wir ein wenig früher
+               als ordinar, zusammen, ich Laß den noch übrigen Bogen von der 34ten Woche, worauf mit der singstunde und Abend
+               seegen der beschluß deß Tages gemacht wurde.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup20"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Dienstag den 17ten October</h3>
+            				   
+            <p>Dienstag d[en] 17ten octo.[ber] unser Wetter war heut ein wenig trübe, doch manche
+               Stunden mit unter, schöner Sonnenschein, der Wind aber zimmlich Contrair, doch nicht
+               Starck, die Schwestern Divertirt[en] sich auf der decke, Kriegten einen grampus zu sehen, der die längste Zeit um unser Schiff herum spielte, einmahl auf der einen,
+               und einmahl auf der andern seite, zu sehen war, und unterm Schiff immer durch Kroch,
+               es war ein Fürchterliches unangenehmes Thier, bald nachdem dießes vorbey, sahen sie
+               auch einen todten Crockodill schwimmen, der unfehlbar aus einen andern Schiff geworffen worden war, der Wind wurde
+               gegen Abend immer Schwächer, und auf die Nacht ganz Calm. Unsere singst.[unde] war
+               in ihrer Ordnung, mit dem seeligen Wehen und gnadengeist der sich in allen unsern
+               zusammen Künfften auf unserm Schifflein verspühren Läßt.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup21"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Mitwochs den 18ten October</h3>
+            				   
+            <p>Mitwochs d[en] 18ten octo.[ber] dießen Morgen haten wir noch immer Calm die Porposses spielten bey einer stunde lang um unser Schiff rum, es war trübe und sahe aus als
+               obs wieder Sturm geben würde, es klährete sich aber auf, der Wind fieng stärck[er]
+               an zu wehen, aber S.[outh] S.[outh] W.[est] wir rückten aber Brav fort, es war alles
+               fast Kranck, die bewegung war starck, weils so scharf bey dem Wind gienge, zur singst.[unde]
+               abends aber fand sich zimmli[ch] alles wieder ein, Br[uder] Teltschig erinnerte daß heute Johannes geburths Tag sey, und wir sangen ihm etliche Verßel, Nachher haten wir noch ein kleines
+               Liebsm.[ahl] weil sichs die Schw.[estern] ausgebetten haten, von dem Schwarzen Brod, daß wir noch von Wesstmünster mitgebracht haten, und ein Wenig Wein darzu, alles und jedes von den geschw.[istern] Kriegte etwaß davon, wir waren erstaunlich Munter und vergnügt.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup22"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Donnerstag den 19ten October</h3>
+            				   
+            <p>Donnerstag d[en] 19ten octo.[ber] Wars Wetter noch immer Hüpsch und der Wind S.[outh]
+               S.[outh] W.[est] wie gestern, wir haten wieder Lang daß vergnügen die Porpeses um unser Schiff spielen zu sehen. Der wind wurde je länger, je stärcker, und daß
+               Mitag eßen wurde zimmlich in unruhe eingenomen, die Schw.[estern] Waren auch wieder recht Kranck, der Wind wurde Abends noch Stärcker, so daß es einem
+               sturm nicht unähnlich war, die bewegung vom Schiff war auch ganz erstaunlich Starck,
+               und es war nicht Möglich singstunde zu haben, deß Wegen begab sich alles Bald zur
+               ruhe.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup23"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Freytag den 20ten October</h3>
+            				   
+            <p>Freytag d[en] 20ten octo.[ber] nach einer erstaunlichen unruhigen Nacht wars Wetter
+               doch Beßer als wirs erwartet haten, früh Calm und eine hohe See, gegen Mitag fing
+               der S.[outh] W.[est] Wind, wieder ein bißel anzuwehen und es Klährete sich gar sehr
+               schöne auf, gegen Abend, nur häte man gewünscht, daß der Wind ein Wenig favorabler
+               wäre, in der singst.[unde] besangen wir die Texte und Looßungen von gestern und heute,
+               und es eilte alles gar sehr zu Ruhe, weil die vorige Nacht sehr unruhig geweßen war.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup24"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sabbaths den 21ten October</h3>
+            				   
+            <p>Sabbaths d[en] 21ten octo.[ber] kammen wir endlich an die Lieben Azores, unser Wetter war ein bißel Stürmisch, und der Wind N.[orth] N.[orth] W.[est] wir
+               vermutheten auch nicht daß wir ohne Sturm würden vor den azores vorbey kommen, es Blieb aber immer ein schöner Klarer Himmel, gegen Abend aber wurde
+               der Wind immer stärcker und es gab so kleine Quals mit unter, indeßen giengen wir
+               unsern Cours, und recht schöne fort, aber an Sabbaths l[iebes]m.[ahl] oder singst.[unde]
+               war nicht zu dencken, es wehete sehr hart, und die bewegung deß Schiffs war erstaunlich
+               starck, die Schwestern waren wieder Brav Kranck.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup25"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sontags den 22ten October</h3>
+            				   
+            <p>Sontags d[en] 22ten octo.[ber] haten wir einen unvergleichlichen N.[orth] E.[east]
+               Wind, und giengen alle Stunden 8 Meillen, O Wie erfreulich war daß, wie herzlich gern
+               vertrug man dieß motion, es war gar Charmantes Wetter, den ganzen Tag, und Blieb auch
+               so, wir waren alle recht Munter, glaubten und fühlten gewiß daß Papagen in ihrem Sontage an uns dencken würden, und auch unser allerliebstes Mütterlein ihr Theilgen bey tragen wird, uns in sein herz zu flehn, der doch Würcklich unser
+               ein und alles ist. Wir haten einen solchen schönen Abend, als wir noch keinen gehabt
+               haben, kammen bald nach 7 Uhr zur singst.[unde] zusammen, Worinen Br[uder] Teltschig über die gestrige und heutige Looßung redte, die davon handelten daß uns unser Mann
+               gern rein sähe, im innern und im scheine, hernach Laß er uns auch die Texte die so
+               admirab[le] waren, die heutigen genoßen wir realiter, nach der rede deß Heylands Nehmet
+               hin den Kelch pp. Wir haten den Kelch der dancksagung, und thaten uns einmahl waß
+               rechtes zu gute.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup26"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Montag den 23ten October</h3>
+            				   
+            <p>Montag d[en] 23ten octo.[ber] haten wir wohl schönes Wetter, aber Calm und der Wenige
+               Wind der sich gegen Mitag erhub war Contrair. Die Porpeses spielten wieder Brav um uns herum, worauf wir etliche Quals Kriegten, und in denenselben
+               kriegten wir auch wieder zimmlich guten Wind, so daß es den Nachmitag wieder recht
+               Brav fort gieng, unsere singst.[unde] haten wir zur gewöhnlichen Zeit, aber etwaß
+               sehr unruhig, wir wurden zimmlich gewiegt, doch wars sehr niedlich.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup27"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Dienstag den 24ten October</h3>
+            				   
+            <p>Dienstag d[en] 24ten octo.[ber] haten wir wieder ein Charmantes Wetter, und einen
+               sehr favorablen Wind, Wovor wir alle gar sehr danckbar und froh waren, wir Divertirten
+               uns den ganzen Tag, gar sehr Fleißig auf der decke, gegen abend wurde der Wind etwaß
+               schwächer und auf die Nacht ganz Calm aber ein unvergleichlich Wetter. <br />Zur singst.[unde] kammen wir bald nach 7 Uhr, zusammen, und ich verlaß die helffte
+               von der 35ten Woche. Es Waren gar Charmante reden drinnen, von unserm allerliebsten
+               Papagen, an denen wir uns recht Delectirden, und mit singst.[unde] und Abendseegen beschloßen,
+               dießen Abend waren wir auch völlig denen Azores vorbey.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup28"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            					   
+            <h3 style="text-align: center;">Mitwoch den 25ten October</h3>
+            				   
+            <p>Mitwoch d[en] 25ten octo.[ber] war ein ganz extra ordinarer schöner Tag, es war Wetter
+               wie Mitten im Sommer, und ein Moderater Hüpscher Süd Wind, mit dem wir ganz niedlich
+               avancirten, alles stand auf und diverdirte sich auf der decke, auch unsere allerkräncksten
+               Schwestern, wir danckten dem Lämmlein vor seine unbeschreibliche Treue, und gnade an uns armen
+               Kindern, und Waren alle sambt recht sehr vergnügt[.] Der Wind fieng immer stärcker
+               anzuwehen, und nachmitags überzog sich der Himmel ganz und gar, mit finstern Wolcken,
+               und auf die Nacht wurde es ganz Stürmisch, wir konten keine singst.[unde] haben, es
+               machte sich alles gar bald zur Ruhe.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup29"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Donnerstag den 26ten October</h3>
+            				   
+            <p>Donnerstag d[en] 26ten octo.[ber] nach einer ganz erstaunlichen schlechten Nacht War
+               alles wieder Brav Kranck, und die Schw.[estern] steckten alle in ihren Coyen, biß auf etlich Wenige, die See war erstaunlich unruhig,
+               und die Wellen warffen uns Brav rum, der Wind wurde dießen vor Mitag wieder North,
+               und Wenn wir Wegen der tobenden See häten Seeglen können, so würde es Brav gerutscht
+               seyn, denn der Wind war hüpsch frisch, und daß Wetter Admirable, Nachm.[ittags] sahen
+               wir einen gar Extrao[r]dinaren schönen Regenbogen, der gerade vor unserm Schiff standt,
+               ich gesteh es gern ich habe in meinem Leben nichts schöners gesehen, wir freuten uns alle erstaunlich drüber,
+               der Wind Continuirte N.[orth] N.[orth] W.[est] es war sehr unruhig, doch dem ungeachtet
+               haten wir Abends unsere singst.[unde] Delectirten uns an den Charmanten Looßungen
+               und Texten von gestern und heute, und besangen unser Lämmlein mit heller Stimme.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup30"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Freytag den 27ten October</h3>
+            				   
+            <p>Freytag d[en] 27ten octo.[ber] unser Wetter war heute trübe, aber ein Charmanter N.[orth]
+               N.[orth] E.[ast] Wind, der uns unvergleichlich fort Brachte, die bewegung vom Schiff
+               aber war sehr arg, so daß die Meisten wieder recht Kranck waren, indeßen wenns nur
+               avancirt, so ist man gar herzlich gern zufrieden, Nachm.[ittags] waren wir alle auf
+               der decke, und ich verlaß die 35te Woche, und die helffte der 36ten noch darzu, es
+               gieng wohl ein wenig unruhig, doch beßer als wenn wir in der Cabbine geweßen wären,
+               die singstunde aber haten wir unten zur gewöhnlichen Zeit doch mußten wir uns Kurz
+               Expediren, weil die bewegung gar zu Starck war, eine Freude haten wir noch dießen
+               Abend dem Meer zuzusehen, wie feurig es außsahe, die funcken flogen um uns herum,
+               weil daß Schiffgen so geschwind lief, der N.[orth] N.[orth] E.[ast] Wind Wehete zimmlich
+               starck.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup31"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sabbaths den 28ten October</h3>
+            				   
+            <p>Sabbaths d[en] 28ten octo.[ber] war unser Wetter wie gestern trübe, aber der Wind
+               ganz East, und nicht starck, unsere Schwestern mußten heute auf der decke Wohnen, Weil allerley in ihrer behaußung zu machen war,
+               die pumpe war leck geworden, und daß gab ein hübsches Bißel Arbeit, sie wahren alle
+               zimmlich wohl, und es hate also keine Noth, nach 4 Uhr Nachm.[ittags] kam alles zusammen
+               auf die decke, und ich Las die 36te Woche zu ende, und ein Stück aus der 37ten, biß
+               es ganz dunckel war, mit der Nacht wurde der Wind E.[ast] S.[outh] E.[east] und wir
+               avancirten Brav, unsere <br />singst.[unde] war heute ein Wenig ruhiger, als die Tage her, und es war alles recht
+               vergnügt und Muntter.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup32"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            					   
+            <h3 style="text-align: center;">Sontags den 29ten October</h3>
+            				   
+            <p>Sontags d[en] 29ten octo.[ber] haten wir noch immer trübes Wetter, aber immer schönen
+               S[outh] E.[ast] Wind, es war die ganze Nacht recht Brav fortgerückt, und Continuirte
+               auch so, um Mitags Zeit rechnete der Capitain aus daß wir in den 24 Stunden 172 Meilen in unserm Cours gelauffen wären, ohne waß
+               wir seitwärts geseegelt sind, daß Klang sehr schön in unsern Ohren, und wir Nahmens
+               mit großer Freude und Danck an, es befand sich alles sehr Wohl und Muntter und fleißig
+               auf der decke, daß Wetter Blieb hüpsch, und der Wind auch gut, wurde aber immer mehr
+               Südlich, und wir Kriegten eine erstaunliche hize, es war so Warm daß es Miten im Sommer
+               nicht heißer seyn kan, unsere singst.[unde] haten wir zur gewöhnlichen Zeit sehr Kurz
+               aber seelig und niedlich.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup33"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Montags den 30ten October</h3>
+            				   
+            <p>Montags d[en] 30ten octo.[ber] haten wir S.[outh] S.[outh] W.[est] Wind, rückten aber
+               doch immer Brav fort, in unserm Cours, daß Wetter war veränderlich, bald regnete es,
+               bald schien die Sonne, aber immer erstaunlich Warm, Abends gabs einen Braven Squal
+               Worauf wir etwa eine halbe Stunde Calm haten, und denn kam ein Charmanter N[orth]
+               E.[east] Wind, der war aber bey Nah zu Starck, die See sehr Wild, und auß S.[outh]
+               W.[est] daß gab eine ganz entsezliche bewegung, es schmieß und fiel alles zusammen,
+               und war heut Abend nichts Weiter zu thun, als daß man die Schw.[estern] in ihre betten gehen Ließ. Denn zum singst.[unde] halten war keine Möglichkeit, ich blieb aber auf, und Divertirte die geschw.[ister] mit meiner Citter bey Nah 2 Stunden, und war bey aller unruh gar erstaunlich vergnügt
+               und seelig, Wir waren heute die Bäncke von Terra neuf paßirt (dießen Nachmitag) führten die Nacht nur ein seegel, und liefen doch alle
+               Stunden 5 biß 6 Meillen.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup34"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Dienstag den 31ten October</h3>
+            				   
+            <p>Dienstag d[en] 31ten octo.[ber] nach einer erstaunlichen unruhigen Nacht befand sich
+               alles doch zimmlich wohl, die Wellen haten es noch ganz gnädig gemacht, aber dießen
+               Morgen kam eine ganze See herein, und daß Waßer war wie ein Strohm, die Treppe runter
+               zu den Schw.[estern] und Auch in die Cabbine, doch gab sich dießen vormitag alles, die See war endlich
+               mit uns, und die bewegung vom Schiff war auch nichts mehr gegen daß, waß es geweßen
+               war, daß Wetter war auch ganz Hübsch, nur Offte Kleine Squals, die aber nichts zu
+               sagen haten, der Wind immer N.[orth] N.[orth] E.[ast] wie wir ihn gestern bekomen
+               haten, und wir segelten alle Stunden 8 u[nd] 9 Meillen, unsere singstunde war heut
+               ruhiger und stiller als wirs eine weille her gehabt haten.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup35"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">November 52<br /><br />Mitwochs den 1sten</h3>
+            				   
+            <p>Mitwochs d[en] 1sten haten wir trübes Squalisches Wetter und Wind S.[outh] S.[outh]
+               W.[est] wir seegelten in unserm Cours sehr geschwinde fort, gleich nach dem Mitag
+               eßen sahen wir ein Schiff sehr von fernen, daß nach Europa seegelte, es währete auch keine 4telst.[unde] so waren wir ganz Nahe anein ander,
+               es wär gern zu uns gekommen aber wir segelten so geschwind vorbey, daß keine Möglichkeit
+               zum zusammen kommen war, wir ver lohren es bald wieder auß dem gesicht, die Schw.[estern] Waren bey alle dem daß es so starck gieng, doch zimmlich alle Munter, und Wohl, konten
+               aber nicht viel auf der decke seyn, weil es Offt regnete, und mit dem dunckel werden
+               wurde der Himmel so schwarz, und so finster daß man kaum eine hand vor sich sehen
+               konte, und man machte sich auf einen Braven Sturm zu rechte, es fieng auch gleich
+               ent sezlich an zu regnen, und der Wind wurde ganz Contrair wir lagen bey, es schmieß
+               gar erstaunlich, dem ungeachtet aber haten wir doch singst.[unde] in der innigsten
+               Nähe unsers Lämmleins freuten uns über die schöne Looßung die wir haten: Es freue
+               sich der Berg Zion, die Tochter Juda sey frölich Psalm 48. Waß Leib und Seel vermögen,
+               daß solln sie billig Legen, allzeit an deinen Dienst und Ehr.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup36"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Donnerstag den 2ten November</h3>
+            				   
+            <p>Donnerstag d[en] 2ten Nov.[ember] nachdem es fast die ganze Nacht in einem fort geregnet
+               hat wars dießen Morgen so zimmlich, wir seegelten auch seit 4 Uhr wieder ein Wenig
+               mit N.[orth] W.[est]Wind, doch währete die freude nicht Länger als biß um 8 Uhr, da
+               fiengs so ent sezlich an zu Stürmen, daß man alle seegel wieder ein zog, und beylegte,
+               und so blieben wir auch den ganzen Tag, die See war so wütend und raßend daß die Wellen
+               so hoch als der Mast Waren, wir verbrachten unsere Zeit ganz vergnügt, saßen beysammen
+               und Arbeiteten fleißig, singst.[unde] Konten wir heut keine haben, ich aber gieng mit meiner Citer zu den Schw.[estern] und spielte ihnen, da sie schon in ihren Betten Waren, zum einschlaffen.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup37"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Freytag den 3ten November</h3>
+            				   
+            <p>Freytag d[en] 3ten Nov.[ember] haten wir noch immer Sturm, wie gestern von N.[orth]
+               N.[orth] W.[est] wir lagen bey, und der Sturm trieb uns immer mehr nach Süden, aller
+               Stunden 2 u.[nd] mehr Meilen, vor Mitag war es zimmlich wie gestern, aber es wurde
+               alle Stunden Ärger, und sah nachmitag recht betrübt aus, allenthalben, der Wind haußete,
+               als ob er erst an gefangen hete, und die Wellen überdeckten unßer Armes Schiffgen
+               fleißig, unsere singst.[unde] konten wir wieder nicht haben, ich gieng also zu meinen Schw.[estern] mit meiner Citter, und Ließ mir von jeder ein Verßgen geben, theils die Disposition
+               ihres herzens draus zu sehen, theils ein Divertisement vor sie und auch vor mich zu
+               haben, ein jedes gab mir sein liebstes, und wir sangen würcklich wie die Eng[e]lchen
+               (Wenn ich so sagen darf) es gefiel mir würcklich wohl, und hate in meinem herzen freude drüber,
+               wie sich ein jedes aus denckte, dießes seelige Stündgen beschloß ich mit dem Abend seegen, und denn gieng alles seelig zur ruhe. Der Sturm war nicht so
+               hefftig dießen Abend, und es schien als Würde es Beßer werden.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup38"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sabbaths den 4ten November</h3>
+            				   
+            <p>Sabbaths d[en] 4ten Nov.[ember] Nachmiternacht fieng es wieder aufs Neue an zu Stürmen,
+               und fast viel Ärger, als es die paar Tage gethan hate, es war ein ganz entsezliches
+               Wetter, wir wurden Früh von einer See überschwemmt, daß daß Schiff ziterte, wir haten
+               nichts zu thun, als ein Faß voll Waßer nach dem andern nauf zu tragen es hate bey
+               den Schw.[estern] und in der Cabbine alles überschwemt so giengs denn den ganzen vor Mit-Tag, fort,
+               eine Welle über die andere kam ins Schiff rein, doch war keine mehr so arg, als wie
+               dieße von heut Morgen war, ein Stück holz daß unversehens die Treppe runter rolte,
+               häte mir mein bein entzwey schlagen können, denn es fiel gerad auf mich, und darzu
+               auf einen Bößen plaz, mein Engelchen Aber war wohl zur hand, daß mirs weiter nichts
+               schadete, als das es bey einem Braven Schlag bliebe, der mir zwar nichts lähmete,
+               mir aber doch verbott ein paar Tage rum zu laufen. Mitags klährete sich daß Wetter
+               ein Wenig auf, und der liebe N.[orth] N.[orth] W.[est] Wehete ein Wenig moderater,
+               wir danckten dem Lämmlein vor daß, um 5 Uhr nachm.[ittags] fiengen sie wieder an zu
+               seeglen, die See aber war so wilde daß die bewegung fast unaußstehlich war, die Wellen
+               kammen auch fleißig rein geschlagen, und es Wolte eben nicht gehen, man nahm also
+               um 10 Uhr die Seegel ein.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup39"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sonntags den 5ten November</h3>
+            					   
+            <p>Sonntags d[en] 5ten Nov.[ember] mit Tages anbruch fieng man wieder an zu seglen, daß
+               Wetter war immer Squalisch, doch nicht mehr solcher Sturm, der Wind aber immer einerley,
+               ein Charmanter Regen bogen war so nah an unserm Schiffgen, daß man ihn hete greifen
+               können, der er freuete uns allen gar erstaunlich, es Waren noch viele dießen Tag über,
+               denn es regnete Offt, wir fuhren unsern Cours recht hüpsch fort, der Wind aber war
+               und blieb einerley, doch wurde er nachmitags fast ganz N.[orth] und der Abend wurde
+               recht hüpsch, in der singst.[unde] (die wir heut ein mahl haben konten) holte Br[uder] Teltschig die Looßungen nach, seit donnerstag, weil wir vor dem Sturm nicht haten zusammen
+               kommen können, und redete etwas drüber, und so auch über die Texte, gar sehr niedlich
+               und hüpsch und denn besangen wir unsern allerliebsten Schmerzens Mann indeßen heilgen
+               herzens Closter wir so sellig beysammen sind nach der heutigen Looßung.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup40"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Monntags den 6ten November</h3>
+            					   
+            <p>Monntags d[en] 6ten Nov.[ember] haten wir den ganzen Tag recht schlechtes Wetter,
+               der Wind ganz Contrair, und ein Squal über den andern Nachm.[ittags] konten wir doch
+               dan und Wann etliche Minuten auf der decke sein, welches eine große Freude vor die
+               Schw.[estern] War, Abends Wurde das Wetter Hüpsch, und Calm die See aber sehr hoch, das gab also
+               eine ganz erstaunliche unruhe, und wir waren nicht im Stande singst.[unde] zu haben,
+               der Calm währete nicht gar lang, so haten Wir die Freude zu vernehmen, daß ein angenehmer
+               moderater N.[orth] N.[orth] E.[ast] Wind Wehete, bey Welchem Wir noch recht Brav häten
+               fort seeglen können, Wenn nicht die Wüttente See aus S.[outh] W.[est] uns dran verhindert
+               häte, Was daß vor Freude bey den allen Schwestern verursachte, ist nicht zu beschreiben, es machte uns ganz Muntter, etliche von uns
+               giengen noch um 10 Uhr auf die decke, ich nahm meine Citter mit, und wir sangen daß Lied zusammen, O Haupt voll Blut und Wunden
+               pp. und noch sonst allerhand Verßel.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup41"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Dienstag den 7ten November</h3>
+            					   
+            <p>Dienstag d[en] 7ten Nov.[ember] gab uns daß Lämmlein einen frölichen Tag, wir haten
+               einen Charmanten E.[ast] N.[orth] E.[ast] Wind, die See auch nicht mehr so Wilde,
+               und wir rückten Brav fort, dazu haten wir ein solch angenehmes Wetter als Wenns Mitten
+               im Sommer Wäre, wir waren fleißig auf der decke, und die Schw.[estern] befanden sich alle Muntter und Wohl, Nach.[mittags] kammen wir in der Cabbine zusamen,
+               und ich las bey Nah anderthalb Stunden aus der 37ten Woche, es blieben mir aber noch ein
+               paar Bläter übrig, vom Ältesten Fest, die Las ich denn noch in der singst.[unde] die heut ein Wenig früher als ordinair angieng, nachdem
+               ich mit Leßen fertig war las uns Br[uder] Teltschig die Looßungen und Texte gestern und heute vor, und Wir haten Materie dem Lämlein
+               zu dancken, denn sie Waren auch einiger Maßen bey uns in die erfüllung gegangen, denn
+               erinnerte er unsere gute Mama, an der wir so manches Jahr eine treue Mutter und Pflegerin der gemein gehabt häten
+               und sang ihr etliche Verseln die wir von herzen mit anstimmten, nach der singstunde
+               haten wir noch ein Liebesmahl, mit Schiffs Bisquit und Wein, ihnen zum andencken,
+               und unser gutes nesel War auch mit eingeschloßen, und ihr ein paar Versel gesungen zum andencken ihres
+               geburths Tages, an den wir uns gestern in der Stille erinnert haten, wir Waren erstaunlich
+               vergnügt, und begaben uns auch so zu Ruhe.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup42"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Mitwoch den 8ten November</h3>
+            				   
+            <p>Mitwoch d[en] 8ten Nov.[ember] nach einer gar Charmanten Nacht und favorablen Winde
+               befand sich alles recht Wohl und gesund, die See war fast spiegel glat, und eine angenehme
+               N.[orth] E.[ast] Lufft führete uns ganz ohne bewegung sachte fort, es war ein Ordentlich
+               Spazieren fahren, Nachm.[ittags] Las ich die 38te Woche halb, wir waren darzu auf der decke, versammlet, weil die Brr. [Brüder] just ihre Wache haten, es gieng sehr niedlich, denn es War zimmlich stille, der Wind
+               starb nach und Nach, wir delectirten uns sehr an den allerliebsten reden, die ob wir
+               sie gleich die Meisten alle mitangehört, uns doch so Neu Waren, als hörten wir sie
+               just aus Papapens Munde, gegen Abend Wurde es fast ganz Calm aber daß Wetter war gar zu schöne, und
+               wir hielten unsere Singst.[unde] heut einmahl auf der decke, welches uns eine ordentliche
+               wohlthat war, denn unten war eine solche desperate hize, das man es kaum außstehen
+               konte.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup43"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Donnerstag den 9ten November</h3>
+            				   
+            <p>Donnerstag d[en] 9ten Nov.[ember] war wieder gar extra-ordinares schönes Wetter, aber
+               immer noch Calm und daß Bißel Wind daß zu spühren war, war Contrair W.[est] N.[orth]
+               W.[est] wir trieben eben auf der Spiegel glaten See so ein bißel rum, ohne die geringste
+               motion, gegen Mitag fieng es wieder ein Bißgen an zu wehen, und in einer 4telstunde
+               Zeit überzog sich der ganze Himmel mit einer Schwarzen Wolcke, man machte sich zu
+               einem Braven Sturm zu rechte, es war aber nichts als ein ganz erstaunlich starcker
+               regen, und in einer Zeit von einer Stunde war alles wieder vorbey und wir giengen
+               wieder auf die decke, der Wind war starck, und ganz Contrair, die See auch wieder
+               zimmlich hoch, so das uns die starcke bewegung deß Schiffs nicht zu ließ singst.[unde]
+               zu haben.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup44"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Freytags den 10ten November</h3>
+            				   
+            <p>Freytags d[en] 10ten Nov.[ember] segelten wir bey unserm N[orth] N.[orth] Bey W.[est]
+               Wind doch noch zimmlich unsern Cours es war Brav Kalt, und that einem um desto Länger
+               auf die große hize die wir die paar Tage gehabt haten, dem ungeachtet war zimmlich
+               alles auf der decke, und die Schw.[estern] hipsch Muntter, nachm.[ittags] Las ich die Lezte helffte von der 38ten Woche, die lezte die wir zu leßen haten, in der Cabbine,
+               worinen gar sehr Wichtige reden an die Chöre waren, man erfrischte sich recht daran,
+               unser Wetter war ganz hübsch, der Wind schwach, wir besangen in unserer singstunde
+               Abends die gestrigen und heutigen Texte und Looßungen, unser Schiffgen gieng sehr
+               Stille und wir haten meist Calm.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup45"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sabbaths den 11ten November</h3>
+            				   
+            <p>Sabbaths d[en] 11ten Nov.[ember] war noch immer schwacher Wind, aber S.[outh] W.[est]
+               er wurde aber gegen Mitag immer ein bißel Stärcker, und wir avancirten zimmlich, daß
+               Wetter war auch recht schöne, und die Schw.[estern] fleißig auf der decke, Nachm.[ittags] wurde der Wind immer stärcker und stärcker,
+               und am Abend sahe es einem Sturm nicht unähnlich, die See wurde sehr hoch, und die
+               bewegung deß Schiffs war erstaunlich Arg, wir konten wieder keine singst[unde] halten,
+               empfohlen uns aber ein jedes in seinem Winckelgen deß Lämmleins seiner Protection
+               auf eine aparte Weiße.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup46"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sontags den 12ten November</h3>
+            				   
+            <p>Sontags d[en] 12ten Nov.[ember] daß Wetter war heute zimmlich hibsch, der Wind aber
+               ganz Contrair N.[orth] W.[est] und wir kammen nicht viel vom fleck, nachm.[ittags]
+               drehete er sich wieder nach S.[outh] S.[outh] W.[est] es war sehr Warme Lufft, und
+               allenthalben Ängstlich, in der singst.[unde] abends er innerte Br[uder] Teltschig den Morgenden Tag sehr nachdrücklich, und daß die geschw.[ister] Möchten alles miteinander unter sich selbst und auch mit dem Heyland außmachen, damit
+               wir ein recht seeliges fest halten möchten, pp. nach dem Abendseegen begab sich alles
+               Bald zur ruhe, denn es war allenthalben zimmlich un ruhig, es fieng wieder erstaunlich
+               hart an zu wehen, und man zog wieder alle Seegel ein, es war entsezlich finster, und
+               regnete als obs mit kannen göße.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup47"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Montags den 13ten November</h3>
+            				   
+            <p>Montags d[en] 13ten Nov.[ember] stand alles um 7 Uhr auf, und versamlete sich gegen
+               8 Uhr in der Cabbine zusammen zum Morgenseegen, wir besangen unsern Ältsten mit Beugungs
+               Vollen herzen, und zärtlichem gefühl, Br[uder] Teltschig that auch ein erstaunlich gebeth; Er bat ihn unsern theuren Ältsten uns recht innig
+               Nah zu sein, und uns auch mit Theil haben zu laßen an dem seegen den die gemeinen
+               unfehlbar an allen Orten von ihm zu genießen haben werden. Es war eine recht seelige
+               4telstunde Pater familias, hat sich ins herz geprägt, unds Auge Roth und Naß, vor
+               ihm in Staub gelegt, daß Wetter war erstaunlich trübe, so das es gar nicht recht Tag
+               Wurde, und bald nach dem Morgenseegen da wir alle ganz niedlich und seelig beysammen
+               saßen, kam ein gar erschröcklich Wetter, Es donnerte und Blizte und regnete, und war
+               so finster daß man fast nichts sehen konte, darzu wurden auch alle finster zugemacht,
+               alle segel eingenomen, und wir trieben eben so rum den ganzen Tag, und die ganze folgende
+               Nacht unter dem allerentsezlichsten Stürmen, einen solchen Sturm haben wir auf der
+               ganzen reiße noch nie gehabt, als wie dießer war, unter allen dießen Stürmen fieng
+               unser Mr. Waston einen schönen Dolphin mit der Angel, welches eine große Neuigkeit vor uns alle war, es war gar ein sehr
+               schöner Dolphin, der Sturm den wir haten kam aus S.[outh] W.[est] die Wellen waren Abends recht tobend,
+               es schlug immer eine über die andere ins Schiff daß alles ziterte und Bebte, und es
+               war als Wenn alles in Stücken gehen solte, eine Welle gab einmahl einen solchen Stoß,
+               daß unsere Arme Juliana Wecklern (die eben einmahl auf war) von einer seite deß Schiffs zur andern geschmießen Wurde,
+               an einen kasten an, daß ihr der Kopff häte zerschmertern können, es fehlte gewiß nicht
+               mehr als ein halber finger Breit, so häte es den Schlaf getroffen, und wir häten sie
+               aus unserer gesellschafft vermißt, eh sie, noch auch wir uns häten recht besinnen
+               können, die Englischen aber haben da auch ihren Dienst treulich beobachtet, und wir danckten dem Lämmlein
+               gar sehr vor seine Treue, es kriegten etliche von den Schw.[estern] mehr zimmlich harte Stöße bey dem schlag, doch alles ohne Weitere Consequenz, ich blieb auf biß Nachm.[itter]n.[acht] der Wind drehete sich um Mitternacht nach North,
+               und sie wendete daß Schiff, aber da fiengs erst recht anzuhaußen, es ziterte und bebete
+               alles unter uns, und ich habe nachher erst erfahren, daß man Beil und Axt schon parat
+               gehalten die Mäste abzukapen, doch wußten wir keins nichts davon, wie Arg es war,
+               wir Waren ganz vergnügt und seelig ein jedes in seiner Stille, mit dem Lämmlein, es
+               wird uns aber allen ein ewiger gedächtnüs Tag bleiben.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup48"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Dienstags den 14ten November</h3>
+            				   
+            <p>Dienstags d[en] 14ten Nov.[ember] Früh Wurden wir mit der Nachricht erfreut das wir
+               schönen N.[orth] bey. E.[ast] Wind haten, und sie zogen mit Tages Anbruch auch wieder
+               die 2 Segel auf, es stürmete nicht mehr, die See aber war sehr unruhig und wir konten
+               nicht sehr avanciren, Mitags machten wir eine schöne Mahlzeit von dem unvergleichlichen
+               Dolphin, jedes Kriegte ein Bißgen davon, obs gleich nicht viel war, Nachm.[ittags] war fast
+               gar kein Wind, und die See wurde auch ruhig, also resolvirtirten wir heut Abend unser
+               abendmahl zu halten, zu dem Ende sprach ich alle meine Schwestern die eine große Freude drüber haten, weil sie alle voll verlangen Waren darnach, mit
+               den Brr. [Brüdern] redte Br[uder] Teltschig, vor 8 Uhr wurde noch alles zu recht gemacht, und nach 8 Uhr kammen wir gleich zusammen,
+               und rangirten uns so, daß wir zimmlich Plaz haten, Br[uder] Teltschig redete erst über die Looßung und Texte etl.[iche] wenige Worte, alsdenn baten wir
+               uns absolution von unserm theuren Ältsten über alles auß, em pfohlen uns seinem herzen
+               aufs Neue und danckten ihm auch vor seine Treue und bewahrung am gestrigen Tage an
+               uns seinen Kindern, und haten alsdenn ein ganz unaußsprechlich seeliges Ab[end]m.[ahl]
+               es gieng auch alles recht allerliebst und ordentlich, und War eine Todt-stille, auf
+               dem ganzen Schiff just als obs bestelet Worden wäre, man hörte keinen Trit noch wort
+               auf der decke, es war gar zu ein seeliges gefühl, wir thaten uns alles was rechts
+               zu gute, stilten unsere herzen am Manne J.[esus] C.[hristus] alles war dabey biß auf
+               die Juliana und Schulzin, denen brachte es Br.[uder] Teltschig in ihre betten, weil sie nicht wohl auf sein konten, so bald es vorbey war, Küßten
+               wir uns, und dann gieng alles zur ruhe ins weiche Betlein seiner Seite.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup49"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Mitwoch den 15ten November</h3>
+            				   
+            <p>Mitwoch d[en] 15ten Nov.[ember] nach einer gar Charmanten ruhigen Nacht darinen alles
+               wohl und seelig geruht hate, standen wir auch wieder so auf, unser Wetter war gar
+               sehr schön, und der Wind auch zimmlich favorable dießen vormitag, nachmitag aber überzog
+               sich der himmel ganz schwarz, doch blieb der Wind S.[outh] S.[outh] E.[ast] und wir
+               Rückten Brav fort, doch war die bewegung vom Schiff sehr starck, wir haten unsere
+               singst.[unde] zur gewöhnlichen Zeit sehr kurz, aber recht niedlich, ich blieb wieder auf, biß nachmiternacht, weil es gar bedencklich draußen außsahe, doch
+               blieb es zimmlich moderat bis 12 Uhr, aber alsdenn kam wieder ein rechtes Wetter,
+               es regnete, und war so finster daß man kaum eine hand vor sich sehen konte, und blizte
+               von allen seiten zusammen, das es manchmal außsahe als ob alles im feuer stünde, so
+               währete es bis 4 Uhr, eh das blizen aufhörte, und auch wieder ein wenig moderat wurde.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup50"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Donnerstag den 16ten November</h3>
+            				   
+            <p>Donnerstag d[en] 16ten Nov.[ember] War die See sehr wild und der Wind S.[outh] S.[outh]
+               W.[est] doch giengs noch so zimmlich unsern Cours fort, die Wellen aber grüßten uns
+               fleißig, Nachm.[ittags] sah es recht melancolisch aus, der himmel war auf allen seiten
+               überzogen, und man Wußte nicht was es geben würde, die seegel wurden alle eingezogen
+               und wir redirirten uns auch in unsere Winckelgen, es wurde aber ganz stille, und fieng
+               ganz entsezlich an zu regnen, es regnete auch den ganzen Abend, so fort, der Wind
+               drehete sich wieder nach Northen und wir häten hibsch fort seglen können, wenn nicht
+               die See so wild geweßen wäre, wir konten dießen Abend keine singst.[unde] haben deßwegen
+               machte sich alles bey Zeiten zu bete.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup51"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Freytag den 17ten November</h3>
+            				   
+            <p>Freytag d[en] 17ten Nov.[ember] Wars recht sehr Kalt, es wehete ein frischer N.[orth]
+               E.[ast] Wind, der uns Brav fort gebracht haben würde, wenn die See nicht so wilde
+               geweßen wär, wir kammen deßwegen nicht gar weit, doch giengs hibsch, daß Wetter war
+               schön und helle, Nachm.[ittags] giengs schon beßer, die See war mit uns, Abends gegen
+               6 Uhr Warffen sie daß Bley zum ersten mahl aus, (denn alle ihre rechnungen waren aus,
+               veränderung der See konnte man auch sehen, schon seit heut Morgen) fanden aber keinen
+               grund, so thaten sie auch um 8 u[nd] 11 Uhr, Kriegten aber immer keinen grund, unser
+               Schiffgen flog als ein Pfeil dießen Abend, wir giengen recht vor den Wind, der auch
+               zimmlich starck war, die starcke bewegung ließ uns aber wieder nicht zu singst.[unde]
+               zu haben.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup52"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sabbaths den 18ten November</h3>
+            				   
+            <p>Sabbaths d[en] 18ten Nov.[ember] haten sie in der Nacht alle 2 Stunden daß Bley ausgeworffen,
+               und auch dießen Morgen um 6 Uhr, aber noch keinen grund, um 8 uhr warfen sie wieder
+               und fanden 55 faden grund, Ey waß Vor Freude machte daß bey uns allen, der Capitain wieß es selber allen und jeden, und gratulirte uns, und wir ihm, wir danckten dem
+               Lämmlein mit Kindlich gebeugten herzen, und die heutige Looßung war uns apart Wichtig
+               darzu, gehet zu seinen Thoren ein mit dancken, wir fuhren denn noch hibsch fort, dießen
+               Vorm.[ittag] um mitag Zeit aber war unser guter Wille alle; es regnete gar sehr und
+               wurde fast ganz Calm wir sahen vielerley um uns herum, Pengwins und andere kleine Vögelgen die wie Tauben außsehen, die spielten lang um uns herum, und fuhren immer unterm Schiff durch von
+               einer seite zur Andern, die Porpesses spielten auch in ganzen Troupen um unser Schiff rum, der Capitain warff eins mit der Harpune und Kriegte es glücklich, es war aber eine zimmliche Arbeit
+               biß sie es todt machen und rauf ziehen konten, daß ist ein garstiges Grauerl.[ich]
+               Thier, ganz acurat wie ein Schwein, sie nahmen ihm das Fett, welches sie zu Tran brauchen, und schmießen daß übrige
+               wieder in die See, Abends um 6 Uhr sancken sie wieder daß Bley und fanden 39 faden.
+               Wir haten wieder ein mahl singst.[unde] und holten unsere Looßungen und Texte seit
+               donnerstag nach, und waren alle recht vergnügt.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup53"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Sontags den 19ten November</h3>
+            				   
+            <p>Sontags d[en] 19ten Nov.[ember] war es vormitag ganz todt stille, wir haten 25 faden
+               Waßer, wir Krochen so ganz sachte fort, zu weillen schien ein bißgen Wind zu seyn,
+               es war aber nichts, daß Wetter war angenehm, der Strohm trieb uns fort mehr als dem
+               Capitain lieb war, und wir wären bald alle in verlegenheit gekommen, mit dem Abend aber schenckte
+               uns der Heyland einen Charmanten East wind, und wir fiengen recht Brav an zu rutschen,
+               es war ein extraordiner schöner Abend, wir haten den Schönsten Mondenschein, in der
+               singstunde redete Br.[uder] Teltschig über die Looßung und Lammes Text und bey gelegenheit deß Verßgens drunter. Wunder
+               guter Heyland wie sind sie zerstreuet, dachte er vieler geschw.[ister] und fast aller unserer gemeinen und beschloß mit dem Abendseegen. Der Capitain Blieb die ganze Nacht auf der decke, daß Wetter war Neblicht, und regnete manchmahl
+               ein wenig. Der Wind S.[outh] E.[ast] und brachte uns recht sanffte und niedlich fort,
+               das Bley wurde aber sehr Offt ausgeworffen.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup54"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Montags den 20ten November</h3>
+            				   
+            <p>Montags d[en] 20ten Nov.[ember] gegen 7 Uhr holte mich der Capitain auf die decke land zu sehen, es prasentirte sich uns schon zimmlich Nahe, man machte mit erwähnung desselben
+               unaußsprechliche Freude, bey allen, ich häte vor Freuden Weinen möge[n], da ich das liebe land endlich in Augenschein nahm, es war sehr Neblicht, klährete sich aber ein bißel auf,
+               und wir fuhren immer am lande hin, ohne einige hindernüß oder sonderbahre begebenheit, biß nachm.[ittags] zwischen
+               1 u[nd] 2 Uhr da fuhren wir in die lang gewünschte Sandy Hook nein, niedlich und hibsch mit einem gar schwachen winde, kaum waren wir drinne so
+               kam ein Pilot an Bord der sagte uns daß er Capitain Bryant just nein gebracht hete, wir sahen sein Schiff auch vor uns, wir fuhren denn mit
+               dem Strohm recht niedlich und sanffte fort, und es war alles unauß sprechlich vergnügt
+               und danckbar, daß uns das Lämmlein so glücklich hurtig und seelig an Land gebracht, kein einiges krannck, sondern alle gesund wie die Fische im Waßer, und
+               taußend Materien sonst zum danck, um 7 Uhr liefen wir in newyork ein, haten die Ancker noch nicht fallen laßen so kam schon ein ganzes Boat voll Brr. [Brüder] an Bord, die uns sehr herzlich be willkommeten und uns denn viel erzehlten, wir erkundigten
+               uns auch um alles, doch daß habe ich dir schon gemeldet, mein Engels mamagen, und will daß weiter nicht wiederhohlen.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup55"><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            				   
+            <h3 style="text-align: center;">Dienstag den 21ten November</h3>
+            				   
+            <p>Dienstag d[en] 21ten Nov.[ember] war ein entsezlicher Sturm, wir konten zu niemanden
+               an Land, und auch niemand zu uns, der Capitain aber mußte zum gouvernear, Meldete uns alle, und erhielt auch die erlaubnüs daß wir gehen könten wenn wir wolten,
+               der beschluß unsers seeligens beysammen seyns wurde also dießen Abend in der singst.[unde]
+               gemacht, wir danckten dem Lämmlein noch gemeinschafftlich vor seine Treue und seelige
+               Leitung und daß wir glücklich in hafen kommen sind.</p>
+            				</div>
+         <div class="diaryPopuptext" id="diaryPopup56"><span class="leftArrow">❮</span>
+            				   
+            <h3 style="text-align: center;">Mitwochs den 22ten November bis 25ten November</h3>
+            				   
+            <p>Mitwochs d[en] 22ten Nov.[ember] haten wir vormitag viel besuch von geschw.[istern] aus Newyork, um Mitags Zeit aber reißeten wir ab, ich mit meiner gesellschaftt nach Staaten Island, und die Schwestern nach Braunschweig auf einem Boat, welche 2 Brr. [Brüder] zur begleitung mit kriegten, nemblich Wannert und ein hießiger Bruder, die reiße nach Bethlehem war so wohl ihnen als auch uns beschwerlich, denn es fiel ein zimmlich tiefer schnee
+               und große Kälte ein, doch der Heiland hat uns unbeschreiblich gut fort geleitet, es
+               ist alles Beßer gangen als man erwartet hat, d[en] 25ten Nov.[ember] sind wir eine
+               Stunde nacheinander alle in Bethlehem angekomme[n] zur Freude aller und jeder geschw.[ister] man empfieng uns mit Trompeten, das die Lufft davon erthönte, und waß das allerseligste
+               und beste war, wir kammen zum Abendmahl zu rechte, das war daß Siegel auf herz und
+               Stirnen, da that sich jedes gütlich, und die Augen wurden kaum träuge, vor gefühl
+               und Beugung, man war ordentlich wie übergoßen.<br />Ich zog also mit meinen 17 Led[i]g.[en] Schw.[estern] ins Jungfern Haus ein, man hate alles gar unvergleichlich vor uns zu rechte gemacht,
+               und empfieng uns mit taußend Freude[.] Da sind wir nun alle und Küßen dir Kindlich
+               deine händgen welches ich im Nahmen meiner ganzen Reiße gesellschaftt thue, dein Töchterl.[ein] A.[nna] Joh.[anna]</p>
+            				</div>
+      </div>
+      <div style="padding: 1% 0 0 1%; font-size:150%;">
+         <p>Das Tagebuch wurde im Rahmen einer Online-Übung mit Studierenden (Jennifer Büttner,
+            Sophie Lindauer und Dean Showers) transkribiert.</p>
+      </div>
+      <div style="padding-left: 1%; padding-top: 1%;">
+         <h3 style="color: #e3d2b4; margin-top: 2%;">Textanalyse mit Voyant Tools</h3><a class="btn btn-primary btn-lg" role="button" onclick="ShowHTUFunction()">How to Use</a></div>
+      <div class="HTUPopuptext" id="HTUPopup">
+         <h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
+         <p style="margin-left: 3%; margin-right: 3%;">Mit Voyant Tools stehen vielfältige Analysemöglichkeiten aller Tagebucheinträge (letzte
+            Hand) zur Verfügung. Hier werden eine Word-Cloud der häufigsten vorkommenden Wörter
+            (mit Ausnahme sog. Stopwords wie Konjunktionen, Artikel, Präpositionen usw.) und ein
+            Reader zum linearen Lesen und Durchsuchen des gesamten Tagebuchtextes präsentiert.
+            Hover über den Kopf der Fenster blendet weitere Voyant Tools und Optionen ein.</p>
+      </div>
+      <div style="padding-left: 10%; padding-right: 5%;"><iframe style="height: 600px; width: 90%; margin: 1% 4% 0 0; border: 10px solid #e3d2b4;" src="https://voyant-tools.org/?view=cirrus&amp;stopList=https://www.moravians-at-sea.uni-jena.de/voyant/stopwords.txt&amp;input=https://www.moravians-at-sea.uni-jena.de/voyant/Diarium1752.txt"></iframe></div>
+      <div style="padding-left: 10%; padding-right: 5%;"><iframe style="height: 600px; width: 90%; margin: 1% 4% 0 0; border: 10px solid #e3d2b4;" src="https://voyant-tools.org/?view=reader&amp;input=https://www.moravians-at-sea.uni-jena.de/voyant/Diarium1752.txt"></iframe></div><br /><div style="padding-left: 1%;">
+         <h3 style="color: #e3d2b4; margin-top: 3%;">Erwähnte Passagiere</h3>
+         <ul class="passengers" style="font-size: 150%;">
+            <li>Anna Johanna Piesch</li>
+            <li>Witwe Schultz</li>
+            <li>Johann Töltschig</li>
+            <li>Anna Antes</li>
+            <li>Schwestern Miller</li>
+            <li>Bruder Nitschmann</li>
+            <li>Nicolaus Garrison Junior</li>
+            <li>Schwester Garrison</li>
+            <li>Mr Waston</li>
+            <li>Juliane Weckler</li>
+         </ul>
+      </div>
+      <footer class="footer">
+         
+         <div class="container text-center">
+            
+            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena</p>
+            <!-- Dieser Backlink darf NICHT entfernt werden. DO NOT REMOVE-->
+            https://www.moravians-at-sea.uni-jena.de | Designed by <a href="http://freietemplates.de/">freietemplates.de</a>, adapted by <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte/martin+prell_+m_a_">Martin Prell</a>
+            </div>
+         </footer>
+      <div class="impressum_datenschutz">
+         <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+         </div><script src="xml/1746.js" type="text/javascript"></script></body>
+</html>

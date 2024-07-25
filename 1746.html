@@ -1,41 +1,12 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
     <head>
-	
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <link rel="icon" href="favicon.ico">
-
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Seereise 1746/47</title>
-
-        
-		
-		
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  
- 
-    <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	
-	
-	
-	<script type="text/javascript" src="js/dragscroll.js"></script>
-	
-	</head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+        <link rel="stylesheet" href="ss/ssSearch.css" id="ssCss" />
+        <link rel="icon" href="favicon.ico" /><script type="text/javascript" src="js/dragscroll.js"></script><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
     
 	<body>
 	
@@ -100,7 +71,7 @@
                 flex-direction: column;
                 justify-content: space-between;">
                 <p style="margin: 0; font-size: 3vw; color: #e3d2b4;">Teil 1: Kanal</p>
-                <img src="img/channel_thumbnail.jpg" alt="Bildbeschreibung" style="max-width: 100%;"><a class="btn1 btn btn-primary btn-lg" role="button" href="1746kanal.html">
+                <img src="img/channel_thumbnail.jpg" alt="Bildbeschreibung" style="max-width: 100%;"/><a class="btn1 btn btn-primary btn-lg" role="button" href="1746kanal.html">
                     Öffnen
                 </a>
             </div>
@@ -120,7 +91,7 @@
                 flex-direction: column;
                 justify-content: space-between;">
                 <p style="margin: 0; font-size: 3vw; color: #e3d2b4;">Teil 2: Atlantik</p>
-                <img src="img/atlantic_thumbnail.jpg" alt="Bildbeschreibung" style="max-width: 100%;"><a class="btn1 btn btn-primary btn-lg" role="button" href="1746atlantik.html">
+                <img src="img/atlantic_thumbnail.jpg" alt="Bildbeschreibung" style="max-width: 100%;"/><a class="btn1 btn btn-primary btn-lg" role="button" href="1746atlantik.html">
                     Öffnen
                 </a>
             </div>
@@ -140,7 +111,7 @@
                 flex-direction: column;
                 justify-content: space-between;">
                 <p style="margin: 0; font-size: 3vw; color: #e3d2b4;">Teil 3: Amerika</p>
-                <img src="img/america_thumbnail.jpg" alt="Bildbeschreibung" style="max-width: 100%;"><a class="btn1 btn btn-primary btn-lg" role="button" href="1746amerika.html">
+                <img src="img/america_thumbnail.jpg" alt="Bildbeschreibung" style="max-width: 100%;"/><a class="btn1 btn btn-primary btn-lg" role="button" href="1746amerika.html">
                     Öffnen
                 </a>
             </div>
@@ -148,38 +119,22 @@
 
 </div>
 		
-		
-	
-		<!--Schreibfeder-Icon "quill" von <a href="https://pixabay.com/de/users/OpenClipart-Vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1299326">OpenClipart-Vectors</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1299326">Pixabay</a>-->
-		
-		
-			
-
 		<div style="padding-left: 1%;">
 		<h3 style="color: #e3d2b4; margin-top: 4%;">Textanalyse mit Voyant Tools</h3>
-		
-		<a class="btn btn-primary btn-lg" role="button" onclick="myShowHTUFunction4()">How to Use</a>
-		
+		<a class="btn btn-primary btn-lg" role="button" onclick="ShowHTUFunction()">How to Use</a>
 		</div>
 
-		
-		<div class="HTUPopuptext" id="HTUPopup4">
-				
-				<div style="text-align: center;">
-				<button class="close3" onclick="myHideHTUFunction4()">x</button>
-				</div>
-				
+		<div class="HTUPopuptext" id="HTUPopup">
 				<h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
 				<p style="margin-left: 3%; margin-right: 3%;">Mit Voyant Tools stehen vielfältige Analysemöglichkeiten aller Tagebucheinträge (letzte Hand) zur Verfügung. Hier werden eine Word-Cloud der häufigsten vorkommenden Wörter (mit Ausnahme sog. Stopwords wie Konjunktionen, Artikel, Präpositionen usw.) und ein Reader zum linearen Lesen und Durchsuchen des gesamten Tagebuchtextes präsentiert. Hover über den Kopf der Fenster blendet weitere Voyant Tools und Optionen ein.</p>
 		</div>
 		
-		
 		<div style="padding-left: 10%; padding-right: 5%;">
-		    <iframe style="height: 600px; width: 90%; margin: 1% 4% 0 0; border: 10px solid #e3d2b4;" src="https://voyant-tools.org/?view=cirrus&stopList=https://www.moravians-at-sea.uni-jena.de/voyant/stopwords.txt&input=https://www.moravians-at-sea.uni-jena.de/voyant/Diarium1746.txt"></iframe>
+		    <iframe style="height: 600px; width: 90%; margin: 1% 4% 0 0; border: 10px solid #e3d2b4;" src="https://voyant-tools.org/?view=cirrus&amp;stopList=https://www.moravians-at-sea.uni-jena.de/voyant/stopwords.txt&amp;input=https://www.moravians-at-sea.uni-jena.de/voyant/Diarium1746.txt"></iframe>
 		</div>
 
 		<div style="padding-left: 10%; padding-right: 5%;">
-		    <iframe style="height: 600px; width: 90%; margin: 1% 4% 0 0; border: 10px solid #e3d2b4;" src="https://voyant-tools.org/?view=reader&input=https://www.moravians-at-sea.uni-jena.de/voyant/Diarium1746.txt"></iframe>
+		    <iframe style="height: 600px; width: 90%; margin: 1% 4% 0 0; border: 10px solid #e3d2b4;" src="https://voyant-tools.org/?view=reader&amp;input=https://www.moravians-at-sea.uni-jena.de/voyant/Diarium1746.txt"></iframe>
 		</div>
 <br/>
 
@@ -235,17 +190,6 @@ function myHideHTUFunction4() {
 </script>
 	
 	
-	
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-	
-		
-		
+	    <script src="xml/1746.js" type="text/javascript"></script>	
     </body>
 </html>
