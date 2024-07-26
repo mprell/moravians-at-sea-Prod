@@ -1,1 +1,1 @@
-{"stem":"kanal","instances":[{"docUri":"1746kanal.html","score":2,"contexts":[{"form":"Kanal","weight":"2","pos":8,"context":"Teil 1: Durch den <mark>Kanal<\/mark>","fid":"atlantic"}]}]}
+{"stem":"kanal","instances":[{"docUri":"1746.html","score":1,"contexts":[{"form":"Kanal","weight":"1","pos":7,"context":"Teil 1: <mark>Kanal<\/mark>","fid":"introduction"}]},{"docUri":"1746kanal.html","score":2,"contexts":[{"form":"Kanal","weight":"2","pos":8,"context":"Teil 1: Durch den <mark>Kanal<\/mark>","fid":"atlantic"}]}]}

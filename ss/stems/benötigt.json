@@ -1,1 +1,1 @@
-{"stem":"benötigt","instances":[{"docUri":"search.html","score":1,"contexts":[{"form":"benötigt","weight":"1","pos":4,"context":" Diese Seite <mark>benötigt<\/mark> JavaScript. SucheLeerenSuche      ","fid":"staticSearch"}]}]}
+{"stem":"benötigt","instances":[{"docUri":"suche.html","score":1,"contexts":[{"form":"benötigt","weight":"1","pos":4,"context":"Diese Seite <mark>benötigt<\/mark> JavaScript. SucheLeerenSuche      ","fid":"staticSearch"}]}]}
