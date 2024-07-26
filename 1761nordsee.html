@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Reise 1761 (Nordsee)</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link href="css/bootstrap.min.css" rel="stylesheet" />
+      <link href="css/custom.css" rel="stylesheet" />
+      <link rel="icon" href="favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
+   <body>
+      <nav class="navbar navbar-default navbar-static-top">
+         
+         <div style="margin: 0 1% 0 1%;">
+            
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+               
+               <div>
+                  <a class="navbar-brand" href="index.html" style="color: #e3d2b4;">Moravians at Sea</a>
+                  </div>
+               </div>
+            
+            <div id="navbar" class="navbar-collapse collapse">
+               
+               <ul class="nav navbar-nav navbar-right">
+                  
+                  <li><a href="einleitung.html" style="color: #e3d2b4;">Über</a></li>
+                  
+                  <li><a href="suche.html" style="color: #e3d2b4;">Suche</a></li>
+                  
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #e3d2b4;">Reisen <span class="caret"></span></a>
+                     
+                     <ul class="dropdown-menu">
+                        
+                        <li><a href="1746.html">Reise 1746/47</a></li>
+                        
+                        <li><a href="1752.html">Reise 1752</a></li>
+                        
+                        <li><a href="1761.html">Reise 1761</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      <div class="jumbotron3">
+         <div class="container">
+            <h1 style="color: #fff; font-size: 350%; display:flex; justify-content: center;">Reise nach Amerika im Jahr 1761</h1>
+         </div>
+      </div>
+      <div class="section2" id="introduction">
+         <div id="overlay" onclick="off()"></div>
+         <div id="overlay2" onclick="off()"></div><a class="btn1 btn btn-primary btn-lg" role="button" href="1761land.html">🠔 Teil 1</a><a class="btn1 btn btn-primary btn-lg" role="button" style="float:right;" href="1761kanal.html">Teil 3 🠖</a><div style="display:flex; justify-content: center;" id="atlantic">
+            <h3 style="color: #e3d2b4;">Teil 2: Die Nordsee</h3>
+         </div>
+         <div style="padding-left: 8%; padding-right: 7%;"><a class="btn btn-primary btn-lg" role="button" onclick="ShowHTUFunction()">How to Use</a><a class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph()">Route einblenden</a></div>
+         <div class="HTUPopuptext" id="HTUPopup">
+            <div style="text-align: center;"></div>
+            <h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
+            <ul>
+               <li>Jede Nadel mappt den jeweiligen Aufenthaltsort bzw. eine gesichtete Landmarke eines
+                  Tages. Klicken Sie auf die <u>Nadeln</u>, um sich die jeweiligen <u>Tagebucheinträge</u> anzeigen zu lassen. Mouseover auf eine Nadel blendet das Datum des Aufenthaltes ein.</li>
+            </ul>
+         </div>
+         <div class="map">
+            <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 3563 7412" style="background-image: url('img/northsea.jpg'); background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;"><svg xmlns="" id="graph">
+                     
+                     <g stroke="red" stroke-width="10" stroke-linecap="round" fill="none">
+                        
+                        <polyline points="1600,4130 1787,4379 2125,4345 2075,3970 1074,2467 937,2179 895,1925 905,1703"></polyline>
+                        </g>
+                     
+                     <g class="popup" stroke="black" stroke-width="5" fill="red">
+                        
+                        
+                        <circle cx="1600" cy="4130" r="20" id="graphPopup1">
+                           <title>5.5.1761</title>
+                        </circle>
+                        <!--Amsterdam-->
+                        
+                        
+                        <circle cx="2125" cy="4345" r="20" id="graphPopup2">
+                           <title>6.5.1761</title>
+                        </circle>
+                        <!--unter Segel ggü Workum-->
+                        
+                        
+                        <circle cx="2100" cy="4157" r="20" id="graphPopup3">
+                           <title>7.5.1761</title>
+                        </circle>
+                        
+                        
+                        <circle cx="2075" cy="3970" r="20" id="graphPopup4">
+                           <title>8.5.1761</title>
+                        </circle>
+                        <!--Helters/Texel-->
+                        
+                        
+                        <circle cx="1574" cy="3218" r="20" id="graphPopup5">
+                           <title>9.5.1761</title>
+                        </circle>
+                        
+                        
+                        <circle cx="1074" cy="2467" r="20" id="graphPopup6">
+                           <title>10.5.1761</title>
+                        </circle>
+                        <!--englische Küste in Sicht-->
+                        
+                        
+                        <circle cx="895" cy="1925" r="20" id="graphPopup7">
+                           <title>11.5.1761</title>
+                        </circle>
+                        <!--Gravesend-->
+                        
+                        
+                        <circle cx="905" cy="1703" r="20" id="graphPopup8">
+                           <title>12.5.1761</title>
+                        </circle>
+                        <!--Blackwall, dort an Land und Richtung London (Lindsey-House)-->
+                        
+                        </g>
+                     </svg></svg></div>
+            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/021.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">❯</span>
+               
+               <h3 style="text-align: center;">Reise-Diarium der lieben Geschw. Nathanaels u. ihrer Gesellschaft von Zeist nach Pensilvanien vom 4<u><sup>ten</sup></u> May bis 23<u><sup>ten</sup></u> Oct. 1761.</h3>
+               
+               <p>Nachdem alle zu unserer Gesellschaft gehörigen Geschw. von Huth, Barby u. Ebersdorf in Zeist nach u. nach wohlbehalten angekommen, mit noch einigen Geschw. aus den beiden
+                  led. Chören der dasigen Gem. vermehrt worden waren, u. die 7 Wochen ihres Aufenthalts
+                  daselbst sowohl an dem seℓn. n Gnaden-Gang der Gem. participirt, als auch eine ausnehmende
+                  Liebe aller Geschw. genoßen hatten, so brach nach endlicher Abfertigung vom br. Joh. die ganze Gesellschaft, aus 47 Personen bestehend, u. zwar zuerst br. Nathanael mit den led. Brrn. d 4 <u><sup>ten</sup></u> May gegen Abend im Namen Jesu u. mit dem Segen der Gem. nach Amsterdam auf, wohin vor ein paar Tagen Geschw. Gammerns, Philipps u. Wahnerts mit noch 4 led. Brrn voraus gegangen waren, um so wohl bey der Einschiffung der sämmtℓ.n
+                  Bagage gegenwärtig zu seyn, als auch alles aufm Schiff zur möglichsten Bequemlichkeit
+                  der Geschw. in Ordnung zu bringen. Die Brr. Reichelt, Völker u. Herbst giengen mit bis England. Die Los. unseres Aufbruchs hieß: <u>Sein Name wird an ihren Stirnen seyn.</u> Bis Utrecht begleiteten uns der liebste Ignatius, Gneuss, Roger u. andre Brr, (die wir daselbst zum Abschied mit naßen Augen embrassirten, u. gegen
+                  9 Uhr verließen. Wir hatten eine eigene Schuyte u. eine vergnügte Nacht-Reise.) Zu
+                  Amsterdam kamen wir</p>
+               
+               <p>d <u>5<sup>t</sup></u> früh in der 5 t Stunde an mit der Los: <u>Er wird behüten die füße seiner heiligen, Und mit ihnen als ein held durch die Welt</u>, u. giengen, weil die Leute noch schliefen, ganz unobserviert Colonnen weise ins
+                  led. Brr. hauß. (Br. Nathanael gieng mit einigen Brrn ans Schiff, sich die daselbst gemachte Einrichtung anzusehen,
+                  u. was noch daran fehlen mögte, vollends zu besorgen.) Gegen Abend trafen von Zeist,
+                  in Begleitung des l. Joh u. Sw. Benignel, der Geschw. Gersdorfs u.
+                  <br />
+                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/022.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  u. Br. Gneussens, auch bey uns ein unsre th. Anne Johanne, Geschw. Marschalls, Münsters, die Brr. Peter u. Langgaard nebst den led. Schwr., worunter die [D]örel Hoppin u. Maria Höhtin nur bis England mitgehen. Wir blieben die Nacht über alle in der Stadt, u. wurden von den Geschw. mit vieler herzlichkeit bewirtet.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/022.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+               
+               <p>d <u>6<sup> ten</sup></u> gegen Mittag begaben wir uns mit der Los: <u>Und sie werden durchbrechen; der Wolken, Luft u. Winden gibt Wege, Lauf u. Bahn, der
+                     wird schon Wege finden,</u> am Boord des Schiffs, die <u>freye Gunst</u> genannt, welches der Capit. Fried. Willams führt, u. für uns alleine gemiethet war, u. um 1 Uhr giengen wir unter Segel. Unserliebster
+                  Johannes, Benignel, Geschw. Gersdorfs u. viele andere Amsterdamer Geschw., die uns mit ihrem Besuch am Boord erfreuet hatten,
+                  gingen wieder ans Land. Wir passirten nach einigen Stunden den Pampos, kriegten aber
+                  einen ziemℓ. starken N. Wind, so daß die Schwr. fast alle krank wurden. Wir übernachteten
+                  der Insel Workum gegen über.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/022.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+               
+               <p>d <u>7<sup> t</sup></u> hieß die Los: <u>Er macht im Meer Wege u. imstarcken Waßer Bahn. Wollts Gott, wohin man fahre.</u> Wir hatten seit gestern contrairen Wind, der aber heute Vormitt. favorable wurde,
+                  so daß wir hübsch avancirten.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/022.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+               
+               <p>d <u>8<sup> t</sup></u> erreichten wir Vormittags Texel,  der Wind wurde contrair. Wir lavirten bis Helters, sahen aber keine Möglichkeit zum Loch hinauszu kommen, u. wolten gegen Abend daselbst
+                  vor Anker gehen. In einem Moment aber, als wir im Begriff waren, den Anker fallen
+                  zu laßen, wurde der Wind günstig, u. wir liefen in die Nord-See hinaus mit der Los: <u>Sie gehen, wohin der Wind steht; geht, ihr geht nicht fehl.</u> Wir dankten unserm guten HErrn für seine sonderbare hülfe; denn wem Texel bekannt ist, der weiß, was es ist, da zu liegen u. auf Wind warten</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/022.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+               
+               <p>d <u>9<sup> t</sup></u> gedachten wir mit empfindℓ. gerührten herzen an den Vorgang in Huth heute vorm Jahr u. reimten unserm HErrn in der Stille manch Jährlein vor. Wir passirten
+                  gegen Abend ein Engℓ. Kriegs-Schiff.(Man fragte uns, woher u. wohin ? Ob wir nicht
+                  einen französ. Kaper gesehen? u. wünschte uns eine glückℓ. Reise.)</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/022.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+               
+               <p>d <u>10<sup> t</sup></u> - Als am Pfingst-Feste erblickten wir beym Aufstehen die Engl. Küste. die Los. hieß:
+                  <u>die Völker werden sie annehmen, u. bringen an ihren Ort.</u> Wir begiengen Nachmitt. unter einem seℓ. Geistes Wesen das heutige Fest mit dem Te
+                  Matrem, u. freueten uns kindℓ. der theuren Pfingst-Gabe unsers Einig-Geliebten.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/022.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+               
+               <p>d <u>11<sup>t</sup></u> kam zu Mittag ein Accis-Bedienter mit noch einigen Leuten an Boord, die alles, was dem Capit. u. Matrosen gehört, durchstenckerten; unsre Sachen aber auf die Nachricht, daß wir
+                  Colonisten vor America wären, unberührt ließen. Einen solchen Besuch hatten wir heute noch einige mal. Wir
+                  erreichten abends Gravesand, bekamen hier gewöhnℓrmaßen 2 Zollbedienten am Boord, u. legten im Stück weiter vor
+                  Anker. Als sich die Matrosen sowohl als der Capit. theils niedrgelegt, theils drunten was zu verrichten hatten, u. niemand mehr auf
+                  der decke war, kam ein großes Schiff in vollen Segeln auf uns zu, u. weil unser Top-Segel,
+                  vermuthℓ. aus Vergeßenheit, nicht eingezogen war, so dachten sie, wir segelten noch,
+                  u. würden ihnen ausweichen; Als sie aber näher kamen, wurden sie erst gewahr, daß
+                  wir stille lagen, konten aber ihr Schiff nicht mehr drehen, u. würden das unsrige
+                  ohnfehlbar zerschmettert haben, wenn nicht unser Capit. über dem Geschrey heraufgekommen wäre, unds Schiff noch zur Noth gelenckt hätte.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/022.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span>
+               
+               <p>d <u>12<sup>t</sup></u> erreichten wir Nachmitt. durchs Laviren Blackwall, wo Br. Marschall mit noch 4 led. Brrn ans Land stieg, den Geschw. in London unsre Ankunft zu rapportiren. Br. Brodersen u. noch einige Lon-
+                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/023.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  Londonsche led. Brr. kamen uns sogleich herzℓ. bewillkommen, u. brachten unsre led.
+                  Brr. ins Lindsey-House. Br. Nathan. aber u. die übrigen Geschw. gingen mit der Freyen Gunst vollends bis an die Hope,
+                  selbige zu sehen; stießen aber unterwegs auf ein andres Amsterd. Schiff, welches nicht
+                  wenig beschädigt wurde, u. rannten eine Chaloupe übern haufen, doch ohne weitern Schaden.
+                  In Lindsey-House grüßte sich Abends voll Freude u. Dankbarkeit für die angenehme u. geschwinde Fahrt
+                  das ganze Pilger-Gemeinlein mit dem Hymno: Es segne uns Gott, unser Gott p. u. gieng
+                  drauf in Jesu Arme zur Ruhe. Hier erfuhren wir, daß Br. Jacobsen noch keine Ladung hatte, u. wir also 5-6 Wochen warten würden; In einigen Tagen aber
+                  wurden ihm ganz unerwartet Königℓ. Güter nach New-York zu bringen angeboten, welche er auch acceptirte. Die wenigen Tage unsers Aufenthalts
+                  in Lindseyhouse verbrachten wir sodann in seℓr Unterredung mit unserm ℓ HErrn über unsre gegenwärtige
+                  u. künftige Umstände; u. hatten d 24<sup>t</sup> früh abermals das Vergnügen, unsern so sehnℓ. erwarteten Joh. mit sr. ℓ. Gesellschaft in unsrer Mitte zärtℓ. zu bewillkommen, u. Abends eine gesalbte
+                  Rede über die heutige Los:, deren Anfang u. Ende in Erinnerung der von unserem seℓ.
+                  Papa in diesem ℓ. Hause so oft gehaltenen seℓn Gelegenheiten mit naßen Augen geschehn,
+                  von ihm zu hören.</p>
+               </div>
+         </div>
+      </div>
+      <footer class="footer">
+         
+         <div class="container text-center">
+            
+            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena</p>
+            <!-- Dieser Backlink darf NICHT entfernt werden. DO NOT REMOVE-->
+            https://www.moravians-at-sea.uni-jena.de | Designed by <a href="http://freietemplates.de/">freietemplates.de</a>, adapted by <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte/martin+prell_+m_a_">Martin Prell</a>
+            </div>
+         </footer>
+      <div class="impressum_datenschutz">
+         <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+         </div><script type="text/javascript" src="js/main.js"></script><script type="text/javascript" src="js/diary.js"></script></body>
+</html>
