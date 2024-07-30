@@ -20,10 +20,8 @@ form#ssForm{
 
 
 #staticSearch{
-    background-color: #e3d2b4;
     color: #000000;
-    border: 10px solid #e3d2b4;
-    margin: 1% 8% 1% 8%;
+    padding: 3% 15% 0 15%;
 }
 
 #ssDoSearch {
@@ -67,12 +65,13 @@ div.ssDescFilters, div.ssDateFilters, div.ssNumFilters, div.ssBoolFilters, div.s
     gap: 0.25em;
 }
 div.ssDescFilters fieldset, div.ssDateFilters fieldset, div.ssNumFilters fieldset, div.ssBoolFilters fieldset, div.ssSearchInFilters fieldset{
-    margin: 0.25em auto;
+    margin: 1rem auto;
     padding: 0.25em;
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     gap: 0.25em;
+    color: #e3d2b4;
 }
 
 div.ssFeatFilters fieldset{
@@ -111,7 +110,11 @@ div#ssResults{
   min-height: 50vh;
 /* Leaving a bit of space above when scrolling to results. */
   padding-top: 1rem;
-  margin-top: -1rem;
+  margin-top: 1rem;
+  background: #e3d2b4;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 div#ssResults>ul>li{
     display: flex;
@@ -155,12 +158,9 @@ div#ssResults > div#ssPagination > button{
 
 
 
-/* Alternate bg colour. */
 div#ssResults>ul>li:nth-child(2n) {
-    background-color: rgb(240, 240, 240);
-    transition: background-color .5s;
-    border-top: 1px solid rgb(230, 230, 230);
-    border-bottom: 1px solid rgb(230, 230, 230);
+    border-top: 1px solid #093e56;
+    border-bottom: 1px solid #093e56;
 }
 /* Larger document titles */
 div#ssResults>ul>li>div>a{

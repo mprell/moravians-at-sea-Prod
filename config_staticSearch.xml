@@ -28,7 +28,7 @@
     
     <contexts>
         <!--es ist kein not() möglich; alles Bestandteile müssen einzeln definiert werden; Kindelemente werden automatisch mit einbezogen-->
-        <context match="div[@id='HTUPopup'] | h1  | div[@class='container']" label="Paratexte"/>
+        <context match="div[@id='HTUPopup'] | h1  | div[@class='introduction']" label="Paratexte"/>
         <context match="div[@class='diaryPopuptext']/h3 | div[@class='diaryPopuptext']/p | div[@class='positionPopuptext']/p" label="Tagebücher" />
         <!--<context match="blockquote" label="Quotations"/>
         <context match="div[@class='l']"/>

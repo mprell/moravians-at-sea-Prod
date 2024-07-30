@@ -1,57 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <link rel="stylesheet" href="ss/ssSearch.css" id="ssCss" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="favicon.ico" />
       <title>Suche</title>
-      <link href="css/bootstrap.min.css" rel="stylesheet" />
-      <link href="css/custom.css" rel="stylesheet" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
+      <link rel="stylesheet" href="ss/ssSearch.css" id="ssCss" />
+      <link rel="stylesheet" href="css/base-min.css" />
+      <link rel="stylesheet" href="css/grids-min.css" />
+      <link rel="stylesheet" href="css/grids-responsive-min.css" />
+      <link rel="stylesheet" href="css/menus-min.css" />
+      <link rel="stylesheet" href="css/buttons-min.css" />
+      <link rel="stylesheet" href="css/forms-min.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="icon" href="img/favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
    <body>
-      <nav class="navbar navbar-default navbar-static-top">
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+         <a class="pure-menu-heading" href="index.html">Moravians at Sea</a>
          
-         <div style="margin: 0 1% 0 1%;">
+         
+         <ul class="pure-menu-list">
             
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
-               
-               <div>
-                  <a class="navbar-brand" href="index.html" style="color: #e3d2b4;">Moravians at Sea</a>
-                  </div>
-               </div>
+            <li class="pure-menu-item">
+               <a href="einleitung.html" class="pure-menu-link">Über</a>
+               </li>
             
-            <div id="navbar" class="navbar-collapse collapse">
+            <li class="pure-menu-item">
+               <a href="suche.html" class="pure-menu-link">Suche</a>
+               </li>
+            
+            
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+               <a href="#" id="menuLink1" class="pure-menu-link">Reisen</a>
                
-               <ul class="nav navbar-nav navbar-right">
+               <ul class="pure-menu-children">
                   
-                  <li><a href="einleitung.html" style="color: #e3d2b4;">Über</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1746.html" class="pure-menu-link">1746/47</a>
+                     </li>
                   
-                  <li><a href="suche.html" style="color: #e3d2b4;">Suche</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1752.html" class="pure-menu-link">1752</a>
+                     </li>
                   
-                  <li class="dropdown">
-                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #e3d2b4;">Reisen <span class="caret"></span></a>
-                     
-                     <ul class="dropdown-menu">
-                        
-                        <li><a href="1746.html">Reise 1746/47</a></li>
-                        
-                        <li><a href="1752.html">Reise 1752</a></li>
-                        
-                        <li><a href="1761.html">Reise 1761</a></li>
-                        </ul>
+                  <li class="pure-menu-item">
+                     <a href="1761.html" class="pure-menu-link">1761</a>
                      </li>
                   </ul>
-               </div>
-            </div>
-         </nav>
-      <div class="section2" id="introduction">
-         <h3 style="place-items:center; display:grid; color:#e3d2b4;">Volltextsuche</h3>
-         <div id="staticSearch"><script src="ss/ssSearch.js"></script><script src="ss/ssInitialize.js"></script><noscript>Diese Seite benötigt JavaScript.</noscript><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-maxkwicstoshow="100" data-scoringalgorithm="raw" data-resultsperpage="0" onsubmit="return false;" data-versionstring="" data-ssfolder="ss" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery" aria-label="Suche" placeholder="Suchbegriff..." /><button id="ssDoSearch" class="btn btn-primary btn-lg">Suche</button></span><span class="clearButton"><button id="ssClear" class="btn btn-primary btn-lg">Leeren</button></span><div class="ssSearchInFilters">
+               </li>
+            </ul>
+         </div>
+      <div class="banner">
+         <h1 class="banner-head">Volltextsuche</h1>
+      </div>
+      <div class="l-content">
+         <div id="staticSearch"><script src="ss/ssSearch.js"></script><script src="ss/ssInitialize.js"></script><noscript>Diese Seite benötigt JavaScript.</noscript><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-maxkwicstoshow="100" data-scoringalgorithm="raw" data-resultsperpage="0" onsubmit="return false;" data-versionstring="" data-ssfolder="ss" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery" aria-label="Suche" placeholder="Suchbegriff..." /><button id="ssDoSearch" class="pure-button pure-button-primary search-search-button">Suche</button></span><span class="clearButton"><button id="ssClear" class="pure-button clear-button">Leeren</button></span><div class="ssSearchInFilters">
                   <fieldset class="ssFieldset" title="Suche nur in">
                      <legend>Suche nur in</legend>
                      <ul class="ssSearchInCheckboxList">
@@ -59,7 +60,7 @@
                         <li><input type="checkbox" title="Tagebücher" value="Tagebücher" id="ssCtx2" class="staticSearch_searchIn" /><label for="ssCtx2">Tagebücher</label></li>
                      </ul>
                   </fieldset>
-               </div><span class="postFilterSearchBtn"><button id="ssDoSearch2" class="btn btn-primary btn-lg">Suche</button></span></form>
+               </div><span class="postFilterSearchBtn"><button id="ssDoSearch2" class="pure-button pure-button-primary search-search-button">Suche</button></span></form>
             <div id="ssSearching">Suche…</div>
             <div id="ssResults"></div>
             <div id="ssPoweredBy">
@@ -85,17 +86,22 @@
                         <path transform="matrix(1.1872613,0,0,0.3883161,603.6843,253.81112)" d="m -371.16805,-123.26338 -87.91103,-143.55491 168.27771,-4.35573 z" id="path1533" style="fill:#a02a2c;stroke-width:3;fill-opacity:1"></path>
                      </g></svg></a></div>
          </div>
-      </div>
-      <footer class="footer">
-         
-         <div class="container text-center">
+         <footer class="footer l-box">
             
-            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena</p>
-            <!-- Dieser Backlink darf NICHT entfernt werden. DO NOT REMOVE-->
-            https://www.moravians-at-sea.uni-jena.de | Designed by <a href="http://freietemplates.de/">freietemplates.de</a>, adapted by <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte/martin+prell_+m_a_">Martin Prell</a>
-            </div>
-         </footer>
-      <div class="impressum_datenschutz">
-         <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
-         </div><script type="text/javascript" src="js/main.js"></script></body>
+            <div>
+               
+               <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena und <a href="https://mprell.github.io/">Martin Prell</a></p>
+               
+               <p>https://www.moravians-at-sea.uni-jena.de</p>
+               </div>
+            
+            <div class="impressum_datenschutz">
+               
+               <p>
+                  <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+                  </p>
+               </div>
+            </footer>
+      </div>
+   </body>
 </html>

@@ -17,7 +17,31 @@ function hideHTUPopup() {
         document.getElementById('HTUPopup').style.visibility = 'visible';
         document.getElementById('overlay').style.display = 'block';
     }
+
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('overlay').addEventListener('click', function () {
+        hideHTUPopup2();
+    });
+
+document.getElementById('HTUPopup2').addEventListener('click', function (event) {
+        event.stopPropagation();
+});
+
+function hideHTUPopup2() {
+    document.getElementById('HTUPopup2').style.visibility = 'hidden';
+    document.getElementById('overlay').style.display = 'none';
+}
+    // Enhanced ShowHTUFunction to show the popup
+    window.ShowHTUFunction2 = function() {
+        document.getElementById('HTUPopup2').style.visibility = 'visible';
+        document.getElementById('overlay').style.display = 'block';
+    }
+
+});
+
+
 
 function hidegraph() {
  document.getElementById("graph").style.visibility = 'hidden';
@@ -95,6 +119,31 @@ document.addEventListener('mousemove', (event) => {
 });
 
 document.addEventListener('mouseup', () => {
+    isDragging = false;
+});
+
+
+// Pan Function for Touch
+svgContainer.addEventListener('touchstart', (event) => {
+    isDragging = true;
+    startX = event.touches[0].clientX - offsetX;
+    startY = event.touches[0].clientY - offsetY;
+    event.preventDefault(); // Prevent scrolling when touching
+}, { passive: false });
+
+document.addEventListener('touchmove', (event) => {
+    if (!isDragging || event.touches.length > 1) return; // Ignore multi-finger touches here
+
+    const newX = event.touches[0].clientX - startX;
+    const newY = event.touches[0].clientY - startY;
+
+    // Apply Pan
+    svgContainer.style.transform = `scale(${scale}) translate(${newX}px, ${newY}px)`;
+    offsetX = newX;
+    offsetY = newY;
+}, { passive: false });
+
+document.addEventListener('touchend', () => {
     isDragging = false;
 });
 

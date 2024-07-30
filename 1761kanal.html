@@ -1,184 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <title>Reise 1761 (Ärmelkanal)</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link href="css/bootstrap.min.css" rel="stylesheet" />
-      <link href="css/custom.css" rel="stylesheet" />
-      <link rel="icon" href="favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
+      <title>Reise 1761 - Ärmelkanal</title>
+      <link rel="stylesheet" href="css/base-min.css" />
+      <link rel="stylesheet" href="css/grids-min.css" />
+      <link rel="stylesheet" href="css/grids-responsive-min.css" />
+      <link rel="stylesheet" href="css/menus-min.css" />
+      <link rel="stylesheet" href="css/buttons-min.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="icon" href="img/favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
    <body>
-      <nav class="navbar navbar-default navbar-static-top">
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+         <a class="pure-menu-heading" href="index.html">Moravians at Sea</a>
          
-         <div style="margin: 0 1% 0 1%;">
+         
+         <ul class="pure-menu-list">
             
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
-               
-               <div>
-                  <a class="navbar-brand" href="index.html" style="color: #e3d2b4;">Moravians at Sea</a>
-                  </div>
-               </div>
+            <li class="pure-menu-item">
+               <a href="einleitung.html" class="pure-menu-link">Über</a>
+               </li>
             
-            <div id="navbar" class="navbar-collapse collapse">
+            <li class="pure-menu-item">
+               <a href="suche.html" class="pure-menu-link">Suche</a>
+               </li>
+            
+            
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+               <a href="#" id="menuLink1" class="pure-menu-link">Reisen</a>
                
-               <ul class="nav navbar-nav navbar-right">
+               <ul class="pure-menu-children">
                   
-                  <li><a href="einleitung.html" style="color: #e3d2b4;">Über</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1746.html" class="pure-menu-link">1746/47</a>
+                     </li>
                   
-                  <li><a href="suche.html" style="color: #e3d2b4;">Suche</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1752.html" class="pure-menu-link">1752</a>
+                     </li>
                   
-                  <li class="dropdown">
-                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #e3d2b4;">Reisen <span class="caret"></span></a>
-                     
-                     <ul class="dropdown-menu">
-                        
-                        <li><a href="1746.html">Reise 1746/47</a></li>
-                        
-                        <li><a href="1752.html">Reise 1752</a></li>
-                        
-                        <li><a href="1761.html">Reise 1761</a></li>
-                        </ul>
+                  <li class="pure-menu-item">
+                     <a href="1761.html" class="pure-menu-link">1761</a>
                      </li>
                   </ul>
-               </div>
-            </div>
-         </nav>
-      <div class="jumbotron3">
-         <div class="container">
-            <h1 style="color: #fff; font-size: 350%; display:flex; justify-content: center;">Reise nach Amerika im Jahr 1761</h1>
+               </li>
+            </ul>
          </div>
+      <div class="banner">
+         <h1 class="banner-head">Reise nach Amerika im Jahr 1761</h1>
       </div>
-      <div class="section2" id="introduction">
+      <div class="l-content">
          <div id="overlay" onclick="off()"></div>
-         <div id="overlay2" onclick="off()"></div><a class="btn1 btn btn-primary btn-lg" role="button" href="1761nordsee.html">🠔 Teil 2</a><a class="btn1 btn btn-primary btn-lg" role="button" style="float:right;" href="1761atlantik.html">Teil 4 🠖</a><div style="display:flex; justify-content: center;" id="atlantic">
-            <h3 style="color: #e3d2b4;">Teil 3: Der Ärmelkanal</h3>
+         <div id="overlay2" onclick="off()"></div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1761nordsee.html">🠔</a></div>
+            <div class="pure-u-1 pure-u-md-20-24">
+               <h1>Teil 3: Ärmelkanal</h1>
+            </div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1761atlantik.html">🠖</a></div>
          </div>
-         <div style="padding-left: 8%; padding-right: 7%;"><a class="btn btn-primary btn-lg" role="button" onclick="ShowHTUFunction()">How to Use</a><a class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph()">Route einblenden</a></div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-secondary howto-button" onclick="ShowHTUFunction()">How to Use</a><a class="pure-button button-secondary tei-button" target="_blank" href="github.com">XML/TEI</a></div>
+            <div class="pure-u-1 pure-u-md-13-24"></div>
+            <div class="pure-u-1 pure-u-md-3-24"><a class="pure-button button-secondary reset-button" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="pure-button button-secondary hidegraph-button" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="pure-button button-secondary showgraph-button" onclick="showgraph()">Route einblenden</a></div>
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+         </div>
          <div class="HTUPopuptext" id="HTUPopup">
-            <div style="text-align: center;"></div>
-            <h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
+            <h3 class="howto-h3">How to Use</h3>
             <ul>
-               <li>Jede Nadel mappt den jeweiligen Aufenthaltsort bzw. eine gesichtete Landmarke eines
-                  Tages. Klicken Sie auf die <u>Nadeln</u>, um sich die jeweiligen <u>Tagebucheinträge</u> anzeigen zu lassen. Größere Nadeln zeigen längere Aufenthalte an einem Ort an und
+               <li>Jede/r Punkt/Nadel mappt den jeweiligen Aufenthaltsort bzw. eine gesichtete Landmarke
+                  eines Tages. Klicken Sie auf die <u>Nadeln</u>, um sich die jeweiligen <u>Tagebucheinträge</u> anzeigen zu lassen. Größere Nadeln zeigen längere Aufenthalte an einem Ort an und
                   enthalten immer mehrere Einträge. Mouseover auf eine Nadel blendet das Datum des Aufenthaltes
                   ein.</li>
             </ul>
          </div>
-         <div class="map">
-            <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 10296 6744" style="background-image: url('img/channel.jpg'); background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;"><svg xmlns="" id="graph">
-                     
-                     
-                     <g stroke="red" stroke-width="13" stroke-linecap="round" fill="none">
+         <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="map pure-u-18-24">
+               <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 10296 6744" style="background-image: url('img/channel.jpg');"><svg id="graph">
                         
                         
-                        <polyline points="6780,2172 6923,2200 6994,2206 7314,2276 8161,2275 8310,2590 8014,2824 7667,3073 7198,3214 7009,3355 6382,3394 6017,3445 5567,3280 4871,3530 5559,3582 5733,3380 5559,3610 4913,3406 5559,3674 5733,3460 5555,3714  3158,4358 2820,4206 1814,4638 1326,4450"></polyline>
-                        
-                        </g>
-                     
-                     
-                     <g class="popup" stroke="black" stroke-width="5" fill="red">
-                        
-                        
-                        <circle cx="6780" cy="2172" r="50" id="graphPopup1">
-                           <title>26.-29.5.1761</title>
-                        </circle>
-                        <!--London-->
+                        <g stroke="red" stroke-width="13" stroke-linecap="round" fill="none">
+                           
+                           
+                           <polyline points="6780,2172 6923,2200 6994,2206 7314,2276 8161,2275 8310,2590 8014,2824 7667,3073 7198,3214 7009,3355 6382,3394 6017,3445 5567,3280 4871,3530 5559,3582 5733,3380 5559,3610 4913,3406 5559,3674 5733,3460 5555,3714  3158,4358 2820,4206 1814,4638 1326,4450"></polyline>
+                           
+                           </g>
                         
                         
-                        <circle cx="6923" cy="2200" r="30" id="graphPopup2">
-                           <title>30.5.1761</title>
-                        </circle>
-                        <!--Blackwall-->
-                        
-                        
-                        <circle cx="6994" cy="2206" r="30" id="graphPopup3">
-                           <title>31.5.1761</title>
-                        </circle>
-                        <!--eine Engℓ.
+                        <g class="popup" stroke="black" stroke-width="5" fill="red">
+                           
+                           
+                           <circle cx="6780" cy="2172" r="50" id="graphPopup1">
+                              <title>26.-29.5.1761</title>
+                           </circle>
+                           <!--London-->
+                           
+                           
+                           <circle cx="6923" cy="2200" r="30" id="graphPopup2">
+                              <title>30.5.1761</title>
+                           </circle>
+                           <!--Blackwall-->
+                           
+                           
+                           <circle cx="6994" cy="2206" r="30" id="graphPopup3">
+                              <title>31.5.1761</title>
+                           </circle>
+                           <!--eine Engℓ.
 Meile hinter Woolwich-->
+                           
+                           
+                           <circle cx="7314" cy="2276" r="50" id="graphPopup4">
+                              <title>1.-13.6.1761</title>
+                           </circle>
+                           <!--Gravesend und Downs-->
+                           
+                           
+                           <circle cx="8014" cy="2824" r="30" id="graphPopup5">
+                              <title>14.6.1761</title>
+                           </circle>
+                           <!--Auslaufen aus den Downs bis Dover unweit Foulkstone-->
+                           
+                           
+                           <circle cx="7198" cy="3214" r="30" id="graphPopup6">
+                              <title>15.6.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="6382" cy="3394" r="30" id="graphPopup7">
+                              <title>16.5.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="5567" cy="3280" r="100" id="graphPopup8">
+                              <title>18.6.-27.7.1761</title>
+                           </circle>
+                           <!--Insel Wright, Spithead-->
+                           
+                           
+                           <circle cx="4871" cy="3530" r="30" id="graphPopup9">
+                              <title>28.-29.7.1761</title>
+                           </circle>
+                           <!--Auslaufen; bis Corose ()-->
+                           
+                           
+                           <circle cx="5733" cy="3380" r="30" id="graphPopup10">
+                              <title>30.7.1761</title>
+                           </circle>
+                           <!--bis St Hellens zurück-->
+                           
+                           
+                           <circle cx="5559" cy="3615" r="30" id="graphPopup11">
+                              <title>31.7.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="5733" cy="3460" r="50" id="graphPopup12">
+                              <title>1.-4.8.1761</title>
+                           </circle>
+                           <!--gegenüber Pool; dann nach St. Hellens zurück-->
+                           
+                           
+                           <circle cx="4756" cy="3928" r="30" id="graphPopup13">
+                              <title>5.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3957" cy="4143" r="30" id="graphPopup14">
+                              <title>6.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2820" cy="4206" r="30" id="graphPopup15">
+                              <title>7.8.1761</title>
+                           </circle>
+                           <!--passieren Plymouth und Edenstone-->
+                           
+                           
+                           <circle cx="1326" cy="4450" r="30" id="graphPopup16">
+                              <title>8.8.1761</title>
+                           </circle>
+                           <!--Landsend-->
+                           
+                           </g>
                         
-                        
-                        <circle cx="7314" cy="2276" r="50" id="graphPopup4">
-                           <title>1.-13.6.1761</title>
-                        </circle>
-                        <!--Gravesend und Downs-->
-                        
-                        
-                        <circle cx="8014" cy="2824" r="30" id="graphPopup5">
-                           <title>14.6.1761</title>
-                        </circle>
-                        <!--Auslaufen aus den Downs bis Dover unweit Foulkstone-->
-                        
-                        
-                        <circle cx="7198" cy="3214" r="30" id="graphPopup6">
-                           <title>15.6.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="6382" cy="3394" r="30" id="graphPopup7">
-                           <title>16.5.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="5567" cy="3280" r="100" id="graphPopup8">
-                           <title>18.6.-27.7.1761</title>
-                        </circle>
-                        <!--Insel Wright, Spithead-->
-                        
-                        
-                        <circle cx="4871" cy="3530" r="30" id="graphPopup9">
-                           <title>28.-29.7.1761</title>
-                        </circle>
-                        <!--Auslaufen; bis Corose ()-->
-                        
-                        
-                        <circle cx="5733" cy="3380" r="30" id="graphPopup10">
-                           <title>30.7.1761</title>
-                        </circle>
-                        <!--bis St Hellens zurück-->
-                        
-                        
-                        <circle cx="5559" cy="3615" r="30" id="graphPopup11">
-                           <title>31.7.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="5733" cy="3460" r="50" id="graphPopup12">
-                           <title>1.-4.8.1761</title>
-                        </circle>
-                        <!--gegenüber Pool; dann nach St. Hellens zurück-->
-                        
-                        
-                        <circle cx="4756" cy="3928" r="30" id="graphPopup13">
-                           <title>5.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3957" cy="4143" r="30" id="graphPopup14">
-                           <title>6.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2820" cy="4206" r="30" id="graphPopup15">
-                           <title>7.8.1761</title>
-                        </circle>
-                        <!--passieren Plymouth und Edenstone-->
-                        
-                        
-                        <circle cx="1326" cy="4450" r="30" id="graphPopup16">
-                           <title>8.8.1761</title>
-                        </circle>
-                        <!--Landsend-->
-                        
-                        </g>
-                     
-                     </svg></svg></div>
-            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/023.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">❯</span>
+                        </svg></svg></div>
+            </div>
+            <div class="pure-u-3-24"></div>
+         </div>
+         <div>
+            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail pure-img" target="_blank" href="img/1761/023.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">〉</span>
                
                <p>d <u>26</u><sup>t</sup> hörten Vormittags unsre 6 led. Brr., welche in Zeist vom Br. Joh. ausführℓ. waren gesprochen worden, eine gewiß unvergeßℓ. Einrichtungs-Rede, u. hatten
                   Abends ein seℓ<sup>s</sup> Pedilaviam. Nachmittags besuchte Br. Johannes mit der ℓ. Benignel u. noch einigen Geschw the Hope, u. segnete unser künftiges beysammenwohnen auf derselben
@@ -202,15 +214,15 @@ Meile hinter Woolwich-->
                   sang zum Beschluß: So geht nun in das Herren Freud p. Die obbemeldten beiden Yorkshirische
                   Schwr. bekamen nachher auch ihren sacramentℓn Antheil.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/023.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail pure-img" target="_blank" href="img/1761/023.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>Wir beschloßen sodann d <u>30<sup>t</sup></u>  unsern kurzen, aber besonders gesegneten Aufenthalt in Linsey-House, u. giengen zu Mittag nach zärtℓen Abschied, die verehℓ. Geschw. u. led. Schwr. in
                   Begleitung Br.
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/024.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/024.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Br. Nathanaels u. Joh. Nitschmanns; u. die led. Brr. in Begleitung des Br. Brodersens u. Reichelts nach der Hope zu, wo wir erst gegen Abend, weil sie bey Blackwall lag, mit der charmanten Collecte zur heutigen Los: <u>Mach uns überall daheime seyn,</u> eintrafen. Geschw. Nathanaels u. Marschalls blieben Verrichtungen halber zurücke, u. werden auf den ersten Ruf des Capit.nachfolgen. Wir bekamen noch 4 fremde Passagiers mit am Boord, die aber ihr apartes
                   Logis bey den Matrosen haben, u. uns auf der Reise weiter nicht im Wege gewesen sind.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/024.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail pure-img" target="_blank" href="img/1761/024.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>d <u>31<sup>t</sup></u> Vormittags weiheten wir unter seℓm Friedens-Gefühle u. Daseyn der th. Gottes Familie
                   unsre Schiffs-Wohnung mit der Kirchen- Litaney ein. Überhaupt sind wir recht schön
@@ -218,9 +230,9 @@ Meile hinter Woolwich-->
                   ganz gemächℓ. rund herum sizen. Wegen des contrairen Winds kamen wir heute nur bis
                   eine Engℓ. Meile hinter Woolwich. Abends hielt Br. Münster eine herzℓ. Singstde u. AbdSegen, wozu von der Schw. Brockschin mit der Cither accompagnirt wurde. Sonst ist vor ordinair das Clavier unsre  Orgel u. Br. Denke unser Organist in den Gelegenheiten gewesen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/024.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail pure-img" target="_blank" href="img/1761/024.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">Jun.</h3>
+               <h2>Jun.</h2>
                
                <p>d <u>1<sup>ten</sup></u> trat Br. Thrane als General Jünger der led. Brr. Chöre in diesen Monat ein. Nachmittag erfreuete
                   uns Br. Brandt mit einem Besuch bey Gravesand. Die mitgebrachte Nachricht aber von dem Vorgang an der Saramica machte manchen schmerzℓn
@@ -252,7 +264,7 @@ Meile hinter Woolwich-->
                   Andacht.</p>
                
                <p>d <u>6<sup>t</sup></u> gratulirten die led. Brr. in ihrem gewöhnℓ. M. Segen ihrem ℓ. Br. Arbo zu sm Geb. Tag, u. hielten nachher ihrer etℓ. ein kleines LM. mit ihm. Man
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/025.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/025.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Man brachte Nachmittags aus dem Canal ein armirtes französiches Fischer-Boot vorbey
                   nach London. Einige andre vorbeysegelnde Engl. Schiffe wurden gegryßt: Sonst waren wir ofte mit
                   unserm Geist in den Gemeinen, die heute Ihm im Arm u. an der Brust Sacrament begehen.</p>
@@ -297,14 +309,14 @@ Meile hinter Woolwich-->
                <p>d <u>13<sup>t</sup></u> wurde an einem Schneider-Gesellen, der um freyen Transport nach NYork als Matrose  auf unserm Schiff dient, ein Exempel der Unordnung statuirt. Selbiger, als einem
                   andern Matrosen etwas, das von keiner Erheblichkeit war, über Boord fiel, zog sich,
                   vielleicht aus Unbewustheit der
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   der Regeln dieses Schiffs, oder daß er sich der Abwesenheit des Capitains, der eben in der Cabine war, bedienen wolte, geschwinde aus, u. schmiß sich ins Waßer,
                   das verlorne wieder einzuholen, hatte aber große Mühe, wieder den Strom zurück zu
                   schwimmen, u. ward ziemℓ. entkräftet. Dieses gab unserm Br. Jacobsen Gelegenheit sich nicht nur gegen die übrigen Schiffsleute, dran die meisten neu sind,
                   sie vor allemal desfalls zu erklären, sondern auch besagtem Matrosen den Abschied
                   gleich zu ertheilen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail pure-img" target="_blank" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>d <u>14<sup>t</sup></u> (passirte ein niedℓ<u><sup>s</sup></u> Spiel: Wir wolten uns nemℓ. einen schönen Coffee zum Frühstück machen, u. hatten
                   Milch dazu vom Lande kommen laßen; Als wir aber zu trinken anfiengen, machte jedes
@@ -318,7 +330,7 @@ Meile hinter Woolwich-->
                   in den Downs, u. giengen bis jenseits Dover ohnweit Foulkstone vor Anker. Unsere heutige Lection handelte von der Tods-Angst u. blutigen Schweiß
                   unsers Versühners am Oelberg, u. machte unsre Herzen wie Wachs am Feuer zerfließen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail pure-img" target="_blank" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>d <u>15<sup>t</sup></u> machten wir die Observation, daß unter der ganzen Flotte fast kein Schiff unsrer
                   Hope im Segeln gleich kam (Sie muste ihre Segel auf 2 einziehen, um den andern nicht
@@ -326,12 +338,12 @@ Meile hinter Woolwich-->
                   die Übergabe von Belleisle. Unsre Singstde begleitete ein ausnehmendes Gefühl Seines
                   Daseyns.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail pure-img" target="_blank" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>d <u>16<sup>t</sup></u> musten wir contrairen Winds halber den halben Weg zurückgehen; Ein schöner N.O. kam
                   uns aber Abends zu Hülfe.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail pure-img" target="_blank" href="img/1761/026.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>d <u>18<sup>t</sup></u> hatten wir bey Tages Anbruch die Insel Wight rechter Hand, statt daß sie uns zur linken hätte seyn sollen; Wir musten daher gegen
                   den harten Wind zurück laviren, u. erreichten erst zu Mittag Spithead, nachdem wir 96 Stunden von den Downs bis hieher zugebracht hatten, da man sonst mit gutem Wind in weniger als 24 Stden
@@ -344,7 +356,7 @@ Meile hinter Woolwich-->
                   u. Wunden.</p>
                
                <p>d <u>20<sup>t</sup></u> hatten wir unsre erste Schiffs-Conferenz, worinnen den Geschw. Philipps das Diener-Amt in den Gelegenheiten, u. dem Br. Arboe u. Wahnert die äußere Besorgung der Brr. ins Ganze unter der Inspection des
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/027.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/027.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   des Br. Marschalls aufgetragen wurde. Bey den Schwrn versehen solche die Schw. Marschallin u. Wahnertin; Auch wurde für nöthig erachtet, daß tägℓ. eine Gesellschaft Geschw. zur Gesundheit
                   ans Land gehen könne. Einige Brr. machten heute den Anfang, da ein Matrose unsern
                   Braumüller, der ein paar hundert Schritt zurück geblieben war, gleich anpackte, weil er ihn
@@ -365,7 +377,7 @@ Meile hinter Woolwich-->
                   Land. Eine Bauers-Frau, bey der sie sich zu trinken geben ließen, bewunderte ihre
                   Ordentlichkeit u. sittsames Wesen, welches man sonst nicht gewohnt wäre von Leuten,
                   die von den Schiffen kämen. (der unterm 9<u><sup>t</sup></u> huj. gedachte Domine wollte Br. Jacobsen u. unsern Domine, wofür er Br. Münster ansieht, besuchen; Sie waren aber auch am Lande. Br. Münster hielt Abends eine herzℓ. Singstd.)</p>
-               <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/028.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+               <a class="thumbnail pure-img" target="_blank" href="img/1761/028.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                
                <p>d <u>23<sup>t</sup></u> stattete D<u><sup>ne</sup></u> van Haerlingen seinen gestern versprochenen Besuch bey Br. Jacobsen ab, u. blieb bis Abends bey uns. Br. Nathanael machte ihm ein Present mit den Berthelsd. Reden, welches ihm sehr lieb war, u. so
                   nahm er herzℓn Abschied, weil sein Capit. resolviert wäre, mit einer Convoy, die bis Gibraltar geht,auszulaufen.</p>
@@ -388,7 +400,7 @@ Meile hinter Woolwich-->
                   Gäste zu bewillkommen, welche sich hernach unsre Oeconomie mit Vergnügen ansahen,
                   u. uns mit verschiedenen erfreuℓn Nachrichten unterhielten. Abends in der <u>10<sup>t</sup></u> Stde hielt uns Br. Joh. eine sehr gesegnete Versamlung, worinnen er uns sr. herzℓ.n Liebe u. Zufriedenheit
                   versicherte, u. unter andren sagte, daß er zwar in Ansehung unsers
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/029.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/029.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   unsers nach America Gehens weiter nichts zu erinnern habe, indem er sich schon mehrmalen u. sondrℓ. in
                   der lezten Versamlung in Lindsey-House hierüber erklärt hätte; doch wolle er die Geschw. bitten, sich nicht in unnöthige
                   Gedancken über die langsame Reise einzulaßen, noch  die Ursache derselben in dem u.
@@ -438,7 +450,7 @@ Meile hinter Woolwich-->
                   halbe Stunde jenseits der Stadt auf einem Berge liegt, zeigen. Selbiges mag wol in
                   alten Zeiten eine vortrefliche Festung gewesen seyn, ist aber jetzo ziemlich verfallen,
                   und hat weder Garnison noch Einwohner, außer einen Thorhüter, der die Fremden
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/030.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/030.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   aus und einläßt; doch sind die Wohn-Gebäude und die Capelle noch in gutem Stande.
                   Der Brunnen ist 600 Fuß tief, und kan 3000 Menschen mit Waßer versehen. Der Thorhüter
                   ließ eine Stecknadel hinunter fallen, die beym Erreichen des Waßers einen lauten Schall
@@ -486,7 +498,7 @@ Meile hinter Woolwich-->
                
                <p>(<u>d. 18ten</u> war die See wegen des noch anhaltenden starken Windes so unruhig, daß viele Geschw.
                   krank wurden. Abend sangen wir das Epithalamium.)</p>
-               <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/031.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+               <a class="thumbnail pure-img" target="_blank" href="img/1761/031.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                
                <p><u>d. 19ten</u> beteten wir Vormittags die Litaney. Einige Brr gingen nach Newport, sich eine motion zu machen. Sie ließen sich in einem Wirths-Hauß daselbst was zu
                   trinken geben; die Wirthin brachte ihnen aber auch zu eßen, u. wie sie bezahlen wolten,
@@ -531,7 +543,7 @@ Meile hinter Woolwich-->
                   so gleich zu der Convoy hin, welche Alcyde heißt, 64 Canonen führt, und vom Comodor Hankerson commandirt wird, und empfing seine Sailing-Instruction, und noch eine versiegelte
                   Rendezvous-Ordre, im Fall ein Schiff von der Flotte abkäme, diese Rendezvous-Ordre
                   sezte uns anfängℓ. in einige Verlegenheit, aus Furcht nach Martinique zu kommen, darüber wir aber bald getröstet wurden. Unser Parole, dergℓ.
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/032.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/032.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   ein jedes Schiff seine eigene kriegte, hieß: The King of Prussia. Artig ists, und
                   gewiß eine Direction des Hlds, daß wir königℓ. Güter geladen haben. Denn der Commodor hat Befehl, keine Schiffe, als solche, die königℓ. Güter geladen haben, unter seine
                   Bedeckung mit zunhemen. Was uns diese Nachricht, als Br. Jacobsen wieder kam, vor eine Freude machte, kan man sich leicht vorstellen. Unser Herr guter
@@ -553,7 +565,7 @@ Meile hinter Woolwich-->
                   zur Besserung an. Wir beschloßen die Lection der 9ten Woche, u. hatten Abends eine
                   herzℓ. Singstde.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/032.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail pure-img" target="_blank" href="img/1761/032.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 28</u> ging der Wind nach S.O. nachdem er einige Wochen continuierℓ. aus S. und N. West
                   geweht hatte. Unsre Convoy gab so gleich das erste Signal zum Auslaufen, und wir legten
@@ -576,24 +588,24 @@ Meile hinter Woolwich-->
                   Stunden am heftigsten, da wir leicht wieder das nemℓ. Schicksaal von einem andern
                   Schiffe hätten haben können, wenn Er nicht seinem Engel befohlen hätte, daß er komm,
                   und uns bewach sein Eigenthum. O wie danckten wir unserm
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   treuen HErrn, daß wir nicht gestern in den Canal gekommen waren. Denn wäre die Flotte
                   bey dem heftigen Sturm da gewesen, so hätte sie große Noth haben können.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail pure-img" target="_blank" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d.30ten</u> war der Wind noch contrair; wir gingen bis St. Hellens zurück, um desto leichter in den Canal kommen zu können. Unsre Singstde war mit einer
                   merkℓn Nähe des Freundes begleitet.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail pure-img" target="_blank" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 31ten</u> legten die led Brr in ihrem Morgensegen den Br Wohn zu seinem Jünger-Monat ans segende Herz Jesu. Gegen Abend wurde der Wind Nordlich,
                   der Commodor wollte einen abermaligen Versuch thun, und wir liefen in den Canal hinaus
                   mit Freuden u. avancierten dieselbe Nacht hübsch.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail pure-img" target="_blank" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">August</h3>
+               <h2>August</h2>
                
                <p><u>d.1ten</u> früh waren wir Pool an der Engℓ. Küste gegen über, wurden aber durch contrairen Wind genöthigt nach St Helens zurück zu gehen. Im Hineinlaufen hatte die Hope das fatum zwischen 2 anderen Schiffen
                   hinein zukommen, u. dem einen ein Ring von seinem Yard herunter zu reißen, wovon aber
@@ -629,27 +641,27 @@ Meile hinter Woolwich-->
                   Rede des l. Joh. vom Handel u. Wandel in der Gem. gelesen u. Abends Unschuldiges Gottes
                   Lamm gesungen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail pure-img" target="_blank" href="img/1761/033.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 5ten</u> begegneten uns 2 von Tenarif kommende Engℓ. Kriegs-Schiffe, nebst einigen Transport-Schiffen. Auch ging uns ein
                   hol-
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   ländisches Schiff vorbey, welches der Commodor anhalten u. visitieren ließ. Nachmitt.
                   wurde der Wind contrair. Wir empfohlen uns in der Singstde der Bedeckung u. stündℓ.
                   Naheseyn unsers treuen HErrn auf unserer ganzen Reise.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail pure-img" target="_blank" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 6ten</u> segelte uns ein großes Dänisches Schiff, das vermuthℓ. von Ost-Indien zurück kam, vorbey</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail pure-img" target="_blank" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 7ten</u> hatten wir den ganzen tag Calm. Einen Capit., der seine Flagge aufgesteckt hatte,
                   schickte der Commodor, als er solches gewahr wurde eine Kugel, worauf der Capit. die Flagge so gleich einzog.
                   Wir passierten Nachmitt. mit Hülfe der [T]ide Plymouth u. Edenstone, welches ein auf einem in der See liegenden Felsen hoch gebauter Thurm ist, u. besangen
                   Abends das Haupt voll Blut und Wunden mit innigem Gefühl.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span>
+            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail pure-img" target="_blank" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span>
                
                <p><u>d. 8ten</u> Als wir Nachmitt. Lands-End, welches die äußerste Spitze von England ist, zu Gesichte kriegten, wurde einigen unter uns ein charmanter Denck- Zeddel von unserm ℓ. Ignatio ganz unerwartet überreicht, welches eine ganz eigene Freude verursachte, und uns
                   eine neue Impression von seinem bekannten liebes vollen Herzen machte. Abends in der
@@ -662,16 +674,20 @@ Meile hinter Woolwich-->
                </div>
          </div>
       </div>
-      <footer class="footer">
+      <footer class="footer l-box">
          
-         <div class="container text-center">
+         <div>
             
-            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena</p>
-            <!-- Dieser Backlink darf NICHT entfernt werden. DO NOT REMOVE-->
-            https://www.moravians-at-sea.uni-jena.de | Designed by <a href="http://freietemplates.de/">freietemplates.de</a>, adapted by <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte/martin+prell_+m_a_">Martin Prell</a>
+            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena und <a href="https://mprell.github.io/">Martin Prell</a></p>
+            
+            <p>https://www.moravians-at-sea.uni-jena.de</p>
             </div>
-         </footer>
-      <div class="impressum_datenschutz">
-         <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
-         </div><script type="text/javascript" src="js/main.js"></script><script type="text/javascript" src="js/diary.js"></script></body>
+         
+         <div class="impressum_datenschutz">
+            
+            <p>
+               <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+               </p>
+            </div>
+         </footer><script type="text/javascript" src="js/diary.js"></script></body>
 </html>

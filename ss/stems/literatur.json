@@ -1,1 +1,1 @@
-{"stem":"literatur","instances":[{"docUri":"einleitung.html","score":2,"contexts":[{"form":"Literatur","weight":"2","pos":687,"context":"Weiterführende <mark>Literatur<\/mark> zu Herrnhuter Seereisen und zum Projekt","fid":"introduction","in":["ssCtx1"]}]}]}
+{"stem":"literatur","instances":[{"docUri":"einleitung.html","score":2,"contexts":[{"form":"Literatur","weight":"2","pos":694,"context":"Weiterführende <mark>Literatur<\/mark> zu Herrnhuter Seereisen und zum Projekt","in":["ssCtx1","ssCtx1"]}]}]}

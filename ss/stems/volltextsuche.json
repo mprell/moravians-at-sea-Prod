@@ -1,1 +1,1 @@
-{"stem":"volltextsuche","instances":[{"docUri":"suche.html","score":2,"contexts":[{"form":"Volltextsuche","weight":"2","pos":1,"context":"<mark>Volltextsuche<\/mark>","fid":"introduction"}]}]}
+{"stem":"volltextsuche","instances":[{"docUri":"suche.html","score":2,"contexts":[{"form":"Volltextsuche","weight":"2","pos":8,"context":"<mark>Volltextsuche<\/mark>","in":["ssCtx1"]}]}]}

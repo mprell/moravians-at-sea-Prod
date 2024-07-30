@@ -1,463 +1,475 @@
 <?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <title>Reise 1761 (Atlantik und Nordamerika)</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link href="css/bootstrap.min.css" rel="stylesheet" />
-      <link href="css/custom.css" rel="stylesheet" />
-      <link rel="icon" href="favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
+      <title>Reise 1761 - Atlantik und Nordamerika</title>
+      <link rel="stylesheet" href="css/base-min.css" />
+      <link rel="stylesheet" href="css/grids-min.css" />
+      <link rel="stylesheet" href="css/grids-responsive-min.css" />
+      <link rel="stylesheet" href="css/menus-min.css" />
+      <link rel="stylesheet" href="css/buttons-min.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="icon" href="img/favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
    <body>
-      <nav class="navbar navbar-default navbar-static-top">
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+         <a class="pure-menu-heading" href="index.html">Moravians at Sea</a>
          
-         <div style="margin: 0 1% 0 1%;">
+         
+         <ul class="pure-menu-list">
             
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
-               
-               <div>
-                  <a class="navbar-brand" href="index.html" style="color: #e3d2b4;">Moravians at Sea</a>
-                  </div>
-               </div>
+            <li class="pure-menu-item">
+               <a href="einleitung.html" class="pure-menu-link">Über</a>
+               </li>
             
-            <div id="navbar" class="navbar-collapse collapse">
+            <li class="pure-menu-item">
+               <a href="suche.html" class="pure-menu-link">Suche</a>
+               </li>
+            
+            
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+               <a href="#" id="menuLink1" class="pure-menu-link">Reisen</a>
                
-               <ul class="nav navbar-nav navbar-right">
+               <ul class="pure-menu-children">
                   
-                  <li><a href="einleitung.html" style="color: #e3d2b4;">Über</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1746.html" class="pure-menu-link">1746/47</a>
+                     </li>
                   
-                  <li><a href="suche.html" style="color: #e3d2b4;">Suche</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1752.html" class="pure-menu-link">1752</a>
+                     </li>
                   
-                  <li class="dropdown">
-                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #e3d2b4;">Reisen <span class="caret"></span></a>
-                     
-                     <ul class="dropdown-menu">
-                        
-                        <li><a href="1746.html">Reise 1746/47</a></li>
-                        
-                        <li><a href="1752.html">Reise 1752</a></li>
-                        
-                        <li><a href="1761.html">Reise 1761</a></li>
-                        </ul>
+                  <li class="pure-menu-item">
+                     <a href="1761.html" class="pure-menu-link">1761</a>
                      </li>
                   </ul>
-               </div>
-            </div>
-         </nav>
-      <div class="jumbotron3">
-         <div class="container">
-            <h1 style="color: #fff; font-size: 350%; display:flex; justify-content: center;">Reise nach Amerika im Jahr 1761</h1>
-         </div>
-      </div>
-      <div class="section2" id="introduction">
-         <div id="overlay" onclick="off()"></div>
-         <div id="overlay2" onclick="off()"></div><a class="btn1 btn btn-primary btn-lg" role="button" href="1761kanal.html">🠔 Teil 3</a><a class="btn1 btn btn-primary btn-lg" role="button" style="float:right;" href="1761.html">Übersicht 🠖</a><div style="display:flex; justify-content: center;" id="atlantic">
-            <h3 style="color: #e3d2b4;">Teil 4: Der Atlantik und Nordamerika</h3>
-         </div>
-         <div style="padding-left: 8%; padding-right: 7%;"><a class="btn btn-primary btn-lg" role="button" onclick="ShowHTUFunction()">How to Use</a><a class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph()">Route einblenden</a></div>
-         <div class="HTUPopuptext" id="HTUPopup">
-            <div style="text-align: center;"></div>
-            <h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
-            <ul>
-               <li>Die Nadeln auf der Route geben schematisch die Tagespositionen des Schiffs zwischen
-                  im Tagebuch erwähnten Landmarken (erkennbar an den Richtungswechseln der Route) wieder.
-                  Klicken Sie auf die Nadeln, um sich die jeweiligen Tagebucheinträge anzeigen zu lassen.
-                  Mouseover auf eine Nadel blendet das Datum ein.</li>
+               </li>
             </ul>
          </div>
-         <div class="map">
-            <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 5216 3546" style="background-image: url('img/atlantic.jpg'); background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;"><svg xmlns="" id="graph">
-                     
-                     <g stroke="red" stroke-width="8" stroke-linecap="round" fill="none">
+      <div class="banner">
+         <h1 class="banner-head">Reise nach Amerika im Jahr 1761</h1>
+      </div>
+      <div class="l-content">
+         <div id="overlay" onclick="off()"></div>
+         <div id="overlay2" onclick="off()"></div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1761kanal.html">🠔</a></div>
+            <div class="pure-u-1 pure-u-md-20-24">
+               <h1>Teil 4: Atlantik und Nordamerika</h1>
+            </div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1761.html">🠖</a></div>
+         </div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-secondary howto-button" onclick="ShowHTUFunction()">How to Use</a><a class="pure-button button-secondary tei-button" target="_blank" href="github.com">XML/TEI</a></div>
+            <div class="pure-u-1 pure-u-md-13-24"></div>
+            <div class="pure-u-1 pure-u-md-3-24"><a class="pure-button button-secondary reset-button" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="pure-button button-secondary hidegraph-button" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="pure-button button-secondary showgraph-button" onclick="showgraph()">Route einblenden</a></div>
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+         </div>
+         <div class="HTUPopuptext" id="HTUPopup">
+            <h3 class="howto-h3">How to Use</h3>
+            <ul>
+               <li>Die Punkte/Nadeln auf der Route geben schematisch die Tagespositionen des Schiffs
+                  zwischen im Tagebuch erwähnten Landmarken (erkennbar an den Richtungswechseln der
+                  Route) wieder. Klicken Sie auf die Nadeln, um sich die jeweiligen Tagebucheinträge
+                  anzeigen zu lassen. Mouseover auf eine Nadel blendet das Datum ein.</li>
+            </ul>
+         </div>
+         <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="map pure-u-18-24">
+               <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 5216 3546" style="background-image: url('img/atlantic.jpg');"><svg id="graph">
                         
-                        <polyline points="4591,218 3455,957 2149,745 1036,965 923,977 928,945 889,951 850,957"></polyline>
-                        </g>
-                     
-                     <g class="popup" stroke="black" stroke-width="5" fill="red">
+                        <g stroke="red" stroke-width="8" stroke-linecap="round" fill="none">
+                           
+                           <polyline points="4591,218 3455,957 2149,745 1036,965 923,977 928,945 889,951 850,957"></polyline>
+                           </g>
                         
-                        
-                        <circle cx="4591" cy="218" r="20" id="graphPopup1">
-                           <title>9.8.1761</title>
-                        </circle>
-                        <!--In die See-->
-                        
-                        
-                        <circle cx="4547" cy="246" r="20" id="graphPopup2">
-                           <title>10.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4503" cy="275" r="20" id="graphPopup3">
-                           <title>11.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4460" cy="303" r="20" id="graphPopup4">
-                           <title>12.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4416" cy="332" r="20" id="graphPopup5">
-                           <title>13.8.1761</title>
-                        </circle>
-                        
-                        <!--14.8. hat keinen Eintrag-->
-                        
-                        
-                        <circle cx="4372" cy="360" r="20" id="graphPopup6">
-                           <title>15.8.1761</title>
-                        </circle>
-                        <!--segeln nach SW um nicht zu weit nach Norden zu kommen-->
-                        
-                        
-                        <circle cx="4329" cy="388" r="20" id="graphPopup7">
-                           <title>16.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4285" cy="417" r="20" id="graphPopup8">
-                           <title>17.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4241" cy="445" r="20" id="graphPopup9">
-                           <title>18.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4198" cy="474" r="20" id="graphPopup10">
-                           <title>19.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4154" cy="502" r="20" id="graphPopup11">
-                           <title>20.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4110" cy="531" r="20" id="graphPopup12">
-                           <title>21.8.1761</title>
-                        </circle>
-                        
-                        <!--22. und 23.8. haben keinen Eintrag-->
-                        
-                        
-                        <circle cx="4067" cy="559" r="20" id="graphPopup13">
-                           <title>24.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4023" cy="587" r="20" id="graphPopup14">
-                           <title>25.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3979" cy="616" r="20" id="graphPopup15">
-                           <title>26.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3936" cy="644" r="20" id="graphPopup16">
-                           <title>27.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3892" cy="673" r="20" id="graphPopup17">
-                           <title>28.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3848" cy="701" r="20" id="graphPopup18">
-                           <title>29.8.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3804" cy="730" r="20" id="graphPopup19">
-                           <title>30.8.1761</title>
-                        </circle>
-                        
-                        <!--31.8. hat keinen Eintrag-->
-                        
-                        
-                        <circle cx="3761" cy="758" r="20" id="graphPopup20">
-                           <title>1.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3717" cy="786" r="20" id="graphPopup21">
-                           <title>2.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3673" cy="815" r="20" id="graphPopup22">
-                           <title>3.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3630" cy="843" r="20" id="graphPopup23">
-                           <title>4.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3586" cy="872" r="20" id="graphPopup24">
-                           <title>5.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3542" cy="901" r="20" id="graphPopup25">
-                           <title>6.-7.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3499" cy="929" r="20" id="graphPopup26">
-                           <title>8.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3455" cy="957" r="20" id="graphPopup27">
-                           <title>9.-10.9.1761</title>
-                        </circle>
-                        <!-- im 40 Grad Latit., nicht
+                        <g class="popup" stroke="black" stroke-width="5" fill="red">
+                           
+                           
+                           <circle cx="4591" cy="218" r="20" id="graphPopup1">
+                              <title>9.8.1761</title>
+                           </circle>
+                           <!--In die See-->
+                           
+                           
+                           <circle cx="4547" cy="246" r="20" id="graphPopup2">
+                              <title>10.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4503" cy="275" r="20" id="graphPopup3">
+                              <title>11.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4460" cy="303" r="20" id="graphPopup4">
+                              <title>12.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4416" cy="332" r="20" id="graphPopup5">
+                              <title>13.8.1761</title>
+                           </circle>
+                           
+                           <!--14.8. hat keinen Eintrag-->
+                           
+                           
+                           <circle cx="4372" cy="360" r="20" id="graphPopup6">
+                              <title>15.8.1761</title>
+                           </circle>
+                           <!--segeln nach SW um nicht zu weit nach Norden zu kommen-->
+                           
+                           
+                           <circle cx="4329" cy="388" r="20" id="graphPopup7">
+                              <title>16.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4285" cy="417" r="20" id="graphPopup8">
+                              <title>17.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4241" cy="445" r="20" id="graphPopup9">
+                              <title>18.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4198" cy="474" r="20" id="graphPopup10">
+                              <title>19.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4154" cy="502" r="20" id="graphPopup11">
+                              <title>20.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4110" cy="531" r="20" id="graphPopup12">
+                              <title>21.8.1761</title>
+                           </circle>
+                           
+                           <!--22. und 23.8. haben keinen Eintrag-->
+                           
+                           
+                           <circle cx="4067" cy="559" r="20" id="graphPopup13">
+                              <title>24.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4023" cy="587" r="20" id="graphPopup14">
+                              <title>25.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3979" cy="616" r="20" id="graphPopup15">
+                              <title>26.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3936" cy="644" r="20" id="graphPopup16">
+                              <title>27.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3892" cy="673" r="20" id="graphPopup17">
+                              <title>28.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3848" cy="701" r="20" id="graphPopup18">
+                              <title>29.8.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3804" cy="730" r="20" id="graphPopup19">
+                              <title>30.8.1761</title>
+                           </circle>
+                           
+                           <!--31.8. hat keinen Eintrag-->
+                           
+                           
+                           <circle cx="3761" cy="758" r="20" id="graphPopup20">
+                              <title>1.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3717" cy="786" r="20" id="graphPopup21">
+                              <title>2.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3673" cy="815" r="20" id="graphPopup22">
+                              <title>3.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3630" cy="843" r="20" id="graphPopup23">
+                              <title>4.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3586" cy="872" r="20" id="graphPopup24">
+                              <title>5.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3542" cy="901" r="20" id="graphPopup25">
+                              <title>6.-7.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3499" cy="929" r="20" id="graphPopup26">
+                              <title>8.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3455" cy="957" r="20" id="graphPopup27">
+                              <title>9.-10.9.1761</title>
+                           </circle>
+                           <!-- im 40 Grad Latit., nicht
 viel über 1/3 der Reise geschafft-->
-                        
-                        <!--11.9. hat keinen Eintrag-->
-                        
-                        
-                        <circle cx="3323" cy="936" r="20" id="graphPopup28">
-                           <title>12.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3191" cy="915" r="20" id="graphPopup29">
-                           <title>13.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3060" cy="895" r="20" id="graphPopup30">
-                           <title>14.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2928" cy="874" r="20" id="graphPopup31">
-                           <title>15.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2796" cy="853" r="20" id="graphPopup32">
-                           <title>16.9.1761</title>
-                        </circle>
-                        <!-- 1/2 der Reise geschafft-->
-                        
-                        
-                        <circle cx="2688" cy="835" r="20" id="graphPopup33">
-                           <title>17.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2580" cy="817" r="20" id="graphPopup34">
-                           <title>18.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2473" cy="799" r="20" id="graphPopup35">
-                           <title>19.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2365" cy="781" r="20" id="graphPopup36">
-                           <title>20.-21.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2257" cy="763" r="20" id="graphPopup37">
-                           <title>22.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2149" cy="745" r="20" id="graphPopup38">
-                           <title>23.9.1761</title>
-                        </circle>
-                        <!--auf der Höhe von den Bänken von N. Foundland-->
-                        
-                        
-                        <circle cx="2096" cy="755" r="20" id="graphPopup39">
-                           <title>24.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="2043" cy="766" r="20" id="graphPopup40">
-                           <title>25.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1990" cy="776" r="20" id="graphPopup41">
-                           <title>26.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1937" cy="787" r="20" id="graphPopup42">
-                           <title>27.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1884" cy="797" r="20" id="graphPopup43">
-                           <title>28.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1831" cy="808" r="20" id="graphPopup44">
-                           <title>29.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1778" cy="818" r="20" id="graphPopup45">
-                           <title>30.9.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1725" cy="829" r="20" id="graphPopup46">
-                           <title>1.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1672" cy="839" r="20" id="graphPopup47">
-                           <title>2.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1619" cy="850" r="20" id="graphPopup48">
-                           <title>3.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1566" cy="860" r="20" id="graphPopup49">
-                           <title>4.10.1761</title>
-                        </circle>
-                        
-                        <!--5.10. hat keinen Eintrag-->
-                        
-                        
-                        <circle cx="1513" cy="871" r="20" id="graphPopup50">
-                           <title>6.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1460" cy="881" r="20" id="graphPopup51">
-                           <title>7.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1407" cy="892" r="20" id="graphPopup52">
-                           <title>8.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1354" cy="902" r="20" id="graphPopup53">
-                           <title>9.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1301" cy="913" r="20" id="graphPopup54">
-                           <title>10.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1248" cy="923" r="20" id="graphPopup55">
-                           <title>11.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1195" cy="934" r="20" id="graphPopup56">
-                           <title>12.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1142" cy="944" r="20" id="graphPopup57">
-                           <title>13.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1089" cy="955" r="20" id="graphPopup58">
-                           <title>14.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="1036" cy="965" r="20" id="graphPopup59">
-                           <title>15.10.1761</title>
-                        </circle>
-                        <!--Long-Eyland 28 deutsche Meilen zur Rechten-->
-                        
-                        
-                        <circle cx="998" cy="969" r="20" id="graphPopup60">
-                           <title>16.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="961" cy="973" r="20" id="graphPopup61">
-                           <title>17.10.1761</title>
-                        </circle>
-                        
-                        
-                        <circle cx="923" cy="977" r="20" id="graphPopup62">
-                           <title>18.10.1761</title>
-                        </circle>
-                        <!--Erblicken Land; Gehen vor Anker in Sandy Hook-->
-                        
-                        
-                        <path class="popup" d="m 928 945 l 17 -42 m -10 -29 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup63">
-                           <title>19.-20.10.1761</title>
-                        </path>
-                        <!--New York-->
-                        
-                        
-                        <path class="popup" d="m 889 951 l -21 -63 m -26 -30 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup64">
-                           <title>21.-22.10.1761</title>
-                        </path>
-                        <!--Reise nach Bethlehem-->
-                        
-                        
-                        <path class="popup" d="m 850 957 l -36 -35 m -33 -25 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup65">
-                           <title>23.10.1761</title>
-                        </path>
-                        <!--Ankunft in Bethlehem-->
-                        
-                        </g>
-                     </svg></svg></div>
-            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">❯</span>
+                           
+                           <!--11.9. hat keinen Eintrag-->
+                           
+                           
+                           <circle cx="3323" cy="936" r="20" id="graphPopup28">
+                              <title>12.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3191" cy="915" r="20" id="graphPopup29">
+                              <title>13.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3060" cy="895" r="20" id="graphPopup30">
+                              <title>14.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2928" cy="874" r="20" id="graphPopup31">
+                              <title>15.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2796" cy="853" r="20" id="graphPopup32">
+                              <title>16.9.1761</title>
+                           </circle>
+                           <!-- 1/2 der Reise geschafft-->
+                           
+                           
+                           <circle cx="2688" cy="835" r="20" id="graphPopup33">
+                              <title>17.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2580" cy="817" r="20" id="graphPopup34">
+                              <title>18.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2473" cy="799" r="20" id="graphPopup35">
+                              <title>19.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2365" cy="781" r="20" id="graphPopup36">
+                              <title>20.-21.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2257" cy="763" r="20" id="graphPopup37">
+                              <title>22.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2149" cy="745" r="20" id="graphPopup38">
+                              <title>23.9.1761</title>
+                           </circle>
+                           <!--auf der Höhe von den Bänken von N. Foundland-->
+                           
+                           
+                           <circle cx="2096" cy="755" r="20" id="graphPopup39">
+                              <title>24.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2043" cy="766" r="20" id="graphPopup40">
+                              <title>25.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1990" cy="776" r="20" id="graphPopup41">
+                              <title>26.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1937" cy="787" r="20" id="graphPopup42">
+                              <title>27.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1884" cy="797" r="20" id="graphPopup43">
+                              <title>28.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1831" cy="808" r="20" id="graphPopup44">
+                              <title>29.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1778" cy="818" r="20" id="graphPopup45">
+                              <title>30.9.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1725" cy="829" r="20" id="graphPopup46">
+                              <title>1.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1672" cy="839" r="20" id="graphPopup47">
+                              <title>2.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1619" cy="850" r="20" id="graphPopup48">
+                              <title>3.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1566" cy="860" r="20" id="graphPopup49">
+                              <title>4.10.1761</title>
+                           </circle>
+                           
+                           <!--5.10. hat keinen Eintrag-->
+                           
+                           
+                           <circle cx="1513" cy="871" r="20" id="graphPopup50">
+                              <title>6.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1460" cy="881" r="20" id="graphPopup51">
+                              <title>7.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1407" cy="892" r="20" id="graphPopup52">
+                              <title>8.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1354" cy="902" r="20" id="graphPopup53">
+                              <title>9.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1301" cy="913" r="20" id="graphPopup54">
+                              <title>10.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1248" cy="923" r="20" id="graphPopup55">
+                              <title>11.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1195" cy="934" r="20" id="graphPopup56">
+                              <title>12.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1142" cy="944" r="20" id="graphPopup57">
+                              <title>13.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1089" cy="955" r="20" id="graphPopup58">
+                              <title>14.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1036" cy="965" r="20" id="graphPopup59">
+                              <title>15.10.1761</title>
+                           </circle>
+                           <!--Long-Eyland 28 deutsche Meilen zur Rechten-->
+                           
+                           
+                           <circle cx="998" cy="969" r="20" id="graphPopup60">
+                              <title>16.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="961" cy="973" r="20" id="graphPopup61">
+                              <title>17.10.1761</title>
+                           </circle>
+                           
+                           
+                           <circle cx="923" cy="977" r="20" id="graphPopup62">
+                              <title>18.10.1761</title>
+                           </circle>
+                           <!--Erblicken Land; Gehen vor Anker in Sandy Hook-->
+                           
+                           
+                           <path class="popup" d="m 928 945 l 17 -42 m -10 -29 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup63">
+                              <title>19.-20.10.1761</title>
+                           </path>
+                           <!--New York-->
+                           
+                           
+                           <path class="popup" d="m 889 951 l -21 -63 m -26 -30 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup64">
+                              <title>21.-22.10.1761</title>
+                           </path>
+                           <!--Reise nach Bethlehem-->
+                           
+                           
+                           <path class="popup" d="m 850 957 l -36 -35 m -33 -25 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup65">
+                              <title>23.10.1761</title>
+                           </path>
+                           <!--Ankunft in Bethlehem-->
+                           
+                           </g>
+                        </svg></svg></div>
+            </div>
+            <div class="pure-u-3-24"></div>
+         </div>
+         <div>
+            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail pure-img" target="_blank" href="img/1761/034.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">〉</span>
                
                <p>d. 9ten Unsre erste Los. auf der See, die wie man hört, wegen der vielen Kapereyen
                   sonderℓ. in den Americanischen Gegenden im ganzen Kriege nicht so unsicher gewesen
                   seyn soll als jetzo, hieß: Er
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   <u>Er wird mir Friede schaffen, Friede wird Er mir dennoch schaffen.</u> Wir avancierten heute so wie die vorige Nacht jede Stunde eine bis 1½ teutsche Meilen
                   u. waren Abends schon 40 Meilen in der See; viele Geschw. aber wurden krank.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail pure-img" target="_blank" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 10ten</u> praesentierte sich ein schöner Gnaden-Bogen über unserm Schiff. Der Schw. Münsterin brachten die Schw. früh einen niedℓ. Morgen-Gruß zu ihrem heutigen Geb. Tag, u. in der Singstde wurde
                   sie von allen Geschw. ihrem Herzens-Freunde zum segnen empfohlen. Wir lasen zu Mittag
                   aus der 1ten Beylage, u. hatten das Vergnügen unsere kranken Geschw. wieder munter
                   zu sehen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail pure-img" target="_blank" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 11ten</u> fingen wir an die schöne Marter-Woche zu lesen. Ach was sind in unsers Mannes Leiden
                   doch für unschätzbare Seelen-Weiden. Der Wind wurde ziemlℓ. schwach, und wir mussten
                   auf einige zurück bleibende Schiffe warten, welches, weil es fast täglich vorgekommen,
                   unsre Reise sehr verlängert hat</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail pure-img" target="_blank" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 12ten</u> früh entdeckte man von fernen einen feindl. Privateer. Der Unter-Commodor welcher
                   auf dem Schiff, das unsre Brr. nach <s>Labb</s>Labrador brachte, als Steuermann diente, u. nun ein Schiff von 20 Canonen commandiert, muste
                   Jagd auf ihn machen,<s> u. sezte ihm einige Stunden nach,</s> konnte ihn aber nicht mehr einholen. Die heutige Lection von der simplen Geschicht,
                   wie Er verschieden ist, machte unsre Augen naß.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail pure-img" target="_blank" href="img/1761/035.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 13ten</u> Vormittags um 9 fand sich ein dicker Nebel ein, u. eine Stunde drauf mit einem mal
                   ein solcher heftiger N. Wind, <s>so</s> daß die ganze Flotte, weil sich niemand so was so plözℓ. vermuthet hatte, in Confusion
@@ -466,13 +478,13 @@ viel über 1/3 der Reise geschafft-->
                   Der Commodor ließ etliche Canonen-Schüße thun, damit die Flotte hören sollte, wo er wäre, aber
                   niemand, als wer noch bey ihm war, hatte Nutzen davon. Wir kamen Gottlob bald in Ordnung,
                   u. waren die nächsten beym Commodor, u. endℓ. kam die übrige Flotte auch ins Geschick. Nach ein paar
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Stunden ließ die Heftigkeit des Windes nach, u. wir kriegten schönes Wetter und eine
                   angenehme Fahrt, waren auch oft im Geist in der Gem. und wurden seligℓ. angeweht von
                   der sanften Friedens-Luft, die sie unter dem Geren Ihres Eliha heute sacramentℓ. Zu
                   empfinden hat.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail pure-img" target="_blank" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 15ten</u> War wieder den ganzen Tag außer dem contrairen Wind ein solcher Nebel, daß man kaum
                   einen Flinten-Schuß weit sehen konnte. Der Commodor brauchte die Vorsichtigkeit, daß er alle Stunden eine Canone abfeuern ließ, um die
@@ -481,7 +493,7 @@ viel über 1/3 der Reise geschafft-->
                   mit mir um, ließ uns an seiner gnädigen Assistenz die Nacht hindurch, da der Nebel
                   noch immer anhielt, keinen Zweifel haben.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail pure-img" target="_blank" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 16ten</u> früh hatte sich der entsetzliche Nebel, aber auch zugleich die halbe Flotte verloren,
                   welches vermuthℓ. gestern Abend bey der Aenderung unseres Courses muß veranlaßet worden
@@ -489,17 +501,17 @@ viel über 1/3 der Reise geschafft-->
                   die Gem. Litaney unter einem ausnehmenden Wittern des Geistes der Gemeinschaft, und
                   lasen Abends die Rede. Sie sollen sich alle erkennen, beide klein u. groß.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail pure-img" target="_blank" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 17ten</u> fanden sich wieder 8 von den verlorenen Schiffen ein; 38 aber blieben weg, <s>obgleich der Unter-Commodor den gestrigen ganzen Tag hin u. her gekreuzt hatten.</s> Der Wind war noch immer contrair, wir aber der Führung unsers Treuen kindlich ergeben,
                   u. baten uns nach der heutigen Los. nur <u>das</u> zur Gnade von Ihm aus. Hab uns doch innig lieb.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail pure-img" target="_blank" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 18ten</u> kriegten wir guten Wind, u. machten die Stde etwa eine deutsche Meile. Wir lasen
                   zu Mittag Gem. Nachrichten, und hatten Abends ein seℓ. Singstundgen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail pure-img" target="_blank" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 19ten</u> bey Tages Anbruch wurde der Wind aus S. so heftig, wir die meisten Segel einziehen
                   musten, bey welcher Gelegenheit einer von unseren Schiff-Leuten vom Mast-Baum auf
@@ -519,14 +531,14 @@ viel über 1/3 der Reise geschafft-->
                   Sünder-Freund aus weiser Ursachen dem Verderben, in welches er noch hätte hinein gerathen
                   können, mit einem mal entzog.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail pure-img" target="_blank" href="img/1761/036.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 20ten</u> war Vormittags Calm, während welchem Anstalten gemacht wurden, den Capit. des im
                   gestrigen Sturm verunglückten Schiffs, das seines erlittenen Schadens ohngeachtet
                   doch bis heute mitgesegelt war, aber um nun nicht wieder fort konnte, nebst dem Schiffs-Volck
                   u. allem, was ihnen gehörte, auf andere Schiffe zu transportieren. So dann überließ
                   man besagtes Schiff mit
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>	
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>	
                   allem, was drauf war, dem Wind und Wolken; doch hatte es noch, wie man observieren
                   konnte, von dem u. jenem Schiff im Vorbeysegeln manchen hungrigen Besuch. Wir besangen
                   Abends mit zerfloßenem Herzen, was der Freund für uns gethan, u. wünschten uns auf
@@ -534,7 +546,7 @@ viel über 1/3 der Reise geschafft-->
                   ließ sich ein starcker Nord-Schein sehen, der anfängℓ. von einem halben Creyß gleich
                   einem Regenbogen umgeben war, und seine Strahlen Recht majestaetisch von sich warf.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail pure-img" target="_blank" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 21ten</u> wurde zu Mittag Br. Hoyers Bericht von der Diaspora in Hollstein u. Jüttland als auch das Copenhagensche Diar. aus der Beylage mit Vergnügen gelesen. Gegen Abend
                   kriegten wir einen starken S.W. mit Nebel u. Regen; nach einer Stunde ging er plözlich
@@ -546,7 +558,7 @@ viel über 1/3 der Reise geschafft-->
                   einander geschmißen zu werden; Er war aber für allen Schaden gut, und brachte uns
                   wieder aus einander.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail pure-img" target="_blank" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 24ten</u> hatten wir einen noch härtern Sturm aus S.W. der sich früh um 4 Uhr anfing, u. gegen
                   Mittag am stärksten war. Wir musten beylegen, die See war dabey anzusehen, als wenn
@@ -555,13 +567,13 @@ viel über 1/3 der Reise geschafft-->
                   Nacht hindurch. Wir hielten uns dabey an den, wir nicht sehen, als sähen wir Ihn,
                   konnten aber die Nacht vor Bewegung des Schiffs kein Auge zuthun.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail pure-img" target="_blank" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 25ten</u> war die See noch ziemℓ. wild u. der Wind hart, welches noch auszustehen ist, so lange
                   man segelt, aber desto schlimmer, man stille liegt, wie wir den ganzen Vormittag,
                   weiß nicht aus was Ursachen thun musten.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail pure-img" target="_blank" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 26ten</u> that ein Schiff von der Flotte, welches noch nicht weit zurücke war, einen Canonen-Schuß;
                   die Flotte muste halt machen, u. der Unter-Commodor wurde hin commandiert; Er brachte
@@ -573,12 +585,12 @@ viel über 1/3 der Reise geschafft-->
                   auch die obersten Mäste herunter genommen, und andere Anstalten vorgekehrt wurden.
                   Es blieb aber bey harten Windstößen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail pure-img" target="_blank" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 27ten</u> war früh abermals ein ungestümes Wetter mit starkem Regen. Die Witterung wurde Nachmittag
                   zwar freundlicher; weil aber der Commodor was an seinem Schiffe zu reparieren hatte, so gings auch heute nicht weit vom Fleck.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup17"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup17"><a class="thumbnail pure-img" target="_blank" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 28ten</u> gedachten wir bey der heutigen Los. Die Tage deines Leides sollen ein Ende haben
                   u. gehen an die Freuden, gar ofte an unsre deutsche Gemeinen bey den gegenwärtigen
@@ -589,14 +601,14 @@ viel über 1/3 der Reise geschafft-->
                   mit der Gem. u. sonderℓ. mit den led. Brr. die ihr Fest feyern würden das h. Sacrament
                   haben würden.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup18"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup18"><a class="thumbnail pure-img" target="_blank" href="img/1761/037.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 29ten</u> nahten sich gleich frühe die led. Brr. zu ihrem Chor-Aeltesten, dem Einigen jungfräuℓ.
                   Mann, ließen sich von seiner durchgrabenen Hand absolviren, und gaben Ihm unter einem
                   seℓ. Gefühl der Gemeinschaft mit ihren Chor Verwandten Herz u. Hände, nicht nur Seine
                   treuen Jünglinge zu seyn, sondern auch Geist u. Seel u. Glieder willig herzuleihn,
                   Jesum zu erfreun. Als sie mit ihrem
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Morgensegen fertig waren, ging Br. Münster ihnen zu ihrem Fest gratulieren, und schob ganz unvermerckt die Thüre zu der Schww.
                   Cabine weg, wohinter sich die Tages Los. sehr schön geschrieben und ausgezieret praesentierte,
                   welches eine eigene Fest-Freude verursachte, zumal auf der See, wo man sich so was
@@ -608,18 +620,18 @@ viel über 1/3 der Reise geschafft-->
                   Christ, u. die led. Brr. genoßen es zur Versiegelung ihres erwarteten Chor-Bruders,
                   daß der Sinn des Lamms Sinn gleiche u. die Hütte seiner Leiche.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup19"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup19"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 30ten</u> war Vormitt. eine sel. Com. Lit. u. Abends eine Lection aus den Londonschen Homilien.
                   Wir lagen heute meist stille, weil der Commodor mit einigen Transport-Schiffen was vor hatte.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup20"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup20"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">September</h3>
+               <h2>September</h2>
                
                <p><u>d. 1ten</u> im Morgensegen gedachten die led. Brr. des Br. Stocks, und wünschten ihm zu seinem Jünger-Monat vielen Segen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup21"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup21"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 2ten</u> ließen sich die ersten Dolphinen sehen. Es ist ein charmanter Fisch, etwa 2 Ellen
                   lang, hat einen grünen Leib, gelben Schwanz, u. ein paar himmelblaue Floß-Federn u.
@@ -629,37 +641,37 @@ viel über 1/3 der Reise geschafft-->
                   zwar todt war, aber von den Geschw. ihres sonderbaren Harnisches wegen sehr bewundert
                   wurde. Abends sangen wir Unschuldigs Gottes Lamm.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup22"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup22"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>(d. 3ten</u> seit gestern früh hörte zwar der anhaltende Calm auf, dennoch musten wir bis 4 Uhr
                   Nachmittags abermals stille liegen. Wir lasen zu Mittag aus der 12ten Wache die Feyer
                   des 25ten Merz von der verdienstℓ<u>n</u> Menschwerdung unsers Schöpfers, dem einigen Object unserer Andacht, und besangen
                   selbige Abends mit weichen Herzen.)</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup23"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup23"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>d. 4ten kriegten wie einen mäßigen östl. Wind, der eine allgemeine Freude erweckte,
                   aber kaum 12 Stunden anhielt; Es regnete dabey so stark, daß wir etℓ<u>e</u>. Fäßer füllen konnten. Abends war die Lit. O Haupt voll Blut und Wunden.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup24"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup24"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 5ten</u> früh ließ sich ein fremdes Schiff sehen, welches sich aber wieder entfernte, so bald
                   der Commodor drauf Segel machte. Wir hatten heute ziemℓ. hartes u. stürmisches Wetter, sonderℓ.
                   gegen Abend.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup25"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup25"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 6ten u. 7ten</u> hielt das harte Wetter unabläßig an; die See war dabey sehr unruhig und wir vermißten
                   abermals einige Schiffe, so daß die Flotte, anstatt sie beym Auslaufen aus etℓ. 90
                   Segeln bestand, nun bis auf etℓ. 30 herunter gekommen ist. Abends ließ sich ein Luft-Zeichen
                   gleich eines großen feurigen Ballens sehen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup26"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup26"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 8ten</u> nahmen 3 Brigantinen, die nach Neu Foundland gehen, von der Flotte Abschied, und bedanckten sich beym Commodor durch Aussteckung ihrer Flagge, <s>dann</s> denen er wieder ein gleiches that. Abends konnten wir nach einer Pause von 4 Tagen
                   wieder eine Gelegenheit haben, u. sangen: Es segne uns Gott unser Gott.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup27"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup27"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 9ten u. 10ten</u> waren wir schon im 40 Grad Latit., ob wir gleich durch beständig anhaltende contraire
                   Winde in den 5 Wochen nicht viel über 1/3 unsrer Reise gemacht hatten. Gewiß ein Umstand,
@@ -667,7 +679,7 @@ viel über 1/3 der Reise geschafft-->
                   nicht ohne Trost, u. gibt uns sonderℓ. wenn wir gemeinschaftℓ. vor Ihm erscheinen,
                   zu fühlen, daß Er sich zu uns u. unserer destination bekennt.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup28"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup28"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 12ten</u> wehte der Wind aus N.O. Es war vor eine Freude! Die fliegenden Fische ließen sich
                   Heerden-Weise sehen, welches gemeinigℓ. zu geschehen pflegt, wenn sie vom Dolphin
@@ -676,31 +688,31 @@ viel über 1/3 der Reise geschafft-->
                   unterhielten uns heute mit Engℓ. u. Irrländischen Gem. Nachrichten, und sangen zum
                   Beschluß der Woche das Epithalamium.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup29"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup29"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 13ten</u> beteten wir Vormitt. die Kirchen-Litaney, u. lasen Abends die Londonsche Rede von
                   der Herz charmirenden Geschichte der Sünderin, welche die Füße Jesu mit Thränen nezte,
                   u. mit ihren Haaren abtrocknete. Wir fingen heute die ersten Fische, die zwar niemand
                   zu nennen wuste, aber einen delicaten Geschmack hatten.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup30"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup30"><a class="thumbnail pure-img" target="_blank" href="img/1761/038.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 14ten</u> blieb uns der Commodor, ob er gleich so viele Segel führte, als er konnte, doch immer zurück, so daß wir
                   wenig avancirten. Wir konnten nicht
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   hinter die Ursache seines Zurückbleibens kommen, bis wir durch ein Perspectiv gewahr
                   wurden, daß er ein großes Transports-Schiff, welches Schaden muß gelitten haben, an
                   einem Thau nachschleppte. Sonst war eine ungemein schöne, aber dabey sehr heiße u.
                   so feuchte Witterung, daß einem die Kleider am Leibe wie naß wurden.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup31"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup31"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>(d. 15ten</u> ging abermals ein fremdes Schiff vorbey; man bemerkte aber an der beiderseitigen
                   Begrüßung, daß es kein feindliches war. Wir beschloßen heute die gesegnete Lection
                   der 13ten Woche des Gem. Hauß-Diarie, u. sangen Abends: Der Gott von unserm Bunde
                   p)</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup32"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup32"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 16ten</u> küßten wir unsern ls. Aeltesten im Geist demüthigst die Hand, lasen zu Mittag die
                   von unserm sel. Papa A. 46 in Mborn gehaltene Rede vom Aeltesten Amt des Hlds, und sangen Abends: Mit einem zarten Sehnen
@@ -711,7 +723,7 @@ viel über 1/3 der Reise geschafft-->
                   in Indien hierüben p. u. empfingen uns unter einander im neuen Welt-Theil mit einem
                   zärtlichen Kuß.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup33"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup33"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 17ten</u> ließ sich der Haye, ein Raub-Fisch, bey Calm u. hellen Sonnenschein lange um unser
                   Schiff herum sehen. Er war wol mehr als 10 Fuß lang, und hatte seine Pilots bey sich,
@@ -720,7 +732,7 @@ viel über 1/3 der Reise geschafft-->
                   weiß. Der Wind wurde favorable. Nachmittags begingen wir mit frohem Muth das erste
                   L.M. in America, welches Br. Jacobsen zur Bezeugung seiner Freude angestellt hatte.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup34"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup34"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 18ten</u> hatten sich in der Nacht 5 von den vermißten Schiffen wieder zur Flotte gefunden.
                   Ein niedliches amusement machte uns heute eine Menge schöne Fische, die ein eigenes
@@ -728,37 +740,37 @@ viel über 1/3 der Reise geschafft-->
                   lasen zu Mittag Gem. Nachrichten, u. besangen Abends das adorable Haupt voll Blut
                   und Wunden.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup35"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup35"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>d. 19ten gedachten wir dankbarℓ. an die mächtige Erhaltung unsers lieben Nathanaels u. seiner Reise Gesellschaft heute vor 11 Jahren und dem entsetzℓ<u>n</u> Orcan, wobey die Irene ihre Mäste verlor. Ein<s> Ney-</s> Newyorker Capt. Namens Davids gab Nachmitt. unsern Br. Jacobsen eine kurze Visite.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup36"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup36"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 20ten u. 21ten</u> war Calm bis heute gegen Abend, da der Wind aus N.O. zu wehen anfing. Wir befanden
                   durch die Mittags-Observation, daß wir die 24 Stunden bey nahe einen Grad südlicher
                   getrieben waren, woraus zu schließen ist, daß in dieser Gegend ein starker Strom seyn
                   muß.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup37"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup37"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 22ten</u> entstund Nachmitt. auf einmal ein gräßliches Feuer auf einem Schiffe, welches aber
                   Gottlob! bald gelöscht wurde. Gegen Abend jagte der Unter=Commodor abermals einem
                   fremden Schiffe nach, aber ohne Effect, weil die Nacht einfiel. Sonst hatten wir noch
                   günstigen Wind, angenehmes Wetter u. unsre Herzen fühlten Seines Daseyns Sabbaths-Stnd.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup38"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup38"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 23ten</u> waren wir auf der Höhe von den Bänken von N. foundland; absolvirten die gesegnete Lection der 14ten Woche u. sangen Abends: Unschuldigs
                   Gottes-Lamm.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup39"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup39"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 24ten</u> konten wir uns von gestern Nachmitt. an, bis heute Mittag des schönen Windes wenig
                   bedienen, bis ein sehr weit zurück gebliebenes Schiff nachkam, welchem der Comodor
                   so dann ein Tau reichte u. nach sich zog. Wir fingen an die 6te Beylage zu lesen,
                   u. besangen Abends die Herz-brechende Marter Schöne des Schönsten aller Menschen-Söhnen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup40"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup40"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 25ten</u> gedachten die in unsrer Gesellschaft befindlichen l. Exulanten ihres Ausgangs aus
                   Neusalze heute vor 2 Jahren, sezten sich apart zusammen u. hielten mit dankbarem Herzen
@@ -766,37 +778,37 @@ viel über 1/3 der Reise geschafft-->
                   Wir fingen heute den ersten Dolphin, an dem, ob er gleich nur klein war, doch alle
                   participiren musten. Abends nach der Lit. zum Haupt voll Blut u. Wunden machte Br. Nathan gewöhnlicher maßen die morgende Communion bekannt.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup41"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup41"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 26ten</u> kamen uns die ersten Land-Vögel entgegen. Ihr Anblick war uns was erfreuliches. Abends
                   wurden wir des hohen Guts im h. Sacrament zur kräftigsten Stärkung Leibes u. der Seele
                   abermals theilhaftig.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup42"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup42"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 27ten</u> war früh die Comun:Lit. Der Wind wurde ganz contrair. Wir dankten indeßen unserm
                   besten HErrn, daß wir in den 8 Tagen 200 deutsche Meilen zurück <s>ge</s> gelegt hatten. Abends lasen wir die Londonsche Rede: Daran haben wir erkannt die
                   Liebe, daß Er sein Leben für uns gelaßen hat.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup43"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup43"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>(d. 28ten</u> wurden die Diaria der deutschen Gem. von Mon. Febr. a. c. gelesen. Wir hatten heute
                   u. den folgenden ganzen Tag Calm. Abends hielt Br. Münster die Singstde.)</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup44"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup44"><a class="thumbnail pure-img" target="_blank" href="img/1761/039.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 29ten</u> stattete Br. Jacobsen bey oberwehnten Capt. Davids eine Gegen-Visite ab. Weil heute das Engel-Fest war, so sangen wir Abends Ihr selgen
                   Schaaren p und bedankten uns gar schön bey ihnen für ihre auf unserer ganzen bisherigen
                   Reise zu Land und See geleisteten treue Dienste.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup45"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup45"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 30ten</u> wurde zum Vergnügen Diaspora Nachrichten gelesen, u. dieser Monat Abends mit einer
                   Singstde beschloßen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup46"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup46"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">October</h3>
+               <h2>October</h2>
                
                <p><u>d.1ten</u> gedachten die led. Brr. im Morgensegen ihres l. Abr. Taylors mit herzℓ. Segens-Wünschen zu seinem Jünger-Amt. Der Wind war noch ganz contrair,
                   bis gegen Mittag, da er in einem Moment aus N.O. stark zu wehen anfing. Artig war
@@ -807,7 +819,7 @@ viel über 1/3 der Reise geschafft-->
                   dabey viele Schiffe einander leicht hätten zu Grunde bohren können, wenn der treue
                   Hüter nicht gewacht hätte.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup47"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup47"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 2ten</u> gab der heutige Jahrestag unsers liebsten Nathanaels Anlaß zu einem distinguirten Freudentag. Der Chorus Musicus brachte ihm u. dem Br. Dencke der seinen Geb. Tag zugℓ. mit feyerte, frühe Morgens eine niedℓ. Music, deren Text
                   aus der heutigen Los. die sich des Br. Nath. Bette gegen über an der Wand praesentirte, genommen war. Nachher frühstückten sämtℓ.
@@ -815,52 +827,52 @@ viel über 1/3 der Reise geschafft-->
                   ein vom Br. Langgaard auf Br. Nathan verfertigtes, und sich sonderℓ. auf unsre niedℓ. Schiffs-Oeconomie beziehendes Lied
                   gelesen wurde, u. Abends den Kelch der Verbindung unter mercklichen Liebes-Wehen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup48"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup48"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>
                   <u>d. 3ten</u> nahmen wir wahr, daß sich die Farbe des Waßers geändert hatte, kannten aber nicht
                   die Gegend, u. musten daher gegen Abend unsern Cours ändern.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup49"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup49"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 4ten</u> beteten wir Vormitt. die Litaney u. lasen Abends die Londonsche Rede: Findet ihr
                   meinen Freund, so saget Ihm, daß ich p. Wir kriegten Abends Calm der auch den folgenden
                   Tag anhielte.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup50"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup50"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 6ten</u> fanden wir, daß wir seit gestern beynahe 40 deutsche Meilen zuweit getrieben waren,
                   welches</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup51"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup51"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d 7ten</u> bey contrairen Winde auch geschahe. Bey dem oftmaligen Umlegen in der Nacht hatten
                   sich wieder etℓ. Schiffe verloren.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup52"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup52"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 8ten</u> erfuhr man durch ein von Boston kommendes Schiff, daß es an der Küste von N. York wegen der vielen französischen Privateers sehr unsicher sey, u. daß dieses Schiff
                   nur so davon gekommen, ein anders aber, das mit ihm ging, weggenommen worden wäre.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup53"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup53"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>(<u>d. 9ten</u> hörte das angenehme Wetter, das wir fast den ganzen vorigen Monat hindurch bis jetzo
                   gehabt hatten, auf. Wir kriegten aber noch diesen
                   Abend guten Wind.)</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup54"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup54"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 10ten</u> konnten wir aus dem Cours, den der Commodor, des schönen Windes ohngeachtet nahm, nicht anders schließen, als daß seine Calculation
                   in der Longitude zu Ende seyn müste, u. in der Latit. einzubringen suchte, was wir
                   zu weit südl. gekommen waren. Ein Land-Vogel von der <s>Gr</s> größe einer Gans nahm seine Zuflucht zu unserm Schiff, und ruhte auf dem Mast ein
                   wenig aus.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup55"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup55"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d 11ten</u> als den 20ten ☉ auf dem Schiff beteten wir Abends unter fühlbarem Naheseyn der Gottes-Familie
                   die Kirchen-Litaney.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup56"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup56"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d.12ten</u> wurde einigemal Grund gesucht, aber vergebens. Unser schöner Wochen-Vorrath, der
                   uns auf unserer See-Reise so unvergleichℓ. wohl gethan, ging heute just zu Ende. Wir
@@ -869,17 +881,17 @@ viel über 1/3 der Reise geschafft-->
                   reussirte auch diese Nacht hierinn. Der Wind war verwünscht, und die gute Hofnung
                   war in ihrem schnellen Lauf kaum zu beäugen[?].</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup57"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup57"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 13ten</u> früh fanden wir die Flotte bis auf 9 Schiffe reducirt.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup58"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup58"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p>
                   <u>d 14ten</u> war wieder hartes Wetter. Wir warfen abermals das Lot, aber ohne Grund zu finden,
                   und waren noch dazu wieder Vermuthen 1½ Grad südlicher gekommen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup59"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup59"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d 15ten</u> waren wir nicht wenig verlegen, daß, da wir unsrer Rechnung nach schon vor 4 Tagen
                   hätten Land sehen sollen, wir noch nicht einmal Grund finden konnten. Zu unserm Trost
@@ -889,24 +901,24 @@ viel über 1/3 der Reise geschafft-->
                   vom besagten Schiffe gegebenen Nachricht ansahen. Die Freude am HErrn war Abends der
                   Text unserer Singstde.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup60"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup60"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d 16ten</u> früh bestand die ganze Flotte nur noch aus den beiden Commodors der Hope u. der Hope
                   ihrer Schwester, einem Schiff, welches Capit. Jacobsen wegen ihrer Gleichheit mit der Hope so wol in der Bau-Art als im segeln so zu nennen
                   beliebt hat. Br. Nathan hielt Abends die Lit mit dem Hymno: Da Jesus an dem Kreuze stund p.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup61"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup61"><a class="thumbnail pure-img" target="_blank" href="img/1761/040.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 17ten</u> In der Nacht kriegten wir einen guten S.W. der uns zu unserm Nordlichen Cours sehr
                   dienlich war, u. in der 10ten Stunde gab der Commodor durch seine Flagge zu erkennen, daß er Grund gefunden habe. Ey wie freueten wir uns!
                   Ob wir gleich Abends nur noch 10 Faden Waßer hatten, so musten wir doch um der Nacht
                   willen wieder vom Lande abhalten, da unser guter
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Nathan beym Umwenden leicht hätte großen Schaden nehmen können, indem er von einem Kloben
                   so am Schlaf getroffen wurde, daß er sich eine Weile kaum besinnen konnte; man machte
                   ihm gleich Umschläge, so daß es, Gottlob! bald besser wurde.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup62"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup62"><a class="thumbnail pure-img" target="_blank" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d.18ten</u> beym Aufstehen erblickten wir Land zu unsrer unbeschreibℓ. Freude, u. in diesem Freuden-Gefühl
                   embrassirten wir im Geiste unserm theuren u. innigst geliebten Joh. zu seinem Geb. Tag aufs zärtlichte, u. 
@@ -914,7 +926,7 @@ viel über 1/3 der Reise geschafft-->
                   Formirer seiner Härlein; ihm heute auch in unserm armen Namen gar # zu thun. Abends
                   in der 11ten Stde gingen wir unter Lob-Gesang vor Anker in Sandy-Hoock und</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup63"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup63"><a class="thumbnail pure-img" target="_blank" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 19ten</u> in den Hafen vor N. York hienein. Br. Gottlieb aus Bethlehem nebst noch einigen Brr. aus N. York kamen uns auf dem halben Weg entgegen, u. brachten uns einen zärtlichen Gruß mit
                   von Geschw. Spangenbergs, welche unsre Ankunft in Nyork erwarteten, u. Geschw. Nathanaels, Marschalls, Münsters mit den übrigen Ehe-Paaren u. led. Schww. zu grüßen so gleich ans Land gingen. Die
@@ -924,14 +936,14 @@ viel über 1/3 der Reise geschafft-->
                <p><u>d. 20ten</u> speißte das ganze See-Gemeinlein mit Geschw. Spgbgs u. den Nyorkern Arbeitern unter
                   einem sanften Friedens-Wehen im Gem. Hauß, und trat so dann</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup64"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup64"><a class="thumbnail pure-img" target="_blank" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                <p><u>d. 21ten</u> mit der Los. Du stellst meine Füße auf einen weiten Raum. So weit die liebe Sonne
                   leuchtet, seine Reiße nach Bethlehem an, u. zwar vor heute Geschw. Nathan, Marschalls, Münsters in einer Colonne in Begleitung Geschw. Spgbs und Br. Gottliebs, und dann 17 led. Brr. In einer andern Colonne, denen folgten.</p>
                
                <p><u>d. 22ten</u> in 2 andern Colonnen die led. Schww. in Begleitung Geschw. Gammerns, Philipps, u. Wahnerts, und die übrigen led. Brr. welche Colonnen nach einander</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup65"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span>
+            <div class="diaryPopuptext" id="diaryPopup65"><a class="thumbnail pure-img" target="_blank" href="img/1761/041.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span>
                
                <p><u>d. 23ten</u> u. folgende Tage danckbar, beschämt, vergnügt u. gesund in dem lieben Bethlehem eintrafen.</p>
                
@@ -944,16 +956,20 @@ viel über 1/3 der Reise geschafft-->
                </div>
          </div>
       </div>
-      <footer class="footer">
+      <footer class="footer l-box">
          
-         <div class="container text-center">
+         <div>
             
-            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena</p>
-            <!-- Dieser Backlink darf NICHT entfernt werden. DO NOT REMOVE-->
-            https://www.moravians-at-sea.uni-jena.de | Designed by <a href="http://freietemplates.de/">freietemplates.de</a>, adapted by <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte/martin+prell_+m_a_">Martin Prell</a>
+            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena und <a href="https://mprell.github.io/">Martin Prell</a></p>
+            
+            <p>https://www.moravians-at-sea.uni-jena.de</p>
             </div>
-         </footer>
-      <div class="impressum_datenschutz">
-         <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
-         </div><script type="text/javascript" src="js/main.js"></script><script type="text/javascript" src="js/diary.js"></script></body>
+         
+         <div class="impressum_datenschutz">
+            
+            <p>
+               <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+               </p>
+            </div>
+         </footer><script type="text/javascript" src="js/diary.js"></script></body>
 </html>

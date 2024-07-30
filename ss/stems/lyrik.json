@@ -1,1 +1,1 @@
-{"stem":"lyrik","instances":[{"docUri":"einleitung.html","score":1,"contexts":[{"form":"Lyrik","weight":"1","pos":783,"context":"Zeilenwechsel werden ignoriert. Sie werden lediglich bei <mark>Lyrik<\/mark> und signifikanten horizontalen Leerräumen umgesetzt","fid":"introduction","in":["ssCtx1"]}]}]}
+{"stem":"lyrik","instances":[{"docUri":"einleitung.html","score":1,"contexts":[{"form":"Lyrik","weight":"1","pos":790,"context":"Zeilenwechsel werden ignoriert. Sie werden lediglich bei <mark>Lyrik<\/mark> und signifikanten horizontalen Leerräumen umgesetzt","in":["ssCtx1"]}]}]}

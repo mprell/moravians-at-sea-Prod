@@ -1,199 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <title>Seereise 1746/47 (Kanal)</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link href="css/bootstrap.min.css" rel="stylesheet" />
-      <link href="css/custom.css" rel="stylesheet" />
-      <link rel="icon" href="favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
+      <title>Seereise 1746/47 - Kanal</title>
+      <link rel="stylesheet" href="css/base-min.css" />
+      <link rel="stylesheet" href="css/grids-min.css" />
+      <link rel="stylesheet" href="css/grids-responsive-min.css" />
+      <link rel="stylesheet" href="css/menus-min.css" />
+      <link rel="stylesheet" href="css/buttons-min.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="icon" href="img/favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
    <body>
-      <nav class="navbar navbar-default navbar-static-top">
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+         <a class="pure-menu-heading" href="index.html">Moravians at Sea</a>
          
-         <div style="margin: 0 1% 0 1%;">
+         
+         <ul class="pure-menu-list">
             
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
-               
-               <div>
-                  <a class="navbar-brand" href="index.html" style="color: #e3d2b4;">Moravians at Sea</a>
-                  </div>
-               </div>
+            <li class="pure-menu-item">
+               <a href="einleitung.html" class="pure-menu-link">Über</a>
+               </li>
             
-            <div id="navbar" class="navbar-collapse collapse">
+            <li class="pure-menu-item">
+               <a href="suche.html" class="pure-menu-link">Suche</a>
+               </li>
+            
+            
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+               <a href="#" id="menuLink1" class="pure-menu-link">Reisen</a>
                
-               <ul class="nav navbar-nav navbar-right">
+               <ul class="pure-menu-children">
                   
-                  <li><a href="einleitung.html" style="color: #e3d2b4;">Über</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1746.html" class="pure-menu-link">1746/47</a>
+                     </li>
                   
-                  <li><a href="suche.html" style="color: #e3d2b4;">Suche</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1752.html" class="pure-menu-link">1752</a>
+                     </li>
                   
-                  <li class="dropdown">
-                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #e3d2b4;">Reisen <span class="caret"></span></a>
-                     
-                     <ul class="dropdown-menu">
-                        
-                        <li><a href="1746.html">Reise 1746/47</a></li>
-                        
-                        <li><a href="1752.html">Reise 1752</a></li>
-                        
-                        <li><a href="1761.html">Reise 1761</a></li>
-                        </ul>
+                  <li class="pure-menu-item">
+                     <a href="1761.html" class="pure-menu-link">1761</a>
                      </li>
                   </ul>
-               </div>
-            </div>
-         </nav>
-      <div class="jumbotron3">
-         <div class="container">
-            <h1 style="color: #fff; font-size: 350%; display:flex; justify-content: center;">Reise nach Amerika in den Jahren 1746/1747</h1>
-         </div>
-      </div>
-      <div class="section2" id="introduction">
-         <div id="overlay" onclick="off()"></div>
-         <div id="overlay2" onclick="off()"></div><a class="btn1 btn btn-primary btn-lg" role="button" href="1746.html">🠔 Übersicht</a><a class="btn1 btn btn-primary btn-lg" role="button" style="float:right;" href="1746atlantik.html">Teil 2 🠖</a><div style="display:flex; justify-content: center;" id="atlantic">
-            <h3 style="color: #e3d2b4;">Teil 1: Durch den Kanal</h3>
-         </div>
-         <div style="padding-left: 8%; padding-right: 7%;"><a class="btn btn-primary btn-lg" role="button" onclick="ShowHTUFunction()">How to Use</a><a class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph()">Route einblenden</a></div>
-         <div class="HTUPopuptext" id="HTUPopup">
-            <div style="text-align: center;"></div>
-            <h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
-            <ul>
-               <li>Klicken Sie auf die Nadeln, um sich die jeweiligen Tagebucheinträge anzeigen zu lassen.
-                  Jede Nadel mappt den jeweiligen Aufenthaltsort bzw. eine gesichtete Landmarke eines
-                  Tages. Mouseover auf eine Nadel blendet das Datum ein.</li>
+               </li>
             </ul>
          </div>
-         <div class="map">
-            <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 10296 6744" style="background-image: url('img/channel.jpg'); background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;"><svg id="graph">
-                     
-                     <g stroke="red" stroke-width="15" stroke-linecap="round" fill="none">
+      <div class="banner">
+         <h1 class="banner-head">Reise nach Amerika in den Jahren 1746/1747</h1>
+      </div>
+      <div class="l-content">
+         <div id="overlay" onclick="off()"></div>
+         <div id="overlay2" onclick="off()"></div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1746.html">🠔</a></div>
+            <div class="pure-u-1 pure-u-md-20-24">
+               <h1>Teil 1: Durch den Kanal</h1>
+            </div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1746atlantik.html">🠖</a></div>
+         </div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-secondary howto-button" onclick="ShowHTUFunction()">How to Use</a><a class="pure-button button-secondary tei-button" target="_blank" href="github.com">XML/TEI</a></div>
+            <div class="pure-u-1 pure-u-md-13-24"></div>
+            <div class="pure-u-1 pure-u-md-3-24"><a class="pure-button button-secondary reset-button" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="pure-button button-secondary hidegraph-button" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="pure-button button-secondary showgraph-button" onclick="showgraph()">Route einblenden</a></div>
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+         </div>
+         <div class="HTUPopuptext" id="HTUPopup">
+            <h3 class="howto-h3">How to Use</h3>
+            <ul>
+               <li>Klicken Sie auf die Punkte/Nadeln, um sich die jeweiligen Tagebucheinträge anzeigen
+                  zu lassen. Jede Nadel mappt den jeweiligen Aufenthaltsort bzw. eine gesichtete Landmarke
+                  eines Tages. Mouseover auf eine Nadel blendet das Datum ein.</li>
+            </ul>
+         </div>
+         <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="map pure-u-18-24">
+               <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 10296 6744" style="background-image: url('img/channel.jpg');"><svg id="graph">
                         
-                        <polyline points="7284,2343 7396,2270 8296,2318 8080,2607 8166,2696 8096,2802 7671,3170 7035,3354 6027,3488 5832,3372 5664,3418 5685,3332 5537,3268 4957,3458 4895,3693 4331,3932 3496,4200 3167,4368 3300,4212 3427,4018 3310,3962 3515,3970 3291,4416 3060,4490 2846,4066 2819,3916 2794,4090 1818,4854"></polyline> 
-                        </g>
-                     
-                     
-                     <g class="popup" stroke="black" stroke-width="10" fill="red">
-                        
-                        <path class="popup" d="m 7284 2343 l -112 -1 m -84 -32 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup1"></path>
-                        
-                        
-                        <path class="popup" d="m 7284 2343 l 0 -83 m -38 -78 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup2">
-                           <title>27.9.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 8080 2607 l 139 -98 m 2 -59 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup3">
-                           <title>28.9.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 8080 2607 l 139 -8 m 11 -38 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup4">
-                           <title>29.9.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 8080 2607 l 139 86 m 9 -16 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup5">
-                           <title>30.9.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 8096 2802 l 117 43 m 7 -12 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup6">
-                           <title>1.10.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 5664 3418 117 43 m 7 -12 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup7">
-                           <title>2.10.1746</title>
-                        </path>
+                        <g stroke="red" stroke-width="15" stroke-linecap="round" fill="none">
+                           
+                           <polyline points="7284,2343 7396,2270 8296,2318 8080,2607 8166,2696 8096,2802 7671,3170 7035,3354 6027,3488 5832,3372 5664,3418 5685,3332 5537,3268 4957,3458 4895,3693 4331,3932 3496,4200 3167,4368 3300,4212 3427,4018 3310,3962 3515,3970 3291,4416 3060,4490 2846,4066 2819,3916 2794,4090 1818,4854"></polyline> 
+                           </g>
                         
                         
-                        <path class="popup" d="m 5685 3332 l 0 -83 m -38 -78 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup8">
-                           <title>3.10.1746</title>
-                        </path>
-                        
-                        
-                        <circle cx="4957" cy="3458" r="45" id="graphPopup9">
-                           <title>4.10.1746</title>
-                        </circle>
-                        
-                        
-                        <circle cx="4331" cy="3932" r="45" id="graphPopup10">
-                           <title>5.10.1746</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3496" cy="4200" r="45" id="graphPopup11">
-                           <title>6.10.1746</title>
-                        </circle>
-                        
-                        
-                        <circle cx="3167" cy="4368" r="45" id="graphPopup12">
-                           <title>7.10.1746</title>
-                        </circle>
-                        
-                        
-                        <path class="popup" d="m 3310 3962 l -29 64 m -58 12 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup13">
-                           <title>8.10.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 3310 3962 l -85 25 m -80 -11 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup14">
-                           <title>9.10.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 3310 3962 l -89 -37 m -79 -53 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup15">
-                           <title>10.10.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 3310 3962 l -61 -98 m -63 -70 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup16">
-                           <title>11.10.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 3310 3962 l 2 -105 m -36 -78 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup17">
-                           <title>12.10.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 3310 3962 l 73 -108 m -9 -70 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup18">
-                           <title>13.10.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 3310 3962 l 129 -63 m 3 -57 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup19">
-                           <title>14.10.1746</title>
-                        </path>
-                        
-                        
-                        <circle cx="3060" cy="4490" r="45" id="graphPopup20">
-                           <title>15.10.1746</title>
-                        </circle>
-                        
-                        
-                        <path class="popup" d="m 2819 3916 l -80 -106 m -66 -68 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup21">
-                           <title>16.10.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 2819 3916 l -112 -1 m -84 -32 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup22">
-                           <title>17.10.1746</title>
-                        </path>
-                        
-                        
-                        <circle cx="1818" cy="4854" r="45" id="graphPopup23"></circle>
-                        </g>
-                     </svg></svg></div>
-            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/002.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">❯</span>
+                        <g class="popup" stroke="black" stroke-width="10" fill="red">
+                           
+                           <path class="popup" d="m 7284 2343 l -112 -1 m -84 -32 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup1"></path>
+                           
+                           
+                           <path class="popup" d="m 7284 2343 l 0 -83 m -38 -78 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup2">
+                              <title>27.9.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 8080 2607 l 139 -98 m 2 -59 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup3">
+                              <title>28.9.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 8080 2607 l 139 -8 m 11 -38 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup4">
+                              <title>29.9.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 8080 2607 l 139 86 m 9 -16 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup5">
+                              <title>30.9.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 8096 2802 l 117 43 m 7 -12 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup6">
+                              <title>1.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 5664 3418 117 43 m 7 -12 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup7">
+                              <title>2.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 5685 3332 l 0 -83 m -38 -78 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup8">
+                              <title>3.10.1746</title>
+                           </path>
+                           
+                           
+                           <circle cx="4957" cy="3458" r="45" id="graphPopup9">
+                              <title>4.10.1746</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4331" cy="3932" r="45" id="graphPopup10">
+                              <title>5.10.1746</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3496" cy="4200" r="45" id="graphPopup11">
+                              <title>6.10.1746</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3167" cy="4368" r="45" id="graphPopup12">
+                              <title>7.10.1746</title>
+                           </circle>
+                           
+                           
+                           <path class="popup" d="m 3310 3962 l -29 64 m -58 12 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup13">
+                              <title>8.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 3310 3962 l -85 25 m -80 -11 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup14">
+                              <title>9.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 3310 3962 l -89 -37 m -79 -53 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup15">
+                              <title>10.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 3310 3962 l -61 -98 m -63 -70 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup16">
+                              <title>11.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 3310 3962 l 2 -105 m -36 -78 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup17">
+                              <title>12.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 3310 3962 l 73 -108 m -9 -70 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup18">
+                              <title>13.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 3310 3962 l 129 -63 m 3 -57 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup19">
+                              <title>14.10.1746</title>
+                           </path>
+                           
+                           
+                           <circle cx="3060" cy="4490" r="45" id="graphPopup20">
+                              <title>15.10.1746</title>
+                           </circle>
+                           
+                           
+                           <path class="popup" d="m 2819 3916 l -80 -106 m -66 -68 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup21">
+                              <title>16.10.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 2819 3916 l -112 -1 m -84 -32 a -1 -1 0 0 1 73 61 a 1 1 0 0 1 -73 -61" id="graphPopup22">
+                              <title>17.10.1746</title>
+                           </path>
+                           
+                           
+                           <circle cx="1818" cy="4854" r="45" id="graphPopup23"></circle>
+                           </g>
+                        </svg></svg></div>
+            </div>
+            <div class="pure-u-3-24"></div>
+         </div>
+         <div>
+            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail pure-img" target="_blank" href="img/1746/002.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">〉</span>
                
                
-               <h3 style="text-align: center;">Diarium</h3>
+               <h2>Diarium</h2>
                
                <p>der 11 seeligen Wunden Würmlein 
                   2. Cammerhoffs 7. Esther Frölichin 9. Gottschalk 4 John Wades 8 Judith Hickelin 10
@@ -207,7 +219,7 @@
                   eine kleine Wolk doch sind wir würklich deine und froh bey deinem Scheine.
                   <br />2. Dir danken dir was wir jezt sind ein jedes ist von Uns ist dein Kind du hast als Mutter uns gezeugt gepflegt, gewartet und gesäugt
                   und viel an Uns gewandt des ist uns wohl bekant
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/003.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/003.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   wir dankens deiner Treu allein daß wir nun Creuz Lufft Vöglein seyn wir sinds aus
                   Gnaden
                   <br />du hast uns was communicirt von dem was unter dir regiert das bleibet uns und soll
@@ -235,7 +247,7 @@
                   <br />geleite, sags dem Mütterlein sie soll uns scharf u. linde seyn und uns die Wunden
                   so verklärn daß wir zu unsers Mannes Ehrn in Indien dort drüben nichts anders thun
                   als: Lieben.</p>
-               <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+               <a class="thumbnail pure-img" target="_blank" href="img/1746/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                
                <p>☽ den 26ten Septembr. 46.
                   <br />Nachdem wir frühe in unsrer Lieben Mama Stube noch ein seeliges Liebesmahl gehalten
@@ -253,9 +265,9 @@
                   mit seeligem Gefühl daran, daß an eben dem Tage unser allerliebstes Papachen vor 5
                   Jahren von London nach Pensylvanien abgegangen war.</p>	
                </div>
-            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail pure-img" target="_blank" href="img/1746/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♂ Den 27 Septembr.</h3>
+               <h2>♂ Den 27 Septembr.</h2>
                
                <p>Frühe um 6 Uhr hielten wir unser letztes Liebesmahl mit unsern Herzeln in Gravesend,
                   und gingen gleich darauf alle an Bord unseres Schiffes, John Galley kamen in der Cabine zusammen und da nahmen unser liebes Christelein, Anna Johanna,
@@ -265,7 +277,7 @@
                   Gefühl. Sie stiegen darauf in ihr Boot und sungen uns noch zu:
                   <br />So geht denn in des Herren Freud und macht gesegnete Arbeit ihr seyd denn dorten oder
                   da die Gotts Familie sey Euch nah. Und mit dem seeligen Ton schwunden
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   sie von Uns und hinterließen uns einen Blick, der uns noch in compentio die ganze
                   seelige Creuz Lufft Vögleins Schaar repraesentirte aus deren Mittel wir nun ausfliegen
                   sollten. Die Geschwister Wehnerts und Lethward blieben noch bey Uns und halffen uns
@@ -290,7 +302,7 @@
                   Unser Pläzchen hinter dem Vorhang im Stearage ist würcklich ein recht ehrwürdiges
                   Gemein Pläzchen; wir weiheten es unserm Lamme daß Er es mit seinem Wunden Lichte erfüllen
                   und uns fühlen laßen sollte daß es ein Heiligthum wäre daran Er Gefallen hätte und
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   dazu sich keine fremde Macht nahen dürffte, und es war uns so daß Er Possess drinen
                   nahm und daß die Mutter die so gerne Tempel hat unser Gemeinlein indem das Lämmlein
                   Aeltester ist zum Exempel machen würde. Hernach gingen wir Brüder noch auf die Decke
@@ -305,9 +317,9 @@
                   <br />Wach auf Gemein u. singe dem Schöpfer deiner Dinge, dem Geber deiner Güter, dem treuen
                   Kirchen Hüter.<br /></p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail pure-img" target="_blank" href="img/1746/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☿ Den 28 Septembr.</h3>
+               <h2>☿ Den 28 Septembr.</h2>
                
                <p>Unsre erste Nachtwachen bekamen uns recht wohl und wir fühlten des Lämmleins nahe
                   Gegenwart. Frühe um 4 Uhr segelten wir mit guten Nordwind wieder fort und kamen gegen
@@ -319,14 +331,14 @@
                   nach London und meldeten unseren Geschwister unsre Reise bißhieher, und hatten Abends
                   ein recht vergnügtes Singe Stündgen in der nahen Gegenwart unsers Gottes und Mannes.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail pure-img" target="_blank" href="img/1746/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♃ Den 29 Septembr.</h3>
+               <h2>♃ Den 29 Septembr.</h2>
                
                <p>Wir lagen heute wegen des starken contrairen West Windes stille vor Deal, und weil
                   das Schiff sich sehr stark bewegte so waren die meisten von uns den ganzen Tag See
                   krank, doch
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/007.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/007.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   alle so niedlich und seelig daß mans sehen konnte daß wir zur Creuz Lufft Vögleins
                   Schaar gehören. Wir brachten heute unser eußerliche Sachen im Schiffe vollends in
                   Ordnung unser Capitain machte uns Vorhänge vor unsre Betten, und wir richteten alles
@@ -342,9 +354,9 @@
                   hin und her. Und schrieben noch manch niedliches Briefgen an unsre Herzel in London,
                   Holland, in der Wetterau und Herrnhut u. empfohlen uns Ihrem Herzen und Liebes Andenken.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/007.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail pure-img" target="_blank" href="img/1746/007.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♀ Den 30 Septembr.</h3>
+               <h2>♀ Den 30 Septembr.</h2>
                
                <p>Frühe um 7 Uhr da wir noch meistens sanffte schliefen und zum Theil von unsern Herzeln
                   traümeten, kam ein Postboot und brachte uns Briefe von unserm allerliebsten Papachen,
@@ -357,7 +369,7 @@
                   und zum Theil schmerzlich wieder erneuert.
                   <br />Mittags ließ sich ein Französisches Schiff in der See nicht weit von uns sehen, es
                   liefen darauf etliche Englische Schiffe von hier aus um es zu verfolgen, wir dachten
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/008.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/008.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   dabey mit einem seeligen Gefühl an unsre heutige Rede des Heilandes: Wenn ihr hören
                   werdet von Kriegen und Lermen, werdert nicht irer denn es muß also geschehen.
                   <br />Sey nur unsere Thür zum Riegel gegen allen fremden Schwarm und es war uns allen unaussprechlich
@@ -377,10 +389,10 @@
                   der Welt verriegelt u. glauben unser Lämmlein wird ob unserm Siegel halten
                   <br />wir haben uns ihm devovirt biß zum Kuß seiner Spalten.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/008.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail pure-img" target="_blank" href="img/1746/008.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">October. 1746.
-                  <br />♄ Den 1ten Octobr.</h3>
+               <h2>October. 1746.
+                  <br />♄ Den 1ten Octobr.</h2>
                
                <p>Heute hatten wir unsern ersten Sabbath auf unserm Schiffgen wir fingen ihn alle mit
                   einem recht seeligen Herzen an. Unsre Loosung hieß: Bring uns Herr wieder zu dir,
@@ -390,7 +402,7 @@
                   uns und die andern um uns herumliegende Schiffe. Wir schrieben also noch ein Briefgen
                   an unser liebes Papachen nach London und meldeten unsre Abreise, und gingen um 12
                   Uhr Mittags in Compagnie von 28 andern Schiffen
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/009.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/009.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   mit einem starken Seegelwinde in den Canal hinein. Der Heiland gab uns dazu die Loosung:
                   Ich habe Euch lieb spricht der Herr
                   <br />Das ist unbeschreiblich wie uns Jesus liebt.
@@ -407,9 +419,9 @@
                   niedliche Sabbaths Versel und gingen hernach unter beständigem starken Fortseegeln
                   seelig zu Bette.<br /></p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/009.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail pure-img" target="_blank" href="img/1746/009.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☉ Den 2ten Octobr.</h3>
+               <h2>☉ Den 2ten Octobr.</h2>
                
                <p>Frühe um 6 Uhr bekamen wir die Insul Wight ins Gesichte und seegelten mit starkem
                   Winde noch immer gut fort biß gegen Mittag. Unsere Herzel waren heute zum Theil wieder
@@ -419,14 +431,14 @@
                   Wir hielten ein vergnügt Singe Stündgen und unter derselben wurde der Wind Nord Ostlich
                   daher ging unser Capitain Abends um 8 Uhr wieder Seewerts an der Spize von der Insul
                   Wight hin; weil aber unser
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/010.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/010.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Convoy nicht fortsegeln wollte so musten wir auch wieder umkehren und Anker werffen
                   und dabey dachten wir cum emphasi an die heutige Rede des Heilandes:
                   <br />Faßet eure Seelen mit Geduld Und wird euch heiß so denkt an Gottes Schweiß.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/010.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail pure-img" target="_blank" href="img/1746/010.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☽ Den 3ten Octobr.</h3>
+               <h2>☽ Den 3ten Octobr.</h2>
                
                <p>Frühe um 4 Uhr lichteten wir wieder Anker und seegelten etwas fort. Es wurde aber
                   gegen 6 Uhr Calm daher musten wir wieder Anker werffen und liegen bleiben. Unser Capitain
@@ -439,9 +451,9 @@
                   recht seelig über unsern heute und gestern vor 8 Tagen gehabten seeligen Abschied
                   aus London.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/010.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail pure-img" target="_blank" href="img/1746/010.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♂ Den 4ten Octobr.</h3>
+               <h2>♂ Den 4ten Octobr.</h2>
                
                <p>Wir freueten uns unsrer heutigen Loosung: Der Engel der vor ihm ist half ihnen Jes.63
                   <br />Unser Haupt vor dir das glaubt daß du deine Glieder nicht läßst. Der Wind war gegen
@@ -452,7 +464,7 @@
                   schwach und etwas westlich, daher seegelten wir nur so langsam aber recht niedlich
                   fort und waren Abends auf der Höhe von Pool und Peveral point wo wir uns als seelige
                   Creuz Lufft
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/011.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/011.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Vögelein in den Wunden unsers Mannes wo wir unser Nestchen gefunden, divertirten.
                   <br />Was macht ein Creuz Lufft Vögelein
                   <br />wenns fährt in den Canal hinein
@@ -470,9 +482,9 @@
                   <br />das wär ihm recht gemüthlich
                   <br />indeß fliegts hier recht niedlich.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/011.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail pure-img" target="_blank" href="img/1746/011.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☿ Den 5ten Octobr.</h3>
+               <h2>☿ Den 5ten Octobr.</h2>
                
                <p>Diese ganze Nacht waren wir wegen des ziemlich schwachen Windes nicht gar weit avancirt.
                   Gegen Morgen wurde der Wind Süd Ostlich aber nicht stark. Etwa um 10 Uhr Vormittags
@@ -484,9 +496,9 @@
                   und legten uns nach unsrer ewigen destination unserem Manne aufs neue in die Arme
                   und ans Herz.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/011.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail pure-img" target="_blank" href="img/1746/011.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♃ Den 6ten Octobr.</h3>
+               <h2>♃ Den 6ten Octobr.</h2>
                
                <p>Frühe waren wir auf der Höhe von Dartmouth etwas unterhalb Torbay hatten aber Calm
                   und trieben nur ganz sachte in der See herum. Wir freueten uns indeßen unsrer heutigen
@@ -496,7 +508,7 @@
                   <br />und der Heiland machte uns auch besonders vergnügt und munter. Die See blieb den ganzen
                   Tag biß späte abends Spiegel glatt und es rührte sich fast kein Lüfftgen so daß wir
                   nur immer auf einer Höhe so etwas hin und her flatterten. Mittags
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/012.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/012.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   sahen wir eine ganze Heerde Delphine in der See spielen, es blieb aber doch noch immer
                   stille. Wir schrieben Nachmittags noch verschiedne Briefe an unsre Herzel in London
                   und hätten sie gerne einem Engelchen zu bestellen gegeben. Abends sungen wir das Te
@@ -510,9 +522,9 @@
                   fortsezzen konnten. Das war uns eine rechte angenehme Kinder Freude davor wir unserm
                   Lämmlein kindlich dankten und also recht seelig schlafen gingen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/012.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail pure-img" target="_blank" href="img/1746/012.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♀ Den 7ten Octobr.</h3>
+               <h2>♀ Den 7ten Octobr.</h2>
                
                <p>Heute war unsre Loosung: Ich habe dich zum scharfen neuen Dreschwagen gemacht,
                   <br />Er geht seinen Gang unter Lobgesang macht mit Jesu Geist zur Hilffe.
@@ -525,7 +537,7 @@
                   und wir bekamen Abends zwischen 6 - 7 Uhr einen Sturm aus West Süd west, so daß wir
                   die Seegel biß auf eines einziehen unser Ruder anbinden und nur so in die See hinein
                   treiben musten zumahl wir
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/013.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/013.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   ziemlich nahe am Lande waren. Es sahe wohl ein wenig fürchterlich aus und hörte sich
                   noch fürchterlicher zu wie die Winde heulten und die Wellen ans Schiff anschlugen,
                   dabey es so finster war daß man nichts als den Schaum von den Wellen sehen konnte;
@@ -538,9 +550,9 @@
                   und ruhig in unserm Nestchen in der blutigen pleura und freueten uns daß unser Lämmlein
                   auch auf der See so stürmisch weiland gefahren und geschlafen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/013.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail pure-img" target="_blank" href="img/1746/013.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">Sabbath den 8 Octobr. 1746.</h3>
+               <h2>Sabbath den 8 Octobr. 1746.</h2>
                
                <p>Der Sturm hatte gegen den Morgen nachgelaßen, wir behielten aber doch einen ziemlich
                   starken contrairen West Wind der unser Schiffgen noch sehr hin und her warff. Wir
@@ -552,13 +564,13 @@
                   daß wir doch nun Gelegenheit krigten unsern Herzeln in London Nachricht zu geben wie
                   es uns bißher auf unsrer Pilger Fahrt gegangen. Wir erinnerten uns ihrer Sabbaths
                   Liebesmahle mit zärtlichem Gefühl, und hielten
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/014.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/014.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   zum Schluß des Sabbaths auch unser Liebesmahl und Sing Stunde auf Pilger Fuß recht
                   vergnügt und seelig.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/014.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail pure-img" target="_blank" href="img/1746/014.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☉ Den 9ten Octobr.</h3>
+               <h2>☉ Den 9ten Octobr.</h2>
                
                <p>Blieben wir den ganzen Tag vor Torbay liegen und divertirten uns mit unserm Lämmelein
                   besonders und gemeinschafftlich. Einige von unsern Brüdern gingen an Land, nahmen
@@ -590,10 +602,10 @@
                   <br />sich exclusive nur an Ihn
                   <br />und an sein Sünder Kirchlein.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/015.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail pure-img" target="_blank" href="img/1746/015.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                
-               <h3 style="text-align: center;">☽ Den 10ten Octobr.</h3>
+               <h2>☽ Den 10ten Octobr.</h2>
                
                <p>Das Versgen unter unsrer heutigen Loosung:
                   <br />Wenn denn nur an allen Orten
@@ -608,9 +620,9 @@
                   dachten sehr viel an unsre Herzel und hatten abends ein sehr vergnügt Singestündgen,
                   obwohl einige von uns an Ihren Hütten ein wenig krank waren.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/015.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail pure-img" target="_blank" href="img/1746/015.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♂ Den 11ten Octobr.</h3>
+               <h2>♂ Den 11ten Octobr.</h2>
                
                <p>Der Sturm und starke Wind aus Westen continuirte heute noch biß gegen den Abend da
                   er etwas nachließ, der Wind blieb aber doch Nordwest stehen. Die 3 Krieges Schiffe
@@ -625,16 +637,16 @@
                   divertirten wir uns noch besonders auf der Decke mit Absingung vieler Gemein Versel
                   aus dem Dank Opfer auf unsre Gemeinen in Europa u. America.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup17"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/015.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup17"><a class="thumbnail pure-img" target="_blank" href="img/1746/015.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☿ Den 12ten Octobr.</h3>
+               <h2>☿ Den 12ten Octobr.</h2>
                
                <p>Den ganzen Tag sonderl. aber Nachmittags war wieder sehr starker Sturm aus Westen,
                   und wir blieben also noch immer in unsrer Bay liegen. Unsre Loosung hieß: Es soll
                   dir Niemand wiederstehen dein Lebenlang.
                   <br />Sey du nur mein gewogner Fürst so will ich dir noch dienen daß du dich freuen wirst.
                   Wir erinnerten uns daß heute das Abraum Fest in der Gemeine sey
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/016.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/016.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   hielten auch manche herzliche Bande zusammen über alles was auch nur im kleinen biß
                   daher unter uns vorgekommen das unsre Seeligkeit und Zusammenhang mit dem Lämmlein
                   und unter einander hätte stöhren können; legten uns alle unsrem Lamme zu Füßen weinten
@@ -660,9 +672,9 @@
                   <br />drum seelge Zeugen Wolke
                   <br />verkenn uns deine Kinder nie.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup18"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/016.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup18"><a class="thumbnail pure-img" target="_blank" href="img/1746/016.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♃ Den 13ten Octobr.</h3>
+               <h2>♃ Den 13ten Octobr.</h2>
                
                <p>War unsre Loosung:
                   <br />Herr unser Gott begegne uns heute
@@ -674,15 +686,15 @@
                   wir wegen schlimmen und kalten Wetters meistens unten in unserm Räumlein zu, wo uns
                   unser Lämmlein ein recht bequemes und niedliches Δὸς πγ #ιὃ[?] gegeben.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup19"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/016.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup19"><a class="thumbnail pure-img" target="_blank" href="img/1746/016.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♀ Den 14ten Octobr.</h3>
+               <h2>♀ Den 14ten Octobr.</h2>
                
                <p>Blieben wir noch vor Torbay liegen. Wir schrieben frühe an unser Papachen und Johannelein
                   nach London, und gaben ihnen Nachricht von unsern bißherigen Umständen. Wir hörten
                   heute daß die 3 großen Kriegs Schiffe die mit uns hier vor Anker liegen, in dem letzteren
                   Sturme
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/017.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/017.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   da sie noch in See gewesen, viel Schaden gelitten und sahens also wie gut unser Lämmlein
                   es mit Uns gemacht daß es uns noch vorher zur Sicherheit hier einlauffen laßen. Doch
                   war es uns allen so daß wir gerne bald wieder dahin fahren möchten der Gnade ergeben
@@ -690,9 +702,9 @@
                   zu Land und See, dachten viel an unsre nach Deutschland zurückgehende Herzel und sungen
                   hernach das Te Sponsum in Harmonie mit unserm Pilger Lager recht seelig.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup20"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/017.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup20"><a class="thumbnail pure-img" target="_blank" href="img/1746/017.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">Sabbaths den 15ten Octobr.</h3>
+               <h2>Sabbaths den 15ten Octobr.</h2>
                
                <p>Es war uns schon gestern Abends so unser Lämmlein würde uns nun bald von hier weiter
                   führen und wir gingen auch mit der Hoffnung vergnügt zu Bette. Heute früh hatten wir
@@ -707,9 +719,9 @@
                   gewesen. Sonst war auch von außen alles, Wetter Wind und Seegeln ziemlich Sabbaths
                   hafftig.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup21"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/017.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup21"><a class="thumbnail pure-img" target="_blank" href="img/1746/017.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☉ Den 16ten Octobr.</h3>
+               <h2>☉ Den 16ten Octobr.</h2>
                
                <p>Hieß unsre Loosung:
                   <br />Wir fahren dahin der Gnade ergeben
@@ -717,7 +729,7 @@
                   <br />läst sichs gar sicher fahren
                   <br />wenn mans nur auch fein hurtig könnt.
                   <br />Wir erinnerten uns der Predig die Papachen voriges Jahr am
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/018.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/018.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   3ten Octobr. in Marienborn darüber gehalten, und hatten zu unserm lieben Vater das
                   kindliche Vertrauen er würde uns auch beides auf unsrer Reise erfahren laßen, so wie
                   es seinem Herzen und unserm Plan am gemäßesten wäre. Wir sahen frühe Plymouth vor
@@ -733,9 +745,9 @@
                   So ihr den Vater etwas bitten werdet in meinem Nahmen so will ichs thun p und überließen unserm lieben Vater alle Specialia in unsrer Führung von Herzen
                   bey dem seeligen Gefühl daß wir dahin fahren der Gnade ergeben.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup22"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/018.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup22"><a class="thumbnail pure-img" target="_blank" href="img/1746/018.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☽ Den 17ten Octobr.</h3>
+               <h2>☽ Den 17ten Octobr.</h2>
                
                <p>Wir waren frühe recht vergnügt da wir sahen daß der Nord Ost Wind stehen blieb und
                   wir also eine baldige Abreise von hier hoffen konnten. Unser Capitain machte frühe
@@ -745,7 +757,7 @@
                   Capitain besorgten hernach noch was wir am Lande zu thun hatten und schrieben noch
                   unsre letzte Briefe nach London und sandten sie immediate vor unserm Abfahren an Land
                   mit viel 1000 zärtlichen Liebes Grüßgen
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/019.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/019.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   und Küßgen an unsre Herzel in England, Holland, Deutschland auf ihren Pilger Gängen
                   pp.
                   <br />Nachmittags nach 4 Uhr ging unser Convoy mit etlichen andern Schiffen fort; wir waren
@@ -781,23 +793,27 @@
                   <br />Und wenn du singest: denk an sie o Lamm und ihre Mühe
                   <br />so hab uns immer spät und früh gedoppelt in der Vüe.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup23"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/019.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span>
+            <div class="diaryPopuptext" id="diaryPopup23"><a class="thumbnail pure-img" target="_blank" href="img/1746/019.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span>
                Ende Teil 1
                <br />
                <br />Zur Fortsetzung siehe Teil 2
                </div>
          </div>
       </div>
-      <footer class="footer">
+      <footer class="footer l-box">
          
-         <div class="container text-center">
+         <div>
             
-            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena</p>
-            <!-- Dieser Backlink darf NICHT entfernt werden. DO NOT REMOVE-->
-            https://www.moravians-at-sea.uni-jena.de | Designed by <a href="http://freietemplates.de/">freietemplates.de</a>, adapted by <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte/martin+prell_+m_a_">Martin Prell</a>
+            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena und <a href="https://mprell.github.io/">Martin Prell</a></p>
+            
+            <p>https://www.moravians-at-sea.uni-jena.de</p>
             </div>
-         </footer>
-      <div class="impressum_datenschutz">
-         <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
-         </div><script type="text/javascript" src="js/main.js"></script><script type="text/javascript" src="js/diary.js"></script></body>
+         
+         <div class="impressum_datenschutz">
+            
+            <p>
+               <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+               </p>
+            </div>
+         </footer><script type="text/javascript" src="js/diary.js"></script></body>
 </html>

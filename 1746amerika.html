@@ -1,169 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <title>Seereise 1746/47 (Amerika)</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link href="css/bootstrap.min.css" rel="stylesheet" />
-      <link href="css/custom.css" rel="stylesheet" />
-      <link rel="icon" href="favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
+      <title>Seereise 1746/47 - Amerika</title>
+      <link rel="stylesheet" href="css/base-min.css" />
+      <link rel="stylesheet" href="css/grids-min.css" />
+      <link rel="stylesheet" href="css/grids-responsive-min.css" />
+      <link rel="stylesheet" href="css/menus-min.css" />
+      <link rel="stylesheet" href="css/buttons-min.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="icon" href="img/favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
    <body>
-      <nav class="navbar navbar-default navbar-static-top">
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+         <a class="pure-menu-heading" href="index.html">Moravians at Sea</a>
          
-         <div style="margin: 0 1% 0 1%;">
+         
+         <ul class="pure-menu-list">
             
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
-               
-               <div>
-                  <a class="navbar-brand" href="index.html" style="color: #e3d2b4;">Moravians at Sea</a>
-                  </div>
-               </div>
+            <li class="pure-menu-item">
+               <a href="einleitung.html" class="pure-menu-link">Über</a>
+               </li>
             
-            <div id="navbar" class="navbar-collapse collapse">
+            <li class="pure-menu-item">
+               <a href="suche.html" class="pure-menu-link">Suche</a>
+               </li>
+            
+            
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+               <a href="#" id="menuLink1" class="pure-menu-link">Reisen</a>
                
-               <ul class="nav navbar-nav navbar-right">
+               <ul class="pure-menu-children">
                   
-                  <li><a href="einleitung.html" style="color: #e3d2b4;">Über</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1746.html" class="pure-menu-link">1746/47</a>
+                     </li>
                   
-                  <li><a href="suche.html" style="color: #e3d2b4;">Suche</a></li>
+                  <li class="pure-menu-item">
+                     <a href="1752.html" class="pure-menu-link">1752</a>
+                     </li>
                   
-                  <li class="dropdown">
-                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #e3d2b4;">Reisen <span class="caret"></span></a>
-                     
-                     <ul class="dropdown-menu">
-                        
-                        <li><a href="1746.html">Reise 1746/47</a></li>
-                        
-                        <li><a href="1752.html">Reise 1752</a></li>
-                        
-                        <li><a href="1761.html">Reise 1761</a></li>
-                        </ul>
+                  <li class="pure-menu-item">
+                     <a href="1761.html" class="pure-menu-link">1761</a>
                      </li>
                   </ul>
-               </div>
-            </div>
-         </nav>
-      <div class="jumbotron3">
-         <div class="container">
-            <h1 style="color: #fff; font-size: 350%; display:flex; justify-content: center;">Reise nach Amerika in den Jahren 1746/1747</h1>
-         </div>
-      </div>
-      <div class="section2" id="introduction">
-         <div id="overlay" onclick="off()"></div>
-         <div id="overlay2" onclick="off()"></div><a class="btn1 btn btn-primary btn-lg" role="button" href="1746atlantik.html">🠔 Teil 2</a><a class="btn1 btn btn-primary btn-lg" role="button" style="float:right;" href="1746.html">Übersicht 🠖</a><div style="display:flex; justify-content: center;" id="atlantic">
-            <h3 style="color: #e3d2b4;">Teil 3: Nach Bethlehem, Pennsylvania</h3>
-         </div>
-         <div style="padding-left: 8%; padding-right: 7%;"><a class="btn btn-primary btn-lg" role="button" onclick="ShowHTUFunction()">How to Use</a><a class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="btn btn-primary btn-lg" role="button" style="float: right; margin-right:1%;display:none;" onclick="showgraph()">Route einblenden</a></div>
-         <div class="HTUPopuptext" id="HTUPopup">
-            <div style="text-align: center;"></div>
-            <h4 style="color: #e3d2b4; margin: 2% 0 2% 2%;">How to Use</h4>
-            <ul>
-               <li>Klicken Sie auf die Nadeln, um sich die jeweiligen Tagebucheinträge anzeigen zu lassen.
-                  Eine Nadel mappt den jeweiligen Übernachtungsort. Mouseover auf eine Nadel blendet
-                  das Datum ein.</li>
+               </li>
             </ul>
          </div>
-         <div class="map">
-            <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 2862 3973" style="background-image: url('img/america.jpg'); background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;"><svg id="graph">
-                     
-                     
-                     <g stroke="red" stroke-width="5" stroke-linecap="round" fill="none">				
-                        
-                        <polyline points="1048,3679 854,3592 784,3432 565,3225 421,2941 435,2841 396,2481 684,2324 926,2168 909,2049 807,1772 753,1615 715,1402"></polyline> 
-                        </g>
-                     
-                     
-                     <g class="popup" stroke="black" stroke-width="5" fill="red">
-                        
-                        
-                        <path class="popup" d="m 1048 3679 l 17 -42 m -10 -29 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup1">
-                           <title>28.12.1746</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 1048 3679 l -21 -63 m -26 -30 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup2">
-                           <title>29.12.1746</title>
-                        </path>
-                        
-                        
-                        <circle cx="854" cy="3592" r="20" id="graphPopup3">
-                           <title>30.12.1746</title>
-                        </circle>
-                        
-                        
-                        <circle cx="784" cy="3432" r="20" id="graphPopup4">
-                           <title>31.12.1746</title>
-                        </circle>
-                        
-                        
-                        <circle cx="565" cy="3225" r="20" id="graphPopup5">
-                           <title>1.1.1747</title>
-                        </circle>
+      <div class="banner">
+         <h1 class="banner-head">Reise nach Amerika in den Jahren 1746/1747</h1>
+      </div>
+      <div class="l-content">
+         <div id="overlay" onclick="off()"></div>
+         <div id="overlay2" onclick="off()"></div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1746atlantik.html">🠔</a></div>
+            <div class="pure-u-1 pure-u-md-20-24">
+               <h1>Teil 3: Nach Bethlehem, Pennsylvania</h1>
+            </div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1746.html">🠖</a></div>
+         </div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-secondary howto-button" onclick="ShowHTUFunction()">How to Use</a><a class="pure-button button-secondary tei-button" target="_blank" href="github.com">XML/TEI</a></div>
+            <div class="pure-u-1 pure-u-md-13-24"></div>
+            <div class="pure-u-1 pure-u-md-3-24"><a class="pure-button button-secondary reset-button" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="pure-button button-secondary hidegraph-button" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="pure-button button-secondary showgraph-button" onclick="showgraph()">Route einblenden</a></div>
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+         </div>
+         <div class="HTUPopuptext" id="HTUPopup">
+            <h3 class="howto-h3">How to Use</h3>
+            <ul>
+               <li>Klicken Sie auf die Punkte/Nadeln, um sich die jeweiligen Tagebucheinträge anzeigen
+                  zu lassen. Eine Nadel mappt den jeweiligen Übernachtungsort. Mouseover auf eine Nadel
+                  blendet das Datum ein.</li>
+            </ul>
+         </div>
+         <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="map pure-u-18-24">
+               <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 2862 3973" style="background-image: url('img/america.jpg');"><svg id="graph">
                         
                         
-                        <circle cx="421" cy="2941" r="20" id="graphPopup6">
-                           <title>2.1.1747</title>
-                        </circle>
+                        <g stroke="red" stroke-width="5" stroke-linecap="round" fill="none">				
+                           
+                           <polyline points="1048,3679 854,3592 784,3432 565,3225 421,2941 435,2841 396,2481 684,2324 926,2168 909,2049 807,1772 753,1615 715,1402"></polyline> 
+                           </g>
                         
                         
-                        <circle cx="435" cy="2841" r="20" id="graphPopup7">
-                           <title>3.1.1747</title>
-                        </circle>
-                        
-                        
-                        <circle cx="396" cy="2481" r="20" id="graphPopup8">
-                           <title>4.1.1747</title>
-                        </circle>
-                        
-                        
-                        <circle cx="684" cy="2324" r="20" id="graphPopup9">
-                           <title>5.1.1747</title>
-                        </circle>
-                        
-                        
-                        <path class="popup" d="m 926 2168 l 29 36 m -5 6 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup10">
-                           <title>6.1.1747</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 926 2168 l 62 0 m 2 -10 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup11">
-                           <title>7.1.1747</title>
-                        </path>
-                        
-                        
-                        <path class="popup" d="m 926 2168 l 17 -42 m -10 -29 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup12">
-                           <title>8.1.1747</title>
-                        </path>
-                        
-                        
-                        <circle cx="909" cy="2049" r="20" id="graphPopup13">
-                           <title>9.1.1747</title>
-                        </circle>
-                        
-                        
-                        <circle cx="807" cy="1772" r="20" id="graphPopup14">
-                           <title>10.1.1747</title>
-                        </circle>
-                        
-                        
-                        <circle cx="753" cy="1615" r="20" id="graphPopup15">
-                           <title>11.1.1747</title>
-                        </circle>
-                        
-                        
-                        <circle cx="715" cy="1402" r="20" id="graphPopup16">
-                           <title>12.1.1747</title>
-                        </circle>
-                        </g>
-                     </svg></svg></div>
-            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/075.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">❯</span>
+                        <g class="popup" stroke="black" stroke-width="5" fill="red">
+                           
+                           
+                           <path class="popup" d="m 1048 3679 l 17 -42 m -10 -29 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup1">
+                              <title>28.12.1746</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 1048 3679 l -21 -63 m -26 -30 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup2">
+                              <title>29.12.1746</title>
+                           </path>
+                           
+                           
+                           <circle cx="854" cy="3592" r="20" id="graphPopup3">
+                              <title>30.12.1746</title>
+                           </circle>
+                           
+                           
+                           <circle cx="784" cy="3432" r="20" id="graphPopup4">
+                              <title>31.12.1746</title>
+                           </circle>
+                           
+                           
+                           <circle cx="565" cy="3225" r="20" id="graphPopup5">
+                              <title>1.1.1747</title>
+                           </circle>
+                           
+                           
+                           <circle cx="421" cy="2941" r="20" id="graphPopup6">
+                              <title>2.1.1747</title>
+                           </circle>
+                           
+                           
+                           <circle cx="435" cy="2841" r="20" id="graphPopup7">
+                              <title>3.1.1747</title>
+                           </circle>
+                           
+                           
+                           <circle cx="396" cy="2481" r="20" id="graphPopup8">
+                              <title>4.1.1747</title>
+                           </circle>
+                           
+                           
+                           <circle cx="684" cy="2324" r="20" id="graphPopup9">
+                              <title>5.1.1747</title>
+                           </circle>
+                           
+                           
+                           <path class="popup" d="m 926 2168 l 29 36 m -5 6 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup10">
+                              <title>6.1.1747</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 926 2168 l 62 0 m 2 -10 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup11">
+                              <title>7.1.1747</title>
+                           </path>
+                           
+                           
+                           <path class="popup" d="m 926 2168 l 17 -42 m -10 -29 a -1 -1 0 0 1 37 20 a 1 1 0 0 1 -37 -20" id="graphPopup12">
+                              <title>8.1.1747</title>
+                           </path>
+                           
+                           
+                           <circle cx="909" cy="2049" r="20" id="graphPopup13">
+                              <title>9.1.1747</title>
+                           </circle>
+                           
+                           
+                           <circle cx="807" cy="1772" r="20" id="graphPopup14">
+                              <title>10.1.1747</title>
+                           </circle>
+                           
+                           
+                           <circle cx="753" cy="1615" r="20" id="graphPopup15">
+                              <title>11.1.1747</title>
+                           </circle>
+                           
+                           
+                           <circle cx="715" cy="1402" r="20" id="graphPopup16">
+                              <title>12.1.1747</title>
+                           </circle>
+                           </g>
+                        </svg></svg></div>
+            </div>
+            <div class="pure-u-3-24"></div>
+         </div>
+         <div>
+            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail pure-img" target="_blank" href="img/1746/075.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☿ Den 28ten December.</h3>
+               <h2>☿ Den 28ten December.</h2>
                
                <p>Heute sahen wir uns genöthiget [von] unserm Schiffgen, auf dem [wir] ohne einen Fuß
                   an Land zu [se]zen 13 Wochen und 1 Tag gewohnet [hatten] Abschied zu nehmen und [den]
@@ -177,7 +189,7 @@
                   wir uns auch im Nahmen des Lämmleins und mit einem kindlichen Herzen zu ihm es zu
                   ### und die bey jeziger Jahres Zeit und Umständen unmöglich scheinende Reise zu Lande
                   nach Philadelphia zu thun.
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/076.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/076.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Unserm Capitain that es wehe daß Er uns nicht biß an unsern gehörigen Ort bringen
                   konnte weil Er uns sehr lieb gewonnen; und a[uch] unsre Schiffs Leute waren recht
                   betrübt darüber daß wir vom Schiffe gingen und es war als wenn sie halb den Muth verlöhren.
@@ -204,7 +216,7 @@
                   Weg wieder zurück, und unterdeßen war das Boot zum 2ten Mahl on Shore gekommen, und
                   alle unsre Brüder nebst dem Capitain und übrigen Passagieren waren nun auch glücklich
                   am Lande, ob sie gleich im Boote von der immer
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/077.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/077.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   mehr stürmenden See ziemlich naß worden waren. Unser Capitain war willens biß Lewistwon
                   mit uns zu gehen, und weil er da bekant, uns desto beßer fort zu helffen. Wir machten
                   uns also zusammen auf und gingen biß an die Creek um zu versuchen ob wir nicht über
@@ -229,7 +241,7 @@
                   Vormittags, wir mußten über 6 biß 7 hohe Fencen mit großer Beschwerlichkeit steigen,
                   viele Moräste durchwaden, und so kam endlich die Nacht über uns. Wir dachten auf dem
                   Wege sehr offte an unsre Herzel in
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/078.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>Marienborn und Herrnhaag und hätten ihnen gerne gewünschet unsern heutigen March in
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/078.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>Marienborn und Herrnhaag und hätten ihnen gerne gewünschet unsern heutigen March in
                   der Nähe zuzusehen. Besonders aber erinnerten wir uns offt unsers allerliebsten Bieneleins
                   und wie seelig sie ihren heutigen Geburtstag feyren würde, ach wie gerne wäre mancher
                   von uns auch dabey gewesen! Endlich kamen wir nachdem wir einen Umweg von 16 biß 18
@@ -259,9 +271,9 @@
                   <br />der Seite! bleibt bey aller Müh
                   <br />doch unser Hymnus dort und hie.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/078.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail pure-img" target="_blank" href="img/1746/078.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♃ Den 29ten Decembr.</h3>
+               <h2>♃ Den 29ten Decembr.</h2>
                
                <p>Heute ruheten wir wiederum etwas aus von unsrer gestrigen mühsamen und vor manche
                   unsrer Herzel ziemlich sauren Pilgerschafft. Wir waren aber alle recht vergnügt und
@@ -273,7 +285,7 @@
                   Meile weit in die See hineingefroren, dazu auch unser Boot welches am Lande lag eingefroren
                   so daß wir just zur rechten Stunde vom Schiff ans Land gekommen weil hernach unser
                   Boot durchs Waßer gehoben und vom Eiß in
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/079.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/079.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Stücken gebrochen worden, so daß weder der Capitain mit seinen Leuten die er am Lande
                   hatte zurück ins Schiff, noch jemand vom Schiff ans Land kommen können.
                   <br />Wir waren indeßen darauf bedacht wie wir sobald als möglich von Lewis Town hinweg
@@ -297,15 +309,15 @@
                   alle sehr attent auf uns, und es kamen einige uns zu sehn, und wir glaubten gewiß
                   unser Lämmlein hat uns nicht ohne Ursach nach Lewistown kommen laßen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/079.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail pure-img" target="_blank" href="img/1746/079.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♀ Den 30ten December.</h3>
+               <h2>♀ Den 30ten December.</h2>
                
                <p>Frühe brachten wir noch vollends alles in Ordnung was zu unserm Fuhrwerk nöthig war.
                   Es sahe aber alles so armseelig aus daß ich wenn ich recht vernünfftig hätte raisonniren
                   wollen mich nicht eine deutsche Meile damit zu fahren getrauet hätte. Wir mußtens
                   aber schon damit wagen weils unmöglich war was beßers zu bekommen. Und da wars
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/080.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/080.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   doch gut daß ich einmal in meiner Jugend ein Bauer gewesen und mit Pferden und Wagen
                   umzugehen gelernt hatte, weil wir sonst keinen Fuhrmann gehabt hätten. Ein paar Stunden
                   vorher ehe wir abreiseten fings wieder an sehr starck zu schneyen und jederman rieth
@@ -336,7 +348,7 @@
                   über einen schmalen Mühlen Damm und Brücke, kamen glückl. hinüber und zu einem Hause
                   nach 2 Meilen von unserm angewiesenen Quartier, darinen Irishe Leute wohnten. Sie
                   sahen uns
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/081.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/081.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   anfangs vor Franzosen an, baten uns aber gar sehr bey ihnen zu bleiben und die Nacht
                   zu logiren, und weil es schon ziemlich spät und gar zu schlimmes Wetter war so resolvirten
                   wir uns auch dazu. Sie erwiesen uns alle mögliche Liebe, sahen uns an und freueten
@@ -346,9 +358,9 @@
                   laßen, und waren nur frölich darüber daß wir bey allen Schwierigkeiten doch heute
                   14 Engl. Meilen weit avancirt waren.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/081.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail pure-img" target="_blank" href="img/1746/081.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♃ Den 31ten December.</h3>
+               <h2>♃ Den 31ten December.</h2>
                
                <p>Heute hieß unsre Rede des Heilandes
                   <br />Ich bin bey Euch alle Tage
@@ -370,7 +382,7 @@
                   tiefen Schnee ziemlich ermüdet waren. Unsre Herzen waren wohl meistens in Marienborn
                   und Herrnhaag bey der Neu Jahres Nachtwache und wir gedachten mit einem tiefen Sehnen
                   dahin, und wären gerne da
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/082.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/082.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   gewesen. Wir mußten nun aber schon dismahl das neue Jahr in einer armseeligen Tabern
                   27 Meilen von Lewis Town und 20 meilen von Dover anfangen. Wir dankten unserm Lämmlein
                   kindlich für alles was Er in dem Jahre an Uns gethan, gaben uns ihm mit Geist und
@@ -392,11 +404,11 @@
                   <br />kränkelnde Täubelein
                   <br />nach Jesu Seitenschrein.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/082.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail pure-img" target="_blank" href="img/1746/082.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">Januarius 1747</h3>
+               <h2>Januarius 1747</h2>
                
-               <h3 style="text-align: center;">☉ Den 1sten.</h3>
+               <h2>☉ Den 1sten.</h2>
                
                <p>Heute machten wir uns sehr frühe auf, es war aber extraordinair kalt und scharfer
                   Wind. Wir waren sehr seelig und sungen zum neuen Jahre manch Gloria der Seite! Wir
@@ -409,7 +421,7 @@
                   vor uns her und wir folgten ihm mit unserm Schlitten nach auf einem Wege wo wir über
                   Büsche und Sträuche und Waßer und Anhöhen passiren mußten ohne allen Weg und Steg
                   daß wie wir durch waren wir alle stehen und erstaunen mußten
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/083.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/083.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   wie es nur möglich gewesen war daß der Heiland uns durchbringen können, und doch hatte
                   Niemand den geringsten Schaden genommen. Wir hatten hernach noch ein sehr schlimmes
                   Waßer zu passiren kamen aber Mittags zu einem Hause wo die Leute uns recht mit vielen
@@ -424,9 +436,9 @@
                   einem aus etlichen 20 Häusern bestehenden Town 46 starke Englische Meilen von Lewis
                   Town gelegen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/083.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail pure-img" target="_blank" href="img/1746/083.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☽ Den 2ten Januarii.</h3>
+               <h2>☽ Den 2ten Januarii.</h2>
                
                <p>Heute machten wir uns sehr frühe wieder auf und eileten von Dover fort mit der seeligen
                   Loosung:
@@ -448,7 +460,7 @@
                   Es sind in dieser ganzen Gegend überhaupt sehr viele unruhige und gerührte Leute die
                   nicht recht wißen wohin sie sich wenden sollen und der Mann der mit Uns ging sagte
                   uns daß es ihnen sehr lieb seyn würde wenn unsre
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/084.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/084.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   Geschwister in diese Gegend kommen und sie besuchen wollten. Der vornehmste Justice
                   in Dover hat uns wollen zu sich invitiren und bey sich behalten wenn wir ihm nicht
                   zu früh fortgeeilet wären und so glauben und sehn wir gewiß daß unser Lämmlein mit
@@ -468,9 +480,9 @@
                   eine sehr seelige Singestunde und freueten uns daß unser Lämmlein uns nun den halben
                   Weg nach Philadelphia glückl. und wohl geleitet hatte.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/084.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail pure-img" target="_blank" href="img/1746/084.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♂ Den 3ten Januarii</h3>
+               <h2>♂ Den 3ten Januarii</h2>
                
                <p>Hieß unsre Loosung:
                   <br />Der Ehjeh hat mich zu Euch gesandt
@@ -483,7 +495,7 @@
                   den Weg, obschon das Eiß unsre Schuhe entzwey schnitte und wir Gefahr stunden unsre
                   Füße zu verwunden. Der Weg war sehr bergicht und beschwerlich unsre Kleider wurden
                   ganz mit Eiß überzogen und wir sahen halb ge-
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/085.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/085.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   harnischt aus, mußten dazu manche Waßer passiren die unsre Pferde ermüdeten daher
                   wir wegen des gar zu schlimmen Wetters uns resolviren mußten in Cantwells Bridge dahin
                   wir zu Mittage kamen den ganzen Nachmittag und die Nacht liegen zu bleiben. Wir ruheten
@@ -493,9 +505,9 @@
                   so wars uns doch so, daß der uns bißhieher gebracht uns auch gewiß weiter helffen
                   würde.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/085.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail pure-img" target="_blank" href="img/1746/085.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☿ Den 4ten Januarii</h3>
+               <h2>☿ Den 4ten Januarii</h2>
                
                <p>Diese Nacht hatte es sehr scharf gefroren und das Eiß auf dem Schnee war noch viel
                   dicker und härter worden, so daß Niemand uns fortzuhelffen begehrte aus Furcht daß
@@ -516,10 +528,10 @@
                   Unser Lämmlein war unter uns und wir sungen unsre Wunden Versel mit einem zätzlichen
                   und seeligen Herzen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/086.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail pure-img" target="_blank" href="img/1746/086.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                
-               <h3 style="text-align: center;">♃ Den 5ten Januarii.</h3>
+               <h2>♃ Den 5ten Januarii.</h2>
                
                <p>Wir eileten sehr frühe fort, mußten aber an den meisten Orten wo wir passirten wiederum
                   die Bahn durch Schnee und Eiß brechen. Die Gegend war sehr bergicht, und wir mußten
@@ -544,16 +556,16 @@
                   <br />seiner Wunden Schein
                   <br />unsre Leuchte seyn.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/086.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail pure-img" target="_blank" href="img/1746/086.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♀ Den 6 Januarii.</h3>
+               <h2>♀ Den 6 Januarii.</h2>
                
                <p>Heute da unsre Herzel in Europa ihr Heiden Fest wohl recht seelig werden gefeyret
                   haben eilten wir vollends hin zu unserm Philadelphia. Wir machten uns frühe bey sehr
                   strenger Kälte recht vergnügt und munter auf, passirten Derby und kamen gegen Mittag
                   biß an die Schulkill wo wir etliche Stunden warten mußten ehe wir über die Fähre kommen
                   konnten. Wir kamen aber glücklich hinüber
-                  <a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/087.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <a class="thumbnail pure-img" target="_blank" href="img/1746/087.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
                   und wurden Mittags zwischen 1-2 Uhr Philadelphia ansichtig mit der Loosung:
                   <br />Bitte was ich dir geben soll?
                   <br />Autorität zu Schluß und Sperr.
@@ -570,9 +582,9 @@
                   wenig von unsrer Pilgerschafft wieder auszuruhen biß wir vollends unser liebes Bethlehem
                   zu sehen kriegen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/087.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail pure-img" target="_blank" href="img/1746/087.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">Sabbaths den 7ten Januar.</h3>
+               <h2>Sabbaths den 7ten Januar.</h2>
                
                <p>Heute divertirten wir uns mit unsern Philadelphischen Geschwistern die uns und wir
                   sie besuchten. Unsre Loosung hieß:
@@ -587,10 +599,10 @@
                   fort und das machte uns etwas bekümmert weil wir ihnen die Sorge unserthalben gerne
                   ersparet hätten die ihnen das lange Außenbleiben unsrer Briefe machen wird.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/088.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail pure-img" target="_blank" href="img/1746/088.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
                
-               <h3 style="text-align: center;">Sonntags den 8ten Januarii.</h3>
+               <h2>Sonntags den 8ten Januarii.</h2>
                
                <p>War unsre Loosung:
                   <br />Ich will vor dem Herrn spielen der mich erwehlet hat.
@@ -599,9 +611,9 @@
                   uns verschiedene Geschwister und Abends kam Br. Adolph Meyer von Friedrichstown der
                   aber unsre Ankunfft erst in Philadelphia erfahren und sich mit uns freuete.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/088.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail pure-img" target="_blank" href="img/1746/088.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☽ Den 9ten Januarii.</h3>
+               <h2>☽ Den 9ten Januarii.</h2>
                
                <p>Heute Vormittags kam Br. Pyrläus von Bethlehem und brachte uns eine herzliche Invitation
                   von unsern theuren Geschwistern Joseph und Maria vollends zu ihnen hinauf zu eilen.
@@ -610,9 +622,9 @@
                   wir die Nacht blieben und zum Theil bey dem alten Vater Bennezet logirten, und uns
                   über manche Nachricht die wir von Bethlehem und sonst aus America höreten, erfreueten.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/088.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail pure-img" target="_blank" href="img/1746/088.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">♂ Den 10ten Januarii.</h3>
+               <h2>♂ Den 10ten Januarii.</h2>
                
                <p>Machten wir uns recht frühe wieder auf und hatten eine ziemlich beschwerliche Reise
                   sonderlich je höher wir hinauf kamen weil wir wenig gebahnten Weg fanden. Doch halff
@@ -621,9 +633,9 @@
                   das unsre Gemeine in Europa heute gefeyret und sehnten uns nun vollends zu unserm
                   Pläzchen zu kommen.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/088.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span><span class="rightArrow">❯</span>
+            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail pure-img" target="_blank" href="img/1746/088.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
                
-               <h3 style="text-align: center;">☿ Den 11ten Januarii.</h3>
+               <h2>☿ Den 11ten Januarii.</h2>
                
                <p>Hieß unsre Loosung:
                   <br />Jacob zog seinen Weg und es begegneten ihm Engelein
@@ -638,10 +650,10 @@
                   empfangen wurden, und sich bey der Neu Jahrs Wache die sie nach altem Styl jezo hielten,
                   mit divertirten.</p>
                </div>
-            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail" target="_blank" style="background-color: transparent; width: 9rem; border:none;" href="img/1746/089.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">❮</span>
+            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail pure-img" target="_blank" href="img/1746/089.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span>
                
                
-               <h3 style="text-align: center;">♃ Den 12ten Januarii 1747.</h3>
+               <h2>♃ Den 12ten Januarii 1747.</h2>
                
                <p>Ich und meine übrige Gesellschaft machten uns endlich auch heute auf und zogen nach
                   Bethlehem zu mit der Loosung:
@@ -666,16 +678,20 @@
                </div>
          </div>
       </div>
-      <footer class="footer">
+      <footer class="footer l-box">
          
-         <div class="container text-center">
+         <div>
             
-            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena</p>
-            <!-- Dieser Backlink darf NICHT entfernt werden. DO NOT REMOVE-->
-            https://www.moravians-at-sea.uni-jena.de | Designed by <a href="http://freietemplates.de/">freietemplates.de</a>, adapted by <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte/martin+prell_+m_a_">Martin Prell</a>
+            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena und <a href="https://mprell.github.io/">Martin Prell</a></p>
+            
+            <p>https://www.moravians-at-sea.uni-jena.de</p>
             </div>
-         </footer>
-      <div class="impressum_datenschutz">
-         <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
-         </div><script type="text/javascript" src="js/main.js"></script><script type="text/javascript" src="js/diary.js"></script></body>
+         
+         <div class="impressum_datenschutz">
+            
+            <p>
+               <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+               </p>
+            </div>
+         </footer><script type="text/javascript" src="js/diary.js"></script></body>
 </html>

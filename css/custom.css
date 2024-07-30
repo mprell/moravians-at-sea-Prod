@@ -1,172 +1,152 @@
-body {font-weight:lighter;
-
-background-color: rgb(4, 28, 39);
-
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+  color: white;
+  background: #093e56;
+  font-weight: lighter;
 }
 
-.btn {
-	
-	font-size:1.5vw;
-	
+h1 {
+    font-weight: lighter;
+    text-align:center;
+    color: #e3d2b4;
 }
 
-#twitter {
-	background-color: #1E90FF;
-	padding: 10px;
-	border-radius: 100px;
-	transform:rotate(-30deg);
-	position: absolute;
-	left: 1%;
-	top: 4%;
-	font-size:1vw;
+.h1-index {
+    font-size: 4em;
+    color: #2d3e50;
 }
 
-h1, h2 {
-	font-weight:lighter;
-	font-size:5vw;
-}
-
-h3, h4 {
-	font-weight:lighter;
-	font-size:3vw;
-}
-
-h5 {
-	font-weight:lighter;
-	font-size:2vw;
-	}
-
-.navbar-default {
-	margin: 0;
-	opacity: 0.9;
-	background-color: #041c27;
-}
-
-.jumbotron2 {
-	background-image: url(../img/irene.png);
-	background-size: cover;
-    background-repeat: no-repeat;
-	
-    padding: 80px 40px;
-    margin: 0;
-    font-size: 16px;
-}
-
-.jumbotron3 {
-	background-image: url(../img/irene2.png);
-	background-size: cover;
-    background-repeat: no-repeat;
-    height: 20%;
-    padding: 50px;
-    margin: 0;
-    font-size: 14px;
-}
-
-.section0 {
-	background-color: #fff;
-	color: #000;
-	font-size: 14px;
-	padding: 40px 10px;
-}
-
-.section1 {
-	background-color: #26b3f3;
-	color: #fff;
-	font-size: 20px;
-	padding: 40px 10px;
-}
-
-.section2 {
-	background-color: #093e56;
-	color: #fff;
-	font-size: 14px;
-	padding: 10px 10px;
-}
-
-.footer {
-	background-color: #041c27;
-	color: #fff;
-	padding: 20px 10px;
-}
-
-	
-.popup {
-	position: absolute;
-    cursor: pointer;
-}
-
-.popupCalendar {
-    cursor: pointer;
-	line-height:1.3;
-}
-
-.betacontainer {
-	margin-left: -10px;
-	color: #26b3f3;
-	font-size: 80%;
-	border-color: #26b3f3;
-	border-width: 1.5px;
-	border-style: solid;	
-}
-
-.beta {
-	margin: 1px;
-}
-
-.impressum_datenschutz {
-	text-align: right;
-	padding: 10px;
-	background-color: #041c27;
+.h2-index {
+    color: #2d3e50;
 }
 
 
-.month {
-display: none;
-color: #093e56;
-border:none;
+h2,
+h3 {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 5%;
 }
 
-.quill {
-	width: 20px;
-	height: 29px;
-	margin-top: 4px;
-	margin-bottom: 4px;
+.introduction {
+    margin-left:15%;
+    margin-right: 15%;
+    font-size:1.5em;
 }
 
-.HTUPopuptext {
-	background: #093e56;
-	color: #fff;
-    visibility: hidden;
-    padding: 0 1%;
-    position: fixed;
-	left: 20%;
-	right: 20%;
-	top: 30%;
-	bottom: 30%;
-    border: 4px solid #e3d2b4;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
-	font-size: 120%;
-	z-index: 2;
+.introduction-img {
+    border: 6px solid #e3d2b4;
+    width:100%;
+}
+
+.img-garrison {
+    width: 40%;
+    float:left;
+    margin: 1% 3% 1% 1%;
+}
+
+figcaption {
+    margin-top: 1rem;
+    color: #e3d2b4;
+}
+
+.howto-h3 {
+    color: #e3d2b4;
+    }
+
+p {
+  line-height: 1.6em;
+}
+
+/*
+ * -- Layout Styles --
+ */
+.l-content {
+  background: #093e56;
+}
+
+.l-box {
+  padding: 0.5em 2em;
+}
+
+.travel-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 2rem 1rem 2rem 1rem;
+    border-radius: 8px;
+}
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.home-menu {
+    background: #2d3e50;
+}
+
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #e3d2b4;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.banner {
+  background: transparent
+    url("../img/irene.png")
+    0 0 no-repeat fixed;
+  text-align: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  display: table;
+}
+
+.banner-head {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2em;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 1px 1px black;
 }
 
 .diaryPopuptext {
-    
-	/*font-family: 'Caflisch';*/
+
 	visibility: hidden;
-    padding: 0 3%;
+    padding: 3%;
     position: fixed;
-	left: 25%;
-	right: 25%;
 	top: 10%;
 	bottom: 10%;
+	left: 22.5%;
+	right: 22.5%;
     background: #FFFFFF;
-/*border: 4px solid #e3d2b4;*/
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 	z-index: 2;
-	font-size: 150%;
-	line-height: 1.3;
 	color:#000000;
 	background-image: url('../img/sheet1.png');
 	background-color: transparent;
@@ -175,154 +155,40 @@ border:none;
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-o-background-size: 100% 100%;
-	   
 }
-					
+
 .positionPopuptext {
   visibility: hidden;
-	padding: 0 1%;
+	padding: 1%;
     position: fixed;
-	left: 30%;
-	right: 30%;
 	top: 25%;
 	bottom: 25%;
+	left: 25%;
+	right: 25%;
     background: #093e56;
 	color: #fff;
     border: 4px solid #e3d2b4;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 	z-index: 20;
+}
+
+
+.HTUPopuptext {
+	background: #093e56;
+	color: #fff;
+    visibility: hidden;
+    padding: 0 1%;
+    position: fixed;
+	left: 22.5%;
+	right: 22.5%;
+	top: 30%;
+	bottom: 30%;
+    border: 4px solid #e3d2b4;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 	font-size: 120%;
-}
-			
-
-.closeButton
-{
-	 text-align:center; 
-	 padding-bottom: 3%;
-}
-
-.close1 {
-	position: fixed;
-	background-color: #093e56;
-	color: #e3d2b4;
-	border-radius: 50%;
-	border: solid 2px #e3d2b4;
-	font-size: 100%;
-	width: 30px;
-	z-index: 3;
-}
-
-.close3 {
-	position: fixed;
-	background-color: #e3d2b4;
-	color: #093e56;
-	border-radius: 50%;
-	width: 30px;
-	border: none;
-	font-size: 100%;
-	z-index: 3;
-}
-
-.close1:hover {
-	background-color: #e3d2b4;
-	color: #093e56;
-	border: solid 2px #093e56;
-	cursor: pointer;
-}
-
-.close2:hover {
-	background-color: #093e56; 
-	color: #e3d2b4;
-	border: solid 2px #e3d2b4;
-	cursor: pointer;
-}
-
-.close3:hover {
-	background-color: #093e56; 
-	color: #e3d2b4;
-	border: solid 2px #e3d2b4;
-	cursor: pointer;
-}
-
-
-div#border {
-	width: 100%;
-	height: 100%;
-	overflow: Scroll;
-	border: Inset 0px #AEAEAE;
-	margin-top: 10px;
-}
-
-div#border svg#img {
-	height: Auto;
-	object-fit: Cover;
-}
-
-.navbarMap {
-	background-color: #093e56;
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 10px;
-	padding: 3px;
-	
-  
-    z-index:10;
-}
-
-.navbarMap a {
-	float: left;
-	display: block;
-	color: #666;
-	text-align: center;
-	padding: 20px;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-.navbarMap a:hover {
-	background-color: #ddd;
-	color: #000000;
-}
-
-.navbarMap a.active {
-	background-color: #4CAF50;
-	color: #FFFFFF;
-}
-
-#main1 {
-	width: 100%;
-	height: 100vh;
-	overflow: auto;
-	cursor: grab;
-	cursor: -o-grab;
-	cursor: -moz-grab;
-	cursor: -webkit-grab;
-}
-
-#main2 {
-	width: 100%;
-	
-	overflow: auto;
-	cursor: grab;
-	cursor: -o-grab;
-	cursor: -moz-grab;
-	cursor: -webkit-grab;
-}
-
-#main3 {
-	width: 100%;
-	height: 100vh;
-	overflow: auto;
-	cursor: grab;
-	cursor: -o-grab;
-	cursor: -moz-grab;
-	cursor: -webkit-grab;
-}
-
-.main img {
-	height: auto;
-	width: 100%;
+	z-index: 2;
 }
 
 #overlay {
@@ -351,110 +217,270 @@ div#border svg#img {
 	z-index: 10;
 }
 
-.headinglogbook {
-	text-align: center;
-	color: #e3d2b4;
+#main2 {
+	width: 100%;
+	overflow: auto;
+	cursor: grab;
+	cursor: -o-grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
 }
 
-
- .map {
+#map {
 	background-color: #e3d2b4;
 	color: #000000;
 	border: 10px solid #e3d2b4;
-	margin: 1% 8% 1% 8%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
 }
 
-.passengers li {
-	list-style-type: "\2693 ";
+
+.index-map {
+    background-image: url('../img/atlantic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-.con {
+.map {
+	background-color: #e3d2b4;
+	margin-bottom: 2%;
+}
+
+.index-map {
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.index-map-elements {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.index-map-banner {
+    background-color: rgba(255,255,255,0.6);
+    justify-content: center;
+    padding-top: 8%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    color:#1A1A1A;
+}
+
+.index-map-buttons {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.button-1746 {
+    background-color:#0B610B;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 1%;
+}
+
+.button-1752 {
+    background-color:#084B8A;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 1%;
+}
+
+.button-1761 {
+    background-color:#8A0808;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 1%;
+}
+
+.leftArrow {
+    position: absolute;
+    left: 0;
+    margin-top: 3%;
+    font-size: 2.5rem;
+    
+}
+
+.rightArrow {
+    position: absolute;
+    right: 0;
+    margin-top: 3%;
+    font-size: 2.5rem;
+}
+
+
+.voyant-container {
+    margin: 3% 10% 5% 10%;
+}
+
+.voyant-iframe {
+    height: 600px;
+    width: 100%;
+    border: 10px solid #e3d2b4;
+}
+
+.travel-overview {
+    color: #e3d2b4;
+}
+
+
+.passenger-list {
+    font-size: 150%;
+    margin-left: 25%;
+}
+
+.note-transcription {
+    
+    margin-left: 10px;
+}
+
+.index-search-form {
+    margin-top: 1rem;
+}
+
+.index-search-button {
+    margin-left: 1%;
+    border-radius: 4px;
+}
+
+.search-search-button {
+    border-radius: 4px;
+}
+
+.clear-button {
+    background: #e3d2b4;
+    border-radius: 4px;
+}
+
+.button-choose {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  border-radius: 2em;
+  font-weight: bold;
   position: relative;
-  max-width: 30%;
+  bottom: -1.5em;
 }
 
-.con .btn1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
+
+.button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: rgb(66, 184, 221);
+            margin-bottom: 0.5rem;
+        }
+
+
+.button-logbook {
+            font-size: 85%;
+            float: right;
+        }
+
+
+.howto-button, .reset-button, .hidegraph-button, .open-button, .tei-button {
+        display: block;
+}
+
+.showgraph-button {
+    display: none;
+}
+
+.thumbnail  {
+    
+    background-color: transparent;
+    border:none;
+    
+}
+
+.button-next_previous {
+            display: block;
+            color: #093e56;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: #e3d2b4;
+            margin: 1rem;
+        }
+
+.popup {
+	position: absolute;
+    cursor: pointer;
+}
+
+
+.footer {
+  background: #111;
+  color: #888;
   text-align: center;
 }
+.footer a {
+  color: #ddd;
+}
+
+/*
+ * -- TABLET MEDIA QUERIES --
+ * On tablets, we want to slightly adjust the size of the banner
+ * text and add some vertical space between the various pricing tables
+ */
 
 
-/*table-cols in calendar*/
-
-.xl70 {
-	border-top:.5pt solid #31869B;
-	border-right:.5pt solid #31869B;
-	border-bottom:none;
-	border-left:.5pt solid #31869B;
-	}
-.xl73 {
-	color:#FFFFFF;
-	mso-number-format:d;
-	text-align:right;
-	border-top:.5pt solid #31869B;
-	border-right:.5pt solid #31869B;
-	border-bottom:.5pt solid #31869B;
-	border-left:.5pt solid #31869B;
-	white-space:nowrap;
-	}
-.xl75 {
-	border-top:none;
-	border-right:.5pt solid #31869B;
-	border-bottom:.5pt solid #31869B;
-	border-left:.5pt solid #31869B;
-	}
-.xl76 {
-	color:white;
-	font-size:12.0pt;
-	text-align:center;
-	background:#215967;
-	mso-pattern:black none;
-	white-space:nowrap;
-	}
-.xl77 {
-	color: #FFFFFF;
-	padding-left:1%;
-	padding-right:1%;
-	vertical-align:middle;
-	border-top:none;
-	border-right:.5pt solid #31869B;
-	border-bottom:.5pt solid #31869B;
-	border-left:.5pt solid #31869B;
-	}
-	
-	/*
-@font-face {
-  font-family: 'Caflisch';
-  font-style:  normal;
-  font-weight: bold;
-  src: url("../fonts/Caflisch Script Pro Light.woff2") format("woff2");
-}*/
-
-
-.leftArrow, .rightArrow {
-	cursor: pointer;
-	position: absolute;
-	top: 3%; /* Initial top position */
+/*
+ * -- PHONE MEDIA QUERIES --
+ * On phones, we want to reduce the height and font-size of the banner further
+ */
+@media (min-width: 480px) {
+  .banner {
+    height: 400px;
   }
-  
-  .leftArrow {
-	left: 3%;
-  }
-  
-  .rightArrow {
-	right: 3%;
+  .banner-head {
+    font-size: 3em;
   }
 
-  .diaryPopuptext .thumbnail {
-	margin-bottom: 0;
-	margin-top: 1rem;
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+        .home-menu ul {
+            float: right;
+        }
+
+    /* We increase the height of the splash-container */
+/*    .splash-container {
+        height: 500px;
+    }*/
+
+    /* We decrease the width of the .splash, since we have more width
+    to work with */
+    .splash {
+        width: 50%;
+        height: 50%;
+    }
+
+    .splash-head {
+        font-size: 250%;
+    }
+
+
+    /* We remove the border-separator assigned to .l-box-lrg */
+    .l-box-lrg {
+        border: none;
+    }
 
 }

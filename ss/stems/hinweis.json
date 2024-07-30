@@ -1,1 +1,1 @@
-{"stem":"hinweis","instances":[{"docUri":"einleitung.html","score":2,"contexts":[{"form":"Hinweis","weight":"2","pos":824,"context":"Technischer <mark>Hinweis<\/mark>","fid":"introduction","in":["ssCtx1"]}]}]}
+{"stem":"hinweis","instances":[{"docUri":"einleitung.html","score":2,"contexts":[{"form":"Hinweis","weight":"2","pos":831,"context":"Technischer <mark>Hinweis<\/mark>","in":["ssCtx1","ssCtx1"]}]}]}
