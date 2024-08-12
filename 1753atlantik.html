@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="Reise" class="staticSearch_desc" content="1753" />
+      <title>Reise 1753 - Atlantik</title>
+      <link rel="stylesheet" href="css/base-min.css" />
+      <link rel="stylesheet" href="css/grids-min.css" />
+      <link rel="stylesheet" href="css/grids-responsive-min.css" />
+      <link rel="stylesheet" href="css/menus-min.css" />
+      <link rel="stylesheet" href="css/buttons-min.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+      <link rel="icon" href="img/favicon.ico" /><script type="text/javascript" src="ss/ssHighlight.js"></script></head>
+   <body>
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+         <a class="pure-menu-heading" href="index.html">Moravians at Sea</a>
+         
+         
+         <ul class="pure-menu-list">
+            
+            <li class="pure-menu-item">
+               <a href="einleitung.html" class="pure-menu-link">Über</a>
+               </li>
+            
+            <li class="pure-menu-item">
+               <a href="suche.html" class="pure-menu-link">Suche</a>
+               </li>
+            
+            
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+               <a href="#" id="menuLink1" class="pure-menu-link">Reisen</a>
+               
+               <ul class="pure-menu-children">
+                  
+                  <li class="pure-menu-item">
+                     <a href="1746.html" class="pure-menu-link">1746/47</a>
+                     </li>
+                  
+                  <li class="pure-menu-item">
+                     <a href="1752.html" class="pure-menu-link">1752</a>
+                     </li>
+                  
+                  <li class="pure-menu-item">
+                     <a href="1753.html" class="pure-menu-link">1753</a>
+                     </li>
+                  
+                  <li class="pure-menu-item">
+                     <a href="1761.html" class="pure-menu-link">1761</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      <div class="banner">
+         <h1 class="banner-head">Reise nach Amerika im Jahr 1753</h1>
+      </div>
+      <div class="l-content">
+         <div id="overlay" onclick="off()"></div>
+         <div id="overlay2" onclick="off()"></div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1753kanal.html">🠔</a></div>
+            <div class="pure-u-1 pure-u-md-20-24">
+               <h1>Teil 2: Atlantik</h1>
+            </div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-next_previous" href="1753amerika.html">🠖</a></div>
+         </div>
+         <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+            <div class="pure-u-1 pure-u-md-2-24"><a class="pure-button button-secondary howto-button" onclick="ShowHTUFunction()">How to Use</a><a class="pure-button button-secondary tei-button" target="_blank" href="github.com">XML/TEI</a></div>
+            <div class="pure-u-1 pure-u-md-13-24"></div>
+            <div class="pure-u-1 pure-u-md-3-24"><a class="pure-button button-secondary reset-button" onclick="resetZoom()">Reset Zoom</a><a id="routeOff" class="pure-button button-secondary hidegraph-button" onclick="hidegraph()">Route ausblenden</a><a id="routeOn" class="pure-button button-secondary showgraph-button" onclick="showgraph()">Route einblenden</a></div>
+            <div class="pure-u-1 pure-u-md-3-24"></div>
+         </div>
+         <div class="HTUPopuptext" id="HTUPopup">
+            <h3 class="howto-h3">How to Use</h3>
+            <ul>
+               <li>Die Punkte/Nadeln auf der Route geben schematisch die Tagespositionen des Schiffs
+                  zwischen im Tagebuch erwähnten Landmarken wieder. Klicken Sie auf die Nadeln, um sich
+                  die jeweiligen Tagebucheinträge anzeigen zu lassen. Mouseover auf eine Nadel blendet
+                  das Datum ein.</li>
+            </ul>
+         </div>
+         <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="map pure-u-18-24">
+               <div id="main2"><svg xmlns="http://www.w3.org/2000/svg" id="map" viewBox="0 0 5216 3546" style="background-image: url('img/atlantic.jpg');"><svg id="graph">
+                        
+                        <g stroke="red" stroke-width="8" stroke-linecap="round" fill="none">
+                           
+                           <polyline points="4591,218 1036,965 928,945"></polyline>
+                           </g>
+                        
+                        <g class="popup" stroke="black" stroke-width="5" fill="red">
+                           
+                           
+                           <circle cx="4591" cy="218" r="20" id="graphPopup1">
+                              <title>29.6.1753</title>
+                           </circle>
+                           <!--In die See-->
+                           
+                           
+                           <circle cx="4527" cy="231" r="20" id="graphPopup2">
+                              <title>30.6.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4464" cy="244" r="20" id="graphPopup3">
+                              <title>1.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4400" cy="258" r="20" id="graphPopup4">
+                              <title>6.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4337" cy="271" r="20" id="graphPopup5">
+                              <title>7.7.1753</title>
+                           </circle>
+                           
+                           
+                           
+                           
+                           <circle cx="4273" cy="284" r="20" id="graphPopup6">
+                              <title>9.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4210" cy="298" r="20" id="graphPopup7">
+                              <title>9.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4147" cy="311" r="20" id="graphPopup8">
+                              <title>10.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4083" cy="324" r="20" id="graphPopup9">
+                              <title>11.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="4020" cy="338" r="20" id="graphPopup10">
+                              <title>12.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3956" cy="351" r="20" id="graphPopup11">
+                              <title>13.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3892" cy="364" r="20" id="graphPopup12">
+                              <title>14.7.1753</title>
+                           </circle>
+                           
+                           
+                           
+                           
+                           <circle cx="3829" cy="378" r="20" id="graphPopup13">
+                              <title>15.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3766" cy="391" r="20" id="graphPopup14">
+                              <title>16.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3702" cy="404" r="20" id="graphPopup15">
+                              <title>17.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3638" cy="418" r="20" id="graphPopup16">
+                              <title>18.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3575" cy="431" r="20" id="graphPopup17">
+                              <title>19.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3512" cy="444" r="20" id="graphPopup18">
+                              <title>20.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3448" cy="458" r="20" id="graphPopup19">
+                              <title>22.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3385" cy="471" r="20" id="graphPopup20">
+                              <title>23.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3321" cy="484" r="20" id="graphPopup21">
+                              <title>25.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3258" cy="498" r="20" id="graphPopup22">
+                              <title>26.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3194" cy="511" r="20" id="graphPopup23">
+                              <title>27.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3131" cy="524" r="20" id="graphPopup24">
+                              <title>28.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3067" cy="538" r="20" id="graphPopup25">
+                              <title>29.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="3004" cy="551" r="20" id="graphPopup26">
+                              <title>30.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2940" cy="564" r="20" id="graphPopup27">
+                              <title>31.7.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2877" cy="578" r="20" id="graphPopup28">
+                              <title>1.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2813" cy="591" r="20" id="graphPopup29">
+                              <title>2.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2750" cy="604" r="20" id="graphPopup30">
+                              <title>3.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2686" cy="618" r="20" id="graphPopup31">
+                              <title>5.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2623" cy="631" r="20" id="graphPopup32">
+                              <title>6.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2559" cy="644" r="20" id="graphPopup33">
+                              <title>7.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2496" cy="658" r="20" id="graphPopup34">
+                              <title>8.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2432" cy="671" r="20" id="graphPopup35">
+                              <title>9.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2369" cy="684" r="20" id="graphPopup36">
+                              <title>10.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2305" cy="698" r="20" id="graphPopup37">
+                              <title>11.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2242" cy="711" r="20" id="graphPopup38">
+                              <title>13.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2178" cy="724" r="20" id="graphPopup39">
+                              <title>14.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2115" cy="738" r="20" id="graphPopup40">
+                              <title>15.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="2051" cy="751" r="20" id="graphPopup41">
+                              <title>16.-17.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1988" cy="764" r="20" id="graphPopup42">
+                              <title>18.-20.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1924" cy="778" r="20" id="graphPopup43">
+                              <title>21.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1861" cy="791" r="20" id="graphPopup44">
+                              <title>22.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1797" cy="804" r="20" id="graphPopup45">
+                              <title>23.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1734" cy="818" r="20" id="graphPopup46">
+                              <title>24.-28.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1670" cy="831" r="20" id="graphPopup47">
+                              <title>29.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1607" cy="844" r="20" id="graphPopup48">
+                              <title>30.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1543" cy="858" r="20" id="graphPopup49">
+                              <title>31.8.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1480" cy="871" r="20" id="graphPopup50">
+                              <title>1.9.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1416" cy="884" r="20" id="graphPopup51">
+                              <title>2.9.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1353" cy="898" r="20" id="graphPopup52">
+                              <title>3.9.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1289" cy="911" r="20" id="graphPopup53">
+                              <title>4.9.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1226" cy="924" r="20" id="graphPopup54">
+                              <title>5.9.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1163" cy="938" r="20" id="graphPopup55">
+                              <title>6.9.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1100" cy="952" r="20" id="graphPopup56">
+                              <title>7.9.1753</title>
+                           </circle>
+                           
+                           
+                           <circle cx="1036" cy="965" r="20" id="graphPopup57">
+                              <title>8.9.1753</title>
+                           </circle>
+                           <!-- Long Island-->
+                           
+                           
+                           <circle cx="928" cy="945" r="20" id="graphPopup58">
+                              <title>9.9.1753</title>
+                           </circle>
+                           <!--New York-->
+                           
+                           </g>
+                        </svg></svg></div>
+            </div>
+            <div class="pure-u-3-24"></div>
+         </div>
+         <div>
+            <div class="diaryPopuptext" id="diaryPopup1"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="rightArrow">〉</span>
+               
+               <p><br />D 29 Juny 1753. Der Wind wurde stärker
+                  <br />und wurden viele wieder kranck</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup2"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 30 Juny S.b.W.angenehm wetter
+                  Br. Boehler hielt uns eine Rede</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup3"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />⊙ 1 July W.S.W. war Predigt, ein Schiff
+                  <br />von Barbados begegnete uns und der
+                  <br />Captain sprach mit uns.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup4"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 6 <u><sup>ten</sup></u> Sahen wir einen Finn od. Wallfisch das
+                  <br />Waßer in die Höh blasen, es regnete stark</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup5"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 7 <u><sup>ten</sup></u> July hatten wir Sabbath L.M. mitweißen Biseot und Wein.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup6"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />8 <u><sup>ten</sup></u> W.N.W Regen Wetter</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup7"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />9 <sup>te</sup>. Sahen wir 2 Schiffe von ferne</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup8"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />10 <u><sup>ten</sup></u> N.N.W. eine Menge Porks drei Meer-
+                  <br />Schweine fuhren um uns herum von welcher
+                  <br />wir einen mit der Harpune fingen.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup9"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />11 ten starcker N.W. und Regen</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup10"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />12 <u><sup>ten</sup></u> schwacher S.O. und schön Wetter
+                  <br />man sahe große Fische schwimmen,
+                  <br />Abends war calm und kein Wind</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup11"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />13 <u><sup>ten</sup></u> Calm und Nebel</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup12"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />14 <u><sup>ten</sup></u> West Wind und Nebel</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup13"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />⊙ 15 <sup>t</sup>. englisch u teutsche Predigt</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup14"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />16 <u><sup>te</sup></u> Nebel und veränderlich Wetter
+                  <br />um 10 Uhr Vormittags sprachen wir
+                  <br />mit Captain Pinkerman deßen Schiff
+                  <br />Johanna hieß und der mit 180 Palentinern
+                  <br />von Rotterdam nach Newyork segelte,
+                  <br />die Captains machten es miteinander aus
+                  <br />daß wir in Companie beysammen bleiben
+                  <br />wolten so lange wir könten, wir sahen wieder
+                  <br />große Fische Bartelnose genannt</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup15"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 17 ten starcker N.N.W. Wind.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup16"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 18 <u><sup>te</sup></u> war Calm.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup17"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />Den 19:<sup>ten</sup> July Calm und gut Wetter
+                  <br />Es wurde nach unsrer Provision ge-
+                  <br />sehen und gefunden das schon der
+                  <br />meiste Vorrath verzehrt war und das
+                  <br />übrige eingetheilt werden müßte, da
+                  <br />wir wenn schon über 1 Monath auf der
+                  <br />See sind, und noch kaum den halben Weg
+                  <br />gemacht hatten wegen den vielen
+                  <br />contrairen Winden. Wurde uns nun alle
+                  <br />3 Tage Brod ausgetheilt ein Bis##### Tag</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup18"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 20 <u><sup>ten</sup></u> fingen wir etliche Fische Pylots genannt</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup19"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 22 <u><sup>ten</sup></u> N.Wb.N heute sahen wir die ersten
+                  <br />fliegenden Fische wie auch Schildkröten
+                  <br />zu sehen, hatten auch das Vergnügen
+                  <br />einen Dolphin zu fangen.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup20"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 23 <u><sup>ten</sup></u> Unser Captain Garrisson hatte
+                  <br />heute seinen Geburtstag und wurde
+                  <br />mit Musick geweckt, und mit Versen gra-
+                  <br />tuliert, Nachmittag truncken wir mit ihm
+                  <br />ein Glas Wein. Das Wetter war schlecht.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup21"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 25 <u><sup>te</sup></u> Sprachen wir mit unser Companion
+                  Capt. Pinkerman, er erzehlte uns das
+                  <br />ihr Docter aus Confusion sey ins Waßer
+                  <br />gesprungen, aber ein Matrose habe ihm noch
+                  <br />errettet.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup22"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 26 thaten wir unser 2 Ancker Thauen
+                  <br />zwischen Decke der Wind war W.S.W.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup23"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />27:<sup>t</sup> Regen</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup24"><a class="thumbnail pure-img" target="_blank" href="img/1753/004.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />28 <u><sup>te</sup></u> Schwacher O.N.O. das Waßer
+                  <br />wurde nun auch abgetheilt die Person
+                  <br />ein Blech voll des Tags:</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup25"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />Den 29 July 1753. Capt. Pinkerman
+                  <br />beschenckte uns mit ¼ Schweinfleisch u 1 Flasche
+                  <br />Rum. Gegen Abend sprachen wir mit
+                  <br />den Leuten in einem Schiff das von den
+                  <br />Westlichen Inseln nach Hallifax in
+                  <br />Neu Schottland fuhr, ein großer Wall-
+                  <br />fisch zeigte sich zwischen unsern drey
+                  <br />Schiffen.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup26"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 30 <u><sup>te</sup></u> holten wir vom lezten Schiff
+                  <br />ein Faß Wein, und Nachmittag ver-
+                  <br />lohren wir einander aus dem Gesichte.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup27"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 31 <u><sup>t</sup></u> Wir sahen viel fliegende Fische
+                  <br />und fingen 2 Dolphin.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup28"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />Den 1 August. S.S.W. sahen wir 2 Schiffe von der
+                  <br />Ferne segeln. Das Faß Wein wurde abgezapt,
+                  <br />ein jeder bekam 1 Glas Wein zur Erquickung.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup29"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />Den 2 ten hohlte uns ein Schiff ein welches von
+                  <br />Schottland kam u. nach Virginien segelte.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup30"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 3 Hatten wir starcken Wind aus W.S.W.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup31"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />5 <u><sup>ten</sup></u> wurde der Wind N.N.W.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup32"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />6 <u><sup>ten</sup></u> in der Nacht verlohren wir unsern
+                  <br />Camraden Cap Pinkerman</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup33"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />d 7 <u><sup>ten</sup></u> die See war hoch mit W.S.W.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup34"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />8 <u><sup>ten</sup></u> fingen wir wieder 4 Dolphin</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup35"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />9 <u><sup>te</sup></u> sahen wir ein Schiff N.O. gehen</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup36"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />10 <u><sup>ten</sup></u> Nachmittag kam ein starker Sturm
+                  <br />mit Regen gießen, es schlug das Schiff
+                  <br />schlug auf die Seite daß die Segel ins
+                  <br />Waßer tauchten, doch half der Heiland
+                  <br />daß es sich bald wieder aufrichtete.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup37"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />Den 11 <u><sup>ten</sup></u> Hatten wir zusammen ein Danck-
+                  <br />Liebesmahl für alle Bewahrung
+                  <br />die wir bis daher erfahren.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup38"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />Den 13 <u><sup>ten</sup></u> August feyerten wir
+                  <br />mit einem Morgen Segen u nach
+                  <br />Mittag mit dem Kelch. Auch be
+                  <br />kamen wir zu unsrer Freude
+                  <br />einen guten N.O. Wind.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup39"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 14 <sup>te</sup>. N.W.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup40"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />d 15 S.W.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup41"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />d 16 u 17 Calm</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup42"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 18 <sup>t</sup>. 19 <sup>t</sup>. und 20 <sup>t</sup>. S.W. heißes Wetter</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup43"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 21 <u><sup>ten</sup></u> Regen.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup44"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />22 <u><sup>ten</sup></u> sahen wir 2 Schiffe</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup45"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />23 <sup>t</sup>. N.W. sahen wir 1 Schiff</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup46"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />24 <u><sup>ten</sup></u> bis 28 t. S.W.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup47"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />29 <sup>te</sup>. Feuerten wir unser lediges
+                  <br />Brüder Fest mit den gewöhnlichen
+                  <br />Gelegenheiten so gut sichs zur
+                  <br />See thun läst in 68 Grad der
+                  <br />Longitude und 39 1/2 Grad Latitude
+                  <br />der Wind North u. Gut Wetter, auch sahen
+                  <br />wir 2 Schiffe wovon wir uns zu
+                  <br />sprechen kriegten welches von Hamburg
+                  <br />nach Philadelphia segelte mit vielen
+                  <br />Volck auch hatten wir das Glück viele
+                  <br />Fische Albekaws genannt zu fangen
+                  <br />womit wir unsern Hunger zu Hülfe kamen.
+                  <br />Auch ein großer Hay Fisch wurde gefangen.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup48"><a class="thumbnail pure-img" target="_blank" href="img/1753/005.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 30 <u><sup>ten</sup></u> wurden wir in der Nacht mit
+                  <br />einen günstigen O.N.O erfreut, womit
+                  <br />wir diesen Tag über 30 Deutsche Meilen
+                  <br />fort rückten. Abends sprachen wir
+                  <a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a>
+                  <br />ein Schiff welches nach Virginien
+                  <br />ging. Und weil sie etliche Krancke
+                  <br />darauf hatten, so hohlten sie unsern
+                  <br />Dockter Br. Kalberland hinüber der
+                  <br />etliche zu Ader ließ und gab ihnen Medicin
+                  <br />Davor sie uns ein Danck Brod gaben
+                  <br />welches uns sehr zu statten kam
+                  <br />in unsrer Hungers Noth.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup49"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 31 <u><sup>ten</sup></u> August war unsre Rechnung
+                  <br />zu Ende, konten aber noch kein Land
+                  <br />sehen.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup50"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />Den 1 September krigten wir N.W.
+                  <br />und um 10 Uhr Calm Nachmittag stürmte
+                  <br />es aus W.S.W. </p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup51"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />d 2 <u><sup>te</sup></u> Nord.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup52"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 3 <u><sup>ten</sup></u> Süd Wind und es ging übe 8 Meilen
+                  <br />die Stunde.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup53"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 4 <sup>te</sup>. Regnete es sehr starck.</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup54"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 5 <u><sup>ten</sup></u> Calm bis gegen Abend darauf S.S.W.
+                  <br />wir krigten zu unsrer Freude mit 50 Faden
+                  <br />Grund</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup55"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />d 6 <sup>t</sup>: verlohren wir den Grund</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup56"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 7 <u><sup>ten</sup></u> Segelten wir Nordlich und gegen
+                  <br />Abend sah der Steuermann Warzan
+                  <br />das erste Land vom Maustbaum</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup57"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span><span class="rightArrow">〉</span>
+               
+               <p><br />D 8 <u><sup>ten</sup></u> früh konten wir alle das Land sehen
+                  <br />welches Long Island war, und segel-
+                  <br />den ganz en Tag daneben hin, die
+                  <br />Nacht drauf war meist Calm und legten bey</p>
+               </div>
+            <div class="diaryPopuptext" id="diaryPopup58"><a class="thumbnail pure-img" target="_blank" href="img/1753/006.jpg"><img src="img/entry_small.jpg" alt="Small version of the image" /></a><span class="leftArrow">〈</span>
+               
+               <p><br />D 9 ten Nachmittag um 2 Uhr kriegten wir
+                  <br />guten S.O. Wind und um 8 Uhr Abends
+                  <br />kamen wir Glücklich im Hafen
+                  <br />bey New York vor Ancker.</p>
+               </div>
+         </div>
+      </div>
+      <footer class="footer l-box pure-g">
+         
+         <div class="pure-u-1 pure-u-md-5-24"></div>
+         
+         <div class="pure-u-1 pure-u-md-14-24">
+            
+            <p>Ein Projekt des <a href="https://www.gw.uni-jena.de/fakult%C3%A4t/historisches+institut/bereiche/geschlechtergeschichte">Lehrstuhls für Geschlechtergeschichte</a> der Universität Jena und <a href="https://mprell.github.io/">Martin Prell</a></p>
+            
+            <p>https://www.moravians-at-sea.uni-jena.de</p>
+            
+            <p>
+               <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+               </p>
+            </div>
+         
+         <div class="pure-u-1 pure-u-md-5-24">
+            <a href="https://hermes-hub.de/" title="HERMES - Humanities Education in Research, Data, and Methods">
+               <img src="img/Hermes.svg" class="hermes-logo" alt="Logo HERMES-Verbund" />
+               </a>
+            
+            <p class="logo-caption">Gefördert durch das BMBF-Verbundprojekt HERMES (Verbundpartner Leibniz-Institut für
+               Europäische Geschichte)</p>
+            </div>
+         </footer><script type="text/javascript" src="js/diary.js"></script></body>
+</html>

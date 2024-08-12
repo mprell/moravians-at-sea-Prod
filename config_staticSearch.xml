@@ -8,7 +8,7 @@
         <createContexts>true</createContexts>
         <stemmerFolder>identity</stemmerFolder>
         <maxKwicsToHarvest>5</maxKwicsToHarvest>
-        <maxKwicsToShow>100</maxKwicsToShow>
+        <maxKwicsToShow>300</maxKwicsToShow>
         <totalKwicLength>15</totalKwicLength>
         <kwicTruncateString>...</kwicTruncateString>
         <stopwordsFile>stopwords-german.txt</stopwordsFile>
