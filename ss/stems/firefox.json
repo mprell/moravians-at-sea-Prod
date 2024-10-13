@@ -1,1 +1,1 @@
-{"stem":"firefox","instances":[{"docUri":"einleitung.html","score":1,"contexts":[{"form":"Firefox","weight":"1","pos":836,"context":"Wir empfehlen die Nutzung der Internetexplorer <mark>Firefox<\/mark>, Chrome oder Edge für eine korrekte Darstellung aller...","in":["ssCtx1"]}]}]}
+{"stem":"firefox","instances":[{"docUri":"einleitung.html","score":1,"contexts":[{"form":"Firefox","weight":"1","pos":838,"context":"Wir empfehlen die Nutzung der Internetexplorer <mark>Firefox<\/mark>, Chrome oder Edge für eine korrekte Darstellung aller...","in":["ssCtx1"]}]}]}

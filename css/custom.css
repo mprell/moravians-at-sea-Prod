@@ -303,8 +303,24 @@ p {
     margin-top: 20%;
 }
 
+.button-1742 {
+    background-color: #78771b;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 1%;
+}
+
 .button-1746 {
     background-color: #0B610B;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 1%;
+}
+
+.button-1749 {
+    background-color: #800080;
     color: white;
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
