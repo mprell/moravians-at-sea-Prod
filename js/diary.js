@@ -164,6 +164,8 @@ document.addEventListener('DOMContentLoaded', function () {
             popup.style.visibility = 'hidden';
         });
         this.style.display = 'none';
+
+        
     });
     document.querySelectorAll('.diaryPopuptext').forEach(popup => {
             popup.addEventListener('click', function (event) {
@@ -202,13 +204,31 @@ function setupPopupPaginationWithLeftArrow() {
     document.querySelectorAll('.rightArrow').forEach(arrow => {
         arrow.addEventListener('click', function() {
             navigatePopup('next');
+            // Pause all audio elements when a popup is switched (only for 1752)
+        //document.querySelectorAll('audio').forEach(audio => {
+        //    audio.pause();
+        //    audio.currentTime = 0;
+        //});
+
         });
     });
     document.querySelectorAll('.leftArrow').forEach(arrow => {
         arrow.addEventListener('click', function() {
             navigatePopup('prev');
+            
+            // Pause all audio elements when a popup is switched (only for 1752)
+       // document.querySelectorAll('audio').forEach(audio => {
+        //    audio.pause();
+         //   audio.currentTime = 0;
+       // });
+
+
         });
+
+        
     });
+
+    
     function navigatePopup(direction) {
         // find current opened Popup
         const currentPopup = document.querySelector('.diaryPopuptext[style*="visible"]');
@@ -257,6 +277,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
 
 // call the extended setup function after full loading of the DOM
 document.addEventListener('DOMContentLoaded', function () {

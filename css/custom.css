@@ -28,7 +28,6 @@ h2,
 h3 {
   text-align: center;
   font-weight: lighter;
-  margin-top: 5%;
 }
 
 .introduction {
@@ -474,6 +473,12 @@ p {
 }
 
 
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
   background: #111;
   color: #888;
@@ -494,6 +499,51 @@ p {
     font-size: smaller;
 }
 
+#quotes {
+    margin: 2%;
+}
+
+#quotes > p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+.arrows {
+    position: relative;
+}
+
+
+.arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 48px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: white;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #093e56;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 48px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: white;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #093e56;
+}
 /*
  * -- TABLET MEDIA QUERIES --
  * On tablets, we want to slightly adjust the size of the banner
