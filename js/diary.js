@@ -75,18 +75,9 @@ let scale = 1;
 let offsetX = 0;
 let offsetY = 0;
 
-// Zoom Function on Mouse Wheel
-mapContainer.addEventListener('wheel', (event) => {
-    // Check if any popup is visible
-    const isPopupVisible = Array.from(document.querySelectorAll('.diaryPopuptext')).some(popup => popup.style.visibility === 'visible');
-
-    // If a popup is visible, do not zoom and allow default scroll
-    if (isPopupVisible) {
-        // Optionally, you can prevent the default behavior if you want to customize the scroll behavior
-        // event.preventDefault();
-        return; // Exit the function early
-    }
-
+// Zoom Function on Mouse Wheel and Touch
+// Existing zoom functionality with mouse wheel
+svgContainer.addEventListener('wheel', (event) => {
     // Prevent default to stop window scroll
     event.preventDefault();
     const delta = event.deltaY;
@@ -133,30 +124,55 @@ document.addEventListener('mouseup', () => {
     isDragging = false;
 });
 
+// Touch event variables
+let initialDistance = null;
 
-// Pan Function for Touch
+// Calculate distance between two touch points
+function getDistance(touches) {
+    const [touch1, touch2] = touches;
+    const dx = touch2.clientX - touch1.clientX;
+    const dy = touch2.clientY - touch1.clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+}
+
+// Handle touch events for pinch-to-zoom
 svgContainer.addEventListener('touchstart', (event) => {
-    isDragging = true;
-    startX = event.touches[0].clientX - offsetX;
-    startY = event.touches[0].clientY - offsetY;
-    event.preventDefault(); // Prevent scrolling when touching
+    if (event.touches.length === 2) {
+        initialDistance = getDistance(event.touches);
+    }
 }, { passive: false });
 
-document.addEventListener('touchmove', (event) => {
-    if (!isDragging || event.touches.length > 1) return; // Ignore multi-finger touches here
+svgContainer.addEventListener('touchmove', (event) => {
+    if (event.touches.length === 2 && initialDistance) {
+        event.preventDefault(); // Prevent default touch behavior
+        const currentDistance = getDistance(event.touches);
+        const zoomFactor = 0.01; // Adjust zoom sensitivity
+        const delta = currentDistance - initialDistance;
 
-    const newX = event.touches[0].clientX - startX;
-    const newY = event.touches[0].clientY - startY;
+        if (delta > 0) {
+            // Zoom in
+            scale += zoomFactor;
+        } else {
+            // Zoom out
+            scale -= zoomFactor;
+        }
 
-    // Apply Pan
-    svgContainer.style.transform = `scale(${scale}) translate(${newX}px, ${newY}px)`;
-    offsetX = newX;
-    offsetY = newY;
+        // Zoom limits
+        scale = Math.max(0.5, Math.min(4, scale));
+
+        // Apply Zoom
+        svgContainer.style.transform = `scale(${scale}) translate(${offsetX}px, ${offsetY}px)`;
+
+        initialDistance = currentDistance; // Update initial distance
+    }
 }, { passive: false });
 
-document.addEventListener('touchend', () => {
-    isDragging = false;
+svgContainer.addEventListener('touchend', (event) => {
+    if (event.touches.length < 2) {
+        initialDistance = null;
+    }
 });
+
 
 // Show and Hide Diary Popups
 document.addEventListener('DOMContentLoaded', function () {
