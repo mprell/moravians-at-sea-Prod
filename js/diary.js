@@ -137,40 +137,26 @@ function getDistance(touches) {
 
 // Handle touch events for pinch-to-zoom
 svgContainer.addEventListener('touchstart', (event) => {
-    if (event.touches.length === 2) {
-        initialDistance = getDistance(event.touches);
-    }
+    isDragging = true;
+    startX = event.touches[0].clientX - offsetX;
+    startY = event.touches[0].clientY - offsetY;
+    event.preventDefault(); // Prevent scrolling when touching
 }, { passive: false });
 
-svgContainer.addEventListener('touchmove', (event) => {
-    if (event.touches.length === 2 && initialDistance) {
-        event.preventDefault(); // Prevent default touch behavior
-        const currentDistance = getDistance(event.touches);
-        const zoomFactor = 0.01; // Adjust zoom sensitivity
-        const delta = currentDistance - initialDistance;
+document.addEventListener('touchmove', (event) => {
+    if (!isDragging || event.touches.length > 1) return; // Ignore multi-finger touches here
 
-        if (delta > 0) {
-            // Zoom in
-            scale += zoomFactor;
-        } else {
-            // Zoom out
-            scale -= zoomFactor;
-        }
+    const newX = event.touches[0].clientX - startX;
+    const newY = event.touches[0].clientY - startY;
 
-        // Zoom limits
-        scale = Math.max(0.5, Math.min(4, scale));
-
-        // Apply Zoom
-        svgContainer.style.transform = `scale(${scale}) translate(${offsetX}px, ${offsetY}px)`;
-
-        initialDistance = currentDistance; // Update initial distance
-    }
+    // Apply Pan
+    svgContainer.style.transform = `scale(${scale}) translate(${newX}px, ${newY}px)`;
+    offsetX = newX;
+    offsetY = newY;
 }, { passive: false });
 
-svgContainer.addEventListener('touchend', (event) => {
-    if (event.touches.length < 2) {
-        initialDistance = null;
-    }
+document.addEventListener('touchend', () => {
+    isDragging = false;
 });
 
 
