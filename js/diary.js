@@ -158,9 +158,21 @@ document.addEventListener('touchend', () => {
     isDragging = false;
 });
 
-//Show and Hide Diary Popups
+// Show and Hide Diary Popups
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('circle[id], path[id]').forEach(element => {
+        // Add touchstart event listener for mobile devices
+        element.addEventListener('touchstart', function (event) {
+            event.preventDefault(); // Prevent default touch behavior
+            const popupId = "diaryPopup" + this.getAttribute('id').replace('graphPopup', '');
+            const popup = document.getElementById(popupId);
+            if (popup) {
+                popup.style.visibility = 'visible';
+                document.getElementById('overlay').style.display = 'block';
+            }
+        }, { passive: false });
+
+        // Existing click event listener
         element.addEventListener('click', function () {
             const popupId = "diaryPopup" + this.getAttribute('id').replace('graphPopup', '');
             const popup = document.getElementById(popupId);
@@ -170,19 +182,19 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
     document.getElementById('overlay').addEventListener('click', function () {
         document.querySelectorAll('.diaryPopuptext').forEach(popup => {
             popup.style.visibility = 'hidden';
         });
         this.style.display = 'none';
-
-        
     });
+
     document.querySelectorAll('.diaryPopuptext').forEach(popup => {
-            popup.addEventListener('click', function (event) {
-                event.stopPropagation();
-            });
+        popup.addEventListener('click', function (event) {
+            event.stopPropagation();
         });
+    });
 });
 
 //Show and Hide Position Popups
