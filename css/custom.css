@@ -479,6 +479,14 @@ p {
     align-items: center;
 }
 
+#iframes-lazy-load {
+    display: none;
+}
+
+.voyant-button {
+    text-align: center;
+}
+
 .footer {
   background: #111;
   color: #888;

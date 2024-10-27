@@ -1,3 +1,14 @@
+//Load Voyant Tools on Demand
+   function loadIframes() {
+       const iframes = document.querySelectorAll('.voyant-iframe');
+       iframes.forEach((iframe, index) => {
+           setTimeout(() => {
+               iframe.src = iframe.getAttribute('data-src');
+           }, index * 3000);
+       });
+       document.getElementById('iframes-lazy-load').style.display = 'block';
+   }
+
 //Show and Hide How to Use Popup
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('overlay').addEventListener('click', function () {
