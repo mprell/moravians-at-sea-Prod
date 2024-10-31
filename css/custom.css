@@ -285,21 +285,20 @@ p {
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
+    width: 100%;
 }
 
 .index-map-banner {
     background-color: rgba(255,255,255,0.6);
     justify-content: center;
-    padding-top: 8%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
     color:#1A1A1A;
 }
 
 .index-map-buttons {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 12%;
 }
 
 .button-1742 {
@@ -396,6 +395,10 @@ p {
 .index-search-form {
     margin-top: 1rem;
 }
+
+.search-input {
+    margin: 0 auto;
+    }
 
 .index-search-button {
     margin-left: 1%;
@@ -563,7 +566,25 @@ p {
  * -- PHONE MEDIA QUERIES --
  * On phones, we want to reduce the height and font-size of the banner further
  */
-@media (min-width: 480px) {
+ 
+@media (max-width: 768px) {
+       .index-map-banner h1, .index-map-banner h2 {
+           font-size: larger;
+       }
+   
+       .index-map-buttons {
+    margin-top: 1%;
+}
+.index-search-form {
+    margin-top: 0rem;
+}
+.pure-form button[type="submit"] {
+    margin: 0;
+}
+   }
+ 
+
+@media (min-width: 768px) {
   .banner {
     height: 400px;
   }
