@@ -142,7 +142,7 @@ p {
 
 .banner {
   background: transparent
-    url("../img/irene.png")
+    url("../img/irene-banner.webp")
     0 0 no-repeat fixed;
   text-align: center;
   background-size: cover;
@@ -174,7 +174,7 @@ p {
 	-webkit-overflow-scrolling: touch;
 	z-index: 2;
 	color:#000000;
-	background-image: url('../img/sheet.png');
+	background-image: url('../img/sheet.webp');
 	background-color: transparent;
 	background-repeat: no-repeat; 
 	background-size: 100% 100%;
@@ -468,6 +468,9 @@ p {
             text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
             background: #e3d2b4;
             margin: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
 .popup {
@@ -586,7 +589,7 @@ p {
 
 @media (min-width: 768px) {
   .banner {
-    height: 400px;
+    height: 15rem;
   }
   .banner-head {
     font-size: 3em;

@@ -1,1 +1,1 @@
-{"stem":"daniel","instances":[{"docUri":"1749kanal.html","score":1,"contexts":[{"form":"Daniel","weight":"1","pos":128,"context":"<mark>Daniel<\/mark> Kiest","fid":"diaryPopup1"}]}]}
+{"stem":"daniel","instances":[{"docUri":"1749kanal.html","score":1,"contexts":[{"form":"Daniel","weight":"1","pos":130,"context":"<mark>Daniel<\/mark> Kiest","fid":"diaryPopup1"}]},{"docUri":"impressum.html","score":1,"contexts":[{"form":"Daniel","weight":"1","pos":293,"context":"Sotzmann, <mark>Daniel<\/mark> Friedrich: New Jersey: Entworfen von D.F. Sotzmann...","in":["ssCtx1"]}]}]}
