@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Seereise 1749 (dritte Seegemeine)</title>
+            <author ref="https://d-nb.info/gnd/117023507">Johann Nitschmann</author>
+            <author>Philipp Dürbaum</author>
+            <respStmt>
+               <resp>Transkription</resp>
+               <persName>Emily Berger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Kollation (Zweittranskription)</resp>
+               <persName>N.N.</persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-Transformation</resp>
+               <persName ref="https://d-nb.info/gnd/1133022898">Martin Prell</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName type="project">Moravians at Sea</orgName>
+               <orgName type="publisher" ref="https://d-nb.info/gnd/1235928594">Lehrstuhl für Geschlechtergeschichte der Friedrich-Schiller-Universität Jena</orgName>
+               <persName type="publisher" ref="https://d-nb.info/gnd/1133022898">Martin Prell</persName>
+            </publisher>
+            <date when="2024-11"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>Namensnennung 4.0 International (CC BY 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="textStatus" select="#transcription">
+               <note n="transcription">Ersttranskription ist erfolgt</note>
+               <note n="collation">Kollation (Zweittranskription) ist erfolgt</note>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.unitaetsarchiv.de">Unitätsarchiv Herrnhut</repository>
+                  <idno type="shelfmark">R.14.A.35.10a</idno>
+                  <msName>Joh. Nitschmanns Reisediarium von Zeist bis London 1748/49.</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.unitaetsarchiv.de">Unitätsarchiv Herrnhut</repository>
+                  <idno type="shelfmark">R.14.A.35.10b</idno>
+                  <msName>Phil. Dürbaums Reise-Diarium von London nach New York. 1749.</msName>
+               </msIdentifier>
+            </msDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.unitaetsarchiv.de">Unitätsarchiv Herrnhut</repository>
+                  <idno type="shelfmark">R.14.A.35.10c</idno>
+                  <msName>Verzeichnis der Seegemeine an Bord der Irene 1749</msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="diaryEntries" subtype="northsea">
+            <div type="position" xml:id="position_1749_nor_1">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_1">
+                  <head>Den 12 ten Xber 1748</head>
+                  <p>
+                  <lb/><hi rendition="#s">Lie</hi> Sind wir von <rs type="place">Zeyst</rs>
+                  <lb/>ab gereist,
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_nor_2">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_2">
+                  <p>
+                  <lb/>und kamen den 13 ten
+                  <lb/>gegen Mitag an Bort des
+                  <lb/>Schiffs Iyrene,
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_3">
+                  <p>
+                  <lb/>am 14 ten des Abends kamen
+                  <lb/>die <rs type="person">ledige Brüder</rs> an Bort
+                  <lb/>in einem zimlichen Sturm
+                  <lb/>nebs unserem Bettgut
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_4">
+                  <p>
+                  <lb/>den 15 ten Fruh morgens
+                  <lb/>huben wir Ancker, und
+                  <lb/>gingen unter Seegel nach
+                  <lb/><rs type="place">Inghausen</rs>, und den selbst
+                  <lb/>den <rs type="person">Papa</rs> und <rs type="person">Muter</rs> an
+                  <lb/>Bort zu komen, wir haten
+                  <lb/>einen # starken Wind
+                  <lb/>der sich Schiff stark bewegt
+                  <lb/>und die meisten <rs type="person">Geschwister</rs>
+                  <lb/>wurden See krank, wir
+                  <lb/>legten uns des Abends vor
+                  <lb/>Ancker, 
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_nor_3">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_5">
+                  <p>
+                  <lb/>fruhmorgens huben
+                  <lb/>wir wieder Ancker und gingen
+                  <lb/>bis vor <rs type="place">Iynghausen</rs>,
+                  <lb/>des Abends kamen noch
+                  <lb/>einige <rs type="person">Geschwister</rs> an Bort
+                  <lb/><rs type="person">D Nitschmans</rs> <rs type="person">Gersdorffs</rs> # 
+                  <lb/><rs type="person">Schachmans</rs> <rs type="person">Biffer</rs> <rs type="person">S Nitschmanin</rs>
+                  <lb/>nebs denen Schreibern,
+                  <lb/>wir lagen Zwey Mall 24
+                  <lb/>Stunden vor Ancker wo selbst
+                  <lb/>wir einen stunlichen Sturm
+                  <lb/>haben aus gestanden, und
+                  <lb/>dem Lämlein ists ambesten
+                  <lb/>be kant,
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_nor_4">
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_6">
+                  <p>
+                  <lb/>am 19 ten Fruh huben wir
+                  <lb/>Ancker und gingen unter
+                  <lb/>Segel nach <rs type="place">Texel</rs>, wo wir
+                  <lb/>des Abends vor Ancker kamen.
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_7">
+                  <p>
+                  <lb/>Am 21 ten be kamen wir einen
+                  <lb/>Besuch aus Den Helder
+                  <lb/>wo selbst sich <rs type="person">Papa</rs> und die
+                  <lb/><rs type="person">Mutter</rs> be find, zum Be
+                  <lb/>such kam <rs type="person">Früdrich</rs> und <rs type="person">D
+                  <lb/>Nitschman</rs>, <rs type="person">Papa</rs> schrieb zu
+                  <lb/>gleich ein Briefigen an uns
+                  <lb/>des Abends haten wir unser
+                  <lb/>sabends liebes Mahl, dabey
+                  <lb/>des <rs type="person">Papa</rs>[z] sein Briefigen
+                  <lb/>denen <rs type="person">Geschwistern</rs> vor
+                  <lb/>gelesen haben,
+                  <lb/>wir beschlösen den Tag
+                  <lb/>mit dem de Pläuram
+                  <lb/>die Nacht haten wir einen
+                  <lb/>grösen Sturm, welcher
+                  <lb/>die gantze Nacht währte
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_8">
+                  <p>
+                  <lb/>am 22 ten haten wir unser
+                  <lb/>Cor Liturgien, zum Abend
+                  <lb/>Segen die Wunden Litaney,
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_9">
+                  <p>
+                  <lb/>am 23 ten be kamen einige
+                  <lb/><rs type="person">Geschwister</rs> Order, von unsern
+                  <lb/>Schiff zu gehen zum <rs type="person">Papa</rs>
+                  <lb/>nach Den Heldern zu
+                  <lb/>zun komen <rs type="person">Gerstsdorffs</rs> 
+                  <lb/><rs type="person">Schachmans</rs> <rs type="person">Höhns</rs> Sost##ugu##ch
+                  <lb/>sowol Schi#pf###
+                  <lb/>Wir haten diese Nacht einen
+                  <lb/>größen Sturm
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_10">
+                  <p>
+                  <lb/>24 ten gingen <rs type="person">die ge nanten
+                  <lb/>Geschwister</rs> nach Den
+                  <lb/>Helder zum <rs type="person">Papa</rs>, wir
+                  <lb/>haten vom 24 ten bis zum
+                  <lb/>27 ten alle Tage und Nächte
+                  <lb/>außer ordentlichen Sturm
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_11">
+                  <p>
+                  <lb/>den 27 ten Zum Mitag
+                  <lb/>be kamen wir einen
+                  <lb/>außer ordentlichen Sturm
+                  <lb/>der aus Süd Östen kam
+                  <lb/>der von Mitag an hübt
+                  <lb/>biß durch den andern
+                  <lb/>Morgen, wir waren die
+                  <lb/>gantze Zeit in Gefahr
+                  <lb/>von Ancker ge [trüben]
+                  <lb/>zu werden, oder von
+                  <lb/>andern Schiffen im
+                  <lb/>Grund gestoßen zu werden
+                  <lb/>unser lieber himlischer Vater
+                  <lb/>und die lieben Engelein
+                  <lb/>haben unser Schifflein
+                  <lb/>behütet, weder Ancker
+                  <lb/>noch Thu haben es gethan *
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_nor_5">
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_12">
+                  <p>
+                  <lb/>Am 4 ten Jan 1749
+                  <lb/>lichten wir Ancker und
+                  <lb/>gingen  um halbt Zwey
+                  <lb/>Uhr des nach Mitags unter 
+                  <lb/>Seegel mit einem Süd Süd
+                  <lb/>bey Östen, es hate vor
+                  <lb/>uns keiner gutes Aus sehen
+                  <lb/>weil ich aber vom Lämlein
+                  <lb/>Er laubnüs hate aus
+                  <lb/>zu lauffen * so gingen
+                  <lb/>wir auf seiner Crädit
+                  <lb/>wir kamen die Nacht in
+                  <lb/>die See und haten starken
+                  <lb/>und harten Wind, das unser
+                  <lb/>Schifflein ziemlich Be wegung
+                  <lb/>machte, 
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_13">
+                  <p>
+                  <lb/>das Lämlein brächt
+                  <lb/>uns des Abends als den
+                  <lb/>5ten glücklich ins Rervir
+                  <lb/>an der Englischen Cüste
+                  <lb/>gegen <rs type="place">Harwichht</rs>, wir
+                  <lb/>legten uns vor Ancker
+                  <lb/>und Lavirten uns die
+                  <lb/>Nacht und des folgenden
+                  <lb/>Tages so gut wir könten
+                  <lb/>haten aber einen Lötyst
+                  <lb/>der das Revir nicht recht
+                  <lb/>kante, es war hinter
+                  <lb/>Wind und Conterer, das
+                  <lb/>wir in Gefahr waren
+                  <lb/>an die Sandbanke ge
+                  <lb/>stoßen worfen zu werden
+                  <lb/>das Lämlein hat uns be
+                  <lb/>wart, und wir wurden
+                  <lb/>ge nütig in Harisch
+                  <lb/>ein zu lauffen
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_14">
+                  <p>
+                  <lb/>den 6 ten gingen wir wieder
+                  <lb/>unter Segel [##] stißen
+                  <lb/>auf 2 Sandbenke führen
+                  <lb/>darübers wegt und mußten
+                  <lb/>wieder in Harisch ein
+                  <lb/>lauffen,
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_15">
+                  <p>
+                  <lb/>den 9 ten gingen wir
+                  <lb/>wieder des Mitags unter
+                  <lb/>Segel und kamen des Ab
+                  <lb/>ends zwischen die Sand 
+                  <lb/>benke vor Ancker zuligen
+                  <lb/>wo wir die Nacht von
+                  <lb/>unsern Schifflein ziemlich
+                  <lb/>ge wigt wurden,
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_nor_6">
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_16">
+                  <p>
+                  <lb/>den 10 ten huben wir Ancker
+                  <lb/>und gingen unter Segel
+                  <lb/>und kamen des Abends bey
+                  <lb/><rs type="place">Belewahl</rs> vor Ancker
+                  <lb/>kamen,
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_nor_17">
+                  <p>
+                  <lb/>den 11 ten be kamen wir
+                  <lb/>einen Besuch von Bruder
+                  <lb/><rs type="person">Früdrich</rs> und <rs type="person">Peistelen</rs> mit
+                  <lb/>einem herzlich Gruß und
+                  <lb/>be wihl komen vom <rs type="person">Papa</rs>
+                  <lb/>und der <rs type="person">Muter</rs>, <rs type="person">ich</rs> und <rs type="person">meine
+                  <lb/>Frau</rs> und einige <rs type="person">Geschwister</rs>
+                  <lb/>gingen nach <rs type="place">London</rs> zum
+                  <lb/><rs type="person">Papa</rs>, wo wir von unsern
+                  <lb/>lieben <rs type="person">Papa</rs> und <rs type="person">Mütterlein</rs>
+                  <lb/>niedlich be wihl komt
+                  <lb/>wurden, Ave Vater Mein
+                  </p>
+                 <p>Ave Lämelein
+                 </p>
+                 <p>Ave Seitelein
+                 </p>
+                 <p>Ave Mütterlein
+                 </p>
+                 <p>Ave th du Gottes
+                 </p>
+                 <p>Famillie, von
+                 </p>
+                 <p>deinen armenn
+                 </p>
+                 <p>
+                 <lb/>Kinderlein vom Schifflein
+                 <lb/>Iyrene,
+                 </p>
+               </div>
+            </div>
+         </div>
+            
+         <div type="diaryEntries" subtype="channel">
+            
+            <div type="position" xml:id="position_1749_cha_1">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_cha_1">
+                  <p>
+                  <lb/>Verzeichniß der lieben <rs type="person">See-Gemeine</rs>
+                  </p>
+                  <p>
+                  <lb/>am Bord Irene 1749
+                  </p>
+                  <list>
+                     <item>10 Chr Paar</item>		<item>10 Christ. Deister</item>
+                     <item>Johan Nitschmanns</item>		<item>Carl Opitz</item>
+                     <item>Dav. Nitschmanns</item>		<item>Joh. Schweißhaupt</item>
+                     <item>Sam. Krausens</item>		<item>Andr. Seifart</item>
+                     <item>Math. Backes</item>		<item>Pet: Gosmann</item>
+                     <item>10 David [#aus#erts]</item>	<item>15 Melch Schmid aus Schlesien</item>
+                     <item>Mich. Hoberlands</item>		<item>Melch Schmid aus Mähren</item>
+                     <item>Joh. Müllers</item>		<item>Christoph Schmid</item>
+                     <item>Bollens</item>			<item>Daniel Kiest</item>
+                     <item>Beinmanns</item>			<item>Gottfr Engel</item>
+                     <item><hi rendition="#u">20 Sangerhausens</hi></item>	<item>20 Joachim Birn Baum</item>
+                     <item>2 Witwer</item>			<item>Gottfr Schultz</item>
+                     <item>Christ: David</item>		<item>Carl Schulz</item>
+                     <item><hi rendition="#u">Joh Schneider</hi></item>	<item>Leonhard Gatter Meyer</item>
+                     <item>die Witwe Reussinn</item>		<item>Rudoph Strahle</item>
+                     <item>42 led. Brr.</item>		<item>25 David Kurtz</item>
+                     <item>Phil. Derbaum</item>		<item>David Tanneberger</item>
+                     <item>Joh. Schmid</item>		<item>Georg Gold</item>
+                     <item>Mart: Nitschman</item>		<item>Powl Frische</item>
+                     <item>Pet. Mordik</item>		<item>Michael Münster	</item>
+                     <item>5 Nic. Weinland</item>		<item>30 Mark Schneider</item>
+                     <item>Henr: Frische</item>		<item>Bernhard Müller</item>
+                     <item>Gottl Bernd</item>		<item>Pet. [Sch###s]</item>
+                     <item>Fried: Schlegel</item>		<item>Elies. [?]</item>
+                     <item>Christoph Künast</item>		<item>Even Enneson</item>
+                     
+                     <item>95 Andr. Krause</item>		<item>Martha Mannsinn</item>
+                     <item>Andr. Düllmann</item>		<item>Anna Mar. Krausinn</item>
+                     <item>Joh. Pitschmann</item>		<item>20 A. Mar: Schmutterinn</item>
+                     <item>Georg Denner</item>		<item>Mar: Beyerlinn</item>
+                     <item>Wenzel Bernhard</item>		<item>Mar: Barb: Hendelinn</item>
+                     <item>für Grönland</item>		<item>Soph. Magd. Deßlerinn</item>
+                     <item>40 Thomas Stack</item>		<item>Barb: Kraußinn</item>
+                     <item>Mathes</item>			<item>25 Margr. Heinlinn</item>
+                     <item><hi rendition="#u">Johanan</hi></item>		<item>Marg Grö#erinn</item>	
+                     <item>50 led. Schwestern</item>		<item>Cath: Fichtinn</item>
+                     <item>Anna Dams Berginn</item>		<item>Cath: Fischerinn</item>
+                     <item>Cathr: Liebwein</item>		<item>Ros. Arndin</item>
+                     <item>Judith die Grönländerinn</item>	<item>30 Mar. Elis. Opitzinn</item>			
+                     <item>M: Elis. Engwerin</item>		<item>Jul. Haber Badinn</item>
+                     <item>5 Juliana Seidelinn</item>	<item>Rosina Kernerinn</item>
+                     <item>Rosina Ditzinn</item>		<item>A: Cath Demerinn</item>
+                     <item>Elis: Berginn</item>		<item>A: Mar: Hammerinn</item>
+                     <item>Anna Mar: Nitschinn</item>	<item>35 Marg Drewsinn</item>
+                     <item>Ros: Barb: Arnoldinn</item>	<item>Karl. Eisin</item>
+                     <item>10 Mar. Damnikinn</item>		<item>Kath. Poulsinn</item>
+                     <item>Ros: Harsinn</item>		<item>Magd. Schwarzinn</item>
+                     <item>Sus. Weislinn</item>		<item>Hel. Gründhiginn</item>
+                     <item>Helena ####in</item>		<item>40 Dor. Ulmannin</item>
+                     <item>Margr: Rebßockinn</item>		<item>A. Mar. Dothin</item>
+                     <item>5 Magd. Majerhofer</item>		<item>A: Ros. Beyerinn</item>
+                     <item>Ros. Schulin##in</item>		<item>Ros: Schwarzinn</item>
+                     <item>Marg: Bollenharßinn</item>	<item>Kath: Wenzelinn</item>	
+                     
+                     <item>45 Ros. Gallinn</item>		<item>Mart. Geisen##</item>
+                     <item>Elis. Oerleltin</item>		<item>Petersen</item>
+                     <item>Dort# Nürnbergerinn</item>	<item>Jacobsen</item>
+                     <item>Dor Voglinn</item>		<item>Edmond</item>	
+                     <item>A: Mar Koselerinn</item>		<item>noch 7 Engl Matrosen</item>
+                     <item>50 Magd. Munge</item>		<item>und ein Schiffs Junge</item>
+                     <item><hi rendition="#u">Schiff-Leute</hi></item>
+                     <item>Capit. Garrison</item>		<item>Zusammen</item>
+                     <item>Schout u.</item>		<item>191 Personen</item>
+                     <item>Erhard.</item> <item>Steuer Leute</item>
+                     <item>Nic. Garrison</item>
+                  </list>
+                  <p>
+                  <lb/>Mein zärtl liebes herzel <rs type="place">Beza Londini</rs> 11[Mart#]
+                  <lb/>49
+                  </p>
+               </div>
+
+               <div type="diaryEntry" xml:id="diaryEntry_1749_cha_2">
+                  <p>
+                  <lb/>Mein Lezteres vom 28ten Febr wirst du nun erhalten
+                  <lb/>haben. Hier hast du den Catol. zu empfangen, den
+                  <lb/>ich leztens versprochen. Gestern war die 3te Session
+                  <lb/>unsrer Committee im <rs type="place">Parlaments Hause</rs> zahlreicher
+                  <lb/>u. ernstlicher als die erste. Jedoch war nur ein
+                  <lb/>einiger Herr von der Hof Parthey, der verschiedene
+                  <lb/>Objectiones machte, der auch gleich beym ersten Vortrag im Unter Hause gegen uns harangieret. Es
+                  <lb/>gab aber nur Gelegenheit zu gründlicherer
+                  <lb/>Durchredung der Sachen, u. es war eine Freude
+                  <lb/>zu sehen, wie sich die andern Herrn für uns inter
+                  <lb/>essirten u. für uns sprachen, so daß alle 18 Artikel
+                  <lb/>der Petition, die unter den übrigen Sachen in dem
+                  <lb/>gedruckten Protocoll des unter Hauses stehet,
+                  <lb/>durch genommen wurden. Künftigen Freytag ist
+                  <lb/>die lezte Session u dann wird Raport davon
+                  <lb/>ans Unter Haus abgestattet. Noch geht alles
+                  <lb/>recht hübsch. Der Heiland hat uns Gnade finden
+                  <lb/>lassen vor diesem Volcke. An Gemein-Sachen
+                  <lb/>ist heute seit 9 Wochen zum ersten Mal wieder
+                  <lb/>was geschehen, u. das betraf ein Haufen Correcturen
+                  <lb/>für die Druckerey in Mb. ich habe auch nun wieder
+                  <lb/>anfangen können am Diar. was zu thun, u wünsche
+                  <lb/>daß p. Bald möchte an dem schon fertig u. zu corrigiren anfangen. Vale et saluta omnes suos et meos
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_cha_3">
+                  <p>
+                  <lb/>Diar. d. Seegemeine 
+                  <lb/><hi rendition="#u"><rs type="place">London</rs> - <rs type="place">New York</rs></hi>	Zärtlich geliebtes <rs type="person">Geschwister</rs>!
+                  <lb/>Da ich euch das Diarium von dem <rs type="person">See-Gemeinlein</rs> auff dem Schifflein Irene überschicken soll (welches zwar wegen einer mir unvermuthet zugestoßenen Unpäßlichkeit
+                  <lb/>just den Tag davor Land sahen u. den Abend noch in Haafen einliefen, etwas spät geschicket.);
+                  <lb/>So denke ich, ich werde es wohl nicht von <rs type="place">London</rs> aus, da wir an Boord giengen anfangen dörffen. Denn wie seelig wir noch in <rs type="place">London</rs> dimittiert u. regaliert worden
+                  <lb/>mit einer himmlischen Mahlzeit aus den Wunden unsers Gottes Lämmeleins; Wie
+                  <lb/>Liebreich u. Hertzlich der th. <rs type="person">Papa</rs> u. die <rs type="person">Mutter</rs> uns noch in <rs type="place">Gravesande</rs> entlaßen u: abgefertiget mit einem seeligen, innigen u. gefühligen Sabbaths-
+                  <lb/>Liebes-Mahl zum Abschied und mit der Application der Loosung des Tages: <hi rendition="#u">du hast nur
+                  <lb/>kleine Kraft, die aus dem Marter-Leib raus schwitzt u. wieder ´nein.</hi> Wobey es
+                  <lb/>aus Seiten der abreißenden Heyel nicht ohne ein schmerzliches Liebes-Gefühl
+                  <lb/>abgienge; Das ist wohl schon ohne hin den <rs type="person">Geschwistern</rs> bekant, u. was noch
+                  <lb/>die paar Tage hernach biß auf den 27.<hi rendition="#sup">ten</hi> Febr passirt, das werden die lieben Herzen <rs type="person">Kohn</rs> u. <rs type="person">Jorde</rs> der denselben Tag mit eben dem Boot von <rs type="place">Deal</rs>, so uns
+                  <lb/>noch ein Paquet Brieffe an Boord gebracht von uns wieder abgingen und
+                  <lb/>zurück kehrten, mündlich auch referirt haben. Daher ich also von dem selben
+                  <lb/>Tag anfangen u. das vornehmste referiren werde, so weil ich davon angemerkt. Ich weiß zwar wohl, <hi rendition="#s">[?]</hi> daß es ein wenig tӕdiös ist u: was man in der
+                  <lb/><rs type="person">Gemeine</rs> offtmahls davon denkt, wenn so viel vom Wind u. Wetter in
+                  <lb/>einem Diario vorkomt; Allein auf der See ist einem das mit von den
+                  <lb/>wichtigsten Dingen, u. da man zu Land manchmal einen gantzen Monath
+                  <lb/>nicht nach dem Wind fragt, oder drauf achthat wie etwa die Sonne auf- u. wieder
+                  <lb/>gehet; so denkt man da tägℓ. dran; daher bitte Gedult zu haben, wenn auch in
+                  <lb/>diesem Diario Wind u. Wetter so öffters angeführt werden.
+                  <lb/>Nachdem die beyden Lieben Herzen <rs type="person">Kohn</rs> u. <rs type="person">Jorde</rs> d: 27.<hi rendition="#sup">ten</hi> Febr: etwa um 10 Uhr Vormittag von uns zärtlichen Abschied genommen, welches sonderlich wegen des Lieben Herzel
+                  <lb/><rs type="person">Jorde</rs> bey den <rs type="person">led: Brr:</rs> nicht ohne Schmerzen abging, seegelten wir unsren Course
+                  <lb/>mit eben dem Wind (N.N.O.) durch den Canal tapfer fort, u. waren in einer
+                  <lb/>Stunde über Dovre hinaus u. gegen Abend bey dem Promontorio <rs type="place">Beachy-
+                  <lb/>Head.</rs>
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_cha_2">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_cha_4">
+                  <p>
+                  <lb/><hi rendition="#u">Den 28.<hi rendition="#sup">ten</hi></hi> stund der Wind noch so, aber nicht mehr so stark, nichts desto weniger
+                  <lb/>waren wir früh schon <rs type="place">der Insel Wight gegen über</rs>; Nachmittag beym Promontorio <rs type="place">Portland</rs>, wir sahen eine <rs type="place">frantzösische Insul Alderney</rs> zur Linken liegen.
+                  <lb/>Gegen Abend drehte sich der Wind mehr nach Osten. Wir legten heute u. gestern
+                  <lb/>ein ziemliches Stück vom Canal zurück.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_cha_3">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_cha_5">
+                  <head>Martius</head>
+                  <p>
+                  <lb/><hi rendition="#u">Den 1.<hi rendition="#sup">ten</hi> Mart:</hi> früh um 1. Uhr passirten wir <rs type="place">Torbay</rs>, der Wind war meistens
+                  <lb/>O. u. S.O. wir seegelten die Stunde ohngefehr 1. deutsche Meile. Des Morgens früh
+                  <lb/>um 8. waren wir bey der Spitze <rs type="place">Goud Start</rs> u. um Mitter<hi rendition="#s">nacht</hi>tag bey der Spitze von
+                  <lb/><rs type="place">Lizard</rs>. Gegen Abend wurde der Wind stärker u. wir seegelten tapfer fort
+                  <lb/>in die See: mit der Loos: <hi rendition="#u">Glücklich hinein in Jesu Namen, Amen!</hi> Weil
+                  <lb/>heute Sabbath war, so celebrirten wir denselben recht seelig u. gefühlig mit
+                  <lb/>einem Liebes Mahl, auf welchem wir uns mit zärtlicher Liebe des vor 8. Tagen
+                  <lb/>bey Gravesande vom th: <rs type="person">Papa</rs> gehaltenem Sabbaths-Liebes Mahl erinnerten
+                  <lb/>u. mit einem danckbaren Herzen der biß anhero so leichten u. glücklichen
+                  <lb/>Fahrt von Gravesande; da wir wie durch den Canal hindurch gewieget
+                  <lb/>worden.
+                  </p>
+               </div>
+            </div>
+         </div>
+            
+         <div type="diaryEntries" subtype="atlantic">
+            <div type="position" xml:id="position_1749_atl_1">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_1">
+                  <p>
+                  <lb/><hi rendition="#u">Den 2.<hi rendition="#sup">ten</hi></hi> stund der Wind noch so, nemℓ. meist O. Des Morgens fuhren wir den
+                  <lb/><rs type="place">Sorlingischen Insuln</rs> vorbey (wie sie die Holländer nennen, oder nach Engℓr
+                  <lb/>Sprachs Sälly. Es gieng heute schon ein ziemlich Stück in <rs type="place">Spanische
+                  <lb/>See</rs>. Wir seegelten alle Stunden 7. deutsche Meilen.
+                  </p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1749_atl_2">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_2">
+                  <p>
+                  <lb/>Den <hi rendition="#u">3<hi rendition="#sup">ten</hi></hi> war der Wind noch O. aber nicht mehr so stark, wir fuhren diesen Tag
+                  <lb/>etwa 23. d. Meilen, wir waren schon vom Promontorio Lizart angerechnet
+                  <lb/>im <rs type="place">3.<hi rendition="#sup">ten</hi> Grad: Long:</rs> Biß hieher hat das gute beständige Wetter gewähret
+                  <lb/>aber nun haben wir auch nichts anders als variables gehabt,
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_3">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_3">
+                  <p>
+                  <lb/>denn den <hi rendition="#u">4.<hi rendition="#sup">ten</hi></hi> früh um 7. Uhr Vollmond u. mit demselben veränderte sich auch
+                  <lb/>der Wind, gegen Mittag wendete sich der Wind nach Süd u. war sehr stark
+                  <lb/>daß wir die Stunde bey 2. deut. Meilen fuhren. Um Mitternacht gieng er nach
+                  <lb/>S.W. u. gleich auch nach W. u. N. Die meisten von unsern <rs type="person">Geschwistern</rs>
+                  <lb/>wurden See-kranck. Diese Nacht waren wir in Furcht, daß unsere Waßer
+                  <lb/>u. Bier Fäßer los gehen würden u. also im Raum unten, wo die Geschwister
+                  <lb/>schlafen viele Unordnung machen; es gieng aber glückℓ. vorbey, außer daß
+                  <lb/>Die armen <rs type="person">Schwestern</rs> sehr erschraken, da ihnen durch die hefftige Erschütterung
+                  <lb/>u: Anstoßen der Wellen ihre Bettstellen einbrachen.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_4">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_4">
+                  <p>
+                  <lb/>Den <hi rendition="#u">5.<hi rendition="#sup">ten</hi></hi> früh war der Wind N.O. u. O. daß er also diese Nacht meist den gantzen
+                  <lb/>Compass umlief. Heute wars etwas gelinder als den vorigen Tag u. die Bewegung nicht so sensible.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_5">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_5">
+                  <p>
+                  <lb/>Den <hi rendition="#u">6.<hi rendition="#sup">ten</hi></hi> war wenig Wind er kam von N.N.W. die <rs type="person">Geschwister</rs> bestanden sich
+                  <lb/>etwas beßer, außer daß unser L. <rs type="person">Cap: Garrison</rs> diese Tage über meist Bettlägrig war an einem Fieber. Heute rechneten unsere Leute aus wie weit
+                  <lb/>wir seit 8. Tagen, da <rs type="person">Br. Kohn</rs> u. <rs type="person">Jorde</rs> von uns nach London retournirten
+                  <lb/>u. da wir Dovre passirten, avancirt wären u. sie fanden daß es 200 deutsche
+                  <lb/>Meil. aus trüge.  Wir waren auch biß anhero so glückℓ. daß wir nie unsern Course
+                  <lb/>verändern durften. Wir machten uns daher die süße Hoffnung wenn uns das
+                  <lb/>Lämmlein wie bißher so guten Wind fortschencken würde in 4. Wochen nicht
+                  <lb/>weit von der Amerianische Küste zu seyn.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_6">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_6">
+                  <p>
+                  <lb/>Vom <hi rendition="#u">7<hi rendition="#sup">ten</hi></hi> 11 war der Wind sehr variable und meistens Aprill-Wetter.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_7">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_7">
+                  <p>
+                  <lb/>Den <hi rendition="#u">9.<hi rendition="#sup">ten</hi></hi> waren wir unterm <rs type="place">45. Grad. Lat: u. 16. Long:</rs> es wehete sehr heftig.
+                  <lb/>Unser L. Herzen <rs type="person">Nitschmanns</rs> erinnerten sich heute mit zärtℓ.<hi rendition="#sup">em</hi> Gefühl
+                  <lb/>des vor 10 Jahren in Jena gehaltenen Sejours, da ihr Lieber <rs type="person">Josua</rs> auf die
+                  <lb/>Welt kam. Frühe [?] sungen einge unter Music diesem lieben Kind
+                  <lb/>manche artige Versgen, u. des Nachmittags celebrirte eine kleine Gesellschafft in der Cajute seinen Geburtstag mit einem Liebes Mahl wobey
+                  <lb/>manche artige Particularia von den Jenischen Umständen mit vorkamen.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_8">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_8">
+                  <p>
+                  <lb/>Den <hi rendition="#u">10.<hi rendition="#sup">ten</hi></hi> war unseres L. Herzels <rs type="person">Jorde</rs> Geburts Tag. Einige ihm wohl bekante Herzel erinnerten sich dessen in aller Früh mit einem zarten Liebs-
+                  <lb/>Gefühle u. einer Music wobey ihm einige gantz besondere Versel gesungen
+                  <lb/>wurden.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_9">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_9">
+                  <p>
+                  <lb/>Den <hi rendition="#u">11.<hi rendition="#sup">ten</hi></hi> Wehet es sehr hefftig aus N.W. u. gegen Abend hatten wir etwas
+                  <lb/>stürmisch Wetter, doch gieng es noch gnädig ab, außer daß unsere <rs type="person">Schwestern</rs>
+                  <lb/>durch eine ziemlich große Welle die herein schlug u. wovon viel Waßer unten in
+                  <lb/>den Raum kam, sehr in Furcht gesetzt worden, u. eine unter Ihnen dachte,
+                  <lb/>wir wären schon untergegangen. Es kam von derselben auch etwas in die
+                  <lb/>Cajute. Unsere Leute sagten wir wären den Azorischen Eilanden gegen über
+                  <lb/>wenigstens auf der Höhe, obgleich weiter gegen Norden, und da wäre es was
+                  <lb/>Ungewöhnliches ohne harten Sturme davon zu kommen. Wir waren unterm 
+                  <lb/><rs type="place">46. Grad. Lat:</rs> Heute begieng unser Liebes Hertz <rs type="person">Samuel Krause</rs> seinen Geburtstag. Es wurden ihm frühe deßwegen einige Versel gesungen
+                  <lb/>u. abmusicirt, die ein Bruder auf ihn componirt.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_10">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_10">
+                  <p>
+                  <lb/>Den <hi rendition="#u">12.<hi rendition="#sup">ten</hi> - 16</hi> War der Wind variable u. uns contrair sonderℓ. der von
+                  <lb/>S.W. daher wir sehr weit gegen Norden getrieben worden; unsere Leute
+                  <lb/>sagten vielmahl das wäre ein guter Wind nach Straa-David. Wir waren
+                  <lb/>unterm <rs type="place">48. Grad. Lat:</rs>. 2 Nächte Hatten wir recht hartes Wetter, das einem
+                  <lb/>Sturm nicht viel unähnlich sahe, wir waren auch einmahl in der Nacht sehr
+                  <lb/>besorgt wir möchten auf Klippen stoßen bey einer <rs type="place">Insul, die die Holländer
+                  <lb/>auf ihren See-Karten abgezeichnet haben, die Engelländer aber nicht</rs>.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_11">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_11">
+                  <p>
+                  <lb/>Abends d. 16.ten in der Singstunde, die <rs type="person">Samuel Krause</rs> hielte, wurde erinnert daß die Geschwister mit dem Wasser ein wenig sparsamer umgehen möchten, als bißher geschehen; weil man nicht wißen könte, wie lange
+                  <lb/>unsere Reise andauren dörfte, u. der Wasser-Mangel eine nicht geringe
+                  <lb/>Noth unter uns bringen könte. Zu dem Ende würden die Brr. <rs type="person">Christian
+                  <lb/>David</rs> u. <rs type="person">Stoll</rs> zu Inspecteurs darüber gesetzet.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_12">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_12">
+                  <p>
+                  <lb/><hi rendition="#u">Den 17.<hi rendition="#sup">t</hi></hi> Früh um 1. Uhr hatten wir ein hartes Donner-Wetter und <rs type="person">unsere Leute</rs>
+                  <lb/>waren sehr in Sorgen, es möchte ein harter Sturm entstehen, daher sie alle Seegel einnahmen; und wenn wir auch weiter gegen Süden gewesen wären, sagten sie, solten wir es wohl mehr zu fühlen gekriegt haben; so aber habe uns
+                  <lb/>nur ein Strich davon betroffen u. erreicht. Gegen Abend wurde es
+                  <lb/>stille u. der N.O. Wind fieng gelinde an zu wehen, daß wir alle gute Hoffnung
+                  <lb/>hatten unsern gewünschten N.O. Wind zu bekommen, er blieb aber nicht lange
+                  <lb/>stehen; sondern wendete sich gleich nach N.W. doch war uns dieser dießmahl
+                  <lb/>nicht so gar Contrair, weil wir mehr Südℓ mußten
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_13">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_13">
+                  <p>
+                  <lb/><hi rendition="#u">Den 18 u. 19.<hi rendition="#sup">ten</hi></hi> war der Wind meist S.W. u uns also Contrair u. ob wir gleich
+                  <lb/>bey dem Neuen Licht, so den 18.<hi rendition="#sup">ten</hi> einfiel auf guten Wind hofften weil gemeinigℓ. da
+                  <lb/>eine Veränderung vorgehet, so schlug unsere Hoffnung doch fehl.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_14">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_14">
+                  <p>
+                  <lb/><hi rendition="#u">Den 20. u. 21.<hi rendition="#sup">ten</hi></hi> Hatten wir einen harten Sturm von S:W: der uns
+                  <lb/>ziemlich wieder zurück trieb, wir konten nichts kochen, weil wir kein
+                  <lb/>Feuer
+                  <lb/>machen konten. Wir mußten beylegen u: da haben wir zum ersten Mahl gesehen wie
+                  <lb/>unsere Irene sich so artig mit den Wellen conduisirt hat, denn wenn man dachte
+                  <lb/>nun würde eine Sie bedecken, so sprang sie wie eine Ente auf dieselbe u. so
+                  <lb/>giengen die meisten unter ihr weg. Dieser Sturm hub sich just an am Tage
+                  <lb/>des Aquinoctio, um welche Zeit meistens man Stürme zu gewarten hat
+                  <lb/>das uns auch unser L: <rs type="person">Dav: Nitsch:</rs> noch in <rs type="place">Gravesande</rs> sagte: Daß uns
+                  <lb/>beym Aquinoctio doch Tag u. Nacht ein gleichen, u. vom Horizont der
+                  <lb/>Lamms-Gemein man dennoch den klaren Sonnen-Schein der Pleurӕ
+                  <lb/>niemahls weichen siehet. Das erfreute uns doch mitten in diesen stürmischen Umständen.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_15">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_15">
+                  <p>
+                  <lb/><hi rendition="#u">Den 22.<hi rendition="#sup">ten</hi></hi> früh als am Sabbath legte sich der Sturm u. der Wind wurde N.W. mit
+                  <lb/>dem wir wieder fortgehen konten, u. wenigstens unsere Stelle wieder occupiren
+                  <lb/>die wir vor dem Sturm hatten. Vormittag sahen wir ein Engℓ. Schiff uns vorbey seegeln, das seinen Cours nach Engelland nahm, u. vermuthℓ wie unsere Leute wehnten von Neuyorck kam. Es grüßte uns erstlich mit seiner Flagge
+                  <lb/>u. dann steckten wir unsere auch aus. Gegen Abend war der Wind W. u uns
+                  <lb/>also nicht gut 
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_16">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_16">
+                  <p>
+                  <lb/>u. so war es auch <hi rendition="#u">den 23.<hi rendition="#sup">ten</hi></hi> 
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_17">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_17">
+                  <p>
+                  <lb/>aber den <hi rendition="#u">24.<hi rendition="#sup">ten</hi></hi> war es wieder N.W. u. uns dießmahl ziemlich gut,
+                  <lb/>weil uns aber die Wellen noch sehr entgegen kamen konte unsere Irene nicht
+                  <lb/>so geschwind avanciren.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_18">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_18">
+                  <p>
+                  <lb/><hi rendition="#u">Den 25.<hi rendition="#sup">ten</hi></hi> Gieng es etwas Beßer. Heute früh am Tag u. gegen Mittag sahen
+                  <lb/>wir wieder 2. Schiffe uns vorbey seegeln, dem letzten gaben wir zu verstehen, daß
+                  <lb/>wir gerne mit ihnen sprechen möchten u. es kam uns sehr nahe, daß wir es thun
+                  <lb/>konten. Es war ein Frantzösisches, so von Martinique kam und nach Nantes in Frankreich zurück kehrte. Es fragte uns um gute neue Zeitungen u.
+                  <lb/>wir sagten ihnen: Es war in Europa wieder Friede u. so nahm es Höflichen
+                  <lb/>Abschied von uns. Heute erinerte sich das gantze <rs type="person">See-Gemeinlein</rs> recht
+                  <lb/>gefühlig an das Heutige Fest aller Chöre, so in den Gemeinen gefeyert wird, doch
+                  <lb/>mit einem geheimen Sehnen, u. wären gern zu mahl auf dem Brüder-Saal
+                  <lb/>bey dem Abend Mahl gewesen, das wir nun entbehren und fasten mußten, welches nicht ohne Schmerzen u. Verlangen, Bald am Strande gegen über es auch
+                  <lb/>wieder zu halten abgienge. Wir waren untern <rs type="place">43. grad. Lat:</rs>
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_19">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_19">
+                  <p>
+                  <lb/>Den 26. u. 27.ten War der Wind noch immer Contrair doch nicht stark
+                  <lb/>mehr. <rs type="person">Unsere Leute</rs> rechneten aus wie weit wir nun von Engelland waren
+                  <lb/>und fanden daß es der halbe Weg nach America sey, welches doch einem etwas
+                  <lb/>besonders deuchte bey den vielen contrairen Winden.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_20">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_20">
+                  <p>
+                  <lb/><hi rendition="#u">Den 28.<hi rendition="#sup">ten</hi></hi> Früh um 3 Uhr änderte sich der Wind u. wurde N.O. u. gegen Tag
+                  <lb/>fieng es recht an zu blasen, daß wir diesen Tag die Stunde meistens 2. deut.
+                  <lb/>Meilen seegelten. Alles wurde auf dem Schiff darüber erfreut u. munter,
+                  <lb/>und einige unter uns hatten die angenehme Vorstellung u. Hoffnung,
+                  <lb/>daß wenn es 8. Tage so stehen bliebe, noch auf Ostern in America zu seyn,
+                  <lb/>Weil wir gerne wieder einmahl die Feyertage zu Lande feyern möchten, da
+                  <lb/>wir die Weyhnachten schon auf der See hingebracht. Wir sahen heute u. Gestern
+                  <lb/>wieder Schiffe uns vorbeyseegeln, da einem allemahl ganz artig ist, daß man
+                  <lb/>noch Menschen außer uns gewahr wird. Unsere <rs type="person">Schiffs Leute</rs> observirten
+                  <lb/>Heute einen starken Ring um die Sonne u. [aminierten] nicht viel Gutes
+                  <lb/>daraus, welches wir auch noch diese Nacht erfahren; denn es erhub sich ein
+                  <lb/>Sturm der von N.O. anfieng u. herum nach S.W. lief, so stark
+                  <lb/>als wir noch keinen hatten u.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_21">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_21">
+                  <p>
+                  <lb/><hi rendition="#u">d. 29.<hi rendition="#sup">ten</hi></hi> Continuirte er so u. währete biß Mitwoch d. 2.<hi rendition="#sup">ten</hi> April. Die Loosung war artig: <hi rendition="#u">Welche der Herr Lieb hat, die strafet u: züchtiget er: da klebt
+                  <lb/>mein Sündermündelein u: wäre [gern] versengte.</hi> Die Wellen bombardirten unsere Irene mit einer solchen Wucht, daß man dachte sie wolten
+                  <lb/>sie in den Abgrund versencken. Es war wirkℓ einem nicht anders zu
+                  <lb/>Muthe als hätte der Fürst der Finsterniß sein gantzes höllisches Heer
+                  <lb/>aufgeboten sich diesem Häuflein entgegen zu setzen. 2. starke Wellen
+                  <lb/>schlugen an die Cajute an, nicht anders als ob sie sie in Stücken zerschlagen
+                  <lb/>wolten. Die Eine schlug beym obersten kleinen Cajuten Fenster herein,
+                  <lb/>zerbrach es, wie leicht zu erachten, in viele Stückgen; u. schoß da wie ein aufgehaltener Strohm herein, daß man hernach das Wasser mit Eymern hinaus
+                  <lb/>tragen mußte. Unser L. <rs type="person">Joh: Nitschm.</rs> u. <rs type="person">seine Jule</rs> saßen just dagegegen über u. der volle Strohm schoß auf sie zu, daß sie wie im Waßer schwummen. Gleich nach diesen kam noch eine weit stärkere u. größere von
+                  <lb/>der Seite des Schiffs, u. bedeckte das Selbe gantz u. verursachte eine solche
+                  <lb/>Erschütterung, daß alles sowohl bey den <rs type="person">Brüdern</rs> als <rs type="person">Schwestern</rs> durcheinander fuhr, u. es war eine gnädige Bewahrung unsers Aeltesten und
+                  <lb/>seiner Trabanten der H. Engel, daß bey dem Untereinanderfahren der
+                  <lb/>Coffer u. Küsten, doch keinem von unsen <rs type="person">Geschwistern</rs> einiger Schaden zugefügt worden, außer daß sie viel Wasser in ihre Bette u. Lagerstätte kriegten
+                  <lb/>wovor wir Ihnen herzℓ. danckten u. auch davor, daß keinem von unsern
+                  <lb/><rs type="person">Schiffs Leuten</rs> auf der Decke was begegnet; denn die bey den Steuer-
+                  <lb/>Leute <rs type="person">Schoute</rs> u. <rs type="person">Erhard</rs> kamen knapp davon daß sie nicht über
+                  <lb/>Boord geworfen wurden. An unserer Irene geschahen dießmahl weiter
+                  <lb/>kein Schade, als daß ein Brett am Rand oben über der Cajute davon eingeschmißen worden. Das Loch wo die <rs type="person">Brüder</rs> aus ihrem Saal auf und
+                  <lb/>abstiegen wurde auch veste zu gemacht (denn ein vorz. Sturm wars ofen) u. von
+                  <lb/><rs type="person">Joh. Nitsch:</rs> den <rs type="person">Brüdern</rs> untersagt, daß keiner sich auf die Decke hinauswagen solte. Es währete so die gantze Nacht hindurch.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_22">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_22">
+                  <p>
+                  <lb/>Den <hi rendition="#u">30.<hi rendition="#sup">ten</hi></hi> als am Palm-Sonntag war der Sturm etwas gelindert und mit
+                  <lb/>Regen vermischt, welcher die hohen Wellen etwas dämpfte.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_23">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_23">
+                  <p>
+                  <lb/>Aber <hi rendition="#u">am 31.<hi rendition="#sup">ten</hi></hi> fieng er wieder heftiger an u. der Wind war dabey so veränderlich
+                  <lb/>daß er bald S.W. bald N.W. lief. Das erregte eine solche Confusion unter den Wellen, daß sie ordentlich wie zu Felde gegeneinander
+                  <lb/>lagen u. stritten welche unter ihnen die Oberhand über die andre
+                  <lb/>bekommen solte; da sahe es um unsere Irene sehr Confus,
+                  <lb/>stürmisch u. gefährlich aus, u. ohnerachtet sie sich mit den Wellen so betragen konte, daß ich noch kein dergleich Schiff so gesehen, das auf den Wellen wie eine Ente herum schwimt; so kamen um Mitternacht 2. dergleichen
+                  <lb/>große Wellen gleichsam wie in einer Bataille so hintereinander u. thürmten
+                  <lb/>sich wie Berge gegen einander auf, u. dann schlugen sie mit eins von fornen
+                  <lb/>wo die Ancker festgemacht sind, mit einer solchen fune u. force herein daß
+                  <lb/>man nicht anders dachte als solten sie das Schiff in Trümmern zerschlagen.
+                  <lb/>Haben wir nun bey den Wellen, so am Sonnabend herein geschlagen, gemacht
+                  <lb/>daß sie heftig wären; so waren sie doch gegen dieser nichts zu rechnen. Alles 
+                  <lb/>im Schiff flog untereinander es mochte noch so vestgemacht seyn, viel ärger als
+                  <lb/>jemahlen, so wohl in der Cajute als unten im Raum u. unter der Decke.
+                  <lb/>Bey den <rs type="person">Brüdern</rs> brach die Bettstelle auch ein auf der Seite wo <rs type="person">Schoute</rs>
+                  <lb/>seine Cabine hat. Die <rs type="person">Brüder</rs> brachten die gantze Nacht zu alles wieder
+                  <lb/>in Ordnung zu bringen u. veste zu machen. Und es war eine nicht geringe
+                  <lb/>Vorsichtigkeit, daß die Nacht-Wache wohl 3. fach besetzt wurde, so wohl von
+                  <lb/><rs type="person">Männern</rs> als <rs type="person">Led: Brüdern</rs>, damit sie im Falle der Noth gleich bey der Hand
+                  <lb/>seyn konten; sonderℓ. daß die <rs type="person">Männer</rs> denen <rs type="person">Schwestern</rs> zu Hülfe kommen
+                  <lb/>konten.
+                  <lb/>Hatten wir nun Ursach gehabt vor die vorherige Treue u. Bewahrung dem
+                  <lb/>Lämmlein u. seinen H. Restgefehrten u. Schaaren zu dancken; so hatten wir
+                  <lb/>sie dieses Mahl noch mehr: denn außer der Confusion, die die Wellen inwendig im Schiff verursacht; so hat sie auch von außen auf der Decke
+                  <lb/>weiter keinen Schaden unserer Irene gethan; als daß sie unsere Küche
+                  <lb/>u. Schornstein biß an den hintersten Mast rückte, (den man aber bald wieder
+                  <lb/>an ihre Stelle setzen konte) und die langen Seiten Bretter, so in der
+                  <lb/>Länge des Schiffs hingiengen, auf beyden Seiten gleich einschlug und
+                  <lb/>sie über Boord nahm, u. das war gut, denn damit schoß das Waßer
+                  <lb/>auf beyden Seiten des Schiffs wie ein aufhaltener Strohm wieder ab, und
+                  <lb/>unsere Irene konte sich wieder erholen. Über das so war es auch gut
+                  <lb/>daß sie von forne herein schlug u. aus dem großen Ancker den sie auch von
+                  <lb/>der Stelle rückte, ihre meiste force abstieß, denn wäre sie von der
+                  <lb/>Seite des Schiffs gekommen so hätte sie (nach Aussage <rs type="person">Br. Garrisons</rs>) gewiß
+                  <lb/>die beyden Boote mithin weggenommen u. dadurch die Decke daran
+                  <lb/>sie vestgemacht werden, mit aufgerißen. Wie hoch <hi rendition="#s">das Wasser</hi> die Wellen über
+                  <lb/>das Schiff herein geschlagen, werden diejenigen begreiffen, die wißen wie
+                  <lb/>hoch der große Rae am mittelsten Mast stehet, denn über diesen
+                  <lb/>schlug sie gegen der Küche u. Cajute zu; <rs type="person">Garrison</rs> stunde eben <hi rendition="#s">drauf</hi>
+                  <lb/>auf der Decke beym Compass, der ist wie leicht zu erachten so naß geworden
+                  <lb/>daß kein trockner Fach an ihm war daher ists auch Leicht zu begreifen
+                  <lb/>warum so viel Waßer hinunter zu den <rs type="person">Schwestern</rs> gekommen; daß sie
+                  <lb/>zum Theil wie in ihren Bettstellen schwummen; denn das Waßer schoß oben
+                  <lb/>durch den Schornstein herunter wie ein Strohm. Bey den <rs type="person">Matrosen</rs>
+                  <lb/>war es noch schlimmer: denn deren ihre Betten waren gantz unter Wasser u. sie
+                  <lb/>dachten gar die Decke wäre eingeschlag u. hatten genug zu thun biß sie
+                  <lb/>das Wasser mit Eymern wieder hinaus gebracht. Unser L. <rs type="person">Capitain</rs> u. <rs type="person">Steuer-Leute</rs> waren gewiß nicht wenig verlegen: und hieltens
+                  <lb/>vor ein nicht geringes Wunder daß unserer Irene kein größerer Schaden
+                  <lb/>dadurch zugefüget worden: denn <rs type="person">Garrison</rs> sagtes, So eine Welle wäre
+                  <lb/>im Stand das gantze Schiff zu zerschlagen, u. er wüßte sich nicht zu be-
+                  <lb/>daß er jemahls so eine auf sein Schiff bekommen.
+                  <lb/>[?]
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_24">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_24">
+                  <head>Aprilis</head>
+                  <p>
+                  <lb/><hi rendition="#u">Den 1.<hi rendition="#sup">ten</hi></hi> war der Sturm Vormittag wieder etwas gelinder u. mit Regen
+                  <lb/>vermischt: Des Nachmittags aber um 4. Uhr kam er von S.W. noch heftger als er je gewesen, u. man dachte würkℓ. nicht anders als solte alles
+                  <lb/>zu Trümmern gehen. <rs type="person">Garrison</rs> sagte auch: er wäre nun schon so etℓ.<hi rendition="#sup">e</hi> 30 Jahr zur
+                  <lb/>See gefahren, aber so hoch hätte er die See niemahls gesehen. Der Mond schiene
+                  <lb/>hell u. wenn man die See ansahe, so war sie so weiß wie der Schnee von dem
+                  <lb/>Rauschen und Zusammenschlagen der Wellen. Ich habe auf der gantzen Reise an
+                  <lb/>unserer Irene kein solches zittern, erschüttern u. beben wahrgenommen als in dieser Nacht, da sie sich so durch die Wellen hindurch arbeitete u. gleichsam auf
+                  <lb/>allen Seiten gedränget war. Wir hatten beygelegt nichts desto weniger würden
+                  <lb/>wir von den Wellen ein großes Stück zurück geschlagen. Das war aber
+                  <lb/>auch die letzte schwere u. harte Nacht vor dieses Mahl, gegen 4. Uhr legte er
+                  <lb/>sich [nu] etwas: daurte aber doch noch
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_25">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_25">
+                  <p>
+                  <lb/>Den <hi rendition="#u">2.<hi rendition="#sup">ten</hi></hi> April biß gegen Abend, und weil der Wind N.W. war, so konten
+                  <lb/>wir doch die Nacht wieder etwas seegeln. Wie uns allen ins gesamt
+                  <lb/>in diesen Umständen zu muthe gewesen, können die Geschwister beichtlich machen.
+                  <lb/>Im Grunde konte man es wohl nicht faßen u. begreiffen, daß dieses <rs type="person">Seegemeinlein</rs> seine Grabstätte auf diesem großen Welt Meer finden
+                  <lb/>solte; doch wußte man nicht warum ein solch heftiges Stürmen so lange währen
+                  <lb/>u. wir wieder so weit zurück geworfen werden solten. Daher auch unserm <rs type="person">Capitain</rs> u. <rs type="person">Steuer Leuten</rs> einfiel, daß der Fürst in der Luft sein Heer
+                  <lb/>aufgeboten hätte diesem Häuflein sich zu wiedersetzen weil es seinem Reich
+                  <lb/>eben keinen Nutzen schaffen würde; Sie sprachen darneben von einer Gegend da
+                  <lb/>ehmahls Land u. Leute gewesen, das aber untergegangen u. um die Gegend
+                  <lb/>sollen sich fast allemahl solche Stürme ereignen. Wir haben von Herzen
+                  <lb/>gesungen: Breit aus die Flügelein Beyde; u. laß die Engelein singen sie sollen
+                  <lb/>unverletzet seyn.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_26">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_26">
+                  <p>
+                  <lb/><hi rendition="#u">Den 3.<hi rendition="#sup">ten</hi></hi> Apr: War der Wind nach N.W. u. wir haben heut wieder was eingeholt
+                  <lb/>was wir in Stürmen eingebüßt. Wir sahen auch heute wieder ein Schiff uns
+                  <lb/>entgegen kommen, das vermuthℓ. nach Madera gegangen wie unser Schiffs Leute
+                  <lb/>sagten. Des Abends weil es just Gründonnerstag war hielte unser L.
+                  <lb/>Herz: <rs type="person">Nitsch:</rs> wied. Liturgie u. Singstunde. O! das schmeckte uns wieder
+                  <lb/>köstℓ. u. wir waren alle vergnügt u. danckbar daß wir dieser Gelegenheit
+                  <lb/>wieder in ziemlicher Ruhe u. Stille beywohnen konten.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_27">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_27">
+                  <p>
+                  <lb/><hi rendition="#u">Den 4.<hi rendition="#sup">ten</hi></hi> April, als an unserem allerliebsten Seitenhölchens-Feste, das die incomparable schöne Loosung hatte: Ich sage zu Gott meinem Fels: Seiten-
+                  <lb/>Hölchen du bist mein, erfreute uns unser Gott Seitenhöhlen, (denn das ist
+                  <lb/>die naturellste Explication) gleich in allerfrüh mit einem schönen u.
+                  <lb/>ziemlich starken N.O. Wind mit dem unsere Irene dergestalt davon
+                  <lb/>flog daß es eine Lust anzusehen war u. das continuirte so ziemlich egal 
+                  <lb/>biß abends da es ein wenig stiller Wurde.
+                  <lb/>Aber noch weit mehr hat unser Allerliebstes Seitenhölchen uns erquickt
+                  <lb/>und unter Seinen heiter gemacht da wir von unserm th. Herzen <rs type="person">Joh.
+                  <lb/>N:</rs> die erfreuliche Nachricht kriegten, daß es sich gefallen laßen uns an-
+                  <lb/>Heute auf seinem Fest gantz besonders zu regaliren, zu küßen, zu umarmen und uns aus seiner tiefsten Herzgruft zu speißen und
+                  <lb/>zu träncken. Was das bey allen unsern Schiffs Herzeln vor eine unvermuthette, angenehme u. seelige Metamorphosins u, Veränderung
+                  <lb/>verusrsachte, können unsere Herzel in Europa, die sich darin logirt
+                  <lb/>haben, leicht erachten. Doch da die bloße Nachricht schon eine solche
+                  <lb/>Freude u. Erquickung war; So war es freylich uns noch viel gefälliger,
+                  <lb/>herzerwärmender u. ein [?], da es uns gantz in seine Arme
+                  <lb/>u. in seinen Schooß nahm u. uns ehelich durchgieng, davon, wie bekant, zu keiner Zeit tüchtige u. würdige Expressionen ausgestunden
+                  <lb/>werden können, u. also müßen auch wir solches der eigenen Erfahrung
+                  <lb/>u. Gefühle überlaßen.
+                  </p>
+                  <p>
+                  <lb/>Es fing sich dieses Mahl nachmittags um 2. Uhr an, u. daurte biß
+                  <lb/>gegen Abend, und wir merkten als was Besonders dabey an, daß, da der
+                  <lb/>Wind vormittags so stark bließ, daß man dachte, er würde schwerlich verstatten, uns dieses seelige Mahl in Stille u. Ruhe zu halten,
+                  <lb/>er just um dieße Zeit etwas gelinder wurde, daß alles dabey in der
+                  <lb/>schönsten Ordnung zugieng.
+                  <lb/>Unser L. Herz <rs type="person">Joh: N.</rs> redete zu Anfang etwas weniges über die ungemein schön einpassende Loos: u. erinnerte: daß wir nun um so
+                  <lb/>mehr Ursache hätten unsers allerliebsten Seitenhölchens-Fest, aus
+                  <lb/>welchem wir gehauen u. gegraben worden mit einem Mahl der Wunden zu celebriren, nachdem das Lämmlein uns vor ein paar Tagen aus etwas gefährlichen
+                  <lb/>Umständen u. Stürmen geholfen; und weil es wohl das erstemahl sey, daß sich
+                  <lb/>just auf dieses Fest ein Gemeinlein auf der See befindet, so seye es billig,
+                  <lb/>daß es dasselbe auch auf diesem Welt Meer begehe. Und weil unserm L. <rs type="person">Br.
+                  <lb/>Andreas Schoute</rs> als ober Steuermann ein solches Mahl schon in London zugedacht u. es ihm biß auf die See aufgehoben u. gewaret worden; So soll er also
+                  <lb/>heute die Gnade u. das Glück haben, das erstemahl bey Begehung des ersten
+                  <lb/>Seiten-Hölchens-Fest auf der See, mit dem Volck des Lämmleins den Marter Leichnam zu eßen u. sein Blut zu trinken, dadurch er noch mehr u. gantz in die Gemeinschaft mit seiner <rs type="person">Sünder Gemeine</rs> gebracht u. das als ein Besonders Siegel
+                  <lb/>auf sein Herz bekommen u. hinwegtragen soll.
+                  <lb/>Hierauf geschahe die allgemeine Absol: unter dem gewöhnℓ.en Verse: Herr Jesu
+                  <lb/>sey uns selber nah p – <hi rendition="#u">in dem Gesicht der Engel</hi> p das wir von gantzem Herzen sungen, unter der angenehmen Vorstellung; wie sich diese seelige Frohedienerlein in diesen Tagen so geschäftigt um unsere Irene herum bewiesten
+                  <lb/>haben u. noch beweisen, u. sich an jetzo mit uns freuen werden. Wobey wir
+                  <lb/>ihnen vor ihre Treue u. sorgfältige Wache von Herzen dankbar waren.
+                  <lb/>Nach diesem wurde unser L. <rs type="person">Br Schoute</rs> von <rs type="person">Joh: Nitsch:</rs> mit Handauflegung eingesegnet, unter dem Verse O Jesu Christ erhöre uns p schließ
+                  <lb/>ihn ins Seiten-Hölchen ein, mit deiner gantzen Blutgemeine.
+                  <lb/>Nach dieser Einsegnung geschahe die Con[sev]ation des Brods u. Weins unter
+                  <lb/>den gewöhnℓ. Versen, u. <rs type="person">Joh: N.</rs> theilte das Brod u. Wein aus; Bey den Brüdern unter der Diaconie <rs type="person">Joh: Müllers</rs> als Schiffs-Aeltesten; Bey den <rs type="person">Schwestern</rs> unter der Diaconie der <rs type="person">Schwester Phoebe</rs> als Schiffs-Aeltestin.
+                  <lb/>Es gieng alles so stille, ordentℓ. u. angenehm zu daß wir dem Lämlein davor
+                  <lb/>zu danken Ursach hatten. Unsere Herzen wurden aufs Neue aufgelobt
+                  <lb/>und unsere Seinen heiter, und wir spürten wo wir hingesunken waren bey des
+                  <lb/>Hölchens offen bahren. Das Lämmlein erfülle hierbey den Wunsch so wohl unsers
+                  <lb/>Th. <rs type="person">Papas</rs> auf dem Sabbath-Liebesmahl vor Gravesande: immer aus
+                  <lb/>dem Marter Leichnam heraus u. wieder ´nein zu schwitzen; als auch unsers L. Herzen <rs type="person">N.</rs> daß wir so <hi rendition="#u">niedlich,</hi> <hi rendition="#u">blutig,</hi> <hi rendition="#u">seeliglich,</hi> so <hi rendition="#u">Seiten Hölchens-
+                  <lb/>Haftiglich</hi> nach America komen möchten, wovon wir bereits die Grentzen
+                  <lb/>auf der See passirt waren, als wir dieses Fest begiengen.
+                  <lb/>Zum Beschluß dieses seeligen, einnigen und gefühligen Festins wurde noch
+                  <lb/>3. Mahl angestimmt: Ehre dem Seiten Maal! Welches doch ungemein
+                  <lb/>Herz hinreissend u. angenehm auf unserer Irene klung. Wie alles zu Ende
+                  <lb/>war, dann wurde unser Lieber <rs type="person">Br Schoute</rs> noch was rechts zerküßt, denn wir
+                  <lb/>freuten uns alle über die Gnade so an ihm geschehen. Die Nacht hindurch
+                  <lb/>Hatten wir von außen ziemlich still Wetter, aber die innere seelige Ruhe
+                  <lb/>u. Freude u. der sanfte Schlaff gieng doch über alles.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_28">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_28">
+                  <p>
+                  <lb/><hi rendition="#u">Den 5.<hi rendition="#sup">ten</hi> April</hi> als am großen Sabbath war wenig Wind u. es schien als
+                  <lb/>solten wir heute auch den großen Sabbath säbst in der Stille zu bringen,
+                  <lb/>und das geschahe den Nachmittag auch würklich mit einem Liebes Mahl
+                  <lb/>von Pfeffer Kuchen und Thee. Gegen Abend war starker West-Wind.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_29">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_29">
+                  <p>
+                  <lb/><hi rendition="#u">Den 6<hi rendition="#sup">ten</hi></hi> früh als am Ostertage bey der Sonnen-Aufgang stimmten unsere
+                  <lb/>Musici dem auferstandenen Heiland auf der Decke manche Verselein
+                  <lb/>an; dabey wir uns sonderlich unserer entschlossenen <rs type="person">Geschwister auf der
+                  <lb/>See</rs> erinnerten. Der Wind war N.W. drehete sich aber wieder gegen
+                  <lb/>Westen u. wir giengen meist Sud:
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_30">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_30">
+                  <p>
+                  <lb/><hi rendition="#u">Den 7.<hi rendition="#sup">ten</hi></hi> als am Ostermontag war es ziemlich schön Wetter aber noch immer
+                  <lb/>contrairer Wind von W. u. wir waren schon unterm <rs type="person">38. Grad Lat:</rs>
+                  <lb/>wir avancirten sehr wenig. Weil es schön Wetter war; so wurde es so
+                  <lb/>wohl bey den <rs type="person">Brüdern</rs> als bey den <rs type="person">Schwester</rs> wieder ein wenig rein gemacht
+                  <lb/>u: aus geputzt u. die naßgewordene Sachen ein wenig getrocknet.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_31">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_31">
+                  <p>
+                  <lb/><hi rendition="#u">Den 8.<hi rendition="#sup">ten</hi></hi> da die ungemein schöne Loosung war: Ehre dem Seitenmaal
+                  <lb/>war es Vormittag sehr still u. schön Wetter, gegen Mittag aber bließ der
+                  <lb/>Wind von S: sehr stark, der uns dießmahl sehr gut war, u. gegen Abend
+                  <lb/>wendete er sich gar nach S:O: u. blieb so die Nacht stehen, daß wir also
+                  <lb/>wieder ein ziemlich Fleck fort kamen.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_32">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_32">
+                  <p>
+                  <lb/><hi rendition="#u">Den 9.<hi rendition="#sup">ten</hi></hi> war es wieder was stürmisch u. gegen Mittag bekamen wir unsern alten S:W: Wind wieder, der uns in unserm Course eben nicht
+                  <lb/>der beste ist, doch avancirten wir von gestern Mittag ziemlich u. waren
+                  <lb/>Heute beynahe schon wieder unterm <rs type="place">39. Grad Lat:</rs> Unsere <rs type="person">Schwestern</rs> hatten
+                  <lb/>eine artige Litargie unter sich, in welcher sie sungen: von dem anhaltenden West Wind erlöß uns L. Herre Gott; mit einem guten Ost-
+                  <lb/>Wind erfreu uns Lieber Herre Gott.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_33">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_33">
+                  <p>
+                  <lb/>Vom 10<hi rendition="#sup">ten</hi> – 16.<hi rendition="#sup">ten</hi> War der Wind mit W. d. S.W. u. dann hatten wir auch
+                  <lb/>3 Tage calm; <hi rendition="#u">den 15<hi rendition="#sup">ten</hi></hi> daß wir also in diesen Tagen nicht vom Fleck kamen.
+                  </p>
+               </div>
+ 
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_34">
+                  <p>
+                  <lb/>Den 15<hi rendition="#sup">ten</hi> abends in der Singstunde sang N. das Versgen: Es geh uns allen wohl
+                  <lb/>in Jesu Seitenhohl in Europa drüben p u. erinnerte dabey, daß da wir anjetzo
+                  <lb/>so lange contrairen Wind hätten, veilleicht der Heil: um unsert Willen Ursache
+                  <lb/>da zu haben möchte, um noch an uns abzuschweifen das ihm nicht gefallen, wir
+                  <lb/>hätten also darauf zu sehen, daß kein Zäserlein an uns seye, das Ihn nicht erfreuen solte, u. daß wir so die Americanische Küste u. Land betretten möchten.
+                  </p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_35">
+                  <p>
+                  <lb/><hi rendition="#u">Den 16.<hi rendition="#sup">ten</hi></hi> War der West Wind sehr stark u. in der Nacht wurde gar ein Sturm
+                  <lb/>daraus, der
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_34">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_36">
+                  <p>
+                  <lb/><hi rendition="#u">d. 17.<hi rendition="#sup">ten</hi></hi> von S.W. wieder den gantzen Tag anhielte u. uns nicht wenig zurück
+                  <lb/>trieb, die gestrige u. heutige Loos: paßte ungemein auf uns, u. kam mit dem
+                  <lb/>Gefühl meist aller unserer <rs type="person">Schiffs Geschwister</rs> überein, die es sich sonderlich applicirten.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_35">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_37">
+                  <p>
+                  <lb/><hi rendition="#u">Den 18.<hi rendition="#sup">ten</hi></hi> gegen Morgen legte sich der Sturm u. war calm wenig Wind er bließ
+                  <lb/>wohl etwas von Ost aber nicht stark u. gieng gleich wieder nach S.W. In der Nacht
+                  <lb/>aber sonderℓ
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_36">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_38">
+                  <p>
+                  <lb/><hi rendition="#u">Den 19<hi rendition="#sup">ten</hi></hi> früh erhub sich wieder ein Sturm von S.W. der weit stärker u. 
+                  <lb/>heftiger war als der am 17.<hi rendition="#sup">ten</hi> u. währete wieder den gantzen Tag, gegen Abend
+                  <lb/>war der Wind W. u. N.W. u. da legte er sich wieder etwas; Wir konten
+                  <lb/>aber vor den tobenden u. uns entgegen kommenden Wellen noch nicht seegeln
+                  <lb/>obschon der Wind uns etwas favorable war. Das ist nun der 4.<hi rendition="#sup">te </hi>heftige Sturm
+                  <lb/>den wir auf diesem Oceane gehabt; ohne die andern kleinen u. das fast beständig stürmische u. veränderliche Wetter, so wir nun in die 6. Woche anzuführen; denn seit dem guten Wind, so uns durch den Canal u. die See geholfen,
+                  <lb/>ist es beständig so Wetter gewesen: Die <rs type="person">Judith die grönℓ.</rs> fragte heut Abend-
+                  [?] Singstund; man antwortete: nein! da sagte sie nach ihrem g abgebrochen
+                  <lb/>Deutschen: Lämmlein Hübsch macht, ihm Singstunde halten.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_37">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_39">
+                  <p>
+                  <lb/><hi rendition="#u">Den 20.<hi rendition="#sup">ten</hi></hi> war es wieder meist den gantzen Tag calm u: schön Wetter gegen Abend
+                  <lb/>kriegten wir S.O. der uns die Nacht hinderlich ziemlich forthalf u.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_38">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_40">
+                  <p>
+                  <lb/><hi rendition="#u">Den 21.<hi rendition="#sup">ten</hi></hi> früh noch so stund u. mehr ostl: ward. Noch Vormittag aber gieng
+                  <lb/>er schon wieder gegen Süden u. zwar so stark, daß wir daher wieder einen
+                  <lb/>Sturm vermutheten. Nachmittag aber wurde er schwach, daß <rs type="person">unsere Leute</rs> wieder bey Nahe alle Seegel heraus thaten: Gegen 4 Uhr zog sich eine [?] wies
+                  <lb/>die <rs type="person">Holländer</rs> meinen oder ein Strich-Regen wie man dergleichen im
+                  <lb/>April hatte) gegen N: W auf. Unser <rs type="person">Dav: N:</rs> war auf der Decke u. sahe sie kommen, sagte auch zu den <rs type="person">Schiffs Leuten</rs>, soeben die Wache hatten, da würde ein
+                  <lb/>starker Wind her kommen, diese, weil der Wind aus Süden bließ, vermutheten sichs nicht u. waren so ziemlich gleichgültig dabey, Auf einmal aber sprung
+                  <lb/>der Wind nach N:W und unser Schiff stund gegen den Wind, die Seegel
+                  <lb/>schlugen sich zusammen; <rs type="person">Garrison</rs> sprang über dem aus der Cajute herzu u. hatte
+                  <lb/>nur einen Stiefel an, wendete erstℓ. das Schiff vor den Wind u. ließ gleich
+                  <lb/>alle Seegel los u. aufbinden, da müßte alles helfen was helfen konte.
+                  <lb/>Wenn uns der Heiland hier nicht bewahret hätte; so wären in ein paar Minuten die Mäste über Boord gewesen, wo nicht gar noch was Ärges uns wiederfahren wär. Es soll einem Orcan nicht unähnlich gewesen seyn, der
+                  <lb/>Sturm währete hernach biß in die Nacht u. der Wind wurde Nord – und 
+                  <lb/>wir fieng nach 7. Uhr wieder an zu seegeln.
+                  <lb/>Das wechselte nun schon so etliche Tage miteinander ab, einen Tag gut
+                  <lb/>u. still Wetter, den andern Sturm, daß wir also der Stürme ziemlich gewohnt werden u. vor was alltägℓ.<hi rendition="#sup">es</hi> halten. Wir sahen heute u gestern
+                  <lb/>ein 3. mästiges Schiff mit uns seegeln aber mehr südlich, das sahen
+                  <lb/>wir biß den 26.<hi rendition="#sup">ten</hi> da verlohr sichs
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_39">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_41">
+                  <p>
+                  <lb/>Vom 22 – 26. hatten wir schönes, helles u. klares Wetter als wirs auf der
+                  <lb/>gantzen Reise nicht gehabt seit dem wir aus dem Canal seyn. Es war
+                  <lb/>wenig Wind, die Sonne sahen wir in diesen Tagen auch so schön hell untergehen, daß wir uns alle davon delectirten, welches was rares bey uns
+                  <lb/>war. Das schöne Wetter veranlaßte die <rs type="person">Geschwister</rs> ihre Bette u. übrige Sach
+                  <lb/>in Coffrer auf die Decke in die Sonne zu legen, <hi rendition="#s">weil</hi> um sie zu trocknen, weil
+                  <lb/>viele ihre Küsten u. Coffrer ganz naß u. die Sachen darinn theils modrig,
+                  <lb/>theils verfault waren. Wie denn auch vieler ihre Matrazen unten in der
+                  <lb/>Hole, wo das meiste Wasser hierein geschlagen ganz ruinirt sind. Wie es
+                  <lb/>nun am Tag so schön u. hell Wetter war; so war es <hi rendition="#s">bey</hi> in der Nacht beym Monden-Schein noch lieblicher, denn es war nicht so heiß als am Tage, daher sich die
+                  <lb/>Geschwister meistens auf der Decke <hi rendition="#s">sich</hi> aufhielten, denn unter der Decke wo man
+                  <lb/>schläft war eine solche Hitze u. Dunst, der einem bey nahe den Athem versetzte: Es war auch kein Wunder <hi rendition="#s">nicht</hi>, denn wir waren <rs type="place">zwischen dem 36. u. 37. Grad
+                  <lb/>Lat:</rs>
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_42">
+                  <p>
+                  <lb/><hi rendition="#u">Den 22<hi rendition="#sup">ten</hi></hi> war unsers <rs type="person">Br. Wahnerts</rs> Geburts-Tag. Unsere Musici u einige andere spielten u. sungen ihm etliche Versgen.
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_43">
+                  <p>
+                  <lb/><hi rendition="#u">Den 26.<hi rendition="#sup">ten</hi></hi> früh kriegten wir einen gelinden O. Wind der sich aber bald nach S.O
+                  <lb/>wendete u. etwas stärker wurde, gegen Abend wurde er noch stärker, doch
+                  <lb/>so, daß wir alle Bey-Seegel die sie Tage vorher beygesezten stehen laßen konten die gantze Nacht durch, unsere Irene flog wieder frisch davon, daß es eine Lust
+                  <lb/>beym Mondenschein anzusehen war.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_40">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_44">
+                  <p>
+                  <lb/><hi rendition="#u">D. 27<hi rendition="#sup">ten</hi></hi> früh war der Wind meist S. aber uns dießmahl nicht gut, weil wir so
+                  <lb/>weit Südl getrieben waren. Um 8. Uhr mußte man die Beyseegel abnehmen
+                  <lb/>u. so eins nach dem andern einziehen, daß wir endℓ. nur noch 3. Seegel stehen
+                  <lb/>hatten. Es sahe wieder ziemlich stürmisch aus, u. die See wurde wieder recht hoch
+                  <lb/>u. so continuirte es auch die Nacht durch.
+                  </p>
+                  <p>
+                  <lb/>Heute früh nach 6. Uhr begegneten wir 2. Frantzℓ. Schiffen von 3. Masten. Sie
+                  <lb/>steckten ihre Flagge aus u. wir unsere auch. Mit dem einen, das etwas nahe
+                  <lb/>kam konte Garrison wenigstens durch ein Sprachrohr reden u. es fragen wo
+                  <lb/>es her käme, u. es antwortete von St. Domingo weiter nicht Mehreres ließ der 
+                  <lb/>Wind nicht zu. 	
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_41">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_45">
+                  <p>
+                  <lb/><hi rendition="#u">Den 28.<hi rendition="#sup">ten</hi> u. 29.<hi rendition="#sup">ten</hi></hi> War wieder contrairer Wind aber schöne helle Tage 
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_42">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_46">
+                  <p>
+                  <lb/>u. <hi rendition="#u">d. 29.<hi rendition="#sup">ten</hi></hi> wurde
+                  <lb/>es stille, u. wir dachten er solte nun auff N.O. kommen, aber er kam wieder aus S.
+                  <lb/>W. u. continuirte so biß nach Mittag um 4 Uhr. Da kriegten wir auf einmahl N. Wind u. die Nacht wurde er N.O. u. so hatten wir wieder einen
+                  <lb/>Sturm, der eines mit von heftigsten war. <rs type="person">Garrison</rs> wagte es mit der Irene
+                  <lb/>in den Sturm fort zu seegeln, welches er noch nie mit ihr probirt vor dem
+                  <lb/>Wind, Sie riß durch die Wellen wie ein Pfeil aber die Bewegung war
+                  <lb/>auch eine der Sensiblesten.
+                  </p>
+                  <p>
+                  <lb/>Heute Vormittag warfen sie das Senckbley aus um Grund zu suchen, weil
+                  <lb/>aber die 2. Seile nicht recht vest ineinand. gebunden waren denn sie machten wohl 100
+                  <lb/>Klafter aus, so gieng sie los mithin das Senckbley verlohren. Auf den Nachmittag wurde ein Neues gegoßen. Wir sahen auch heute viele flingenden Fische um unser Schiff. Es wurde einer gefangen, daß man ihn recht betrachten konte.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_43">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_47">
+                  <p>
+                  <lb/>Den 30.ten April: War uns die Loosung sehr eindrückℓ. Die <rs type="person">Led: Brr:</rs>
+                  <lb/>erinnerten sich besonders ihres Lieben Herzels <rs type="person">Rubuscho</rs> an seinem heutigen
+                  <lb/>Geburtstag u. stimmten mit Music ihme manche recht gefühlige Versel an.
+                  <lb/>Der gestrige Sturm continuirte noch weiter aber hinter uns her kam so
+                  <lb/>seegelten wir noch immer fort. Wir sahen uns auch nach Land um weil,
+                  <lb/>nach der Rechnung es nicht fern mehr seyn konte, wir waren nur zu weit
+                  <lb/>Südlich.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_44">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_48">
+               <head>Majus</head>
+                  <p>
+                  <lb/><hi rendition="#u">Den. 1.<hi rendition="#sup">ten</hi></hi> May war es noch so stürmisch, das hat nun wieder 3. Tage nach
+                  <lb/>einander angehalten.
+                  <lb/>Weil unsers Ober-Steurmanns <rs type="person">Br Schoutes</rs> Geburtstag einfiel so
+                  <lb/>wurden ihm ein paar Versgen gemacht und abgesungen. Gegen Abend
+                  <lb/>höhrte das stürmische Wetter ein wenig auf. Um Mitternacht wurde der
+                  <lb/>Wind N.W. u. uns also gantz contrair u. da legten sie bey.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_45">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_49">
+                  <p>
+                  <lb/>Biß d. 2ten gegen 6. Uhr, da sie wieder ein paar Stunden seegelten; aber weil
+                  <lb/>wieder daher ein Sturm kam mußten sie wieder beylegen. Bey allen
+                  <lb/>diesen stürmischen Umständen vergaßen doch die <rs type="person">Led: Brr:</rs> ihres Festes nicht,
+                  <lb/>u. machten einige Niedlichkeiten von Bändern u. des Nachmittags celebrirten sie es mit einem Liebesmahl recht seelig u. gefühlig. Wobey recht viele
+                  <lb/>Verße aus den vorjährigen <rs type="person">Led: Brr.</rs> Lied gesungen wurden. Gegen Abend
+                  <lb/>legte sich der Sturm u. die Nacht war ziemlich moderat.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_46">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_50">
+                  <p>
+                  <lb/>Den 3.ten war wieder ein schöner heller Tag, aber noch nur contrairer Wind.
+                  <lb/><rs type="person">Br Garrison</rs> wolte ein wenig verlegen werden wegen der langwierigen
+                  <lb/>Reise. Gegen Abend wendete sich der Wind mehr nach N.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_47">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_51">
+                  <p>
+                  <lb/><hi rendition="#u">Den 4.<hi rendition="#sup">ten</hi></hi> war wieder ein schöner heller Tag aber wenig Wind er war meist N.
+                  <lb/>Vormittag sahe sich <rs type="person">Br Garrison</rs> auf der Decke ein wenig um, u. wurde
+                  <lb/>von Fernen in der See etwa ¾ Stund vom Schiff etwas gewahr das sehr aus
+                  <lb/>dem Wasser hervor ragte u: sich bewegte. Bald dachte man es wäre ein Fisch, bald
+                  <lb/>sahe es aus wie ein Boot od. wie ein verunglücktes Schiff, weil es immer
+                  <lb/>auf einer Stelle blieb. Weil man nun nicht recht gewiß war, ob es nicht etwa
+                  <lb/>ein im letzten Sturm verunglücktes Schiff seyn könte, worauf vielleicht
+                  <lb/>noch Menschen wären, wie es sich öffters so zu trägt; So resolvirte sich <rs type="person">Br: Garrison</rs>, weil es Calm u. die See Spiegel glatt war, ein Boot auszusetzen und
+                  <lb/>mit etlichen <rs type="person">Matrosen</rs> dahin zu rudern. Wie sie an den Ort kamen, so war
+                  <lb/>es ein ungeheuer großer Wallfisch, <rs type="person">Garrison</rs> sagte: er wäre wohl so lang u.
+                  <lb/>groß gewesen als unsere Irene. Der muß also irgendwo einen Harpunen
+                  <lb/>gekriegt u. damit davon gekommen seyn biß dahin, wo er wie ein Aas lag,
+                  <lb/>darauf viele Vögel saßen, u. drum herum eine große Menge anderer
+                  <lb/>Fische schwummen, die sich an ihm delectirten. <rs type="person">Garrison</rs> nahm etliche Harpu-
+                  <lb/>nen mit sich, u. warf sie auf 2. Fische, den einen kriegte er u. brachte ihn mit
+                  <lb/>sich aufs
+                  <lb/>Schiff, der andere hatte zwar auch einen Treff gekriegt u. <rs type="person">Garrison</rs> hatte ihn
+                  <lb/>eine Weile, hinter dem Boot nach sich gezogen [ent#] gieng er mit dem Harpunen durch dieser so er mit sich brachte war ein Hy-Fisch, wie ihn die <rs type="person">Holländer</rs> nennen von einer ziemlichen Größe. <rs type="person">Garrison</rs> nannt ihn auch ein See-Tiger.
+                  <lb/>Er ist aber nicht gut zu eßen. Sie haben ihm die Haut abgezogen, welche die Schreiner u. Drechsler gut zum poliren gebrauchen können, u. übrigens ihn gantz
+                  <lb/>zerschnitten. Er hatte 4. große Floß-Federn unterm Leibe u. eine auf dem
+                  <lb/>Rücken. Sein Mund war ziemlich groß u. weit, daß er einen guten Bißen ver-
+                  <lb/>schlucken konte; und seine Zähne waren just wie eine Säge unten u. oben; und
+                  <lb/>die Zacken paßten gantz schön eineinander u. waren so scharf, daß wenn man sie
+                  <lb/>nur ein wenig anrührete, so giengs Blut darnach. Solte <rs type="person">Br Garrison</rs> mit
+                  <lb/>seinem Schiffs Volck allein gewesen seyn; so hätte er an dem Wallfisch diesmahl
+                  <lb/>einen rechten Fund gethan, u. etliche tausend da erschwingen könen an
+                  <lb/>dem Fett u. Fischbein, so war aber der Transport zu starck und nicht so leicht
+                  <lb/>zu den Fäßern zu kommen u. also vor das Mahl nichts zu thun.
+                  <lb/>Heut Nachmittag celebrirten auch die <rs type="person">Led: Schw:</rs> ihr Fest wie die <rs type="person">Brüder</rs> am
+                  <lb/>Freytag mit einem Liebesmahl u. Liturgie. Unsere Musici machten
+                  <lb/>ihnen auf der Decke eine Music dazu. Wir waren heute bey nahe unterm <rs type="place">38. Grad: Lat:</rs> Wir avancirten aber sehr wenig.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_48">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_52">
+                  <p>
+                  <lb/><hi rendition="#u">Den 5.<hi rendition="#sup">ten</hi></hi> hatten wir wieder einen schönen hellen Tag u. doch etwas mehr und
+                  <lb/>beßern Wind (denn er wandte sich nach N.O.) als gestern u. waren wieder unterm
+                  <lb/><rs type="place">38. Grad. Lat:</rs> also mehr nordlich. <rs type="person">Garrison</rs> dachte heute früh, da der Wind mehr
+                  <lb/>mehr nordℓ war, wenn er so stehen blieb, daß er die Höhe von Newyorck nicht
+                  <lb/>erreichen könte, so wolte er wenigstens suchen in der Delaware Bay einzu laufen; Weil aber der Wind etwas mehr nach Osten zu gieng, so konten
+                  <lb/>sie ihren Cours nach N.W. u. also nach <rs type="place">Newyorck</rs> zu richten. Er war 
+                  <lb/>zwar sehr schwach doch blieb er die Nacht so stehen und
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_49">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_53">
+                  <p>
+                  <lb/><hi rendition="#u">Den 6.<hi rendition="#sup">ten</hi></hi> Vormittag war er nur wenig stärker doch nicht viel und auf den
+                  <lb/>Nachmittag wurde es gantz calm u: die See Spiegel glatt. Wir blickten
+                  <lb/>gegen Abend etwas vor der Sonnen-Untergang gegen S:W: wieder so
+                  <lb/>etwas Treibendes in der See in der nemℓ: Distance wie den 4.ten das einem
+                  <lb/>Boot ähnlich sahe. <rs type="person">Br. Garrison</rs> schikte deswegen wied etliche <rs type="person">Matrosen</rs> dahin; diese kamen bey nahe an den Ort wo die Sache war, u. hatten nur
+                  <lb/>noch ein kleines Fleckgen; als eben ein ziemlicher starker Wind aus N.
+                  <lb/>kam, der sie nöthigte eilends wieder umzukehren. Sie sagten aber es
+                  <lb/>war wieder ein toder Wallfisch gewesen. Auf dem Hinweg trafen sie
+                  <lb/>einen Sonnenfisch an auf den sie einen Harpunen warfen u. ihn mit
+                  <lb/>sich kriegten aufs Schiff, der war gantz platt u. breit u. hatte so dicke
+                  <lb/>u. harte Schuppen, daß man einen scharfen Harpunen haben muß ihn durch
+                  <lb/>zu stechen. Der Wind hielt die Nacht so an. Und continuirte so
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_50">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_54">
+                  <p>
+                  <lb/><hi rendition="#u">Den 7<hi rendition="#sup">ten</hi></hi> den gantzen Tag u. weil er vom Land kam dem wir schon so nahe
+                  <lb/>waren, so war er so kalt daß einem Haut schauerte. Sie stiegen heut Vormittag auf die Mäste um Land zu sehen, weil sie nach ihrer Rechnung nicht
+                  <lb/>weit mehr davon seyn könten; sie meinten auch würklich sie sähen
+                  <lb/>Land, das gab eine vergebℓ.<hi rendition="#sup">e</hi> Freude bey den <rs type="person">Geschwistern</rs>, denn in
+                  <lb/>einer 4.<hi rendition="#sup">tel</hi> Stund war es wieder nicht wahr.
+                  <lb/>Um Mittag begegnete uns eine Chaloupe von der Insul Nantucket
+                  <lb/>die in der Gegend Boston liegt. Bey dem Schiffer erkundigte sich <rs type="person">Br.
+                  <lb/>Garrison</rs> wo wir wären u. erfuhr daß wir wohl <rs type="place">Long: Eyland gegen über</rs>;
+                  <lb/>aber doch noch so so 70 deutsche Meilen biß Newyorck zu seegeln hätten. 
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_51">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_55">
+                  <p>
+                  <lb/><hi rendition="#u">Den 8.<hi rendition="#sup">ten</hi></hi> stund der Wind noch so u. wurde gegen Abend mehr W. aber sehr
+                  <lb/>schwach u. die gantze Nacht durch hatten wir meist calm.
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_56">
+                  <p>
+                  <lb/><hi rendition="#u">Den 9.<hi rendition="#sup">ten</hi></hi> früh war es noch calm gegen 10 Uhr aber fieng er aus Süden
+                  <lb/>an zu wehen der uns diesmahl recht günstig war. Sie füllten heute wieder etliche leer gewordenen Fäßer mit See-Wasser damit das Schiff nicht
+                  <lb/>zu leicht würde. Das Senckbley wurfen sie heute u. gestern aus fanden
+                  <lb/>aber noch keinen Grund.
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_57">
+                  <p>
+                  <lb/><hi rendition="#u">Den 10.<hi rendition="#sup">ten</hi></hi> war ein gelinder S.O Wind der uns wieder ziemlich forthalf
+                  <lb/>doch nicht zu stark, denn es war u. das war gut nebelicht, daß man kein Land erblicken
+                  <lb/>konte. Um 10 Uhr warfen sie das Senckbley aus u. sie fanden 35 Faden Wasser, das war eine genugsame Anzeige daß wir nicht ferne
+                  <lb/>vom Land seyn müßen. Um Mittag Hatten sie 25 u. um 4 Uhr 22 ½ 
+                  <lb/>u. um den Abend 21 Faden. Gegen Abend klärte es sich gegen Westen
+                  <lb/>zu auf. Man konte aber heute noch kein Land sehen.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_52">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_58">
+                  <p>
+                  <lb/>Den 11.ten war es ein Heller Tag. Wir hatten 15. 14. 13. Faden Wasser des
+                  <lb/>Morgens. Die <rs type="person">Matrosen</rs> stiegen auf die Mäste sich nach Land umzusehen und
+                  <lb/>nach 6. Uhr früh erblickten sie endlich Sandy-Hoock. Und so waren wir
+                  <lb/>noch so glücklich diesen Abend in Haafen einzulaufen u. das erste Mahl
+                  <lb/>wieder vor Ancker zu liegen. Wie wir eben einlaufen wolten kam noch
+                  <lb/>ein zwar kurtz anhaltender aber ziemlich heftiger Travat. Es blitzte und
+                  <lb/>donnerte u. in dem Travat kam ein Loots an Boord, der sich um unsertwillen heraus gewagt. <rs type="person">Br. Garrison</rs> nahm ihn nur um deß willen an,
+                  <lb/>denn sonsten hatte er keinen nöthig.
+                  </p>
+                  <p>
+                  <lb/><hi rendition="#u">Die Loosung Hieß: Dieser wird unser Friede seyn. Ave für deinen Bann.</hi>
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_53">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_59">
+                  <p>
+                  <lb/><hi rendition="#u">Den 12.<hi rendition="#sup">ten</hi></hi> als am Märischen Kirchweyh-Fest langten wir Nachmittags
+                  <lb/>um 3. Uhr vor der <rs type="person">Stadt Newyorck</rs> an, mit der Loos: <hi rendition="#u">Sagt den Fürsten
+                  <lb/>Juda: Ich will Himmel u. Erde bewegen. Ach mein Herzliches Jesulein! mach
+                  <lb/>mir ein rein sanft Bettelein zu ruh´n in deines Herzens-Schrein.</hi> Wir waren kaum vor Ancker so kriegten wir gleich Visiten von <rs type="person">hiesigen Geschwistern</rs>
+                  <lb/>die uns bewillkommten. Es stunde heute schon in der Zeitung: daß <rs type="person">Capitain Garrison</rs> mit <rs type="person">Mährℓ. Leuten</rs> wär angekommen. Heut abends
+                  <lb/>in der Singstunde Redete unser Herz <rs type="person">Joh: N:</rs> gantz besonders eindringℓ:
+                  <lb/>von diesem Fest: das ich aber nicht recht aufzufassen im Stande war. Des
+                  <lb/>Nachts hatte noch in der Cajute eine kleine Gesellschafft von Arbeitern,
+                  <lb/>so die meiste Besorgnis u. Mühe auf dem Schiff gehabt, ein niedliches kleines Abendmahl zum Andencken dieses Festes.
+                  </p>
+               </div>
+            </div>
+            
+            <div type="position" xml:id="position_1749_atl_54">
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_60">
+                  <p>
+                  <lb/>Darauf <hi rendition="#u">den 13.<hi rendition="#sup">ten</hi></hi> giengen sogleich unser L. <rs type="person">David</rs> u. <rs type="person">seine Rosine</rs> vom Schiff
+                  <lb/>ab u. reisten nach <rs type="place">Bethlehem</rs> um unsere glückliche Überkunfft zu
+                  <lb/>melden.
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_61">
+                  <p>
+                  <lb/><hi rendition="#u">Den 15.<hi rendition="#sup">ten</hi></hi> Fertigte <rs type="person">Nitsch:</rs> <rs type="person">die Schwestern</rs> in 2. Colonnen ab nach <rs type="place">Bethlehem</rs> unter Begleitung der verehlichten Geschwister <rs type="person">Wahnerts</rs>, <rs type="person">Kransens</rs>, <rs type="person">Haberlands</rs>, <rs type="person">Joseph Müllers</rs> p
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_62">
+                  <p>
+                  <lb/><hi rendition="#u">Den 18.<hi rendition="#sup">ten</hi></hi> wurden die <rs type="person">sämtl Brüder</rs> von <rs type="person">Joh: N.</rs> abgefertigt ebenfalls
+                  <lb/>in 2. Colonnen. <rs type="person">Nitschmanns</rs> und <rs type="person">Garrison</rs> wolten den Nachmittag
+                  <lb/>auch nach nach, Es war ihnen aber der Wind so stark entgegen daß sie
+                  <lb/>mit dem Boot wieder nach <rs type="place">Newyorck</rs> umkehren mußten u. diese Nacht
+                  <lb/>bey <rs type="person">Bruder Greening</rs> bleiben. 
+                  </p>
+               </div>
+            
+               <div type="diaryEntry" xml:id="diaryEntry_1749_atl_63">
+                  <p>
+                  <lb/>Endℓ. <hi rendition="#u">Den 19<hi rendition="#sup">t</hi></hi> früh folgten sie den anderen nach u. kamen mit den <rs type="person">Brüdern</rs>
+                  <lb/>auf einen Tag in <rs type="place">Bethlehem</rs> an, mit einer artigen Loosung vor die Brüder:
+                  <lb/>nemℓ: den 21.<hi rendition="#sup">ten</hi> May: <hi rendition="#u">Ich habe uns [?] [?] [?] [?]
+                  <lb/>und Nazareer aus euren Jünglingen, Ists nicht also. Ach heilige
+                  <lb/>Bunds-Glieds-Spalte, auf Seiten-Höhlgen walte.</hi>
+                  </p>
+                  <p>
+                  <lb/>Das wäre also das vornehmste so ich auf dieser See-Reise angemerkt; und hiermit empfehle ich mich auf auf das demüthigste u. kindlichste euren Herzen u. dem zärtlichen Bedenken vor dem Lämmlein
+                  <lb/>vor meine Person ins besondere. Und bin mit einem demüthigen Handkuß euer armes u. genuges Mitglied
+                  </p> 
+                  <p>
+                  <lb/>Bethlehem d: 11.<hi rendition="#sup">ten</hi> Juni N. St. Phillipus
+                  <lb/><hi rendition="#u">1749</hi>
+                  </p>
+                  <p>
+                  <lb/>Phil. Derbaums 
+                  <lb/>Reise-Diarium
+                  <lb/>der See-Gemeine unter <rs type="person">Br.
+                  <lb/>Joh. Nitschmanns</rs> Anführung
+                  <lb/>Von <rs type="place">London</rs> nach <rs type="place">Newyork</rs>
+                  [?] Februar – <hi rendition="#s">May</hi> Jun.1749
+                  </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

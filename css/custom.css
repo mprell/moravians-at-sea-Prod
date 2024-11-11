@@ -586,6 +586,10 @@ p {
 }
    }
  
+ .zenodo {
+     font-size: 70%;
+ }
+ 
 
 @media (min-width: 768px) {
   .banner {

@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Seereise 1753</title>
+            <author ref="https://d-nb.info/gnd/108021237X">George Golkowsky</author>
+            <respStmt>
+               <resp>Transkription</resp>
+               <persName>Emily Berger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Kollation (Zweittranskription)</resp>
+               <persName>N.N.</persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-Transformation</resp>
+               <persName ref="https://d-nb.info/gnd/1133022898">Martin Prell</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName type="project">Moravians at Sea</orgName>
+               <orgName type="publisher" ref="https://d-nb.info/gnd/1235928594">Lehrstuhl für Geschlechtergeschichte der Friedrich-Schiller-Universität Jena</orgName>
+               <persName type="publisher" ref="https://d-nb.info/gnd/1133022898">Martin Prell</persName>
+            </publisher>
+            <date when="2024-11"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>Namensnennung 4.0 International (CC BY 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="textStatus" select="#transcription">
+               <note n="transcription">Ersttranskription ist erfolgt</note>
+               <note n="collation">Kollation (Zweittranskription) ist erfolgt</note>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.unitaetsarchiv.de">Unitätsarchiv Herrnhut</repository>
+                  <idno type="shelfmark">R.14.A.35.15</idno>
+                  <msName>Diarium der Seegemeine von Chelsea nach Bethlehem. 15.Juni-14.Sept.1753</msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="diaryEntries" subtype="channel">
+            <div type="position" xml:id="position_1753_kan_1">
+               <pb facs="#f0001"/>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_1">
+                  <head>
+                  <lb/>See-Diarium von <rs type="place">London</rs>
+                  <lb/>in Engelland nach <rs type="place">New-York</rs> in
+                  <lb/>North-America</head>
+                  <p><lb/>vor 50 Jahren nemlich:
+                  <lb/>vom 9ten Juny bis 21 September
+                  <lb/>Anno. 1753.</p>
+                  <p><lb/>Zum danckbaren Andencken eines
+                  <lb/>halben Jubileum für die noch
+                  <lb/>lebende aus der damaligen
+                  <lb/>Gesellschaft, geschrieben und
+                  <lb/>copirt den 9ten September 1803.
+                  <lb/>vom <rs type="person">George Golkowsky</rs>.
+                  <lb/>Gelesen vom <rs type="person">Peter Worbasse</rs>
+                  <lb/>die einzigen hier noch Lebenden.</p>
+               <pb facs="#f0002"/>
+                  <p><lb/>Als nun sämtliche <rs type="person">Geschwister</rs> von
+                  <rs type="place">Deutschland</rs> und <rs type="place">Engeland</rs> in <rs type="place">London</rs>
+                  <lb/>angekommen waren welche mit dem
+                  <lb/>Schiff Irene bestimmt waren nach
+                  <rs type="place">America</rs> zu gehen, so hatten sie
+                  <lb/>den 9 Juny das Vergnügen bey einen
+                  <lb/>Sabbath Liebes Mahl in Sarons Saal
+                  <lb/>bedient zu werden, welches der seligen
+                  <lb/>Jünger mit einer wichtigen Rede hielt,
+                  <lb/>über die Tages Losung.</p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_2">
+                  <p>
+                  <lb/>Juny 10<hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Abends hatten wir im Jüngerhause
+                  <lb/>Absolution, Fuswaschen und ein recht
+                  <lb/>seliges und gefühliges Abendmahl.</p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_3">
+                  <p><lb/><lb/>D13<hi rendition="#sup">te</hi>. Wurden zuerst die <rs type="person">gelehrten Brüder</rs>
+                  <lb/>und dann die übrigen <rs type="person">Geschwister</rs> vom
+                  <lb/>lieben Jünger abgefertiget, und nach
+                  <lb/>Mittag gingen wir unter Begleitung
+                  <rs type="person">Br. Johannes v. Watteville</rs> und mehrern
+                  <lb/>Conferenz Geschwistern auf unser
+                  <lb/>Schiff Irene nach <rs type="place">Blackwall</rs>, wo wir
+                  <lb/>noch zusammen den Kelch der Verbindung
+                  <lb/>bey Jesu zu bleiben, genoßen.
+                  <lb/>So dan nahmen wir zärtlichen Abschied
+                  <lb/>von den Geschwistern die uns begleitet
+                  <lb/>hatten, und richteten uns um ein
+                  <lb/>auf unsre weitern Reise.</p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_kan_2">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_4">
+                  <p><lb/><lb/>Bis
+                  <lb/>d 14 Nachts segelten wir mit guten Wind
+                  <lb/>von Blackwall und kammen morgens
+                  <lb/>um 8 Uhr bey <rs type="place">Gravesend</rs> vor Ancker
+                  <lb/>abwo noch etliche Passagiers zu
+                  <lb/>uns kommen die mit uns fahren.
+                  </p>
+               <pb facs="#f0003"/>
+                  <p>
+                  <list>
+                     <head>
+                        <hi rendition="#u">Die Gesellschaft war Vereuerathe</hi> Geschwister</head>
+                     <item>Captain Nicholas Garrissons 2.</item>
+                     <item>Peter Boehlers --- 2</item>
+                     <item>Jacob Tills --- 2</item>
+                     <item>Wanerts ---- 2</item>
+                     <item>Wolsons ---- 2</item>
+                     <item>und ihr Kind 1.</item>
+                     <item>Pers. 11.</item>
+                  </list>
+                  <list>
+                     <head><hi rendition="#u">Schiffs Brüder</hi></head>
+                     <item>Christian Jacobsen Steuermann 1.</item>
+                     <item>Henry Christophson -- 1.</item>
+                     <item>Peter Prink --- 1.</item>
+                     <item>Christian# Sandhoff 1.</item>
+                     <item>Jast Johnson --- 1. 6.</item>
+                  </list>
+                  <list>
+                     <head><hi rendition="#u">Ledige Brüder</hi></head>
+                     <item>Gottl. Koenigsdoerfer</item>
+                     <item>Chor Pfleger 1</item>
+                     <item>Joseph Habeland 1</item>
+                     <item>Daene 1</item>
+                     <item>Joellner 1</item>
+                     <item>Jacob Herr 1.</item>
+                     <item>Peter Worbahre 1.</item>
+                     <item>Krause 1</item>
+                     <item>Jac. Eyerly 1.</item>
+                     <item>Sam: Hunt 1</item>
+                     <item>Goergensen 1</item>
+                     <item>Geo. Golkowsky 1</item>
+                     <item>Peter Weicht 1</item>
+                     <item><hi rendition="#u">Fr.</hi> Beyer 1</item>
+                     <item>Lӕmmert 1</item>
+                     <item>F#nd# 1</item>
+                     <item>über tragen 15</item>
+                  </list>
+                  <list>
+                     <head><hi rendition="#u">Gelehrte</hi></head>
+                     <item>Rusmeyer 1.</item>
+                     <item>Backhoff 1</item>
+                     <item>Krogstrup 1</item>
+                     <item>Fabricius 1</item>
+                     <item>Watstaedt 1.</item>
+                     <item>Fr. Ziegler 1.</item>
+                     <item>Barmeyer 1</item>
+                     <item>Soelle 1</item>
+                     <item>D.<hi rendition="#sup">r</hi> Kalberland 1</item>
+                     <item>Jac. Fries <hi rendition="#u">1.</hi></item>
+                     <item>10</item>
+                     <item>Anstudirte 15.</item>
+                     <item>Led. Brüd - 25.</item>
+                     <item>Geschwister 42</item>
+                     <item><hi rendition="#u">fremde</hi> Passagiers und Matrosen</item>
+                     <item>etwa -- 29</item>
+                     <item>Summa 71 Personen</item>
+                     </list>
+                  </p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_kan_3">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_5">
+                  <head>1753.</head>
+                  <p><lb/>Juny d 15 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> segelten wir weiter bey
+                  <rs type="place">Dover</rs> vorbey.</p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_kan_4">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_6">
+                  <p><lb/>D 16 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Anckerten wir bey <rs type="place">Portsmouth</rs>
+                  </p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_7">
+                  <p><lb/>⊙ D 17 <hi rendition="#sup"><hi rendition="#u">ten</hi></hi> lagen wir stille, und beteten die
+                  <lb/>Kirchen Litaney <rs type="person">Br. Koenigsdoerfer</rs>
+                  <lb/>predigte Deutsch auf der Decke es stürmte hart von N.O.</p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_8">
+                  <p><lb/>D 18 <hi rendition="#sup">te</hi>: War es schön Wetter, wir machten etwas
+                  <lb/>Musick auf dem Schiff</p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_9">
+                  <p><lb/>D 19 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Kamen <rs type="person">Geschwist. Boehlers</rs> und noch
+                  <lb/>mehr Freunde HErrn gegen Mittag
+                  <lb/>am Board und wurden mit Musick be-
+                  <lb/>willkommt. Abends hielt <rs type="person">Br. Boehler</rs>
+                  <lb/>eine Singstunde.</p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_kan_5">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_10">
+                  <p><lb/>D 20 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> War der Wind N.W. wir probirten zu
+                  <lb/>segeln, waren aber bald genöthigt um
+                  <lb/>zukehren, und legten bey der <rs type="place">Insel Wight</rs>
+                  <lb/>vor Ancker</p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_11">
+                  <p>
+                  <lb/>D 21 u 22 Stürmisch und unbeständig Wetter</p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_12">
+                  <p><lb/>D 23. Wurde der Wind North und wir gingen früh
+                  <lb/>um 5 Uhr unter Segel, der Wind drehte sich
+                  <lb/>aber bald wieder N.W. das wir hart gegen
+                  <lb/>die Wellen anfahren musten, die meisten
+                  <lb/>von uns wurden kranck.</p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_kan_6">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_13">
+                  <p><lb/>⊙ D 24 Der Wind West und wir musten laviren
+                  <lb/>wir hatten Deutsch u. Englische Predigt
+                  <lb/>Abends passirten wir <rs type="place">Portland</rs>.</p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_kan_7">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_14">
+                  <p><lb/>D 25 <hi rendition="#sup">t</hi>. S.b.W. um Mittag paßirten wir <rs type="place">Eddystone</rs>
+                  <lb/>und <rs type="place">Plymouth</rs>, wir fingen viele Mackerell.</p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_kan_8">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_kan_15">
+                  <p><lb/>D 26 u. 27 Fuhren wir <rs type="place">Lizerpoint</rs> und <rs type="place">Lands Ende</rs>
+                  <lb/>vorbey, um 4 Uhr Nachmittag verlohren
+                  <lb/>wir das Land aus dem Gesicht und
+                  <lb/>segelten nordlich den <rs type="place">Cily Inseln</rs> vorbey.
+                  <lb/>D 26 starcker N.b.W die Wellen waren hoch</p>
+               </div>
+            </div>
+         </div>
+         <pb facs="#f0004"/>
+         <div type="diaryEntries" subtype="atlantic">
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_1">
+               <p><lb/>D 29 Juny 1753. Der Wind wurde stärker
+               <lb/>und wurden viele wieder kranck</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_2">
+               <p><lb/>D 30 Juny S.b.W.angenehm wetter
+               <rs type="person">Br. Boehler</rs> hielt uns eine Rede</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_3">
+               <p><lb/>⊙ 1 July W.S.W. war Predigt, ein Schiff
+               <lb/>von Barbados begegnete uns und der
+               <lb/>Captain sprach mit uns.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_4">
+            <p><lb/>D 6 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Sahen wir einen Finn od. Wallfisch das
+            <lb/>Waßer in die Höh blasen, es regnete stark</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_5">
+               <p><lb/>D 7 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> July hatten wir Sabbath L.M. mitweißen Biseot und Wein.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_6">
+               <p><lb/>8 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> W.N.W Regen Wetter</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_7">
+               <p><lb/>9 <hi rendition="#sup">te</hi>. Sahen wir 2 Schiffe von ferne</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_8">
+               <p><lb/>10 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> N.N.W. eine Menge Porks drei Meer-
+               <lb/>Schweine fuhren um uns herum von welcher
+               <lb/>wir einen mit der Harpune fingen.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_9">
+               <p><lb/>11 ten starcker N.W. und Regen</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_10">
+               <p><lb/>12 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> schwacher S.O. und schön Wetter
+               <lb/>man sahe große Fische schwimmen,
+               <lb/>Abends war calm und kein Wind</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_11">
+               <p><lb/>13 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Calm und Nebel</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_12">
+               <p><lb/>14 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> West Wind und Nebel</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_13">
+               <p><lb/>⊙ 15 <hi rendition="#sup">t</hi>. englisch u teutsche Predigt</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_14">
+               <p><lb/>16 <hi rendition="#u"><hi rendition="#sup">te</hi></hi> Nebel und veränderlich Wetter
+               <lb/>um 10 Uhr Vormittags sprachen wir
+               <lb/>mit <rs type="person">Captain Pinkerman</rs> deßen Schiff
+               <lb/>Johanna hieß und der mit 180 Palentinern
+               <lb/>von Rotterdam nach Newyork segelte,
+               <lb/>die Captains machten es miteinander aus
+               <lb/>daß wir in Companie beysammen bleiben
+               <lb/>wolten so lange wir könten, wir sahen wieder
+               <lb/>große Fische Bartelnose genannt</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_15">
+               <p><lb/>D 17 ten starcker N.N.W. Wind.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_16">
+               <p><lb/>D 18 <hi rendition="#u"><hi rendition="#sup">te</hi></hi> war Calm.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_17">
+               <p><lb/>Den 19:<hi rendition="#sup">ten</hi> July Calm und gut Wetter
+               <lb/>Es wurde nach unsrer Provision ge-
+               <lb/>sehen und gefunden das schon der
+               <lb/>meiste Vorrath verzehrt war und das
+               <lb/>übrige eingetheilt werden müßte, da
+               <lb/>wir wenn schon über 1 Monath auf der
+               <lb/>See sind, und noch kaum den halben Weg
+               <lb/>gemacht hatten wegen den vielen
+               <lb/>contrairen Winden. Wurde uns nun alle
+               <lb/>3 Tage Brod ausgetheilt ein Bis##### Tag</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_18">
+               <p><lb/>D 20 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> fingen wir etliche Fische Pylots genannt</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_19">
+               <p><lb/>D 22 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> N.Wb.N heute sahen wir die ersten
+               <lb/>fliegenden Fische wie auch Schildkröten
+               <lb/>zu sehen, hatten auch das Vergnügen
+               <lb/>einen Dolphin zu fangen.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_20">
+               <p><lb/>D 23 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Unser <rs type="person">Captain Garrisson</rs> hatte
+               <lb/>heute seinen Geburtstag und wurde
+               <lb/>mit Musick geweckt, und mit Versen gra-
+               <lb/>tuliert, Nachmittag truncken wir mit ihm
+               <lb/>ein Glas Wein. Das Wetter war schlecht.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_21">
+               <p><lb/>D 25 <hi rendition="#u"><hi rendition="#sup">te</hi></hi> Sprachen wir mit unser Companion
+               <rs type="person">Capt. Pinkerman</rs>, er erzehlte uns das
+               <lb/>ihr Docter aus Confusion sey ins Waßer
+               <lb/>gesprungen, aber ein Matrose habe ihm noch
+               <lb/>errettet.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_22">
+               <p><lb/>D 26 thaten wir unser 2 Ancker Thauen
+               <lb/>zwischen Decke der Wind war W.S.W.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_23">
+               <p><lb/>27:<hi rendition="#sup">t</hi> Regen</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_24">
+               <p><lb/>28 <hi rendition="#u"><hi rendition="#sup">te</hi></hi> Schwacher O.N.O. das Waßer
+               <lb/>wurde nun auch abgetheilt die Person
+               <lb/>ein Blech voll des Tags:</p>
+            </div>
+            <pb facs="#f0005"/>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_25">
+               <p><lb/>Den 29 July 1753. <rs type="person">Capt. Pinkerman</rs>
+               <lb/>beschenckte uns mit ¼ Schweinfleisch u 1 Flasche
+               <lb/>Rum. Gegen Abend sprachen wir mit
+               <lb/>den Leuten in einem Schiff das von den
+               <lb/>Westlichen Inseln nach Hallifax in
+               <lb/>Neu Schottland fuhr, ein großer Wall-
+               <lb/>fisch zeigte sich zwischen unsern drey
+               <lb/>Schiffen.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_26">
+               <p><lb/>D 30 <hi rendition="#u"><hi rendition="#sup">te</hi></hi> holten wir vom lezten Schiff
+               <lb/>ein Faß Wein, und Nachmittag ver-
+               <lb/>lohren wir einander aus dem Gesichte.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_27">
+               <p><lb/>D 31 <hi rendition="#u"><hi rendition="#sup">t</hi></hi> Wir sahen viel fliegende Fische
+               <lb/>und fingen 2 Dolphin.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_28">
+               <p><lb/>Den 1 August. S.S.W. sahen wir 2 Schiffe von der
+               <lb/>Ferne segeln. Das Faß Wein wurde abgezapt,
+               <lb/>ein jeder bekam 1 Glas Wein zur Erquickung.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_29">
+               <p><lb/>Den 2 ten hohlte uns ein Schiff ein welches von
+               <lb/>Schottland kam u. nach Virginien segelte.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_30">
+               <p><lb/>D 3 Hatten wir starcken Wind aus W.S.W.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_31">
+               <p><lb/>5 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> wurde der Wind N.N.W.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_32">
+               <p><lb/>6 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> in der Nacht verlohren wir unsern
+               <lb/>Camraden <rs type="person">Cap Pinkerman</rs></p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_33">
+               <p><lb/>d 7 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> die See war hoch mit W.S.W.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_34">
+               <p><lb/>8 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> fingen wir wieder 4 Dolphin</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_35">
+               <p><lb/>9 <hi rendition="#u"><hi rendition="#sup">te</hi></hi> sahen wir ein Schiff N.O. gehen</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_36">
+               <p><lb/>10 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Nachmittag kam ein starker Sturm
+               <lb/>mit Regen gießen, es schlug das Schiff
+               <lb/>schlug auf die Seite daß die Segel ins
+               <lb/>Waßer tauchten, doch half der Heiland
+               <lb/>daß es sich bald wieder aufrichtete.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_37">
+               <p><lb/>Den 11 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Hatten wir zusammen ein Danck-
+               <lb/>Liebesmahl für alle Bewahrung
+               <lb/>die wir bis daher erfahren.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_38">
+               <p><lb/>Den 13 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> August feyerten wir
+               <lb/>mit einem Morgen Segen u nach
+               <lb/>Mittag mit dem Kelch. Auch be
+               <lb/>kamen wir zu unsrer Freude
+               <lb/>einen guten N.O. Wind.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_39">
+               <p><lb/>D 14 <hi rendition="#sup">te</hi>. N.W.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_40">
+               <p><lb/>d 15 S.W.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_41">
+               <p><lb/>d 16 u 17 Calm</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_42">
+               <p><lb/>D 18 <hi rendition="#sup">t</hi>. 19 <hi rendition="#sup">t</hi>. und 20 <hi rendition="#sup">t</hi>. S.W. heißes Wetter</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_43">
+               <p><lb/>D 21 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Regen.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_44">
+               <p><lb/>22 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> sahen wir 2 Schiffe</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_45">
+               <p><lb/>23 <hi rendition="#sup">t</hi>. N.W. sahen wir 1 Schiff</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_46">
+               <p><lb/>24 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> bis 28 t. S.W.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_47">
+               <p><lb/>29 <hi rendition="#sup">te</hi>. Feuerten wir unser <rs type="person">lediges
+               <lb/>Brüder</rs> Fest mit den gewöhnlichen
+               <lb/>Gelegenheiten so gut sichs zur
+               <lb/>See thun läst in 68 Grad der
+               <lb/>Longitude und 39 1/2 Grad Latitude
+               <lb/>der Wind North u. Gut Wetter, auch sahen
+               <lb/>wir 2 Schiffe wovon wir uns zu
+               <lb/>sprechen kriegten welches von Hamburg
+               <lb/>nach Philadelphia segelte mit vielen
+               <lb/>Volck auch hatten wir das Glück viele
+               <lb/>Fische Albekaws genannt zu fangen
+               <lb/>womit wir unsern Hunger zu Hülfe kamen.
+               <lb/>Auch ein großer Hay Fisch wurde gefangen.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_48">
+               <p><lb/>D 30 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> wurden wir in der Nacht mit
+               <lb/>einen günstigen O.N.O erfreut, womit
+               <lb/>wir diesen Tag über 30 Deutsche Meilen
+               <lb/>fort rückten. Abends sprachen wir
+                  <pb facs="#f0006"/>
+               <lb/>ein Schiff welches nach Virginien
+               <lb/>ging. Und weil sie etliche Krancke
+               <lb/>darauf hatten, so hohlten sie unsern
+               <lb/>Dockter <rs type="person">Br. Kalberland</rs> hinüber der
+               <lb/>etliche zu Ader ließ und gab ihnen Medicin
+               <lb/>Davor sie uns ein Danck Brod gaben
+               <lb/>welches uns sehr zu statten kam
+               <lb/>in unsrer Hungers Noth.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_49">
+               <p><lb/>D 31 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> August war unsre Rechnung
+               <lb/>zu Ende, konten aber noch kein Land
+               <lb/>sehen.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_50">
+               <p><lb/>Den 1 September krigten wir N.W.
+               <lb/>und um 10 Uhr Calm Nachmittag stürmte
+               <lb/>es aus W.S.W. </p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_51">
+               <p><lb/>d 2 <hi rendition="#u"><hi rendition="#sup">te</hi></hi> Nord.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_52">
+               <p><lb/>D 3 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Süd Wind und es ging übe 8 Meilen
+               <lb/>die Stunde.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_53">
+               <p><lb/>D 4 <hi rendition="#sup">te</hi>. Regnete es sehr starck.</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_54">
+               <p><lb/>D 5 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Calm bis gegen Abend darauf S.S.W.
+               <lb/>wir krigten zu unsrer Freude mit 50 Faden
+               <lb/>Grund</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_55">
+               <p><lb/>d 6 <hi rendition="#sup">t</hi>: verlohren wir den Grund</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_56">
+               <p><lb/>D 7 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Segelten wir Nordlich und gegen
+               <lb/>Abend sah der Steuermann <rs type="person">Warzan</rs>
+               <lb/>das erste Land vom Maustbaum</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_57">
+               <p><lb/>D 8 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> früh konten wir alle das Land sehen
+               <lb/>welches <rs type="place">Long Island</rs> war, und segel-
+               <lb/>den ganz en Tag daneben hin, die
+               <lb/>Nacht drauf war meist Calm und legten bey</p>
+            </div>
+            <div type="diaryEntry" xml:id="diaryEntry_1753_atl_58">
+               <p><lb/>D 9 ten Nachmittag um 2 Uhr kriegten wir
+               <lb/>guten S.O. Wind und um 8 Uhr Abends
+               <lb/>kamen wir Glücklich im Hafen
+               <lb/>bey <rs type="place">New York</rs> vor Ancker.</p>
+            </div>
+         </div>
+         <div type="diaryEntries" subtype="america">
+            <div type="position" xml:id="position_1753_ame_1">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_1">
+                  <p>
+                     <lb/>Den 10 September. Früh packten wir
+                     <lb/>gleich alles zusammen und gingen noch 
+                     <lb/>diesen Vormittag in <rs type="place">New York</rs> an Land
+                     <lb/>abwo wir von denen <rs type="person">Geschwistern</rs>
+                     <lb/>und Freunden liebreich empfangen
+                     <lb/>und bewirthet wurden. Nachmittag
+                     <lb/>hatten wir in der Brüder Capelle,
+                     <lb/>eine Ermunterungs Rede zum Loben
+                     <lb/>und Preisen unsern lieben HErrn
+                     <lb/>der uns alle so glücklich hier ans
+                     <lb/>Land gebracht hat. Zum Schluß
+                     <lb/>hatten wir ein seliges Fuswaschen und
+                     <lb/>das heilige Abendmahl dan gingen
+                     <lb/>wir mit dem Frieden Gottes zur Ruhe.
+                  </p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_ame_2">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_2">
+                  <p>
+                     <lb/>D 11 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> September hatten wir noch
+                     <lb/>in <rs type="place">Newyork</rs> ein gemeinschaftliches
+                     <lb/>Frühstück und nach einen danckbaren 
+                     <lb/>Abschied für die Liebe die dasige Ge-
+                     <lb/>schwister uns erwiesen. Und Reisten
+                     <lb/>dan mit unsern Sachen auf einem
+                     <lb/>Boot nach <rs type="place">Braunschweig</rs>, woselbst
+                     <lb/>wir spät Abends ankamen und logirten
+                     <lb/>da über Nacht bey <rs type="person">Mr: Skylar</rs>.
+                  </p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_ame_3">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_3">
+                  <p>
+                     <lb/>D 12 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Morgens sezten wir <rs type="person">ledige Brüder</rs>
+                     <lb/>in 2 Collonnen unsre Reise zu Fus
+                     <lb/>weiter fort, die <rs type="person">verehlichten Geschwister</rs>
+                     <lb/>hatten Wagen und Pferde bis <rs type="place">C#boy</rs>
+                     <lb/>woselbst wir frühstückten, und darauf
+                     <pb facs="#f0007"/>
+                     <lb/>weiter reiseten bis nach <rs type="place">Hiley
+                        <lb/>Tavern</rs> wo wir übernachteten.
+                  </p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_ame_4">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_4">
+                  <p>
+                     <lb/>D 13 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> September Reisten wir
+                     <lb/>weiter und kamen gegen Abend
+                     <lb/>zu unserer aller Freude in den
+                     <lb/>lieben <rs type="place">Bethlehem</rs> an, wo wir
+                     <lb/>mit Posaunen Schall einzogen und
+                     <lb/>von den <rs type="person">Geschwistern</rs> sehr freundlich
+                     <lb/>und herzlich bewillkomt wurden
+                  </p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_5">
+                  <p>
+                     <lb/>D 14 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> September speißten wir
+                     <lb/>alle zusammen im Großen Haus
+                     <lb/>beim Gemein Saal und erquickten
+                     <lb/>uns an Seele und Leib nachdem
+                     <lb/>wir vorher von Hunger u. Durst
+                     <lb/>ziemlich abgemattet gewesen.
+                  </p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_6">
+                  <p>
+                     <lb/>D 15 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Hielten wir mit der <rs type="person">Gemeine</rs>
+                     <lb/>ein vergnügtes Sabbath Liebes-
+                     <lb/>mahl es wurde dabey zu <rs type="person">Br. Gotlob.
+                        <lb/>Koenigsdoerfers</rs> Geburtstag eine
+                     <lb/>Poesie mit Versen und Musick abge-
+                     <lb/>sungen.
+                  </p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_ame_5">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_7">
+                  <p>
+                     <lb/>D 16 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> besuchten wir <rs type="place">Christiansbrunn</rs>
+                     <lb/>und <rs type="place">Nazareth</rs>
+                  </p>
+               </div>
+            </div>
+            <div type="position" xml:id="position_1753_ame_6">
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_8">
+                  <p>
+                     <lb/>und d 19 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> gingen
+                     <lb/>wir alle wieder Zurück nach <rs type="place">Bethle-
+                        <lb/>hem</rs>.
+                  </p>
+               </div>
+               <div type="diaryEntry" xml:id="diaryEntry_1753_ame_9">
+                  <p>Den 21 September 1753.</p>
+                  <p>
+                     <lb/>Als wir nun 8 Tage in <rs type="place">Bethle-
+                        <lb/>hem</rs> geruth und uns was zu gute
+                     <lb/>gethan hatten, so wurde jeder zu
+                     <lb/>seinem künftigen Geschäfte
+                     <lb/>und Ort angewiesen. So ging dan
+                     <lb/>ein jedes zu seinen bestimmten Ort
+                     <lb/>und Geschäfte mit Freuden.
+                  </p>
+                  <p><hi rendition="#u">Amen. Hallelujah!</hi></p>
+                  <p>
+                     <lb/>Die ganze Reise auf dem Schiff vom Land
+                     <lb/>d 13 <hi rendition="#sup">te</hi>: Juny bis <rs type="place">Newyork</rs> d 16 <hi rendition="#u"><hi rendition="#sup">ten</hi></hi> Sept<hi rendition="#sup">b</hi>: 1753.
+                     <lb/>Hat gedauert 13 Wochen, wie aus dem Diario
+                     <lb/>zu ersehen ist, eine lange Reise für so viel
+                     <lb/>Menschen da die Provision so knapp war,
+                     <lb/>doch half uns unser lieber HErr aus aller
+                     <lb/>Noth und brachte uns glücklich an den Ort unsrer
+                     <lb/>Bestimmung. Die meisten von uns sind seitdem
+                     <lb/>nach volbrachter Arbeit zu ihrer Ruhe beim
+                     <lb/>HErren daheime, und werden droben mit der
+                     <lb/>Vollendeten <rs type="person">Gemeine</rs> das Lied anstimmen
+                     „Eines hat uns durchgebracht Adam daß du
+                     <lb/>bist geschlacht.
+                     <lb/>Wir welche das (halbe) Jubileum erlebet,
+                     <lb/>Bringen dem HErrn Preis der Ewig lebet,
+                     <lb/>Den Seine Güte währet fort u. hat kein Ende
+                     <lb/>Bis jedes von uns auch den Lauff vollende,
+                     <lb/>Er laße Seine Gnad u. Hülf über uns walten
+                     <lb/>So können wir bey Ihm Auch Sabbath halten.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
