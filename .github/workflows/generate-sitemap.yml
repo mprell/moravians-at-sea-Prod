@@ -1,0 +1,58 @@
+name: Generate sitemap
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate sitemap.xml
+        run: |
+          BASE_URL="https://www.moravians-at-sea.de"
+
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
+          echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
+
+          find . -name "*.html" \
+            ! -path "./.git/*" \
+            ! -path "./node_modules/*" \
+            | sort \
+            | while read file; do
+
+                url="${file#./}"
+
+                if [ "$url" = "index.html" ]; then
+                  full_url="${BASE_URL}/"
+                else
+                  full_url="${BASE_URL}/${url}"
+                fi
+
+                echo "  <url>" >> sitemap.xml
+                echo "    <loc>${full_url}</loc>" >> sitemap.xml
+                echo "  </url>" >> sitemap.xml
+
+              done
+
+          echo '</urlset>' >> sitemap.xml
+
+      - name: Commit sitemap.xml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add sitemap.xml
+
+          git diff --cached --quiet || git commit -m "Update sitemap.xml"
+
+          git push
